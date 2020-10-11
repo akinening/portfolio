@@ -64,7 +64,7 @@ export default {
         {
           title: 'Stockr - 気づきの習慣化をサポートするアプリ',
           description: '自社事業のアプリデザイン全般を担当しています。そのほか、ブランドデザイン・LPデザイン(STUDIOで作成)など。',
-          url: 'https://akinening.github.io/times/design/2000/01/01/stockr.html',
+          url: 'https://www.notion.so/akinen/Stockr-94d91c23ed0741498af4635ba40b0d7a',
           image_url: require('@/assets/image/stockr.png'),
           date: '2020-6 - 2020-10'
         },
@@ -78,21 +78,21 @@ export default {
         {
           title: 'Core - Learning Enhancement System',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。',
-          url: 'https://ousia.me/product/',
+          url: 'https://www.notion.so/akinen/Core-f73918f86f324ccfb33be0835dabb5bf',
           image_url: require('@/assets/image/core.png'),
           date: '2019-11 - 2020-3'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。そのほか、ユニットテスト(Jest)やA/Bテストなど。「Lobi」がスマホ画面をシェア配信できる配信機能(β版)を本日リリース！ https://www.kayac.com/news/2019/04/lobi_haishin',
-          url: 'https://www.kayac.com/service/lobi',
+          url: require('@/assets/image/doc-lobi.jpg'),
           image_url: require('@/assets/image/lobi.png'),
           date: '2019-1 - 2019-8'
         },
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
           description: '主に複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。勇者杯 https://vs.lobi.co/event/An4dY スイスドローに対応 https://www.kayac.com/news/2018/08/lobitournament',
-          url: 'https://vs.lobi.co/',
+          url: require('@/assets/image/doc-lobi-tournament.jpg'),
           image_url: require('@/assets/image/lobi-tournament.png'),
           date: '2018-4 - 2018-12'
         }
