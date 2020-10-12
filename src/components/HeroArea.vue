@@ -5,8 +5,8 @@
       <div class="msg">
         <h1 class="msg__title">Hi, I'm Akinen. 👋</h1>
         <p class="msg__description">
-          はじめまして、UI/UXデザイナーのあきねんです。Webを通じて「リアル」をデザイン<br>することをミッションとして、日々デザインに取り組んでいます。<br>
-          デザインを通じて人々と中長期的な接点を持ち、人々の体験や行動を変えることで、<br>世の中がより便利で過ごしやすいものになると信じています。
+          はじめまして、UI/UXデザイナーのあきねんです。Webを通じて「リアル」をデザイン<br class="hide-sp">することをミッションとして、日々デザインに取り組んでいます。<br>
+          デザインを通じて人々と中長期的な接点を持ち、人々の体験や行動を変えることで、<br class="hide-sp">世の中がより便利で過ごしやすいものになると信じています。
         </p>
         <router-link to="/about" class="msg__button">ABOUT ME</router-link>
       </div>
@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+.hide-sp
+  @media (max-width: 768px)
+    display none
+
 .hero
   width calc(100vw - 32px)
   height calc(100vh - 32px)
@@ -55,6 +59,9 @@ export default {
   background-color rgba(255, 255, 255, 0.96)
   border-radius 8px
 
+  @media (max-width: 768px)
+    margin 52px 16px 0
+
   &__title
     line-height 2.0
     font-size 48px
@@ -76,7 +83,7 @@ export default {
     font-weight bold
     transition opacity .2s
 
-  &__button:hover
-    opacity 0.8
-    text-decoration none
+    &:hover
+      opacity 0.8
+      text-decoration none
 </style>

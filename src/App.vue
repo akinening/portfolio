@@ -13,6 +13,10 @@ export default {
 </script>
 
 <style>
+#app {
+  overflow: hidden;
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans", ヒラギノ角ゴシック, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   -webkit-font-smoothing: antialiased;

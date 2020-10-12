@@ -9,7 +9,7 @@
       <h2 class="c-title">プロジェクト</h2>
       <ul>
         <li class="mb-25" v-for="(project, num) in projects" :key="`project-${num}`">
-          <a :href="project.url" target="_blank">
+          <a class="works" :href="project.url" target="_blank">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ project.title }}</h3>
@@ -28,7 +28,7 @@
       <h2 class="c-title">個人活動</h2>
       <ul>
         <li class="mb-25" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" target="_blank">
+          <a class="works" :href="activity.url" target="_blank">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ activity.title }}</h3>
@@ -140,6 +140,13 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
+
+.works
+  display flex
+  flex-direction row
+
+  @media (max-width: 768px)
+    flex-direction column
 
 .photo
   float left
