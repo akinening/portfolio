@@ -99,6 +99,13 @@ export default {
       ],
       activities: [
         {
+          title: 'デザイン読書日和',
+          description: '2021年2月に開催される「デザイン読書日和」に出展予定。',
+          url: '',
+          image_url: require('@/assets/image/dezabiyo.png'),
+          date: '2021-2'
+        },
+        {
           title: 'Spott - UIデザイナーの作業効率化ツール',
           description: '日々のデザイン業務で便利な「おすすめスポット」をまとめています。レビュー順ではなく、主に自分用に並び順や見せ方をカスタマイズしています。レスポンシブ未対応。',
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
