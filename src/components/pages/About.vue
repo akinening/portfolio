@@ -180,10 +180,14 @@ export default {
     font-size 40px
     margin 60px 20px 0 20px
 
+  @media (min-width: 1200px)
+    margin 120px auto 0
+    width 1040px
+
 .contents
   max-width 800px
   margin 0 auto
-  margin-top 80px
+  margin-top 120px
   padding 0 80px
   background-color white
 

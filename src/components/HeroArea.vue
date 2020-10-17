@@ -41,6 +41,10 @@ export default {
     font-size 40px
     margin 60px 20px 0 20px
 
+  @media (min-width: 1200px)
+    margin 120px auto 0
+    width 1040px
+
 .sub-title
   margin 16px 80px 0 80px
   font-size 32px
@@ -50,6 +54,10 @@ export default {
   @media (max-width: 768px)
     font-size 18px
     margin 8px 20px 0 20px
+
+  @media (min-width: 1200px)
+    margin 16px auto 0
+    width 1040px
 
 .message
   width 100%
@@ -70,5 +78,10 @@ export default {
     @media (max-width: 768px)
       margin 0 20px
       font-size 16px
+
+    @media (min-width: 1200px)
+      margin 0 auto
+      width 1040px
+
 
 </style>
