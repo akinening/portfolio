@@ -118,6 +118,10 @@ export default {
   margin 0 80px
   padding-top 60px
 
+  @media (max-width: 768px)
+    margin 0 20px
+    padding-top 0
+
   @media (min-width: 1200px)
     margin 0 auto
     width 1040px
@@ -139,6 +143,9 @@ export default {
   background-size cover
   background-position 50%
   border-radius 8px
+
+  @media (max-width: 768px)
+    height 50vw
 
   @media (min-width: 1200px)
     height 288px

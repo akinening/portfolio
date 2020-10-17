@@ -176,12 +176,19 @@ export default {
   font-weight bold
   line-height 1.0
 
+  @media (max-width: 768px)
+    font-size 40px
+    margin 60px 20px 0 20px
+
 .contents
   max-width 800px
   margin 0 auto
   margin-top 80px
   padding 0 80px
   background-color white
+
+  @media (max-width: 768px)
+    padding 0 20px
 
 .about
   position relative
