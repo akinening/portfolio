@@ -1,22 +1,28 @@
 <template>
   <div class="hero">
-    <video class="bg-video" src="@/assets/bg.webm" poster="" autoplay loop muted></video>
-    <div class="layer">
-      <div class="msg">
-        <h1 class="msg__title">Hi, I'm Akinen. 👋</h1>
-        <p class="msg__description">
-          はじめまして、UI/UXデザイナーのあきねんです。Webを通じて「リアル」をデザイン<br class="hide-sp">することをミッションとして、日々デザインに取り組んでいます。<br>
-          デザインを通じて人々と中長期的な接点を持ち、人々の体験や行動を変えることで、<br class="hide-sp">世の中がより便利で過ごしやすいものになると信じています。
-        </p>
-        <router-link to="/about" class="msg__button">ABOUT ME</router-link>
-      </div>
-    </div>
+    <h1 class="title m-80">Hi, I'm Akinen. 👋</h1>
+    <p class="sub-title m-80">― A Digital Product Designer.</p>
+    <section class="message" :style="{backgroundImage: 'url(' + bg_img + ')' }">
+      <p class="message__text m-80">
+        はじめまして！　あきねんと申します。<br>
+        Webを通じてリアルな「日常」をデザインするため、<br class="hide-sp">
+        日々プロダクトと向き合っています。<br>
+        デザインを通じて人々と中長期的な接点を持ち<br class="hide-sp">
+        その人の体験や行動を変えることで、<br class="hide-sp">
+        より便利で過ごしやすい世界を実現します。
+      </p>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HeroArea'
+  name: 'HeroArea',
+  data () {
+    return {
+      bg_img: require('@/assets/image/top-bg.jpg')
+    }
+  }
 }
 </script>
 
@@ -25,65 +31,31 @@ export default {
   @media (max-width: 768px)
     display none
 
-.hero
-  width calc(100vw - 32px)
-  height calc(100vh - 32px)
-  margin 16px
-  margin-top -88px
-  position relative
-  background-color rgba(0, 0, 0, 0.14)
-  border-radius 16px
-  overflow hidden
+.m-80
+  margin-left 80px
+  margin-right 80px
 
-.bg-video
-  z-index -1
-  position absolute
-  top 0
-  left 0
+.title
+  margin-top 120px
+  font-size 88px
+  font-weight bold
+  line-height 1.0
+
+.sub-title
+  margin-top 16px
+  font-size 32px
+  font-weight 500
+  line-height 1.0
+
+.message
   width 100%
-  height 100%
-  object-fit cover
-  transform scale(1.25)
+  padding 80px 0
+  margin-top 80px
+  background-size cover
 
-.layer
-  height 100%
-  display flex
-  justify-content center
-  align-items center
-
-.msg
-  margin-top 52px
-  padding 8px 32px 32px
-  width 640px
-  color #45494B
-  background-color rgba(255, 255, 255, 0.96)
-  border-radius 8px
-
-  @media (max-width: 768px)
-    margin 52px 16px 0
-
-  &__title
+  &__text
     line-height 2.0
-    font-size 48px
-    font-weight bold
+    font-size 20px
+    font-weight 500
 
-  &__description
-    line-height 2.0
-    font-size 16px
-
-  &__button
-    display block
-    width fit-content
-    margin-top 22px
-    padding 12px 32px
-    color white
-    background-color #45494B
-    border-radius 8px
-    font-size 16px
-    font-weight bold
-    transition opacity .2s
-
-    &:hover
-      opacity 0.8
-      text-decoration none
 </style>
