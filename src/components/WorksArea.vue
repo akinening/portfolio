@@ -1,17 +1,14 @@
 <template>
-  <article class="contents" itemscope="" itemtype="http://schema.org/Person">
+  <article class="works" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-60">
       <h2 class="c-title">プロジェクト</h2>
-      <ul>
-        <li class="mb-25" v-for="(project, num) in projects" :key="`project-${num}`">
-          <a class="works" :href="project.url" target="_blank">
+      <ul class="cards">
+        <li class="card mb-25" v-for="(project, num) in projects" :key="`project-${num}`">
+          <a :href="project.url" target="_blank">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ project.title }}</h3>
               <p class="detail__text">{{ project.date }}</p>
-              <p class="detail__text">
-                <a target="_blank" :href="project.url" rel="ugc">{{ project.url }}</a>
-              </p>
               <p class="detail__text">{{project.description }}</p>
             </div>
           </a>
@@ -21,16 +18,13 @@
 
     <section class="mt-60">
       <h2 class="c-title">個人活動</h2>
-      <ul>
-        <li class="mb-25" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a class="works" :href="activity.url" target="_blank">
+      <ul class="cards">
+        <li class="card mb-25" v-for="(activity, num) in activities" :key="`activity-${num}`">
+          <a :href="activity.url" target="_blank">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ activity.title }}</h3>
               <p class="detail__text">{{ activity.date }}</p>
-              <p class="detail__text">
-                <a target="_blank" :href="activity.url" rel="ugc">{{ activity.url }}</a>
-              </p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
           </a>
@@ -121,36 +115,48 @@ export default {
 @import "../assets/css/common.styl"
 
 .works
-  display flex
-  flex-direction row
+  margin 0 80px
+  padding-top 60px
 
-  @media (max-width: 768px)
-    flex-direction column
+  @media (min-width: 1200px)
+    margin 0 auto
+    width 1040px
+
+.cards
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+
+.card
+  width calc(50% - 16px)
+  min-width 320px
 
 .photo
   float left
-  width 340px
-  height 200px
+  width 100%
+  height 24vw
   background-color #f0f3f7
   background-size cover
   background-position 50%
   border-radius 8px
 
+  @media (min-width: 1200px)
+    height 288px
+
 .detail
-  width 280px
+  width 100%
   height 200px
-  padding-left 20px
-  float left
   overflow hidden
 
   &__title
     color rgb(36, 40, 42)
-    margin 10px 0
+    margin 20px 0 10px
     font-size 20px
     font-weight 500
 
   &__text
-    color #9DA0A4
+    color rgb(36, 40, 42)
+    line-height 1.8
     overflow hidden
     text-overflow ellipsis
 </style>
