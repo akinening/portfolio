@@ -170,6 +170,9 @@ export default {
 .mr-12
   margin-right 12px
 
+.radius-8
+  border-radius 8px
+
 .title
   margin 120px 80px 0
   font-size 88px
@@ -193,6 +196,39 @@ export default {
 
   @media (max-width: 768px)
     padding 0 20px
+
+.c-entries li
+  position relative
+  margin-bottom 30px
+
+.c-entry-title
+  z-index 2
+  position relative
+  padding-right 180px
+
+  & > span
+    display inline-block
+    padding-right 20px
+    font-size 20px
+    font-weight 500
+    background-color white
+
+    & > a
+      color #45494B
+
+.c-line
+  position absolute
+  top 0
+  right 0
+  width 100%
+  color #9DA0A4
+  text-align right
+  background-repeat repeat-x
+  background-position left center
+
+  & > span
+    padding-left 14px
+    background-color white
 
 .about
   position relative
