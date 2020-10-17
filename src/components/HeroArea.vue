@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div>
     <h1 class="title m-80">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title m-80">― A Digital Product Designer.</p>
     <section class="message" :style="{backgroundImage: 'url(' + bg_img + ')' }">

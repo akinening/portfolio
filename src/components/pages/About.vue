@@ -1,6 +1,7 @@
 <template>
 <div>
   <header-area />
+  <h1 class="title m-80">About</h1>
 
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
     <section class="about">
@@ -128,8 +129,7 @@
     </section>
 
     <section class="mt-60">
-      <h2 class="c-title">執筆記事</h2>
-      <div>
+      <div class="articles">
         <a class="mr-12" href="https://note.com/012" target="_blank">
           <img class="radius-8" src="@/assets/image/note.png" alt="note">
         </a>
@@ -171,10 +171,18 @@ export default {
 .mr-12
   margin-right 12px
 
+.title
+  margin 120px 80px 0
+  font-size 88px
+  font-weight bold
+  line-height 1.0
+
 .contents
-  width 640px
-  padding-top 60px
+  max-width 800px
   margin 0 auto
+  margin-top 80px
+  padding 0 80px
+  background-color white
 
 .about
   position relative
@@ -214,4 +222,8 @@ export default {
 
   &__description
     margin-top 10px
+
+.articles
+  text-align center
+  margin-bottom -80px
 </style>
