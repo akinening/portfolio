@@ -129,14 +129,13 @@
     </section>
 
     <section class="mt-60">
-      <div class="articles">
-        <a class="mr-12" href="https://note.com/012" target="_blank">
-          <img class="radius-8" src="@/assets/image/note.png" alt="note">
-        </a>
-        <a href="https://zenn.dev/012" target="_blank">
-          <img class="radius-8" src="@/assets/image/zenn.png" alt="zenn">
-        </a>
-      </div>
+      <h2 class="c-title">執筆記事</h2>
+      <a class="mr-12" href="https://note.com/012" target="_blank">
+        <img class="radius-8" src="@/assets/image/note.png" alt="note">
+      </a>
+      <a href="https://zenn.dev/012" target="_blank">
+        <img class="radius-8" src="@/assets/image/zenn.png" alt="zenn">
+      </a>
     </section>
   </article>
 
@@ -222,8 +221,4 @@ export default {
 
   &__description
     margin-top 10px
-
-.articles
-  text-align center
-  margin-bottom -80px
 </style>
