@@ -2,8 +2,7 @@
 <div>
   <header-area />
 
-  <article itemscope="" itemtype="http://schema.org/Person">
-  <div class="contents">
+  <article class="contents" itemscope="" itemtype="http://schema.org/Person">
     <section class="about">
       <img class="about__img" alt="小澤 晶徳" src="@/assets/image/akinen.jpg">
       <div class="about__description">
@@ -139,7 +138,6 @@
         </a>
       </div>
     </section>
-  </div>
   </article>
 
   <footer-area />
@@ -172,6 +170,11 @@ export default {
 
 .mr-12
   margin-right 12px
+
+.contents
+  width 640px
+  padding-top 60px
+  margin 0 auto
 
 .about
   position relative
