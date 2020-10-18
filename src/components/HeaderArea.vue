@@ -67,9 +67,6 @@ export default {
   line-height 72px
   vertical-align middle
 
-  @media (max-width: 768px)
-    display none
-
 .twitter
   position absolute
   top 0
@@ -89,14 +86,5 @@ export default {
     border 2px solid #45494B
 
   @media (max-width: 768px)
-    position static
-    margin 0 0 0 16px
-    padding 0
-    border none
-    display inline-block
-    line-height 72px
-    vertical-align middle
-
-    &:hover
-      border none
+    display none
 </style>
