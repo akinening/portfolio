@@ -192,14 +192,14 @@ export default {
 
 .contents
   max-width 800px
-  margin 120px 80px 0
+  margin 120px 80px
   background-color white
 
   @media (max-width: 768px)
-    margin 60px 20px 0
+    margin 60px 20px
 
   @media (min-width: 1200px)
-    margin 120px auto 0
+    margin 120px auto
     padding-right 240px
 
 .c-entries li

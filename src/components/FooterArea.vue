@@ -40,7 +40,6 @@ export default {
 
 <style scoped lang="stylus">
 .footer
-  margin 160px auto 0
   padding-top 63px
   padding-bottom 32px
   text-align center

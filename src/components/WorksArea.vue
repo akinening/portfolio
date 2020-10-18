@@ -115,15 +115,15 @@ export default {
 @import "../assets/css/common.styl"
 
 .works
-  margin 0 80px
+  margin 0 80px 40px
   padding-top 60px
 
   @media (max-width: 768px)
-    margin 0 20px
+    margin 0 20px 40px
     padding-top 0
 
   @media (min-width: 1200px)
-    margin 0 auto
+    margin 0 auto 40px
     width 1040px
 
 .cards
