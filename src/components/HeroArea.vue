@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hero">
     <h1 class="title">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title">― A Digital Product Designer.</p>
     <section class="message" :style="{backgroundImage: 'url(' + bg_img + ')' }">
@@ -31,18 +31,24 @@ export default {
   @media (max-width: 768px)
     display none
 
+.hero
+  margin-top 224px
+
+  @media (max-width: 768px)
+    margin-top 164px
+
 .title
-  margin 120px 80px 0 80px
+  margin 0 80px
   font-size 88px
   font-weight bold
   line-height 1.0
 
   @media (max-width: 768px)
     font-size 40px
-    margin 60px 20px 0 20px
+    margin 0 20px
 
   @media (min-width: 1200px)
-    margin 120px auto 0
+    margin 0 auto
     width 1040px
 
 .sub-title

@@ -23,14 +23,14 @@ export default {
 <style scoped lang="stylus">
 .header
   z-index 100
-  position sticky
-  top 16px
+  position fixed
+  top 32px
   left 32px
-  margin-top 32px
   width calc(100% - 64px)
   height 72px
   display flex
-  background-color rgba(255, 255, 255, 0.96)
+  background-color rgba(255, 255, 255, 0.6)
+  backdrop-filter blur(3px)
   box-shadow 0 2px 12px rgba(0,0,0,.06)
   border-radius 8px
 

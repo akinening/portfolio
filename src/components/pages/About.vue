@@ -1,14 +1,17 @@
 <template>
 <div>
   <header-area />
-  <h1 class="title m-80">About</h1>
+  <h1 class="title">About</h1>
 
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
     <section class="about">
       <img class="about__img" alt="小澤 晶徳" src="@/assets/image/akinen.jpg">
       <div class="about__description">
         <h2 class="name">小澤 晶徳</h2>
-        <p>長野県諏訪市出身。面白法人カヤックにて、フロントエンドエンジニアとしてゲームコミュニティ事業の開発を行う。現在は株式会社ビルディットにて、WebおよびネイティブアプリのUX/UIデザインや、サービスデザインに携わっている。</p>
+        <p>
+          長野県諏訪市出身。面白法人カヤックにて、フロントエンドエンジニアとしてゲームコミュニティ事業の開発を行う。
+          現在は株式会社ビルディットにて、WebおよびネイティブアプリのUX/UIデザインや、サービスデザインに携わっている。
+        </p>
       </div>
     </section>
 
@@ -174,28 +177,30 @@ export default {
   border-radius 8px
 
 .title
-  margin 120px 80px 0
+  margin 224px 80px 0
   font-size 88px
   font-weight bold
   line-height 1.0
 
   @media (max-width: 768px)
     font-size 40px
-    margin 60px 20px 0 20px
+    margin 164px 20px 0 20px
 
   @media (min-width: 1200px)
-    margin 120px auto 0
+    margin 224px auto 0
     width 1040px
 
 .contents
   max-width 800px
-  margin 0 auto
-  margin-top 120px
-  padding 0 80px
+  margin 120px 80px 0
   background-color white
 
   @media (max-width: 768px)
-    padding 0 20px
+    margin 80px 20px 0
+
+  @media (min-width: 1200px)
+    margin 120px auto 0
+    padding-right 240px
 
 .c-entries li
   position relative

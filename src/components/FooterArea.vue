@@ -2,7 +2,7 @@
   <footer class="footer">
     <a class="contact" href="mailto:akinening@gmail.com" target="blank" rel="noopener noreferrer">
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
-      CONTACT ME
+      話しかける
     </a>
     <p class="footer__text">
       お仕事のご相談、個人的な話や友達申請など<br>
@@ -71,11 +71,10 @@ export default {
 .contact
   display inline-block
   width 280px
-  padding 10px 30px
+  padding 12px 30px
   color rgb(36, 40, 42)
   background-color white
-  border 2px solid rgba(36, 40, 42, 0.4)
   border-radius 8px
   font-size 16px
-  font-weight bold
+  font-weight 500
 </style>

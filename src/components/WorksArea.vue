@@ -143,6 +143,10 @@ export default {
   background-size cover
   background-position 50%
   border-radius 8px
+  transition opacity 0.2s
+
+  &:hover
+    opacity 0.86
 
   @media (max-width: 768px)
     height 50vw
