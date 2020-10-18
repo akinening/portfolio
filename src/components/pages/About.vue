@@ -132,12 +132,12 @@
     </section>
 
     <section class="mt-60">
-      <h2 class="c-title">執筆記事</h2>
-      <a class="mr-12" href="https://note.com/012" target="_blank">
-        <img class="radius-8" src="@/assets/image/note.png" alt="note">
+      <h2 class="c-title">関連リンク</h2>
+      <a href="https://note.com/012" target="_blank">
+        <img class="blog" src="@/assets/image/note.svg" alt="note">
       </a>
       <a href="https://zenn.dev/012" target="_blank">
-        <img class="radius-8" src="@/assets/image/zenn.png" alt="zenn">
+        <img class="blog" src="@/assets/image/zenn.svg" alt="zenn">
       </a>
     </section>
   </article>
@@ -166,12 +166,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-
-.mr-12
-  margin-right 12px
-
-.radius-8
-  border-radius 8px
 
 .title
   margin 224px 80px 0
@@ -270,4 +264,14 @@ export default {
 
   &__description
     margin-top 10px
+
+.blog
+  display block
+  margin-top 30px
+  height 32px
+  opacity 1.0
+  transition opacity 0.2s
+
+  &:hover
+    opacity 0.8
 </style>
