@@ -196,7 +196,7 @@ export default {
   background-color white
 
   @media (max-width: 768px)
-    margin 80px 20px 0
+    margin 60px 20px 0
 
   @media (min-width: 1200px)
     margin 120px auto 0

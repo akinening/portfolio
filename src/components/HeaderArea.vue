@@ -34,6 +34,11 @@ export default {
   box-shadow 0 2px 12px rgba(0,0,0,.06)
   border-radius 8px
 
+  @media (max-width: 768px)
+    top 16px
+    left 16px
+    width calc(100% - 32px)
+
 .logo
   margin-left 36px
   width 72px
@@ -52,7 +57,7 @@ export default {
   margin-left 32px
 
   @media (max-width: 768px)
-    margin-left 16px
+    margin-left 20px
 
 .icon-open
   width 22px
