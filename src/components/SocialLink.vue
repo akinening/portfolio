@@ -23,6 +23,7 @@ export default {
 
 <style scoped lang="stylus">
 .sns
+  display none
   position fixed
   bottom 0px
   left 0px
