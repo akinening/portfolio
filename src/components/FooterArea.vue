@@ -6,16 +6,16 @@
     </a>
     <p class="footer__or">または</p>
     <div>
-      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank">
+      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
       </a>
-      <a href="https://www.wantedly.com/users/12054465" target="_blank">
+      <a href="https://www.wantedly.com/users/12054465" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/wantedly.svg" alt="wantedly">
       </a>
-      <a href="https://www.facebook.com/ackiena" target="_blank">
+      <a href="https://www.facebook.com/ackiena" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/facebook.svg" alt="facebook">
       </a>
-      <a href="https://twitter.com/_akinen" target="_blank">
+      <a href="https://twitter.com/_akinen" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
       </a>
     </div>
