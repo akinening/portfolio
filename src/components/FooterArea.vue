@@ -4,30 +4,25 @@
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
       話しかける
     </a>
+    <p class="footer__or">または</p>
+    <div>
+      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank">
+        <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
+      </a>
+      <a href="https://www.wantedly.com/users/12054465" target="_blank">
+        <img class="icon" src="@/assets/image/sns/wantedly.svg" alt="wantedly">
+      </a>
+      <a href="https://www.facebook.com/ackiena" target="_blank">
+        <img class="icon" src="@/assets/image/sns/facebook.svg" alt="facebook">
+      </a>
+      <a href="https://twitter.com/_akinen" target="_blank">
+        <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
+      </a>
+    </div>
     <p class="footer__text">
       お仕事のご相談、個人的な話や友達申請など<br>
       なんでもお気軽にご連絡ください！
     </p>
-
-    <!-- <div class="footer__link"> -->
-
-      <!-- TODO -->
-      <!-- <li class="facebook">
-        <a target="_blank"
-          href="https://www.facebook.com/app_scoped_user_id/YXNpZADpBWEhQOWNpTTlrS2x3M0V4TkJ0OVd3UlE2VWptc2pCQV9fZAWJ2ZA2pvNGs1ZATAtTEZALYmNCSERjT0txRmhZAZAkw0Qm16a3ZABVEduMTFPaFl3dTRJUE15TmxocHZAjQWZA6bXctbUZABd2hHUFNtdzdUajlr/"><i
-            class="icon-facebook"></i></a>
-      </li>
-      <li class="twitter">
-        <a target="_blank" href="https://twitter.com/_akinen"><i class="icon-twitter"></i></a>
-      </li>
-      <li class="linkedin">
-        <a target="_blank" href="https://www.linkedin.com/search/results/all/?keywords=Ozawa%20Akinori"><i
-            class="icon-linkedin"></i></a>
-      </li>
-      <li>
-        <div>akinening@gmail.com</div>
-      </li> -->
-    <!-- </div> -->
     <p class="footer__copy">©︎ 2020 Akinen</p>
   </footer>
 </template>
@@ -48,17 +43,21 @@ export default {
   &__text
     margin 24px 0 32px
     line-height 1.8
-
-  // &__link
-  //   display: flex;
-  //   width: 222px;
-  //   margin: 0 auto;
-  //   align-items: center;
-  //   justify-content: space-between;
+  
+  &__or
+    margin 24px 0
 
   &__copy
     font-weight 500
     margin-top 32px
+
+.icon
+.contact
+  opacity 1.0
+  transition opacity 0.2s
+
+  &:hover
+    opacity 0.8
 
 .icon-mail
   display inline-block

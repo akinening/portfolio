@@ -4,7 +4,6 @@
   <hero-area />
   <works-area />
   <footer-area />
-  <social-link />
 </div>
 </template>
 
@@ -13,7 +12,6 @@ import HeaderArea from '@/components/HeaderArea'
 import HeroArea from '@/components/HeroArea'
 import WorksArea from '@/components/WorksArea'
 import FooterArea from '@/components/FooterArea'
-import SocialLink from '@/components/SocialLink'
 
 export default {
   name: 'Index',
@@ -21,8 +19,7 @@ export default {
     HeaderArea,
     HeroArea,
     WorksArea,
-    FooterArea,
-    SocialLink
+    FooterArea
   }
 }
 </script>

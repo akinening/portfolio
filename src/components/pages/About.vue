@@ -143,14 +143,12 @@
   </article>
 
   <footer-area />
-  <social-link />
 </div>
 </template>
 
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import SocialLink from '@/components/SocialLink'
 
 export default {
   name: 'About',
@@ -161,8 +159,7 @@ export default {
   },
   components: {
     HeaderArea,
-    FooterArea,
-    SocialLink
+    FooterArea
   }
 }
 </script>
