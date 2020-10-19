@@ -4,7 +4,7 @@
     <p class="sub-title">― A Digital Product Designer.</p>
     <section class="message" :style="{backgroundImage: 'url(' + bg_img + ')' }">
       <p class="message__text">
-        はじめまして！　あきねんと申します。<br>
+        はじめまして！ あきねんと申します。<br>
         Webを通じてリアルな「日常」をデザインするため、<br class="hide-sp">
         日々プロダクトと向き合っています。<br>
         デザインを通じて人々と中長期的な接点を持ち<br class="hide-sp">
@@ -80,7 +80,7 @@ export default {
     line-height 2.0
     font-size 20px
     font-weight 500
-  
+
     @media (max-width: 768px)
       margin 0 20px
       font-size 16px
@@ -88,6 +88,5 @@ export default {
     @media (min-width: 1200px)
       margin 0 auto
       width 1040px
-
 
 </style>

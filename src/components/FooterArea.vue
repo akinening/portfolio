@@ -43,7 +43,7 @@ export default {
   &__text
     margin 24px 0 32px
     line-height 1.8
-  
+
   &__or
     margin 24px 0
 
