@@ -86,7 +86,7 @@ export default {
         },
         {
           title: 'Spott - UIデザイナーの作業効率化ツール',
-          description: '日々のデザイン業務で便利な「おすすめスポット」をまとめています。レビュー順ではなく、主に自分用に並び順や見せ方をカスタマイズしています。レスポンシブ未対応。',
+          description: '日々のデザイン業務で便利な「おすすめスポット」をまとめています。主に自分用に並び順や見せ方をカスタマイズしています。レスポンシブ未対応。',
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
