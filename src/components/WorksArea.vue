@@ -80,7 +80,7 @@ export default {
         {
           title: 'デザイン読書日和',
           description: '2021年2月に開催される「デザイン読書日和」に出展予定。',
-          url: 'https://akinen.booth.pm/',
+          url: 'https://dezabiyo.studio.site/',
           image_url: require('@/assets/image/dezabiyo.jpg'),
           date: '2021-2'
         },
