@@ -1,23 +1,25 @@
 <template>
   <section class="mt-60">
     <h2 class="c-title">Vision / Philosophy</h2>
-    <div class="vision mb-25">
-      <h3 class="vision__title">Service Design</h3>
-      <p class="vision__description">
-        サービスの体験設計やUIデザインによって、事業やチームに貢献します。人から愛される／喜ばれるデザインを目指して、日々試行錯誤しています。
-      </p>
-    </div>
-    <div class="vision mb-25">
-      <h3 class="vision__title">Design × Engineering</h3>
-      <p class="vision__description">
-        元エンジニアとしての経験を活かし、エンジニアとの意思疎通の橋渡し役となることで、より良いサービス開発を目指します。
-      </p>
-    </div>
-    <div class="vision">
-      <h3 class="vision__title">Contribution to Society</h3>
-      <p class="vision__description">
-        デザインを通じて、ユーザーの日々の暮らしをより豊かにすることで、社会に貢献します。
-      </p>
+    <div class="visionaly">
+      <div class="vision">
+        <h3 class="vision__title">Service Design</h3>
+        <p class="vision__description">
+          サービスの体験設計やUIデザインによって、事業やチームに貢献します。人から愛される／喜ばれるデザインを目指して、日々試行錯誤しています。
+        </p>
+      </div>
+      <div class="vision">
+        <h3 class="vision__title">Design × Engineering</h3>
+        <p class="vision__description">
+          元エンジニアとしての経験を活かし、エンジニアとの意思疎通の橋渡し役となることで、より良いサービス開発を目指します。
+        </p>
+      </div>
+      <div class="vision">
+        <h3 class="vision__title">Contribution to Society</h3>
+        <p class="vision__description">
+          デザインを通じて、ユーザーの日々の暮らしをより豊かにすることで、社会に貢献します。
+        </p>
+      </div>
     </div>
   </section>
 </template>
@@ -35,13 +37,24 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
+.visionaly
+  display flex
+  flex-direction row
+
+  @media (max-width: 768px)
+    flex-direction column
+
 .vision
   width 100%
-  height 108px
+  min-height 108px
   padding 20px
+  margin 0 10px
   background-color #f0f3f7
   border-radius 8px
   box-sizing border-box
+
+  @media (max-width: 768px)
+    margin 10px 0
 
   &__title
     font-size 20px

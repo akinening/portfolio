@@ -114,6 +114,12 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
+.mb-25
+  display inline-block
+
+.mb-25:not(:last-child)
+  margin-bottom 25px
+
 .works
   margin 0 80px 40px
   padding-top 60px
