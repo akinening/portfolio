@@ -1,11 +1,11 @@
 <template>
   <section class="mt-60">
     <h2 class="c-title">Articles</h2>
-    <a href="https://note.com/012" target="_blank" rel="noreferrer noreferrer">
-      <img class="blog" src="@/assets/image/note.svg" alt="note">
+    <a class="blog" href="https://note.com/012" target="_blank" rel="noreferrer noreferrer">
+      <img class="blog__img" src="@/assets/image/note.svg" alt="note">
     </a>
-    <a href="https://zenn.dev/012" target="_blank" rel="noreferrer noreferrer">
-      <img class="blog" src="@/assets/image/zenn.svg" alt="zenn">
+    <a class="blog" href="https://zenn.dev/012" target="_blank" rel="noreferrer noreferrer">
+      <img class="blog__img" src="@/assets/image/zenn.svg" alt="zenn">
     </a>
   </section>
 </template>
@@ -25,12 +25,25 @@ export default {
 @import "../assets/css/common.styl"
 
 .blog
-  display block
-  margin-top 30px
-  height 32px
+  display inline-block
+  min-width 320px
+  width 33.3%
+  height 160px
+  margin 0 10px
+  background-color #f0f3f7
+  border-radius 8px
   opacity 1.0
   transition opacity 0.2s
 
+  @media (max-width: 768px)
+    width 100%
+    margin 10px 0
+
   &:hover
-    opacity 0.8
+    opacity 0.6
+
+  &__img
+    display block
+    margin 64px auto
+    height 32px
 </style>
