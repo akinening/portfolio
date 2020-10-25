@@ -58,6 +58,17 @@
         <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
           <span>2013-03</span>
         </p>
+
+        <div class="lab">
+          <h3 class="lab__title">
+            <span>空手道初段(黒帯)</span>
+          </h3>
+          <p class="lab__date">2001-4 - 2018-3</p>
+          <p class="c-description">
+            2001年から空手を学び始め、大学では週三回、品川と新宿で小学生～一般の約３０名の稽古生に空手の指導をしていました。<br>
+            また高校時代の１年間、空手の道場で住み込み生活を送り、礼節や武道家としての精神を学びました。
+          </p>
+        </div>
       </li>
     </ul>
   </section>
