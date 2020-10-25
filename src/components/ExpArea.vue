@@ -38,6 +38,14 @@
         <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
           <span>2018-03</span>
         </p>
+
+        <div class="lab">
+          <h3 class="lab__title">
+            <span><a target="_blank" rel="noreferrer noreferrer" href="http://www.ics.sie.dendai.ac.jp/">情報通信サービス研究室(大山研)</a></span>
+          </h3>
+          <p class="lab__date">2016-4 - 2018-3</p>
+          <p class="c-description">主にUCDやVUI (Voice User Interface)に関する研究を行いました。<br><br>▼「ユーザの操作を補助する音声ブラウザの開発」<br>Webスクレイピング，音声認識等を用いて、音声だけでWebブラウザの操作を可能とするアプリを開発。UIの提案を行いました。<br><br>▼「スマホVRにおける対話型エージェントに関する研究」<br>Watsonを用いて、空間内のエージェントと会話できる、スマホVR向けアプリを開発。視点を用いることで、複数の対話型エージェントとの会話を実現しました。</p>
+        </div>
       </li>
       <li>
         <h3 class="c-entry-title">
@@ -68,4 +76,36 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
+.lab
+  position relative
+  padding 20px 28px
+  margin-top 20px
+
+  &:before
+    content ''
+    display block
+    position absolute
+    top 0
+    left 0
+    width 8px
+    height 100%
+    background-color #f0f3f7
+    border-radius 4px
+  
+  &__title
+    z-index 2
+    position relative
+
+    & > span
+      display inline-block
+      padding-right 20px
+      font-size 20px
+      font-weight 500
+      background-color white
+
+      & > a
+        color #45494B
+
+  &__date
+    color #9DA0A4
 </style>
