@@ -4,38 +4,8 @@
   <h1 class="title">About</h1>
 
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
-    <section class="about">
-      <img class="about__img" alt="小澤 晶徳" src="@/assets/image/akinen.jpg">
-      <div class="about__description">
-        <h2 class="name">小澤 晶徳</h2>
-        <p>
-          長野県諏訪市出身。面白法人カヤックにて、フロントエンドエンジニアとしてゲームコミュニティ事業の開発を行う。
-          現在は株式会社ビルディットにて、WebおよびネイティブアプリのUX/UIデザインや、サービスデザインに携わっている。
-        </p>
-      </div>
-    </section>
-
-    <section class="mt-60">
-      <h2 class="c-title">Vision / Philosophy</h2>
-      <div class="vision mb-25">
-        <h3 class="vision__title">Service Design</h3>
-        <p class="vision__description">
-          サービスの体験設計やUIデザインによって、事業やチームに貢献します。人から愛される／喜ばれるデザインを目指して、日々試行錯誤しています。
-        </p>
-      </div>
-      <div class="vision mb-25">
-        <h3 class="vision__title">Design × Engineering</h3>
-        <p class="vision__description">
-          元エンジニアとしての経験を活かし、エンジニアとの意思疎通の橋渡し役となることで、より良いサービス開発を目指します。
-        </p>
-      </div>
-      <div class="vision">
-        <h3 class="vision__title">Contribution to Society</h3>
-        <p class="vision__description">
-          デザインを通じて、ユーザーの日々の暮らしをより豊かにすることで、社会に貢献します。
-        </p>
-      </div>
-    </section>
+    <profile-area />
+    <vision-area />
 
     <section class="mt-60">
       <h2 class="c-title">職歴</h2>
@@ -149,6 +119,8 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
+import ProfileArea from '@/components/ProfileArea'
+import VisionArea from '@/components/VisionArea'
 
 export default {
   name: 'About',
@@ -159,7 +131,9 @@ export default {
   },
   components: {
     HeaderArea,
-    FooterArea
+    FooterArea,
+    ProfileArea,
+    VisionArea
   }
 }
 </script>
@@ -182,7 +156,7 @@ export default {
     width 1040px
 
 .contents
-  max-width 800px
+  max-width 1040px
   margin 120px 80px
   background-color white
 
@@ -191,7 +165,6 @@ export default {
 
   @media (min-width: 1200px)
     margin 120px auto
-    padding-right 240px
 
 .c-entries li
   position relative
@@ -225,45 +198,6 @@ export default {
   & > span
     padding-left 14px
     background-color white
-
-.about
-  position relative
-
-  &__img
-    display inline-block
-    width 118px
-    height 118px
-    position absolute
-    top 0
-    left 0
-    border-radius 8px
-
-  &__description
-    padding-left 136px
-
-  & .name
-    font-size 28px
-    font-weight 600
-    color #45494B
-    padding 3px 0 6px
-    line-height 1
-    margin-bottom 15px
-
-.vision
-  width 100%
-  height 108px
-  padding 20px
-  background-color #f0f3f7
-  border-radius 8px
-  box-sizing border-box
-
-  &__title
-    font-size 20px
-    font-weight 600
-    font-family avenir
-
-  &__description
-    margin-top 10px
 
 .blog
   display block
