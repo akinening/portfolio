@@ -102,7 +102,7 @@ export default {
     height 100%
     background-color #f0f3f7
     border-radius 4px
-  
+
   &__title
     z-index 2
     position relative
@@ -118,5 +118,5 @@ export default {
         color #45494B
 
   &__date
-    color #9DA0A4
+    color #909294
 </style>
