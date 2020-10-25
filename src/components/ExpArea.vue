@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-60">
+  <section class="mt-80">
     <h2 class="c-title">Experience</h2>
     <ul class="c-entries">
       <li>
