@@ -1,7 +1,7 @@
 <template>
   <article class="works" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-80">
-      <h2 class="c-title">プロジェクト</h2>
+      <h2 class="c-title">デザイン事例</h2>
       <ul class="cards">
         <li class="card mb-25" v-for="(project, num) in projects" :key="`project-${num}`">
           <a :href="project.url" target="_blank" rel="noreferrer noreferrer">
