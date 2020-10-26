@@ -48,13 +48,16 @@ export default {
   width 100%
   min-height 108px
   padding 20px
-  margin 0 10px
   background-color #f0f3f7
   border-radius 8px
   box-sizing border-box
 
+  &:not(:last-child)
+    margin 0 20px 0 0
+
   @media (max-width: 768px)
-    margin 10px 0
+    &:not(:last-child)
+        margin 0 0 20px 0
 
   &__title
     font-size 20px

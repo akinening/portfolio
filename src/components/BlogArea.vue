@@ -26,18 +26,22 @@ export default {
 
 .blog
   display inline-block
-  min-width 320px
+  min-width 280px
   width 33.3%
   height 160px
-  margin 0 10px
   background-color #f0f3f7
   border-radius 8px
   opacity 1.0
   transition opacity 0.2s
 
+  &:not(:last-child)
+    margin 0 20px 0 0
+
   @media (max-width: 768px)
     width 100%
-    margin 10px 0
+
+    &:not(:last-child)
+      margin 0 0 20px 0
 
   &:hover
     opacity 0.6
