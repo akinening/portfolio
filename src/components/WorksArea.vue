@@ -92,18 +92,18 @@ export default {
           date: '2020-9'
         },
         {
-          title: 'ゼロから始めるRails講座',
-          description: '株式会社Dive into Codeの野呂さんのご提案で、大学にてRuby on Railsの勉強会を開催しました。当日は約４０名の学生が集まり反応も好評でした。',
-          url: 'https://diveintocode.doorkeeper.jp/events/52301',
-          image_url: require('@/assets/image/ruby.png'),
-          date: '2016-10'
-        },
-        {
           title: '創作活動',
           description: '学生時代、漫研の代表として組織を統率する一方で、個人でも創作活動を開始。イラスト本の頒布やポスター制作、展示会への出展など、積極的に活動していました。',
           url: 'https://example.com',
           image_url: require('@/assets/image/illust.png'),
           date: '2014-4 - 2018-12'
+        },
+        {
+          title: 'ゼロから始めるRails講座',
+          description: '株式会社Dive into Codeの野呂さんのご提案で、大学にてRuby on Railsの勉強会を開催しました。当日は約４０名の学生が集まり反応も好評でした。',
+          url: 'https://diveintocode.doorkeeper.jp/events/52301',
+          image_url: require('@/assets/image/ruby.png'),
+          date: '2016-10'
         }
       ]
     }
