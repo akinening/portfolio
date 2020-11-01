@@ -97,13 +97,6 @@ export default {
           url: 'https://www.instagram.com/hosi_xyz',
           image_url: require('@/assets/image/illust.png'),
           date: '2014-4 - 2018-12'
-        },
-        {
-          title: 'ゼロから始めるRails講座',
-          description: '株式会社Dive into Codeの野呂さんのご提案で、大学にてRuby on Railsの勉強会を開催しました。当日は約４０名の学生が集まり反応も好評でした。',
-          url: 'https://diveintocode.doorkeeper.jp/events/52301',
-          image_url: require('@/assets/image/ruby.png'),
-          date: '2016-10'
         }
       ]
     }
