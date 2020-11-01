@@ -11,7 +11,7 @@
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
+        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
           <span>2019-11 - </span>
         </p>
       </li>
@@ -24,7 +24,7 @@
         <p class="font-13">
           フロントエンドエンジニア
         </p>
-        <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
+        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
           <span>2018-04 - 2019-08</span>
         </p>
       </li>
@@ -35,7 +35,7 @@
           </span>
         </h3>
         <p class="font-13">情報工学 / HCD</p>
-        <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
+        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
           <span>2018-03</span>
         </p>
 
@@ -55,7 +55,7 @@
         </h3>
         <p class="font-13">SSHコース</p>
         <p class="c-description">「VBAを用いた渋滞シミュレーション」が 第56回長野県学生科学賞を受賞</p>
-        <p class="c-line" style="background-image:url(https://de7iszmjjjuya.cloudfront.net/assets/linethrough-bg-ca1a0157a77da0bca2ace712e4d6037a7aa1dec69db54d1491c4e7918a33855a.gif);">
+        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
           <span>2013-03</span>
         </p>
 
@@ -79,6 +79,7 @@ export default {
   name: 'ExpArea',
   data () {
     return {
+      bg_img: require('@/assets/line.gif')
     }
   }
 }
