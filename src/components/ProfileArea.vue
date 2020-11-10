@@ -32,7 +32,7 @@ export default {
   width 25%
   height 168px
   background center / cover no-repeat
-  border-radius 8px
+  border-radius 4px
 
   @media (max-width: 768px)
     width 96px

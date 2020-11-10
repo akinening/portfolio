@@ -49,7 +49,7 @@ export default {
   min-height 108px
   padding 20px
   background-color #f0f3f7
-  border-radius 8px
+  border-radius 4px
   box-sizing border-box
 
   &:not(:last-child)

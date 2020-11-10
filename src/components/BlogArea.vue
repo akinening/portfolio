@@ -30,7 +30,7 @@ export default {
   width 33.3%
   height 160px
   background-color #f0f3f7
-  border-radius 8px
+  border-radius 4px
   opacity 1.0
   transition opacity 0.2s
 

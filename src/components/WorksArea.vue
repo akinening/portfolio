@@ -144,7 +144,7 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 8px
+  border-radius 4px
   transition opacity 0.2s
 
   &:hover

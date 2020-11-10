@@ -4,7 +4,7 @@
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
       話しかける
     </a>
-    <p class="footer__or">または</p>
+    <p class="footer__or">OR</p>
     <div>
       <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
@@ -19,10 +19,6 @@
         <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
       </a>
     </div>
-    <p class="footer__text">
-      お仕事のご相談、個人的な話や友達申請など<br>
-      なんでもお気軽にご連絡ください！
-    </p>
     <p class="footer__copy">©︎ 2020 Akinen</p>
   </footer>
 </template>
@@ -39,10 +35,6 @@ export default {
   padding-bottom 32px
   text-align center
   background-color #f0f3f7
-
-  &__text
-    margin 24px 0 32px
-    line-height 1.8
 
   &__or
     margin 24px 0
@@ -72,7 +64,7 @@ export default {
   padding 12px 30px
   color rgb(36, 40, 42)
   background-color white
-  border-radius 8px
+  border-radius 4px
   font-size 16px
   font-weight 500
 </style>
