@@ -92,9 +92,9 @@ export default {
           date: '2020-9'
         },
         {
-          title: 'STARLIGHT - 創作活動',
+          title: '創作活動',
           description: '学生時代、漫研の代表として組織を統率する一方で、個人でも創作活動を開始。イラスト本の頒布やポスター制作、展示会への出展など、積極的に活動していました。',
-          url: 'https://www.instagram.com/hosi_xyz',
+          url: '',
           image_url: require('@/assets/image/illust.png'),
           date: '2014-4 - 2018-12'
         }
