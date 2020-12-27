@@ -123,7 +123,7 @@ export default {
 
   @media (min-width: 1200px)
     margin 0 auto 40px
-    width 1040px
+    width 960px
 
 .cards
   display flex

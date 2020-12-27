@@ -55,10 +55,10 @@ export default {
 
   @media (min-width: 1200px)
     margin 224px auto 0
-    width 1040px
+    width 960px
 
 .contents
-  max-width 1040px
+  max-width 960px
   margin 120px 80px
   background-color white
 

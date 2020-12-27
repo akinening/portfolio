@@ -49,7 +49,7 @@ export default {
 
   @media (min-width: 1200px)
     margin 0 auto
-    width 1040px
+    width 960px
 
 .sub-title
   margin 16px 80px 0 80px
@@ -63,7 +63,7 @@ export default {
 
   @media (min-width: 1200px)
     margin 16px auto 0
-    width 1040px
+    width 960px
 
 .message
   width 100%
@@ -87,6 +87,6 @@ export default {
 
     @media (min-width: 1200px)
       margin 0 auto
-      width 1040px
+      width 960px
 
 </style>

@@ -18,7 +18,7 @@ export default {
   name: 'ProfileArea',
   data () {
     return {
-      bg_img: require('@/assets/image/akinen.png')
+      bg_img: require('@/assets/image/akinen.jpg')
     }
   }
 }
@@ -29,9 +29,9 @@ export default {
   display flex
 
 .image
-  width 25%
-  height 168px
-  background center / cover no-repeat
+  width 20vw
+  height 20vw
+  background top / cover no-repeat
   border-radius 4px
 
   @media (max-width: 768px)
@@ -40,7 +40,10 @@ export default {
 
 .description
   flex 1
-  padding-left 20px
+  padding-left 88px
+
+  @media (max-width: 768px)
+    padding-left 20px
 
 .position
   margin-bottom 20px
