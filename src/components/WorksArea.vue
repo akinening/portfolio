@@ -41,7 +41,7 @@ export default {
     return {
       projects: [
         {
-          title: 'Stockr - 気づきの習慣化をサポートするアプリ',
+          title: 'Stockr - ふりかえりの習慣化',
           description: '自社事業のアプリデザイン全般を担当しています。アプリの仕様・機能から認知拡大や改善のための施策、ブランディングに至るまで、様々なことに取り組んでいます。',
           url: 'https://inside.bldt.jp/entry/2020/11/26/104143',
           image_url: require('@/assets/image/stockr.png'),
@@ -78,9 +78,9 @@ export default {
       ],
       activities: [
         {
-          title: 'デザイン読書日和',
-          description: '2021年2月に開催される「デザイン読書日和」に出展予定。',
-          url: 'https://dezabiyo.studio.site/',
+          title: 'デザインとエンジニアリングの「間」',
+          description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。',
+          url: 'https://booth.pm/ja/items/2470035',
           image_url: require('@/assets/image/dezabiyo.jpg'),
           date: '2021-2'
         },
