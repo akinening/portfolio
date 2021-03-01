@@ -1,11 +1,14 @@
 <template>
   <section class="mt-80">
-    <h2 class="c-title">Articles</h2>
+    <h2 class="c-title">Media</h2>
     <a class="blog" href="https://note.com/012" target="_blank" rel="noreferrer noreferrer">
       <img class="blog__img" src="@/assets/image/note.svg" alt="note">
     </a>
     <a class="blog" href="https://zenn.dev/012" target="_blank" rel="noreferrer noreferrer">
       <img class="blog__img" src="@/assets/image/zenn.svg" alt="zenn">
+    </a>
+    <a class="blog" href="https://speakerdeck.com/akinen" target="_blank" rel="noreferrer noreferrer">
+      <img class="blog__img" src="@/assets/image/deck.png" alt="speaker deck">
     </a>
   </section>
 </template>
