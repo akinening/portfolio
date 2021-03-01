@@ -1,15 +1,17 @@
 <template>
   <section class="mt-80">
     <h2 class="c-title">Media</h2>
-    <a class="blog" href="https://note.com/012" target="_blank" rel="noreferrer noreferrer">
-      <img class="blog__img" src="@/assets/image/note.svg" alt="note">
-    </a>
-    <a class="blog" href="https://zenn.dev/012" target="_blank" rel="noreferrer noreferrer">
-      <img class="blog__img" src="@/assets/image/zenn.svg" alt="zenn">
-    </a>
-    <a class="blog" href="https://speakerdeck.com/akinen" target="_blank" rel="noreferrer noreferrer">
-      <img class="blog__img" src="@/assets/image/deck.png" alt="speaker deck">
-    </a>
+    <div class="link">
+      <a class="blog" href="https://note.com/012" target="_blank" rel="noreferrer noreferrer">
+        <img class="blog__img" src="@/assets/image/note.svg" alt="note">
+      </a>
+      <a class="blog" href="https://zenn.dev/012" target="_blank" rel="noreferrer noreferrer">
+        <img class="blog__img" src="@/assets/image/zenn.svg" alt="zenn">
+      </a>
+      <a class="blog" href="https://speakerdeck.com/akinen" target="_blank" rel="noreferrer noreferrer">
+        <img class="blog__img" src="@/assets/image/deck.svg" alt="speaker deck">
+      </a>
+    </div>
   </section>
 </template>
 
@@ -27,9 +29,16 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
+.link
+  display flex
+  justify-content space-between
+  flex-direction row
+
+  @media (max-width: 768px)
+    flex-direction column
+
 .blog
   display inline-block
-  min-width 280px
   width 33.3%
   height 160px
   background-color #f0f3f7
