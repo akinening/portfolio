@@ -5,7 +5,7 @@
       <li>
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
-            <a href="https://bldt.jp/">株式会社ビルディット</a>
+            <a href="https://bldt.jp/">Build It Inc.</a>
           </span>
         </h3>
         <p class="font-13" itemprop="title">
