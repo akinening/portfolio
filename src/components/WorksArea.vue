@@ -45,7 +45,7 @@ export default {
           description: '自社事業のアプリデザイン全般を担当しています。アプリの仕様・機能から認知拡大や改善のための施策、ブランディングに至るまで、様々なことに取り組んでいます。',
           url: 'https://inside.bldt.jp/entry/2020/11/26/104143',
           image_url: require('@/assets/image/stockr.png'),
-          date: '2020-6 - 2021-3'
+          date: '2020-6 - 現在'
         },
         {
           title: 'Build It 公式サイト',
