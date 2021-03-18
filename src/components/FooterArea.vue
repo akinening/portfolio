@@ -4,19 +4,16 @@
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
       話しかける
     </a>
-    <p class="footer__or">OR</p>
+    <p class="footer__or">SNS</p>
     <div>
-      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noreferrer noreferrer">
-        <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
-      </a>
-      <a href="https://www.wantedly.com/users/12054465" target="_blank" rel="noreferrer noreferrer">
-        <img class="icon" src="@/assets/image/sns/wantedly.svg" alt="wantedly">
-      </a>
       <a href="https://www.facebook.com/ackiena" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/facebook.svg" alt="facebook">
       </a>
       <a href="https://twitter.com/_akinen" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
+      </a>
+      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noreferrer noreferrer">
+        <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
       </a>
     </div>
     <p class="footer__copy">©︎ 2020 Akinen</p>
