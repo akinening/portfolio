@@ -5,7 +5,7 @@
     </router-link>
     <router-link to="/" class="tab">TOP</router-link>
     <router-link to="/about" class="tab">ABOUT</router-link>
-    <a href="https://www.notion.so/akinen/0156c2bfee4d438b891581bd7d22606c" target="_blank" rel="noreferrer noreferrer">
+    <a href="https://akinening.studio.site/posts/skills" target="_blank" rel="noreferrer noreferrer">
       <p class="tab">SKILLS</p>
       <img class="icon-open" src="@/assets/open_in_new.svg" alt="open in new tab">
     </a>
