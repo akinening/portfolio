@@ -57,7 +57,7 @@ export default {
         {
           title: 'Core - Learning Enhancement System',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
-          url: 'https://www.notion.so/akinen/Core-f73918f86f324ccfb33be0835dabb5bf',
+          url: 'https://akinening.studio.site/posts/core',
           image_url: require('@/assets/image/core.png'),
           date: '2019-11 - 2020-3'
         },
