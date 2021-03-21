@@ -28,7 +28,6 @@ export default {
 
 .hero
   padding-top 224px
-  background-color #f0f3f7
 
   @media (max-width: 768px)
     padding-top 164px

@@ -1,10 +1,8 @@
 <template>
 <div>
   <header-area />
-  <h1 class="about-title">About</h1>
-
+  <h1 class="c-page-title">About</h1>
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
-    <profile-area />
     <vision-area />
     <exp-area />
     <blog-area />
@@ -17,7 +15,6 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import ProfileArea from '@/components/ProfileArea'
 import VisionArea from '@/components/VisionArea'
 import ExpArea from '@/components/ExpArea'
 import BlogArea from '@/components/BlogArea'
@@ -32,7 +29,6 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
-    ProfileArea,
     VisionArea,
     ExpArea,
     BlogArea
@@ -42,20 +38,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-
-.about-title
-  margin 224px 80px 0
-  font-size 88px
-  font-weight bold
-  line-height 1.0
-
-  @media (max-width: 768px)
-    font-size 40px
-    margin 164px 20px 0 20px
-
-  @media (min-width: 1200px)
-    margin 224px auto 0
-    width 960px
 
 .contents
   max-width 960px
