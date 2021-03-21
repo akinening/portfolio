@@ -23,6 +23,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
   line-height: 22px;
+  font-feature-settings: "palt";
+  letter-spacing: 0.4px;
   color: rgb(36, 40, 42);
   background-color: #FAFAFA;
 }
