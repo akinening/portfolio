@@ -1,6 +1,23 @@
 <template>
   <article class="works" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-80">
+      <h2 class="c-title">最近の取り組み</h2>
+      <ul class="cards">
+        <li class="card card--top mb-30">
+          <a :href="top.url" target="_blank" rel="noreferrer noreferrer">
+            <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
+            <div class="detail">
+              <h3 class="detail__title">{{ top.title }}</h3>
+              <p class="detail__text">{{ top.date }}</p>
+              <p class="detail__text">{{ top.description }}</p>
+              <div class="top-btn">事例を見る</div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mt-80">
       <h2 class="c-title">プロジェクト</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
@@ -9,7 +26,7 @@
             <div class="detail">
               <h3 class="detail__title">{{ project.title }}</h3>
               <p class="detail__text">{{ project.date }}</p>
-              <p class="detail__text">{{project.description }}</p>
+              <p class="detail__text">{{ project.description }}</p>
             </div>
           </a>
         </li>
@@ -39,23 +56,23 @@ export default {
   name: 'WorksArea',
   data () {
     return {
+      top: {
+        title: 'Stockr - 自社事業の立ち上げからグロースまでデザイン全般を担当',
+        description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
+        url: 'https://inside.bldt.jp/entry/2020/11/26/104143',
+        image_url: require('@/assets/image/stockr.png'),
+        date: '2020-6 - 現在'
+      },
       projects: [
         {
-          title: 'Stockr - ふりかえりの習慣化',
-          description: '自社事業のアプリデザイン全般を担当しています。アプリの仕様・機能から認知拡大や改善のための施策、ブランディングに至るまで、様々なことに取り組んでいます。',
-          url: 'https://inside.bldt.jp/entry/2020/11/26/104143',
-          image_url: require('@/assets/image/stockr.png'),
-          date: '2020-6 - 現在'
-        },
-        {
-          title: 'Build It 公式サイト',
+          title: 'Build It 公式サイト - リードデザイン',
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。',
           url: 'https://inside.bldt.jp/entry/2020/08/04/080823',
           image_url: require('@/assets/image/bldt.png'),
           date: '2020-5 - 2020-6'
         },
         {
-          title: 'Core - Learning Enhancement System',
+          title: 'Core - 画面のリデザイン',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
           url: 'https://akinening.studio.site/posts/core',
           image_url: require('@/assets/image/core.png'),
@@ -78,22 +95,22 @@ export default {
       ],
       activities: [
         {
-          title: 'デザインとエンジニアリングの「間」',
+          title: '技術書を執筆＆頒布',
           description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。',
           url: 'https://booth.pm/ja/items/2470035',
           image_url: require('@/assets/image/dezabiyo.jpg'),
           date: '2021-2'
         },
         {
-          title: 'Spott - UIデザイナーの作業効率化ツール',
-          description: '日々のデザイン業務で便利な「おすすめスポット」をまとめています。主に自分用に並び順や見せ方をカスタマイズしています。レスポンシブ未対応。',
+          title: 'Chrome拡張機能を個人開発',
+          description: '「Spott」というChrome拡張機能をつくり、公開しました。日々のデザイン業務で便利な「おすすめスポット」をまとめています。レスポンシブ未対応。',
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
         },
         {
           title: '創作活動',
-          description: 'イラスト本の頒布やポスター制作、展示会への出展など',
+          description: '現在は、気ままにInstagramにデザインを投稿中。過去にはイラスト本をイベントで頒布したり、ポスター制作、展示会への出展など、幅広く活動していました。',
           url: 'https://www.instagram.com/akinening',
           image_url: require('@/assets/image/illust.png'),
           date: '2014-4 - 現在'
@@ -109,8 +126,6 @@ export default {
 
 .mb-30
   display inline-block
-
-.mb-30:not(:last-child)
   margin-bottom 30px
 
 .works
@@ -131,6 +146,7 @@ export default {
   justify-content space-between
 
 .card
+  position relative
   width calc(50% - 16px)
   min-width 320px
   background-color white
@@ -143,7 +159,7 @@ export default {
   &:hover
     .detail__title
     .detail__text
-      opacity 0.56
+      opacity 0.6
 
   @media (max-width: 768px)
     width 100%
@@ -169,6 +185,7 @@ export default {
   overflow hidden
 
   &__title
+    line-height 1.6
     margin 0 0 10px
     font-size 20px
     font-weight 500
@@ -177,4 +194,34 @@ export default {
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
+
+.card--top
+  @media (min-width: 769px)
+    width 100%
+
+    &:hover
+      .top-btn
+        opacity 0.6
+
+.photo--top
+  @media (min-width: 769px)
+    float right
+    width calc(50% - 20px)
+    height calc(100% - 40px)
+    margin 20px
+    border-radius 8px
+
+.top-btn
+  display block
+  margin-top 48px
+  padding 8px 32px
+  width fit-content
+  border 1px solid rgb(36, 40, 42)
+  border-radius 4px
+  font-size 13px
+  font-weight 700
+  color rgb(36, 40, 42)
+
+  @media screen and (max-width: 768px)
+    display none
 </style>
