@@ -3,7 +3,7 @@
     <section class="mt-80">
       <h2 class="c-title">プロジェクト</h2>
       <ul class="cards">
-        <li class="card mb-25" v-for="(project, num) in projects" :key="`project-${num}`">
+        <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
           <a :href="project.url" target="_blank" rel="noreferrer noreferrer">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
@@ -19,7 +19,7 @@
     <section class="mt-80">
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
-        <li class="card mb-25" v-for="(activity, num) in activities" :key="`activity-${num}`">
+        <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" target="_blank" rel="noreferrer noreferrer">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
@@ -107,11 +107,11 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
-.mb-25
+.mb-30
   display inline-block
 
-.mb-25:not(:last-child)
-  margin-bottom 25px
+.mb-30:not(:last-child)
+  margin-bottom 30px
 
 .works
   margin 0 80px 40px
@@ -133,6 +133,13 @@ export default {
 .card
   width calc(50% - 16px)
   min-width 320px
+  background-color white
+  border-radius 8px
+  box-shadow 0 4px 8px #eee
+  transition box-shadow 0.25s
+
+  &:hover
+    box-shadow none
 
   @media (max-width: 768px)
     width 100%
@@ -144,11 +151,8 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 4px
+  border-radius 8px 8px 0 0
   transition opacity 0.2s
-
-  &:hover
-    opacity 0.86
 
   @media (max-width: 768px)
     height 50vw
@@ -157,13 +161,12 @@ export default {
     height 288px
 
 .detail
-  width 100%
-  height 200px
+  padding 20px
   overflow hidden
 
   &__title
     color rgb(36, 40, 42)
-    margin 20px 0 10px
+    margin 0 0 10px
     font-size 20px
     font-weight 500
 

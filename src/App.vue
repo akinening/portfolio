@@ -24,6 +24,7 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: rgb(36, 40, 42);
+  background-color: #FAFAFA;
 }
 
 ::selection {

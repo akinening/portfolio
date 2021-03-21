@@ -60,7 +60,6 @@ export default {
 .contents
   max-width 960px
   margin 120px 80px
-  background-color white
 
   @media (max-width: 768px)
     margin 60px 20px
