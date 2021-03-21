@@ -43,7 +43,6 @@ li {
 }
 
 a {
-  color: #FEC01A;
   text-decoration: none;
 }
 </style>

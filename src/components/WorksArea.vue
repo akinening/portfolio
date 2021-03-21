@@ -135,11 +135,15 @@ export default {
   min-width 320px
   background-color white
   border-radius 8px
-  box-shadow 0 4px 8px #eee
-  transition box-shadow 0.25s
+
+  .detail__title
+  .detail__text
+    color rgb(36, 40, 42)
 
   &:hover
-    box-shadow none
+    .detail__title
+    .detail__text
+      opacity 0.56
 
   @media (max-width: 768px)
     width 100%
@@ -165,13 +169,11 @@ export default {
   overflow hidden
 
   &__title
-    color rgb(36, 40, 42)
     margin 0 0 10px
     font-size 20px
     font-weight 500
 
   &__text
-    color rgb(36, 40, 42)
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
