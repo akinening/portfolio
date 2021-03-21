@@ -2,7 +2,7 @@
   <div class="hero">
     <h1 class="title">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title">― A Digital Product Designer.</p>
-    <section class="message" :style="{backgroundImage: 'url(' + bg_img + ')' }">
+    <section class="message">
       <p class="message__text">
         はじめまして！ あきねんと申します。<br>
         Webを通じてリアルな「日常」をデザインするため、<br class="hide-sp">
@@ -17,12 +17,7 @@
 
 <script>
 export default {
-  name: 'HeroArea',
-  data () {
-    return {
-      bg_img: require('@/assets/image/top-bg.jpg')
-    }
-  }
+  name: 'HeroArea'
 }
 </script>
 
@@ -32,10 +27,11 @@ export default {
     display none
 
 .hero
-  margin-top 224px
+  padding-top 224px
+  background-color #f0f3f7
 
   @media (max-width: 768px)
-    margin-top 164px
+    padding-top 164px
 
 .title
   margin 0 80px
@@ -67,12 +63,10 @@ export default {
 
 .message
   width 100%
-  margin-top 80px
   padding 80px 0
   background-size cover
 
   @media (max-width: 768px)
-    margin-top 40px
     padding 60px 0
 
   &__text

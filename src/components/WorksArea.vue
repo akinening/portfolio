@@ -115,7 +115,7 @@ export default {
 
 .works
   margin 0 80px 40px
-  padding-top 60px
+  padding-bottom 60px
 
   @media (max-width: 768px)
     margin 0 20px 40px
