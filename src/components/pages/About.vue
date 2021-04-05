@@ -17,7 +17,6 @@ import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
 import VisionArea from '@/components/VisionArea'
 import ExpArea from '@/components/ExpArea'
-import BlogArea from '@/components/BlogArea'
 
 export default {
   name: 'About',
@@ -30,8 +29,7 @@ export default {
     HeaderArea,
     FooterArea,
     VisionArea,
-    ExpArea,
-    BlogArea
+    ExpArea
   }
 }
 </script>
