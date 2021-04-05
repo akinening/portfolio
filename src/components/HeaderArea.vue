@@ -4,6 +4,7 @@
       <img class="logo" src="@/assets/image/logo.png" alt="akinen">
     </router-link>
     <router-link to="/works" class="tab">WORKS</router-link>
+    <router-link to="/media" class="tab">MEDIA</router-link>
     <router-link to="/about" class="tab">ABOUT</router-link>
     <a href="https://akinening.studio.site/posts/skills" rel="noreferrer noreferrer">
       <p class="tab">SKILLS</p>

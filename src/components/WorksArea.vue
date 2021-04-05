@@ -172,7 +172,6 @@ export default {
   background-size cover
   background-position 50%
   border-radius 8px 8px 0 0
-  transition opacity 0.2s
 
   @media (max-width: 768px)
     height 50vw
