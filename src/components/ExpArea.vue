@@ -2,7 +2,7 @@
   <section>
     <h2 class="c-title mt-80">Work Experience</h2>
     <ul class="c-entries">
-      <li>
+      <li class="card">
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
             <a href="https://bldt.jp/">株式会社Build It</a>
@@ -11,9 +11,7 @@
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
-          <span>2019-11 - </span>
-        </p>
+        <span class="c-time">2019-11 - </span>
 
         <div class="lab">
           <h3 class="lab__title">
@@ -25,7 +23,7 @@
           </p>
         </div>
       </li>
-      <li>
+      <li class="card">
         <h3 class="c-entry-title">
           <span>
             <a href="https://www.kayac.com/">面白法人カヤック</a>
@@ -34,34 +32,30 @@
         <p class="font-13">
           フロントエンドエンジニア
         </p>
-        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
-          <span>2018-04 - 2019-08</span>
-        </p>
-      </li>
+        <span class="c-time">2018-04 - 2019-08</span>
 
-      <div class="lab">
-        <h3 class="lab__title">
-          <span>ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</span>
-        </h3>
-        <p class="c-description">
-          主要事業の１つである「Lobi」では、Nuxt.jsを用いてWebのリニューアルやリファクタリング、新規機能開発を行いました。<br>
-          「Lobi Tournament」では、同時接続1000人を超える、比較的大規模なサービスの開発経験が得られました。
-        </p>
-      </div>
+        <div class="lab">
+          <h3 class="lab__title">
+            <span>ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</span>
+          </h3>
+          <p class="c-description">
+            主要事業の１つである「Lobi」では、Nuxt.jsを用いてWebのリニューアルやリファクタリング、新規機能開発を行いました。<br>
+            「Lobi Tournament」では、同時接続1000人を超える、比較的大規模なサービスの開発経験が得られました。
+          </p>
+        </div>
+      </li>
     </ul>
 
     <h2 class="c-title mt-80">Education</h2>
     <ul class="c-entries">
-      <li>
+      <li class="card">
         <h3 class="c-entry-title">
           <span>
             <a href="">東京電機大学</a>
           </span>
         </h3>
         <p class="font-13">情報工学 / HCD</p>
-        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
-          <span>2018-03</span>
-        </p>
+        <span class="c-time">2018-03</span>
 
         <div class="lab">
           <h3 class="lab__title">
@@ -71,7 +65,7 @@
           <p class="c-description">主にUCDやVUI (Voice User Interface)に関する研究を行いました。<br><br>▼「ユーザの操作を補助する音声ブラウザの開発」<br>Webスクレイピング，音声認識等を用いて、音声だけでWebブラウザの操作を可能とするアプリを開発。UIの提案を行いました。<br><br>▼「スマホVRにおける対話型エージェントに関する研究」<br>Watsonを用いて、空間内のエージェントと会話できる、スマホVR向けアプリを開発。視点を用いることで、複数の対話型エージェントとの会話を実現しました。</p>
         </div>
       </li>
-      <li>
+      <li class="card">
         <h3 class="c-entry-title">
           <span>
             <a href="https://w.wiki/ibi">諏訪清陵高等学校</a>
@@ -79,9 +73,7 @@
         </h3>
         <p class="font-13">SSHコース</p>
         <p class="c-description">「VBAを用いた渋滞シミュレーション」が 第56回長野県学生科学賞を受賞</p>
-        <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
-          <span>2013-03</span>
-        </p>
+        <span class="c-time">2013-03</span>
 
         <div class="lab">
           <h3 class="lab__title">
@@ -111,6 +103,11 @@ export default {
 
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
+
+.card
+  padding 20px
+  background-color white
+  border-radius 8px
 
 .lab
   position relative
