@@ -95,7 +95,6 @@ export default {
   name: 'ExpArea',
   data () {
     return {
-      bg_img: require('@/assets/line.gif')
     }
   }
 }
