@@ -68,8 +68,12 @@ export default {
       ],
       zenn: [
         {
-          url: 'https://zenn.dev/012',
-          image_url: 'https://zenn.dev/images/og-large.png'
+          url: 'https://zenn.dev/012/articles/537115a9d8020d79479e',
+          image_url: require('@/assets/image/zenn-movie.png')
+        },
+        {
+          url: 'https://zenn.dev/012/articles/b6ef35b68e0e1494141e',
+          image_url: require('@/assets/image/zenn-css.png')
         }
       ],
       slides: [
