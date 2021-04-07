@@ -72,7 +72,7 @@ export default {
           date: '2020-5 - 2020-6'
         },
         {
-          title: 'Core - 画面のリデザイン',
+          title: 'Core - UIリニューアル',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
           url: 'https://akinening.studio.site/posts/core',
           image_url: require('@/assets/image/core.png'),

@@ -3,9 +3,7 @@
   <header-area />
   <h1 class="c-page-title">About</h1>
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
-    <vision-area />
     <exp-area />
-    <blog-area />
   </article>
 
   <footer-area />
@@ -15,7 +13,6 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import VisionArea from '@/components/VisionArea'
 import ExpArea from '@/components/ExpArea'
 
 export default {
@@ -28,7 +25,6 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
-    VisionArea,
     ExpArea
   }
 }

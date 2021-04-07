@@ -1,11 +1,11 @@
 <template>
-  <section class="mt-80">
-    <h2 class="c-title">Experience</h2>
+  <section>
+    <h2 class="c-title mt-80">Work Experience</h2>
     <ul class="c-entries">
       <li>
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
-            <a href="https://bldt.jp/">Build It Inc.</a>
+            <a href="https://bldt.jp/">株式会社Build It</a>
           </span>
         </h3>
         <p class="font-13" itemprop="title">
@@ -14,6 +14,16 @@
         <p class="c-line" :style="{backgroundImage: 'url(' + bg_img + ')'}">
           <span>2019-11 - </span>
         </p>
+
+        <div class="lab">
+          <h3 class="lab__title">
+            <span>複数の受託開発、新規自社事業の立ち上げに参加</span>
+          </h3>
+          <p class="c-description">
+            教育系SaaS「Core」のUIリニューアルや、士業の業務管理システムの画面設計などの受託開発にUI/UXデザイナーとして参加。<br>
+            また新規自社事業「Stockr」では、プロトタイプ作成から公開、グロースに至るまで、デザインを担当しています。
+          </p>
+        </div>
       </li>
       <li>
         <h3 class="c-entry-title">
@@ -28,6 +38,20 @@
           <span>2018-04 - 2019-08</span>
         </p>
       </li>
+
+      <div class="lab">
+        <h3 class="lab__title">
+          <span>ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</span>
+        </h3>
+        <p class="c-description">
+          主要事業の１つである「Lobi」では、Nuxt.jsを用いてWebのリニューアルやリファクタリング、新規機能開発を行いました。<br>
+          「Lobi Tournament」では、同時接続1000人を超える、比較的大規模なサービスの開発経験が得られました。
+        </p>
+      </div>
+    </ul>
+
+    <h2 class="c-title mt-80">Education</h2>
+    <ul class="c-entries">
       <li>
         <h3 class="c-entry-title">
           <span>
@@ -90,7 +114,7 @@ export default {
 
 .lab
   position relative
-  padding 20px 28px
+  padding 20px 20px 20px 28px
   margin-top 20px
 
   &:before
@@ -110,10 +134,8 @@ export default {
 
     & > span
       display inline-block
-      padding-right 20px
       font-size 20px
       font-weight 500
-      background-color white
 
       & > a
         color #45494B

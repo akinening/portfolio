@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-80">
+  <section>
     <h2 class="c-title">Vision / Philosophy</h2>
     <div class="visionaly">
       <div class="vision">
