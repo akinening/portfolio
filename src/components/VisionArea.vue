@@ -48,8 +48,8 @@ export default {
   width 100%
   min-height 108px
   padding 20px
-  background-color #f0f3f7
-  border-radius 4px
+  background-color white
+  border-radius 8px
   box-sizing border-box
 
   &:not(:last-child)
@@ -61,7 +61,7 @@ export default {
 
   &__title
     font-size 20px
-    font-weight 600
+    font-weight bold
     font-family avenir
 
   &__description

@@ -88,14 +88,6 @@ export default {
         {
           url: 'https://speakerdeck.com/akinen/created-a-chrome-extension-in-vue-dot-js',
           image_url: 'https://files.speakerdeck.com/presentations/991889f3485a4b039c6f2614ff82f7d3/slide_0.jpg'
-        },
-        {
-          url: 'https://speakerdeck.com/akinen/use-figma-4-wfh',
-          image_url: 'https://files.speakerdeck.com/presentations/f346a351ff27410ca77f05ae5db46e24/slide_0.jpg'
-        },
-        {
-          url: 'https://speakerdeck.com/akinen/3-misconceptions-about-web-design',
-          image_url: 'https://files.speakerdeck.com/presentations/b9bd247534d24c95b18ca51bbd98f333/slide_0.jpg'
         }
       ]
     }

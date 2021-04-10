@@ -8,9 +8,7 @@ import About from '@/components/pages/About'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   routes: [
-    { path: '*', component: Index },
     { path: '/', name: 'Index', component: Index },
     { path: '/works', name: 'Works', component: Works },
     { path: '/media', name: 'Media', component: Media },
