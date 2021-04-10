@@ -9,8 +9,6 @@
     <a href="https://akinening.studio.site/posts/skills" rel="noreferrer noreferrer">
       <p class="tab">SKILLS</p>
     </a>
-
-    <a class="twitter" href="https://twitter.com/_akinen" target="_blank" rel="noreferrer noreferrer">TWTR</a>
   </header>
 </template>
 
@@ -45,9 +43,10 @@ export default {
   height 72px
 
   @media (max-width: 768px)
-    margin-left 8px
+    display none
 
 .tab
+  position relative
   display inline-block
   color rgb(36, 40, 42)
   line-height 72px
@@ -59,32 +58,14 @@ export default {
   @media (max-width: 768px)
     margin-left 20px
 
-.icon-open
-  width 22px
-  height 22px
-  color rgb(36, 40, 42)
-  display inline-block
-  line-height 72px
-  vertical-align middle
-
-.twitter
-  position absolute
-  top 0
-  right 48px
-  width fit-content
-  margin-top 13px
-  padding 10px 30px
-  color rgb(36, 40, 42)
-  border 2px solid rgba(36, 40, 42, 0.4)
-  border-radius 8px
-  font-size 16px
-  font-weight bold
-  transition all 0.25s
-
-  &:hover
-    border-radius 23px 23px 23px 0
-    border 2px solid #45494B
-
-  @media (max-width: 768px)
-    display none
+  &.router-link-exact-active
+    &::before
+      content ''
+      position absolute
+      bottom 16px
+      left calc(50% - 3px)
+      width 6px
+      height 6px
+      background-color rgb(36, 40, 42)
+      border-radius 6px
 </style>

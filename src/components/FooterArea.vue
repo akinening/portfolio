@@ -1,14 +1,14 @@
 <template>
   <footer class="footer">
+    <a class="contact" href="https://www.facebook.com/ackiena" target="_blank" rel="noopener noreferrer">
+      活動状況を見る
+    </a>
     <a class="contact" href="mailto:akinening@gmail.com" target="blank" rel="noopener noreferrer">
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
       話しかける
     </a>
-    <p class="footer__or">SNS</p>
+    <p class="footer__or">その他</p>
     <div>
-      <a href="https://www.facebook.com/ackiena" target="_blank" rel="noreferrer noreferrer">
-        <img class="icon" src="@/assets/image/sns/facebook.svg" alt="facebook">
-      </a>
       <a href="https://twitter.com/_akinen" target="_blank" rel="noreferrer noreferrer">
         <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
       </a>
@@ -42,11 +42,11 @@ export default {
 
 .icon
 .contact
-  opacity 1.0
-  transition opacity 0.2s
+  color rgba(36, 40, 42, 1.0)
+  transition all 0.2s
 
   &:hover
-    opacity 0.8
+    color rgba(36, 40, 42, 0.6)
 
 .icon-mail
   display inline-block
@@ -56,7 +56,8 @@ export default {
   vertical-align middle
 
 .contact
-  display inline-block
+  display block
+  margin 0 auto 20px
   width 280px
   padding 12px 30px
   color rgb(36, 40, 42)
