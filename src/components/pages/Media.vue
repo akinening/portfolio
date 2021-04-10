@@ -63,7 +63,7 @@ export default {
         },
         {
           url: 'https://note.com/012/n/n6e7e5680013c',
-          image_url: 'https://assets.st-note.com/production/uploads/images/47301491/rectangle_large_type_2_969fd3188d1d3ee638aca492e9c36ea7.png?width=500'
+          image_url: 'https://assets.st-note.com/production/uploads/images/49753507/rectangle_large_type_2_7f4272e9b443df991b36d5095d80f7d7.png?width=500'
         }
       ],
       zenn: [
