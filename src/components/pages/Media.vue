@@ -55,7 +55,7 @@ export default {
       notes: [
         {
           url: 'https://note.com/012/n/ne82251f29c00',
-          image_url: 'https://assets.st-note.com/production/uploads/images/28138463/rectangle_large_type_2_81f1d3774e9f841542a9ea5ee5b7a6fb.png?width=500'
+          image_url: 'https://assets.st-note.com/production/uploads/images/49771202/rectangle_large_type_2_ca39fc98092637ca0e483c0cd0088649.png?width=500'
         },
         {
           url: 'https://note.com/012/n/n94a5fb13ab60',

@@ -107,13 +107,6 @@ export default {
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
-        },
-        {
-          title: '創作活動',
-          description: '現在は、気ままにInstagramにデザインを投稿中。過去にはイラスト本をイベントで頒布したり、ポスター制作、展示会への出展など、幅広く活動していました。',
-          url: 'https://www.instagram.com/akinening',
-          image_url: require('@/assets/image/illust.png'),
-          date: '2014-4 - 現在'
         }
       ]
     }
