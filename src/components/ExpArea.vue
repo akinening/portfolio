@@ -51,7 +51,7 @@
       <li class="card">
         <h3 class="c-entry-title">
           <span>
-            <a href="">東京電機大学</a>
+            <a>東京電機大学</a>
           </span>
         </h3>
         <p class="font-13">情報工学 / HCD</p>
@@ -59,7 +59,9 @@
 
         <div class="lab">
           <h3 class="lab__title">
-            <span><a target="_blank" rel="noreferrer noreferrer" href="http://www.ics.sie.dendai.ac.jp/">情報通信サービス研究室(大山研)</a></span>
+            <span>
+              <a>情報通信サービス研究室(大山研)</a>
+            </span>
           </h3>
           <p class="lab__date">2016-4 - 2018-3</p>
           <p class="c-description">主にUCDやVUI (Voice User Interface)に関する研究を行いました。<br><br>▼「ユーザの操作を補助する音声ブラウザの開発」<br>Webスクレイピング，音声認識等を用いて、音声だけでWebブラウザの操作を可能とするアプリを開発。UIの提案を行いました。<br><br>▼「スマホVRにおける対話型エージェントに関する研究」<br>Watsonを用いて、空間内のエージェントと会話できる、スマホVR向けアプリを開発。視点を用いることで、複数の対話型エージェントとの会話を実現しました。</p>

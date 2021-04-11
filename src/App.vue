@@ -30,7 +30,8 @@ body {
 }
 
 ::selection {
-  background-color: #ffdd83;
+  color: white;
+  background-color: #24282a;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
