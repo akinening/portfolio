@@ -74,7 +74,7 @@ export default {
         {
           title: 'Core - UIリニューアル',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
-          url: 'https://akinening.studio.site/posts/core',
+          url: 'https://akinen.com/#/works/Core',
           image_url: require('@/assets/image/core.png'),
           date: '2019-11 - 2020-3'
         },
