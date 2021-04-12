@@ -98,10 +98,6 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
-.mb-30
-  display inline-block
-  margin-bottom 30px
-
 .media
   margin 0 80px 40px
   padding-bottom 60px
