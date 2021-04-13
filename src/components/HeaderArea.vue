@@ -3,10 +3,12 @@
     <router-link to="/">
       <img class="logo" src="@/assets/image/logo.png" alt="akinen">
     </router-link>
-    <router-link to="/works" class="tab">WORKS</router-link>
-    <router-link to="/media" class="tab">MEDIA</router-link>
-    <router-link to="/about" class="tab">ABOUT</router-link>
-    <router-link to="/skills" class="tab">SKILLS</router-link>
+    <nav class="tabs">
+      <router-link to="/works" class="tab">WORKS</router-link>
+      <router-link to="/media" class="tab">MEDIA</router-link>
+      <router-link to="/about" class="tab">ABOUT</router-link>
+      <router-link to="/skills" class="tab">SKILLS</router-link>
+    </nav>
   </header>
 </template>
 
@@ -27,7 +29,6 @@ export default {
   display flex
   background-color rgba(255, 255, 255, 0.6)
   backdrop-filter blur(3px)
-  box-shadow 0 2px 12px rgba(0,0,0,.06)
   border-radius 8px
 
   @media (max-width: 768px)
@@ -35,9 +36,14 @@ export default {
     left 0
     width 100%
     box-shadow none
+    overflow scroll
+    white-space nowrap
+
+    &::-webkit-scrollbar
+      display none
 
 .logo
-  margin-left 36px
+  margin-left 12px
   width 72px
   height 72px
 
@@ -45,6 +51,14 @@ export default {
     margin 12px -8px 0 12px
     width 48px
     height 48px
+
+.tabs
+  position absolute
+  right 32px
+
+  @media (max-width: 768px)
+    position relative
+    right 0
 
 .tab
   position relative
