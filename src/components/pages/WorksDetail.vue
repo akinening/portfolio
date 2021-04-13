@@ -9,6 +9,7 @@
   </div>
   <article class="skills">
     <section v-if="$route.params.id === 'Core'" class="skill mt-80 mb-30">
+      <img class="image" :src="core_ogp">
       <p class="description">
         UI/UXデザイナーとして、機能改善を中心に担当しました。他にエンジニア３名、PM１名、リードデザイナー１名。入社当初はアシスタントとしてジョインし細部のUIを改善、2020年からはリデザインを主担当しました。
       </p>
@@ -73,7 +74,8 @@ export default {
   },
   data () {
     return {
-      core_dashboard: require('@/assets/image/core_dashboard.png')
+      core_dashboard: require('@/assets/image/core_dashboard.png'),
+      core_ogp: require('@/assets/image/core.png')
     }
   }
 }
@@ -140,6 +142,11 @@ export default {
   display block
   width calc(100% - 40px)
   margin 20px
+  border-radius 8px
+
+  @media (max-width: 768px)
+    width 100%
+    margin 20px 0
 
 .top-btn
   display block

@@ -31,9 +31,10 @@ export default {
   border-radius 8px
 
   @media (max-width: 768px)
-    top 16px
-    left 16px
-    width calc(100% - 32px)
+    top 0
+    left 0
+    width 100%
+    box-shadow none
 
 .logo
   margin-left 36px
@@ -41,7 +42,9 @@ export default {
   height 72px
 
   @media (max-width: 768px)
-    display none
+    margin 12px -8px 0 12px
+    width 48px
+    height 48px
 
 .tab
   position relative
@@ -54,7 +57,7 @@ export default {
   margin-left 32px
 
   @media (max-width: 768px)
-    margin-left 20px
+    margin-left 16px
 
   &.router-link-exact-active
     &::before
