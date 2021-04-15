@@ -9,10 +9,10 @@
     </a>
     <p class="footer__or">その他</p>
     <div>
-      <a href="https://twitter.com/_akinen" target="_blank" rel="noreferrer noreferrer">
+      <a href="https://twitter.com/_akinen" target="_blank" rel="noopener noreferrer">
         <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
       </a>
-      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noreferrer noreferrer">
+      <a href="https://youtrust.jp/users/20ca252fa4912648d743818f92fec59f" target="_blank" rel="noopener noreferrer">
         <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
       </a>
     </div>

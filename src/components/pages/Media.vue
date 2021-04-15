@@ -7,7 +7,7 @@
       <h2 class="c-title">note</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(note, num) in notes" :key="`note-${num}`">
-          <a :href="note.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="note.url" target="_blank" rel="noopener noreferrer">
             <img class="photo" :src="note.image_url" loading="lazy" alt="article">
           </a>
         </li>
@@ -18,7 +18,7 @@
       <h2 class="c-title">Zenn</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(zen, num) in zenn" :key="`zen-${num}`">
-          <a :href="zen.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="zen.url" target="_blank" rel="noopener noreferrer">
             <img class="photo" :src="zen.image_url" loading="lazy" alt="article">
           </a>
         </li>
@@ -29,7 +29,7 @@
       <h2 class="c-title">登壇資料</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(slide, num) in slides" :key="`slide-${num}`">
-          <a :href="slide.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="slide.url" target="_blank" rel="noopener noreferrer">
             <img class="photo" :src="slide.image_url" loading="lazy" alt="article">
           </a>
         </li>

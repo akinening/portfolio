@@ -4,7 +4,7 @@
       <h2 class="c-title">最近の取り組み</h2>
       <ul class="cards">
         <li class="card card--top mb-30">
-          <a :href="top.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="top.url" target="_blank" rel="noopener noreferrer">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ top.title }}</h3>
@@ -21,7 +21,7 @@
       <h2 class="c-title">プロジェクト</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
-          <a :href="project.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ project.title }}</h3>
@@ -37,7 +37,7 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" target="_blank" rel="noreferrer noreferrer">
+          <a :href="activity.url" target="_blank" rel="noopener noreferrer">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ activity.title }}</h3>
