@@ -17,5 +17,8 @@ export default new Router({
     { path: '/media', name: 'Media', component: Media },
     { path: '/about', name: 'About', component: About },
     { path: '/skills', name: 'Skills', component: Skills }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
