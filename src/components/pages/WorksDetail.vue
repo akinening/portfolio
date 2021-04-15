@@ -10,6 +10,7 @@
   <article class="skills">
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
+    <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
   </article>
   <footer-area />
 </div>
@@ -20,6 +21,7 @@ import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
+import LobiTournament from '@/components/articles/LobiTournament'
 
 export default {
   name: 'WorksDetail',
@@ -27,7 +29,8 @@ export default {
     HeaderArea,
     FooterArea,
     Core,
-    Lobi
+    Lobi,
+    LobiTournament
   }
 }
 </script>

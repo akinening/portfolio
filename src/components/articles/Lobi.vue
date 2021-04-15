@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'Lobi',
+  name: 'LobiTournament',
   data () {
     return {
       lobi_live: require('@/assets/image/lobi_live.png'),

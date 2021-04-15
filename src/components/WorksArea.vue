@@ -88,7 +88,7 @@ export default {
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
           description: '主に複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
-          url: require('@/assets/image/doc-lobi-tournament.jpg'),
+          url: 'https://akinen.com/#/works/Lobi%20Tournament',
           image_url: require('@/assets/image/lobi-tournament.png'),
           date: '2018-4 - 2018-12'
         }
