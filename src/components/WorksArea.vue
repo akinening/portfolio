@@ -81,7 +81,7 @@ export default {
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。そのほか、ユニットテスト(Jest)やA/Bテストなど。',
-          url: require('@/assets/image/doc-lobi.jpg'),
+          url: 'https://akinen.com/#/works/Lobi',
           image_url: require('@/assets/image/lobi.png'),
           date: '2019-1 - 2019-8'
         },
