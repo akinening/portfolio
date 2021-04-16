@@ -55,15 +55,15 @@ export default {
       notes: [
         {
           url: 'https://note.com/012/n/ne82251f29c00',
-          image_url: 'https://assets.st-note.com/production/uploads/images/49771202/rectangle_large_type_2_ca39fc98092637ca0e483c0cd0088649.png?width=500'
+          image_url: require('@/assets/image/note1.png')
         },
         {
           url: 'https://note.com/012/n/n94a5fb13ab60',
-          image_url: 'https://assets.st-note.com/production/uploads/images/47006069/rectangle_large_type_2_0083257e95fb02580b91635088346b82.png?width=500'
+          image_url: require('@/assets/image/note2.png')
         },
         {
           url: 'https://note.com/012/n/n6e7e5680013c',
-          image_url: 'https://assets.st-note.com/production/uploads/images/49753507/rectangle_large_type_2_7f4272e9b443df991b36d5095d80f7d7.png?width=500'
+          image_url: require('@/assets/image/note3.png')
         }
       ],
       zenn: [
