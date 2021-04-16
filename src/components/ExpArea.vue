@@ -11,15 +11,16 @@
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <span class="c-time">2019-11 - </span>
+        <span class="c-time">2019-11 - 現在</span>
 
         <div class="lab">
           <h3 class="lab__title">
-            <span>複数の受託開発、新規自社事業の立ち上げに参加</span>
+            <span>教育・育成事業のDX推進。新規自社事業の立ち上げに参加</span>
           </h3>
           <p class="c-description">
-            教育系SaaS「Core」のUIリニューアルや、士業の業務管理システムの画面設計などの受託開発にUI/UXデザイナーとして参加。<br>
-            また新規自社事業「Stockr」では、プロトタイプ作成から公開、グロースに至るまで、デザインを担当しています。
+            教育系SaaS「Core」のUIリニューアルにUI/UXデザイナーとして参加。<br>
+            新規自社事業「Stockr」では、プロトタイプ作成から公開、グロースに至るまで、デザインを担当しています。<br>
+            その他、士業の業務管理システム(ワイヤー作成、UIデザイン)など、複数の受託開発。
           </p>
         </div>
       </li>
