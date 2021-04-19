@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <a class="contact" href="https://www.facebook.com/ackiena" target="_blank" rel="noopener noreferrer">
-      活動状況を見る
+      ようすを見る
     </a>
     <a class="contact" href="mailto:akinening@gmail.com" target="blank" rel="noopener noreferrer">
       <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
@@ -29,14 +29,15 @@ export default {
 <style scoped lang="stylus">
 .footer
   padding-top 63px
-  padding-bottom 32px
   text-align center
-  background-color #e7f3f2
+  background-color white
 
   &__or
     margin 24px 0
 
   &__copy
+    width 100%
+    background-color #80d8d0
     font-weight 500
     margin-top 32px
 
@@ -62,6 +63,7 @@ export default {
   padding 12px 30px
   color rgb(36, 40, 42)
   background-color white
+  border 1px solid rgb(36, 40, 42)
   border-radius 4px
   font-size 16px
   font-weight 500

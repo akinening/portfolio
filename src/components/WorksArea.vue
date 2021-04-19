@@ -98,7 +98,7 @@ export default {
           title: '技術書を執筆＆頒布',
           description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。',
           url: 'https://booth.pm/ja/items/2470035',
-          image_url: require('@/assets/image/dezabiyo.jpg'),
+          image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021-2'
         },
         {

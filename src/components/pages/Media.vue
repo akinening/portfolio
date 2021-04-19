@@ -64,6 +64,10 @@ export default {
         {
           url: 'https://note.com/012/n/n6e7e5680013c',
           image_url: require('@/assets/image/note3.png')
+        },
+        {
+          url: 'https://note.com/012',
+          image_url: require('@/assets/image/note4.png')
         }
       ],
       zenn: [
