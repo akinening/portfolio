@@ -1,22 +1,13 @@
 <template>
   <footer class="footer">
+    <p class="title">Contact</p>
     <a class="contact" href="https://www.facebook.com/ackiena" target="_blank" rel="noopener noreferrer">
-      ようすを見る
+      Facebook
     </a>
-    <a class="contact" href="mailto:akinening@gmail.com" target="blank" rel="noopener noreferrer">
-      <img class="icon-mail" src="@/assets/mail.svg" alt="mail">
-      話しかける
+    <a class="contact" href="https://twitter.com/_akinen" target="blank" rel="noopener noreferrer">
+      Twitter
     </a>
-    <p class="footer__or">その他</p>
-    <div>
-      <a href="https://twitter.com/_akinen" target="_blank" rel="noopener noreferrer">
-        <img class="icon" src="@/assets/image/sns/twitter.svg" alt="twitter">
-      </a>
-      <a href="https://youtrust.jp/users/012" target="_blank" rel="noopener noreferrer">
-        <img class="icon" src="@/assets/image/sns/youtrust.svg" alt="youtrust">
-      </a>
-    </div>
-    <p class="footer__copy">©︎ 2020 Akinen</p>
+    <p class="footer__copy">©︎ 2021 Akinen</p>
   </footer>
 </template>
 
@@ -28,18 +19,20 @@ export default {
 
 <style scoped lang="stylus">
 .footer
-  padding-top 63px
+  padding-top 40px
   text-align center
   background-color white
-
-  &__or
-    margin 24px 0
 
   &__copy
     width 100%
     background-color #80d8d0
     font-weight 500
     margin-top 32px
+
+.title
+  font-size 24px
+  font-weight 600
+  margin-bottom 40px
 
 .icon
 .contact
