@@ -31,7 +31,7 @@ body {
 
 ::selection {
   color: white;
-  background-color: #24282a;
+  background-color: #80d8d0;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {

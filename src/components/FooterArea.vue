@@ -31,7 +31,7 @@ export default {
   padding-top 63px
   padding-bottom 32px
   text-align center
-  background-color #f0f3f7
+  background-color #e7f3f2
 
   &__or
     margin 24px 0
