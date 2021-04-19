@@ -35,7 +35,6 @@ export default {
   &__text
     line-height 2.0
     font-size 20px
-    font-weight 500
 
     @media (max-width: 768px)
       font-size 16px

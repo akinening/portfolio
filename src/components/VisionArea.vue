@@ -61,8 +61,7 @@ export default {
 
   &__title
     font-size 20px
-    font-weight bold
-    font-family avenir
+    font-weight 500
 
   &__description
     margin-top 10px
