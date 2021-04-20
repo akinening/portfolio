@@ -3,7 +3,8 @@
   <header-area />
   <h1 class="c-page-title">Skills</h1>
   <article class="skills">
-    <section class="skill mt-80 mb-30">
+    <h2 class="c-title mt-80">デザイン</h2>
+    <section class="skill mb-30">
       <h2 class="title">Webやアプリ(iOS, Android)のUI,UXデザイン</h2>
       <ul class="description">
         <li>toBの業務管理システム、toCのアプリケーションやWebサービス、Web LPの経験があります。ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
@@ -28,6 +29,7 @@
       </ul>
     </section>
 
+    <h2 class="c-title mt-80">その他</h2>
     <section class="skill mb-30">
       <h2 class="title">エンジニアリング</h2>
       <ul class="description">
@@ -43,6 +45,15 @@
         <li>表層のデザインだけで完結するのではなく、事業やサービスの成功にコミットすることを意識しています。常に事業の未来像を見据え、チームと共有しながらデザインに取り組みます。</li>
         <li>UIの意図を言語化し、チームに相談しながらデザインしています。議論や仕様については流さず、適宜文章化することを心がけています。</li>
         <li>フロントエンドエンジニアとしての経験があるため、既存の運用や実装上の制約を考慮したデザインやコミュニケーションが得意です。また、コードレビューだけでなく自らも実装することで、最終的なアウトプットをよりよいものにします。</li>
+      </ul>
+    </section>
+
+    <h2 class="c-title mt-80">対応不可</h2>
+    <section class="skill mb-30">
+      <h2 class="title">単発の副業案件</h2>
+      <ul class="description">
+        <li>Web LPやグラフィックの制作依頼は現在、対応不可です。</li>
+        <li>例外として、本業での案件やお知り合いからの依頼、同人のデザイン(趣味)は承っております。</li>
       </ul>
     </section>
   </article>
