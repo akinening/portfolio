@@ -1,18 +1,19 @@
 <template>
 <div class="index">
   <header-area />
+
   <div class="c-top-margin c-page-title">
     <h1 class="title">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title">― A Digital Product Designer.</p>
   </div>
+  <section class="message c-centering">
+    <p class="message__text">
+      はじめまして！ あきねんと申します。<br>
+      Webを通じてリアルな「日常」をデザインするため、日々プロダクトと向き合っています。<br>
+      デザインを通じて人々と中長期的な接点を持ちその人の体験や行動を変えることで、より便利で過ごしやすい世界を実現します。
+    </p>
+  </section>
   <div class="heroes c-centering">
-    <section class="message">
-      <p class="message__text">
-        はじめまして！ あきねんと申します。<br>
-        Webを通じてリアルな「日常」をデザインするため、日々プロダクトと向き合っています。<br>
-        デザインを通じて人々と中長期的な接点を持ちその人の体験や行動を変えることで、より便利で過ごしやすい世界を実現します。
-      </p>
-    </section>
     <vision-area />
   </div>
 
@@ -67,7 +68,6 @@ export default {
     padding-top 0
 
 .message
-  width 100%
   padding 80px 0
   background-size cover
 

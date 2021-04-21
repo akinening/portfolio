@@ -100,5 +100,5 @@ export default {
   > li
     list-style-type disc
     line-height 1.8
-    margin-left 20px
+    margin 0 0 6px 20px
 </style>
