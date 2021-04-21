@@ -55,10 +55,5 @@ export default {
     width 960px
 
 .skills
-  margin-bottom 40px
-  padding-bottom 60px
-
-  @media (max-width: 768px)
-    padding-top 0
-
+  margin-bottom 100px
 </style>

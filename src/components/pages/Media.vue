@@ -103,11 +103,7 @@ export default {
 @import "../../assets/css/common.styl"
 
 .media
-  margin-bottom 40px
-  padding-bottom 60px
-
-  @media (max-width: 768px)
-    padding-top 0
+  margin-bottom 100px
 
 .cards
   display flex
