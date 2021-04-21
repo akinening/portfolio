@@ -1,8 +1,8 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-page-title">Media</h1>
-  <article class="media">
+  <h1 class="c-top-margin c-page-title">Media</h1>
+  <article class="media c-centering">
     <section class="mt-80">
       <h2 class="c-title">note</h2>
       <ul class="cards">
@@ -103,16 +103,11 @@ export default {
 @import "../../assets/css/common.styl"
 
 .media
-  margin 0 80px 40px
+  margin-bottom 40px
   padding-bottom 60px
 
   @media (max-width: 768px)
-    margin 0 20px 40px
     padding-top 0
-
-  @media (min-width: 1200px)
-    margin 0 auto 40px
-    width 960px
 
 .cards
   display flex

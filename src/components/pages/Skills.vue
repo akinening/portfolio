@@ -1,8 +1,8 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-page-title">Skills</h1>
-  <article class="skills">
+  <h1 class="c-top-margin c-page-title">Skills</h1>
+  <article class="skills c-centering">
     <h2 class="c-title mt-80">デザイン</h2>
     <section class="skill mb-30">
       <h2 class="title">Webやアプリ(iOS, Android)のUI,UXデザイン</h2>
@@ -83,16 +83,11 @@ export default {
   margin-bottom: 20px;
 
 .skills
-  margin 0 80px 40px
+  margin-bottom 40px
   padding-bottom 60px
 
   @media (max-width: 768px)
-    margin 0 20px 40px
     padding-top 0
-
-  @media (min-width: 1200px)
-    margin 0 auto 40px
-    width 960px
 
 .skill
   width 100%

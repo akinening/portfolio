@@ -7,7 +7,7 @@
     </router-link>
     <h1 class="page-title">{{ $route.params.id }}</h1>
   </div>
-  <article class="skills">
+  <article class="skills c-centering">
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
@@ -43,6 +43,7 @@ export default {
   height 40px
   margin-bottom 4px
 
+// 40pxぶん下げる
 .top-margin
   margin 180px 80px 0
 
@@ -65,14 +66,10 @@ export default {
     width 960px
 
 .skills
-  margin 0 80px 40px
+  margin-bottom 40px
   padding-bottom 60px
 
   @media (max-width: 768px)
-    margin 0 20px 40px
     padding-top 0
 
-  @media (min-width: 1200px)
-    margin 0 auto 40px
-    width 960px
 </style>

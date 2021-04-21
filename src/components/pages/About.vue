@@ -1,8 +1,8 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-page-title">About</h1>
-  <article class="contents" itemscope="" itemtype="http://schema.org/Person">
+  <h1 class="c-top-margin c-page-title">About</h1>
+  <article class="contents c-centering" itemscope="" itemtype="http://schema.org/Person">
     <exp-area />
   </article>
 
@@ -34,13 +34,8 @@ export default {
 @import "../../assets/css/common.styl"
 
 .contents
-  max-width 960px
-  margin 120px 80px
+  margin-top 80px
 
   @media (max-width: 768px)
-    margin 60px 20px
-
-  @media (min-width: 1200px)
-    margin 120px auto
-
+    margin-top 60px
 </style>

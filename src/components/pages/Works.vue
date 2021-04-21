@@ -1,7 +1,7 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-page-title">Works</h1>
+  <h1 class="c-top-margin c-page-title">Works</h1>
   <works-area />
   <footer-area />
 </div>

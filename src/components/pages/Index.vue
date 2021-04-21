@@ -1,11 +1,11 @@
 <template>
 <div class="index">
   <header-area />
-  <div class="c-page-title">
+  <div class="c-top-margin c-page-title">
     <h1 class="title">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title">― A Digital Product Designer.</p>
   </div>
-  <div class="heroes">
+  <div class="heroes c-centering">
     <hero-area />
     <vision-area />
   </div>
@@ -56,14 +56,10 @@ export default {
     width 960px
 
 .heroes
-  margin 0 80px 40px
+  margin-bottom 40px
   padding-bottom 60px
 
   @media (max-width: 768px)
-    margin 0 20px 40px
     padding-top 0
 
-  @media (min-width: 1200px)
-    margin 0 auto 40px
-    width 960px
 </style>
