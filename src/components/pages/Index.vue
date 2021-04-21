@@ -6,7 +6,13 @@
     <p class="sub-title">― A Digital Product Designer.</p>
   </div>
   <div class="heroes c-centering">
-    <hero-area />
+    <section class="message">
+      <p class="message__text">
+        はじめまして！ あきねんと申します。<br>
+        Webを通じてリアルな「日常」をデザインするため、日々プロダクトと向き合っています。<br>
+        デザインを通じて人々と中長期的な接点を持ちその人の体験や行動を変えることで、より便利で過ごしやすい世界を実現します。
+      </p>
+    </section>
     <vision-area />
   </div>
 
@@ -16,7 +22,6 @@
 
 <script>
 import HeaderArea from '@/components/HeaderArea'
-import HeroArea from '@/components/HeroArea'
 import FooterArea from '@/components/FooterArea'
 import VisionArea from '@/components/VisionArea'
 
@@ -24,7 +29,6 @@ export default {
   name: 'Index',
   components: {
     HeaderArea,
-    HeroArea,
     FooterArea,
     VisionArea
   }
@@ -62,4 +66,18 @@ export default {
   @media (max-width: 768px)
     padding-top 0
 
+.message
+  width 100%
+  padding 80px 0
+  background-size cover
+
+  @media (max-width: 768px)
+    padding 60px 0
+
+  &__text
+    line-height 2.0
+    font-size 20px
+
+    @media (max-width: 768px)
+      font-size 16px
 </style>
