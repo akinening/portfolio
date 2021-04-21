@@ -4,7 +4,7 @@
       <img class="logo" src="@/assets/image/logo.png" alt="akinen">
     </router-link>
     <nav class="tabs">
-      <router-link to="/works" class="tab">WORKS</router-link>
+      <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/media" class="tab">MEDIA</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
       <router-link to="/skills" class="tab">SKILLS</router-link>

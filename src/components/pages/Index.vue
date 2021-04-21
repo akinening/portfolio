@@ -1,37 +1,27 @@
 <template>
 <div class="index">
   <header-area />
-
   <div class="c-top-margin c-page-title">
     <h1 class="title">Hi, I'm Akinen. 👋</h1>
     <p class="sub-title">― A Digital Product Designer.</p>
+    <router-link to="/about" class="top-btn">私について</router-link>
   </div>
-  <section class="message c-centering">
-    <p class="message__text">
-      はじめまして！ あきねんと申します。<br>
-      Webを通じてリアルな「日常」をデザインするため、日々プロダクトと向き合っています。<br>
-      デザインを通じて人々と中長期的な接点を持ちその人の体験や行動を変えることで、より便利で過ごしやすい世界を実現します。
-    </p>
-  </section>
-  <div class="heroes c-centering">
-    <vision-area />
-  </div>
-
+  <works-area />
   <footer-area />
 </div>
 </template>
 
 <script>
 import HeaderArea from '@/components/HeaderArea'
+import WorksArea from '@/components/WorksArea'
 import FooterArea from '@/components/FooterArea'
-import VisionArea from '@/components/VisionArea'
 
 export default {
   name: 'Index',
   components: {
     HeaderArea,
-    FooterArea,
-    VisionArea
+    WorksArea,
+    FooterArea
   }
 }
 </script>
@@ -60,24 +50,20 @@ export default {
     margin-top 16px
     width 960px
 
-.heroes
-  margin-bottom 40px
-  padding-bottom 60px
+.top-btn
+  display block
+  margin 40px 0 60px
+  padding 16px 60px
+  width fit-content
+  border 1px solid rgb(36, 40, 42)
+  border-radius 4px
+  font-size 16px
+  font-weight 700
+  color rgb(36, 40, 42)
+
+  &:hover
+    opacity 0.6
 
   @media (max-width: 768px)
-    padding-top 0
-
-.message
-  padding 80px 0
-  background-size cover
-
-  @media (max-width: 768px)
-    padding 60px 0
-
-  &__text
-    line-height 2.0
-    font-size 20px
-
-    @media (max-width: 768px)
-      font-size 16px
+    display none
 </style>

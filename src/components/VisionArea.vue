@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="c-title">Vision / Philosophy</h2>
+    <!-- <h2 class="c-title">Vision / Philosophy</h2> -->
     <div class="visionaly">
       <div class="vision">
         <h3 class="vision__title">Service Design</h3>

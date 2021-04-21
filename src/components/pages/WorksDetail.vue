@@ -2,7 +2,7 @@
 <div>
   <header-area />
   <div class="top-margin">
-    <router-link to="/works">
+    <router-link to="/">
       <img class="back" src="@/assets/arrow_back.svg" alt="back button">
     </router-link>
     <h1 class="c-page-title">{{ $route.params.id }}</h1>
