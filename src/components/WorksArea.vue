@@ -4,7 +4,7 @@
       <h2 class="c-title">最近の取り組み</h2>
       <ul class="cards">
         <li class="card card--top mb-30">
-          <a :href="top.url" target="_blank" rel="noopener noreferrer">
+          <router-link to="/works/Stockr">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ top.title }}</h3>
@@ -12,7 +12,7 @@
               <p class="detail__text">{{ top.description }}</p>
               <div class="top-btn">事例を見る</div>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
     </section>
