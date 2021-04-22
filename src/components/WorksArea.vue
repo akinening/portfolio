@@ -21,14 +21,14 @@
       <h2 class="c-title">プロジェクト</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
-          <a :href="project.url">
+          <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ project.title }}</h3>
               <p class="detail__text">{{ project.date }}</p>
               <p class="detail__text">{{ project.description }}</p>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
     </section>
@@ -67,28 +67,28 @@ export default {
         {
           title: 'Build It 公式サイト - リードデザイン',
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。',
-          url: 'https://inside.bldt.jp/entry/2020/08/04/080823',
+          url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt.png'),
           date: '2020-5 - 2020-6'
         },
         {
           title: 'Core - UIリニューアル',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
-          url: 'https://akinen.com/#/works/Core',
+          url: '/works/Core',
           image_url: require('@/assets/image/core.png'),
           date: '2019-11 - 2020-3'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。そのほか、ユニットテスト(Jest)やA/Bテストなど。',
-          url: 'https://akinen.com/#/works/Lobi',
+          url: '/works/Lobi',
           image_url: require('@/assets/image/lobi.png'),
           date: '2019-1 - 2019-8'
         },
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
           description: '主に複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
-          url: 'https://akinen.com/#/works/Lobi%20Tournament',
+          url: '/works/Lobi%20Tournament',
           image_url: require('@/assets/image/lobi-tournament.png'),
           date: '2018-4 - 2018-12'
         }

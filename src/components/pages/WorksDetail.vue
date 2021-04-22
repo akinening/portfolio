@@ -9,6 +9,7 @@
   </div>
   <article class="skills c-centering">
     <stockr v-if="$route.params.id === 'Stockr'" />
+    <build-it v-if="$route.params.id === 'Build It'" />
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
@@ -21,6 +22,7 @@
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
 import Stockr from '@/components/articles/Stockr'
+import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
@@ -31,6 +33,7 @@ export default {
     HeaderArea,
     FooterArea,
     Stockr,
+    BuildIt,
     Core,
     Lobi,
     LobiTournament
