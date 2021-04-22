@@ -54,10 +54,6 @@ export default {
     return {
       notes: [
         {
-          url: 'https://note.com/012/n/ne82251f29c00',
-          image_url: require('@/assets/image/note1.png')
-        },
-        {
           url: 'https://note.com/012/n/n94a5fb13ab60',
           image_url: require('@/assets/image/note2.png')
         },
