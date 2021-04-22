@@ -8,6 +8,7 @@
     <h1 class="c-page-title">{{ $route.params.id }}</h1>
   </div>
   <article class="skills c-centering">
+    <stockr v-if="$route.params.id === 'Stockr'" />
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
@@ -19,6 +20,7 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
+import Stockr from '@/components/articles/Stockr'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
@@ -28,6 +30,7 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
+    Stockr,
     Core,
     Lobi,
     LobiTournament

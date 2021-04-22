@@ -59,7 +59,7 @@ export default {
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザイン全般を担当',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
-        url: 'https://inside.bldt.jp/entry/2020/11/26/104143',
+        url: 'https://akinen.com/#/works/Stockr',
         image_url: require('@/assets/image/stockr.png'),
         date: '2020-6 - 現在'
       },
