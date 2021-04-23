@@ -13,6 +13,7 @@
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
+    <book v-if="$route.params.id === 'Book'" />
   </article>
   <footer-area />
 </div>
@@ -26,6 +27,7 @@ import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
+import Book from '@/components/articles/Book'
 
 export default {
   name: 'WorksDetail',
@@ -36,7 +38,8 @@ export default {
     BuildIt,
     Core,
     Lobi,
-    LobiTournament
+    LobiTournament,
+    Book
   }
 }
 </script>

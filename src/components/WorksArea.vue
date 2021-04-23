@@ -37,7 +37,7 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" target="_blank" rel="noopener noreferrer">
+          <a :href="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ activity.title }}</h3>
@@ -96,8 +96,8 @@ export default {
       activities: [
         {
           title: '技術書を執筆＆頒布',
-          description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。',
-          url: 'https://booth.pm/ja/items/2470035',
+          description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。技術書展11に出展予定。',
+          url: 'https://akinen.com/#/works/Book',
           image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021-2'
         },
