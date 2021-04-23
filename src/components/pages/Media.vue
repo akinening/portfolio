@@ -123,7 +123,7 @@ export default {
       opacity 0.9
 
     .photo
-      filter blur(1px) brightness(75%)
+      filter blur(1px) brightness(80%)
 
   @media (max-width: 768px)
     width 100%
