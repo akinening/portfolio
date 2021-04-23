@@ -124,7 +124,7 @@ export default {
     left 0
     width 8px
     height 100%
-    background-color #f0f3f7
+    background-color cyan-1
     border-radius 4px
 
   &__title

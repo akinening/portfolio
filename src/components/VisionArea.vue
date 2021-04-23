@@ -48,7 +48,7 @@ export default {
   width 100%
   min-height 108px
   padding 20px
-  background-color white
+  background-color cyan-1
   border-radius 8px
   box-sizing border-box
 

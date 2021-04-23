@@ -30,7 +30,6 @@ body {
 }
 
 ::selection {
-  color: white;
   background-color: #80d8d0;
 }
 
