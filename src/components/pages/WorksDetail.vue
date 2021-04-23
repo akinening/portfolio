@@ -14,6 +14,7 @@
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
     <book v-if="$route.params.id === 'Book'" />
+    <spott v-if="$route.params.id === 'Spott'" />
   </article>
   <footer-area />
 </div>
@@ -28,6 +29,7 @@ import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
 import Book from '@/components/articles/Book'
+import Spott from '@/components/articles/Spott'
 
 export default {
   name: 'WorksDetail',
@@ -39,7 +41,8 @@ export default {
     Core,
     Lobi,
     LobiTournament,
-    Book
+    Book,
+    Spott
   }
 }
 </script>

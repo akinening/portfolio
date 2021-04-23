@@ -4,7 +4,7 @@
       <h2 class="c-title">最近の取り組み</h2>
       <ul class="cards">
         <li class="card card--top mb-30">
-          <router-link to="/works/Stockr">
+          <router-link :to="top.url">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ top.title }}</h3>
@@ -37,14 +37,14 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url">
+          <router-link :to="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <h3 class="detail__title">{{ activity.title }}</h3>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
     </section>
@@ -59,7 +59,7 @@ export default {
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザイン全般を担当',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
-        url: 'https://akinen.com/#/works/Stockr',
+        url: '/works/Stockr',
         image_url: require('@/assets/image/stockr.png'),
         date: '2020-6 - 現在'
       },
@@ -97,14 +97,14 @@ export default {
         {
           title: '技術書を執筆＆頒布',
           description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。技術書展11に出展予定。',
-          url: 'https://akinen.com/#/works/Book',
+          url: '/works/Book',
           image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021-2'
         },
         {
           title: 'Chrome拡張機能を個人開発',
           description: '「Spott」というChrome拡張機能をつくり、公開しました。日々のデザイン業務で便利な「おすすめスポット」をまとめています。レスポンシブ未対応。',
-          url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
+          url: '/works/Spott',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
         }

@@ -84,10 +84,6 @@ export default {
         {
           url: 'https://speakerdeck.com/akinen/examples-of-ui-prototyping-practices-for-new-businesses',
           image_url: 'https://files.speakerdeck.com/presentations/6d417c914c5049b39be80ed54c19f2f8/slide_0.jpg'
-        },
-        {
-          url: 'https://speakerdeck.com/akinen/created-a-chrome-extension-in-vue-dot-js',
-          image_url: 'https://files.speakerdeck.com/presentations/991889f3485a4b039c6f2614ff82f7d3/slide_0.jpg'
         }
       ]
     }
