@@ -63,8 +63,7 @@ export default {
     padding 20px
 
 .message
-  padding 20px 0 30px 20px
-  background-size cover
+  padding 20px 0 30px
 
   &__text
     line-height 2.0
