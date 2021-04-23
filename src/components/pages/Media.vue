@@ -109,21 +109,22 @@ export default {
     opacity 0
     content ''
     background url('../../assets/open_in_new.svg') no-repeat center center / cover
+    filter drop-shadow(0 0 1px rgba(0,0,0,0.2))
     object-fit cover
     position absolute
-    top calc(50% - 16px)
-    left calc(50% - 16px)
-    width 32px
-    height 32px
+    top calc(50% - 24px)
+    left calc(50% - 24px)
+    width 48px
+    height 48px
     z-index 1
-    transition all 0.25s
+    transition all 0.22s
 
   &:hover
     &:before
-      opacity 0.9
+      opacity 0.95
 
     .photo
-      filter blur(1px) brightness(80%)
+      filter blur(1px) brightness(90%)
 
   @media (max-width: 768px)
     width 100%
