@@ -1,10 +1,14 @@
 <template>
   <section class="skill mt-80 mb-30">
     <img class="image" :src="stockr_ogp">
-
     <p class="description">
-      Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。<br>
-      ディレクター1名、エンジニア3名、デザイナー1名のチームのなかで、デザイナーとして自社事業の立ち上げからリリース、グロースの段階まで携わっています。
+      メインのデザイナーとして自社事業の立ち上げからリリース、グロースの段階まで携わっています。<br>
+      チーム構成：ディレクター1名、エンジニア3名、デザイナー1名
+    </p>
+
+    <h2 class="title">サービス概要</h2>
+    <p class="description">
+      Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。
       <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
     </p>
 
