@@ -67,6 +67,7 @@ export default {
 
   &__text
     line-height 2.0
+    letter-spacing 0.04rem
     font-size 20px
 
     @media (max-width: 768px)
