@@ -58,10 +58,6 @@ export default {
           image_url: require('@/assets/image/note2.png')
         },
         {
-          url: 'https://note.com/012/n/n6e7e5680013c',
-          image_url: require('@/assets/image/note3.png')
-        },
-        {
           url: 'https://note.com/012',
           image_url: require('@/assets/image/note4.png')
         }
@@ -103,8 +99,31 @@ export default {
   justify-content space-between
 
 .card
+  position relative
   width calc(50% - 16px)
   min-width 320px
+  border-radius 8px
+  overflow hidden
+
+  &:before
+    opacity 0
+    content ''
+    background url('../../assets/open_in_new.svg') no-repeat center center / cover
+    object-fit cover
+    position absolute
+    top calc(50% - 16px)
+    left calc(50% - 16px)
+    width 32px
+    height 32px
+    z-index 1
+    transition all 0.25s
+
+  &:hover
+    &:before
+      opacity 0.9
+
+    .photo
+      filter blur(1px) brightness(75%)
 
   @media (max-width: 768px)
     width 100%
@@ -114,9 +133,10 @@ export default {
   height 24vw
   background-color #f0f3f7
   background-size cover
-  border-radius 8px
   background-position 50%
+  border-radius 8px
   object-fit cover
+  transition all 0.25s
 
   @media (max-width: 768px)
     height 50vw
