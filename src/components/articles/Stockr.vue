@@ -9,6 +9,7 @@
     <h2 class="title">サービス概要</h2>
     <p class="description">
       Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。
+      時事ドットコムやアスキーなどに掲載され、順調にファンを増やしています。
       <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
     </p>
 
