@@ -22,9 +22,9 @@ export default {
 .header
   z-index 100
   position fixed
-  top 32px
-  left 32px
-  width calc(100% - 64px)
+  top 16px
+  left 16px
+  width calc(100% - 32px)
   height 72px
   display flex
   background-color rgba(255, 255, 255, 0.6)
