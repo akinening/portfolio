@@ -57,7 +57,7 @@ export default {
   data () {
     return {
       top: {
-        title: 'Stockr - 自社事業の立ち上げからグロースまでデザイン全般を担当',
+        title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
         url: '/works/Stockr',
         image_url: require('@/assets/image/stockr.png'),
