@@ -1,6 +1,6 @@
 <template>
   <section>
-    <!-- <h2 class="c-title">Vision / Philosophy</h2> -->
+    <h2 class="c-title mt-80">Vision / Philosophy</h2>
     <div class="visionaly">
       <div class="vision">
         <h3 class="vision__title">Service Design</h3>
@@ -48,7 +48,7 @@ export default {
   width 100%
   min-height 108px
   padding 20px
-  background-color cyan-1
+  background-color white
   border-radius 6px
   box-sizing border-box
 

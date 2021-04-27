@@ -12,8 +12,11 @@
           より便利で過ごしやすい世界を実現します。
         </p>
       </div>
-      <vision-area />
+      <a href="https://note.com/012/n/ne82251f29c00" target="_blank" rel="noopener noreferrer">
+        <img class="note1" :src="note1" alt="note">
+      </a>
     </section>
+    <vision-area class="c-centering" />
     <exp-area class="c-centering" />
   </article>
 
@@ -31,7 +34,7 @@ export default {
   name: 'About',
   data () {
     return {
-
+      note1: require('@/assets/image/note1.jpg')
     }
   },
   components: {
@@ -63,7 +66,7 @@ export default {
     padding 20px
 
 .message
-  padding 20px 0 30px
+  padding 20px 0
 
   &__text
     line-height 2.0
@@ -72,4 +75,13 @@ export default {
 
     @media (max-width: 768px)
       font-size 16px
+
+.note1
+  display block
+  width 100%
+  border-radius 8px
+  transition opacity 0.2s
+
+  &:hover
+    opacity 0.6
 </style>
