@@ -21,10 +21,9 @@
     <h2 class="title">デザインシステムの構築</h2>
     <p class="description">
       FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。ただしログイン周りや通知の権限要求など、OSに依存する部分は別で対応しています。<br>
-      色については、当初は暖色系を使っていましたが、ビジネスパーソン向けのサービスであることや、普段使いするアプリであることから基本色は寒色系で、かつ優しい印象のあるシアンに落ち着きました。フォント等で使用するBlackも、若干青みを持たせています。<br>
       <img class="image image--2col" :src="stockr_color" loading="lazy">
       <img class="image image--2col" :src="stockr_component" loading="lazy">
-      フロントエンドエンジニアとしての知識を活かし、共通化できる要素はコンポーネント化してからエンジニアに共有しています。
+      フロントエンドエンジニアとしての知識を活かし、共通化できる要素はコンポーネント化してからエンジニアに共有するなど、職種間での意思疎通がスムーズになるよう取り組んでいます。
     </p>
 
     <h2 class="title">定性・定量調査と、それに基づく改善</h2>
