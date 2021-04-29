@@ -26,7 +26,8 @@
       <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
       <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
       現在執筆中です。
-      定性・定量調査と、それに基づく改善を行いました。
+      定性・定量調査と、それに基づく改善を行いました。<br>
+      マーケ施策については、広報やマーケターの方と相談しながらデザインに取り組みました。
     </p>
 
     <h2 class="title">マネタイズ</h2>
