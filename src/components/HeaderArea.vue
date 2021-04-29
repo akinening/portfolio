@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <router-link to="/">
-      <img class="logo" src="@/assets/image/logo.png" alt="akinen">
+      <img class="logo" src="@/assets/image/logo.png" alt="Akinen">
     </router-link>
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>

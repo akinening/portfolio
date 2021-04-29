@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="ogp">
+    <img class="image" :src="ogp" alt="Lobi Tournament">
 
     <p class="description">
       フロントエンドの開発を担当しました。 チームは数十名規模。エンジニアはフロントエンド３名、バックエンド３名

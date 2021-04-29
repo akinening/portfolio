@@ -13,7 +13,7 @@
         </p>
       </div>
       <a href="https://note.com/012/n/ne82251f29c00" target="_blank" rel="noopener noreferrer">
-        <img class="note1" :src="note1" alt="note">
+        <img class="note1" :src="note1" alt="noteで自己紹介を読む">
       </a>
     </section>
     <vision-area class="c-centering" />

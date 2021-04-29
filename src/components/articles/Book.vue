@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="book_ogp">
+    <img class="image" :src="book_ogp" alt="現場から見る デザインとエンジニアリングの間">
 
     <p class="description">
       現在、技術書展に向けて準備中です。

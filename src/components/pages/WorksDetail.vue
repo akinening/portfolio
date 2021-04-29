@@ -3,7 +3,7 @@
   <header-area />
   <div class="top-margin">
     <router-link to="/">
-      <img class="back" src="@/assets/arrow_back.svg" alt="back button">
+      <img class="back" src="@/assets/arrow_back.svg" alt="前の画面に戻る">
     </router-link>
     <h1 class="c-page-title">{{ $route.params.id }}</h1>
   </div>

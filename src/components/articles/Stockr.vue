@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="stockr_ogp">
+    <img class="image" :src="stockr_ogp" alt="ストッカー">
     <p class="description">
       メインのデザイナーとして自社事業のコンセプト立案、プロトタイピング、リリース、検証・グロースまで一貫して携わっています。<br>
       チーム構成：ディレクター1名、エンジニア3名、デザイナー1名
@@ -21,8 +21,8 @@
     <h2 class="title">デザインシステムの構築</h2>
     <p class="description">
       FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。ただしログイン周りや通知の権限要求など、OSに依存する部分は別で対応しています。<br>
-      <img class="image image--2col" :src="stockr_color" loading="lazy">
-      <img class="image image--2col" :src="stockr_component" loading="lazy">
+      <img class="image image--2col" :src="stockr_color" alt="カラー" loading="lazy">
+      <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">
       フロントエンドエンジニアとしての知識を活かし、共通化できる要素はコンポーネント化してからエンジニアに共有するなど、職種間での意思疎通がスムーズになるよう取り組んでいます。
     </p>
 
