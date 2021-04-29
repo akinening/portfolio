@@ -50,9 +50,9 @@
 
     <h2 class="c-title mt-80">対応不可</h2>
     <section class="skill mb-30">
-      <h2 class="title">単発の副業案件</h2>
+      <h2 class="title">副業案件</h2>
       <ul class="description">
-        <li>Web LPやグラフィックの制作依頼は現在、対応不可です。</li>
+        <li>現在、副業案件のご依頼は承っておりません。</li>
         <li>例外として、本業での案件やお知り合いからの依頼、同人のデザイン(趣味)は承っております。</li>
       </ul>
     </section>

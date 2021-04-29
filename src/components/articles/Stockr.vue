@@ -12,7 +12,10 @@
       時事ドットコムやアスキーなどに掲載され、順調にファンを増やしています。
       <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
     </p>
+
+    <h2 class="title">0→1のデザイン</h2>
     <p class="description">
+      <img class="image" :src="stockr_process" alt="作業フロー">
       ０→１のデザインでは計画立案や体験設計、仮説検証のためのプロトタイプ作成などに取り組みました。<br>
       詳しくはこちらをご覧ください。
       <a href="https://inside.bldt.jp/entry/2020/11/26/104143" target="_blank" class="top-btn">取り組み事例</a>
@@ -40,7 +43,8 @@ export default {
     return {
       stockr_color: require('@/assets/image/stockr-color.png'),
       stockr_component: require('@/assets/image/stockr-component.png'),
-      stockr_ogp: require('@/assets/image/stockr.png')
+      stockr_ogp: require('@/assets/image/stockr.png'),
+      stockr_process: require('@/assets/image/stockr-process.png')
     }
   }
 }
