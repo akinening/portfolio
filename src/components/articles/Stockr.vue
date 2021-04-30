@@ -31,7 +31,7 @@
 
     <h2 class="title">デザインガイドライン</h2>
     <p class="description">
-      現在Stockrのデザインはほぼ自分１人で行っているため、デザインが属人的になっています。そこで少しずつデザインガイドラインを構築したり、デザイン意図を明文化しています。
+      現在Stockrのデザインはほぼ自分１人で行っているため、デザインが属人的になっています。そこで少しずつデザインガイドラインを構築したり、デザイン意図を明文化しています。<br>
       FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。<br>
       <img class="image image--2col" :src="stockr_color" alt="カラー" loading="lazy">
       <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">

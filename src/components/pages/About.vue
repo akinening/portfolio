@@ -79,8 +79,14 @@ export default {
 .note1
   display block
   width 100%
+  height 140px
+  object-fit cover
+  object-position 0 50%
   border-radius 8px
   transition opacity 0.2s
+
+  @media (max-width: 768px)
+    height 96px
 
   &:hover
     opacity 0.6
