@@ -111,7 +111,7 @@ export default {
         {
           title: 'STARLIGHT LP制作(WIP)',
           description: 'サークル「STARLIGHT」のLPを制作中です。',
-          url: 'https://bit.ly/star_xyz',
+          url: 'https://starlight.studio.site',
           image_url: require('@/assets/image/starlight.jpg'),
           date: '2021-4'
         }
