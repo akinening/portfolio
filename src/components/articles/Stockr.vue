@@ -9,7 +9,6 @@
     <h2 class="title">サービス概要</h2>
     <p class="description">
       Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。
-      時事ドットコムやアスキーなどに掲載され、順調にファンを増やしています。
       <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
     </p>
 
@@ -26,21 +25,17 @@
       <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
       <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
       現在執筆中です。
-      定性・定量調査と、それに基づく改善を行いました。<br>
+      主に基本機能の改善、プレミアム機能、マーケ施策の３つのデザインを行いました。<br>
       マーケ施策については、広報やマーケターの方と相談しながらデザインに取り組みました。
     </p>
 
-    <h2 class="title">マネタイズ</h2>
+    <h2 class="title">デザインガイドライン</h2>
     <p class="description">
-      現在執筆中です。
-    </p>
-
-    <h2 class="title">その他</h2>
-    <p class="description">
-      FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。ただしログイン周りや通知の権限要求など、OSに依存する部分は別で対応しています。<br>
+      現在Stockrのデザインはほぼ自分１人で行っているため、デザインが属人的になっています。そこで少しずつデザインガイドラインを構築したり、デザイン意図を明文化しています。
+      FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。<br>
       <img class="image image--2col" :src="stockr_color" alt="カラー" loading="lazy">
       <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">
-      フロントエンドエンジニアとしての知識を活かし、共通化できる要素はコンポーネント化してからエンジニアに共有するなど、職種間での意思疎通がスムーズになるよう取り組んでいます。
+      フロントエンドエンジニアとしての知識を活かし、職種間での意思疎通がスムーズになるよう取り組んでいます。
     </p>
   </section>
 </template>
