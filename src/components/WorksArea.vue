@@ -109,8 +109,8 @@ export default {
           date: '2020-9'
         },
         {
-          title: 'STARLIGHT LP制作(WIP)',
-          description: 'サークル「STARLIGHT」のLPを制作中です。',
+          title: 'STARLIGHT',
+          description: 'サークル「STARLIGHT」のLPをSTUDIOで制作中です。',
           url: 'https://starlight.studio.site',
           image_url: require('@/assets/image/starlight.jpg'),
           date: '2021-4'
