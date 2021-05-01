@@ -5,31 +5,23 @@
   <article class="skills c-centering">
     <h2 class="c-title mt-80">デザイン</h2>
     <section class="skill mb-30">
-      <h2 class="title">Webやアプリ(iOS, Android)のUI,UXデザイン</h2>
+      <h2 class="title">サービスの体験設計、リサーチ</h2>
       <ul class="description">
-        <li>toBの業務管理システム、toCのアプリケーションやWebサービス、Web LPの経験があります。ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
         <li>新規立ち上げ、運用での改善サイクルの両方の経験があります。</li>
-        <li>LPデザインについては、グラフィック重視のデザインよりは機能的なデザインを得意としています。SEO対策やASO対策まで意識しています。</li>
+        <li>定量評価：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
+        <li>定性評価：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
       </ul>
     </section>
 
     <section class="skill mb-30">
-      <h2 class="title">デザインシステム、スタイルガイドラインの策定</h2>
+      <h2 class="title">WebやアプリのUIデザイン</h2>
       <ul class="description">
-        <li>UIの作成とともに、必要に応じてスタイルガイドラインを作成します。</li>
-        <li>開発過程で生まれた成果物をアセット化していくことで、デザインを体系化し作業を効率化します。</li>
+        <li>toBの業務管理システム、toCのアプリケーションやWebサービス、Web LPの経験があります。</li>
+        <li>ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
+        <li>開発過程で生まれた成果物をアセット化していくことでデザインガイドラインを作成し、開発を効率化します。</li>
       </ul>
     </section>
 
-    <section class="skill mb-30">
-      <h2 class="title">定性・定量調査</h2>
-      <ul class="description">
-        <li>アナリティクスや実際のデータから、ペルソナ像をアップデートしたり、施策に落とし込みます。またA/Bテストを用いてデザインや施策の効果を測定した経験があります。</li>
-        <li>ユーザーインタビューをデザイナー主導で実施。フィードバックをもとに行動の背景やニーズを把握し、プロダクトの改善に活かします。</li>
-      </ul>
-    </section>
-
-    <h2 class="c-title mt-80">その他</h2>
     <section class="skill mb-30">
       <h2 class="title">エンジニアリング</h2>
       <ul class="description">
@@ -38,6 +30,7 @@
       </ul>
     </section>
 
+    <h2 class="c-title mt-80">その他</h2>
     <section class="skill mb-30">
       <h2 class="title">チームとして</h2>
       <ul class="description">
