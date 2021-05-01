@@ -3,20 +3,20 @@
   <header-area />
   <h1 class="c-top-margin c-page-title">Skills</h1>
   <article class="skills c-centering">
-    <h2 class="c-title mt-80">デザイン</h2>
+    <h2 class="c-title mt-80">開発・デザイン</h2>
     <section class="skill mb-30">
-      <h2 class="title">サービスの体験設計、リサーチ</h2>
+      <h2 class="title">UXデザイン</h2>
       <ul class="description">
-        <li>新規立ち上げ、運用での改善サイクルの両方の経験があります。</li>
+        <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。</li>
         <li>定量評価：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
         <li>定性評価：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
       </ul>
     </section>
 
     <section class="skill mb-30">
-      <h2 class="title">WebやアプリのUIデザイン</h2>
+      <h2 class="title">UIデザイン</h2>
       <ul class="description">
-        <li>toBの業務管理システム、toCのアプリケーションやWebサービス、Web LPの経験があります。</li>
+        <li>toBの業務管理システム、toCのネイティブアプリやWebサービスの経験があります。</li>
         <li>ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
         <li>開発過程で生まれた成果物をアセット化していくことでデザインガイドラインを作成し、開発を効率化します。</li>
       </ul>
