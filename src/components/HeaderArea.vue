@@ -5,9 +5,9 @@
     </router-link>
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
-      <router-link to="/media" class="tab">MEDIA</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
       <router-link to="/skills" class="tab">SKILLS</router-link>
+      <router-link to="/media" class="tab">MEDIA</router-link>
     </nav>
   </header>
 </template>
