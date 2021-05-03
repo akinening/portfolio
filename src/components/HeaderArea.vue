@@ -1,7 +1,8 @@
 <template>
   <header class="header">
     <router-link to="/">
-      <img class="logo" src="@/assets/image/logo.png" alt="Akinen">
+      <img class="logo logo--pc" src="@/assets/image/logo_pc.png" alt="Akinen">
+      <img class="logo logo--sp" src="@/assets/image/logo_sp.png" alt="Akinen">
     </router-link>
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
@@ -44,13 +45,20 @@ export default {
 
 .logo
   margin-left 12px
-  width 72px
   height 72px
 
-  @media (max-width: 768px)
-    margin 12px -8px 0 12px
-    width 48px
-    height 48px
+  &--pc
+    @media (max-width: 768px)
+      display none
+
+  &--sp
+    display none
+
+    @media (max-width: 768px)
+      display block
+      margin 12px -8px 0 12px
+      width 52px
+      height 52px
 
 .tabs
   position absolute
