@@ -3,18 +3,14 @@
   <header-area />
   <h1 class="c-top-margin c-page-title">About</h1>
   <article class="contents" itemscope="" itemtype="http://schema.org/Person">
-    <section class="messages c-centering">
-      <div class="message">
-        <p class="message__text">
-          はじめまして！ あきねんと申します。<br>
-          Webを通じてリアルな「日常」をデザインするため、日々プロダクトと向き合っています。<br>
-          デザインを通じて人々と中長期的な接点を持ちその人の体験や行動を変えることで、<br>
-          より便利で過ごしやすい世界を実現します。
-        </p>
+    <section class="profiles c-centering">
+      <img class="akinen" :src="note1" alt="プロフィール画像">
+      <div class="profile">
+        <h2 class="profile__name">AKINORI OZAWA</h2>
+        <p class="profile__discription">PRODUCT DESIGNER</p>
+        <p class="profile__discription">長野県諏訪市出身。面白法人カヤックにて、ゲームコミュニティ事業のフロントエンド開発を行う。現在は株式会社ビルディットにて、経験学習支援アプリ「Stockr」のメインデザイナーを担当。</p>
+        <a href="https://note.com/012/n/ne82251f29c00" class="profile__link" target="_blank" rel="noopener noreferrer">noteで自己紹介を読む</a>
       </div>
-      <a href="https://note.com/012/n/ne82251f29c00" target="_blank" rel="noopener noreferrer">
-        <img class="note1" :src="note1" alt="noteで自己紹介を読む">
-      </a>
     </section>
     <vision-area class="c-centering" />
     <exp-area class="c-centering" />
@@ -34,7 +30,7 @@ export default {
   name: 'About',
   data () {
     return {
-      note1: require('@/assets/image/note1.jpg')
+      note1: require('@/assets/image/logo_sp.png')
     }
   },
   components: {
@@ -56,38 +52,60 @@ export default {
   @media (max-width: 768px)
     margin-top 60px
 
-.messages
+.profiles
+  position relative
   padding 20px
+  height 280px
   border-radius 8px
   background-color white
   box-sizing border-box
 
   @media (max-width: 768px)
+    height auto
     padding 20px
 
-.message
-  padding 20px 0
-
-  &__text
-    line-height 2.0
-    letter-spacing 0.04rem
-    font-size 20px
-
-    @media (max-width: 768px)
-      font-size 16px
-
-.note1
-  display block
-  width 100%
-  height 140px
-  object-fit cover
-  object-position 0 50%
+.akinen
+  position absolute
+  top 20px
+  left 20px
+  width 240px
+  height 240px
   border-radius 8px
-  transition opacity 0.2s
+
+.profile
+  position relative
+  height 200px
+  margin 20px 20px 20px 260px
 
   @media (max-width: 768px)
-    height 96px
+    height auto
+    margin 240px 20px 20px
 
-  &:hover
-    opacity 0.6
+  &__name
+    font-size 32px
+    font-weight bold
+    line-height 2rem
+    letter-spacing 0.2rem
+
+  &__discription
+    padding-top 8px
+    line-height 2.0
+    letter-spacing 0.04rem
+
+  &__link
+    position absolute
+    bottom 0
+    left 0
+    display block
+    margin-top 26px
+    padding 8px 32px
+    width fit-content
+    border 1px solid rgb(36, 40, 42)
+    border-radius 4px
+    font-size 13px
+    font-weight 700
+    color rgb(36, 40, 42)
+
+    @media screen and (max-width: 768px)
+      position relative
 </style>

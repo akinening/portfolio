@@ -89,7 +89,7 @@ export default {
 
 .lab
   position relative
-  padding 20px 20px 20px 28px
+  padding 20px 20px 20px 26px
   margin-top 20px
 
   &:before
@@ -98,9 +98,9 @@ export default {
     position absolute
     top 0
     left 0
-    width 8px
+    width 6px
     height 100%
-    background-color #f3f0ee
+    background-color #eee
     border-radius 4px
 
   &__title
