@@ -65,21 +65,21 @@ export default {
       },
       projects: [
         {
-          title: 'Build It 公式サイト - リードデザイン',
+          title: '株式会社BuildIt 公式サイト - リードデザイン',
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。',
           url: '/works/Build%20It',
-          image_url: require('@/assets/image/bldt.png'),
+          image_url: require('@/assets/image/bldt.jpg'),
           date: '2020-5 - 2020-6'
         },
         {
-          title: 'Core - UIリニューアル',
+          title: '人財育成支援SaaS「Core」 - UIリニューアル',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
-          image_url: require('@/assets/image/core.png'),
+          image_url: require('@/assets/image/core.jpg'),
           date: '2019-11 - 2020-3'
         },
         {
-          title: 'Lobi - 日本最大級のゲームコミュニティ',
+          title: 'Lobi - 日本最大級のゲームコミュニティ事業',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。そのほか、ユニットテスト(Jest)やA/Bテストなど。',
           url: '/works/Lobi',
           image_url: require('@/assets/image/lobi.png'),

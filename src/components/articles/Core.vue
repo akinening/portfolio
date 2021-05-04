@@ -64,7 +64,7 @@ export default {
     return {
       core_dashboard: require('@/assets/image/core_dashboard.png'),
       core_home: require('@/assets/image/core_home.png'),
-      core_ogp: require('@/assets/image/core.png')
+      core_ogp: require('@/assets/image/core.jpg')
     }
   }
 }
