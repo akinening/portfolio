@@ -23,20 +23,17 @@ export default {
 .header
   z-index 100
   position fixed
-  top 16px
-  left 16px
-  width calc(100% - 32px)
+  top 0
+  left 0
+  width 100%
   height 72px
+  padding 0 16px
+  box-sizing border-box
   display flex
-  background-color rgba(255, 255, 255, 0.6)
+  background-color rgba(white, 0.6)
   backdrop-filter blur(3px)
-  border-radius 8px
 
   @media (max-width: 768px)
-    top 0
-    left 0
-    width 100%
-    box-shadow none
     overflow scroll
     white-space nowrap
 
@@ -62,7 +59,7 @@ export default {
 
 .tabs
   position absolute
-  right 32px
+  right 48px
 
   @media (max-width: 768px)
     position relative
