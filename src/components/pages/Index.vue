@@ -1,7 +1,7 @@
 <template>
 <div class="index">
   <header-area />
-  <div class="hero">
+  <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <div class="hero__content">
       <h1 class="title">Hi, I'm Akinen.</h1>
       <p class="sub-title">― A Digital Product Designer.</p>
@@ -24,6 +24,11 @@ export default {
     HeaderArea,
     WorksArea,
     FooterArea
+  },
+  data () {
+    return {
+      bg_top: require('@/assets/image/bg_top.jpg')
+    }
   }
 }
 </script>
@@ -40,7 +45,7 @@ export default {
   font-weight bold
   line-height 1.0
   color white
-  background url('../../assets/image/bg_top.jpg') 50% 50% / cover no-repeat
+  background 50% 50% / cover no-repeat
 
   @media (max-width: 768px)
     height 232px
