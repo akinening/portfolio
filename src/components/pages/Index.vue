@@ -35,32 +35,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-.hero
-  width 100%
-  height 457px
-  margin-top 72px
-  padding-top 88px
-  box-sizing border-box
-  font-size 88px
-  font-weight bold
-  line-height 1.0
-  color white
-  background 50% 50% / cover no-repeat
-
-  @media (max-width: 768px)
-    height 232px
-    padding-top 64px
-    font-size 40px
-
-  &__content
-    margin 0 80px
-
-    @media (max-width: 768px)
-      margin 0 20px
-
-    @media (min-width: 1200px)
-      margin 0 auto
-      width 960px
 
 .title
   font-size 88px

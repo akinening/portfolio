@@ -1,8 +1,10 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-top-margin c-page-title">About</h1>
-  <article class="contents" itemscope="" itemtype="http://schema.org/Person">
+  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
+    <span class="hero__content">About</span>
+  </h1>
+  <article class="contents mt-minus" itemscope="" itemtype="http://schema.org/Person">
     <section class="profiles c-centering">
       <img class="akinen" :src="note1" alt="プロフィール画像">
       <div class="profile">
@@ -30,6 +32,7 @@ export default {
   name: 'About',
   data () {
     return {
+      bg_about: require('@/assets/image/bg_about.jpg'),
       note1: require('@/assets/image/logo_sp.png')
     }
   },
@@ -46,11 +49,7 @@ export default {
 @import "../../assets/css/common.styl"
 
 .contents
-  margin-top 80px
   margin-bottom 100px
-
-  @media (max-width: 768px)
-    margin-top 60px
 
 .profiles
   position relative

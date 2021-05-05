@@ -125,9 +125,6 @@ export default {
 .works
   margin-bottom 100px
 
-.mt-minus
-  margin-top -40px
-
 .cards
   display flex
   flex-wrap wrap
