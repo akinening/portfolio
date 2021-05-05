@@ -1,10 +1,12 @@
 <template>
 <div class="index">
   <header-area />
-  <div class="c-top-margin c-page-title">
-    <h1 class="title">Hi, I'm Akinen. 👋</h1>
-    <p class="sub-title">― A Digital Product Designer.</p>
-    <router-link to="/about" class="top-btn">私について</router-link>
+  <div class="hero">
+    <div class="hero__content">
+      <h1 class="title">Hi, I'm Akinen.</h1>
+      <p class="sub-title">― A Digital Product Designer.</p>
+      <router-link to="/about" class="top-btn">私について</router-link>
+    </div>
   </div>
   <works-area />
   <footer-area />
@@ -28,6 +30,33 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
+.hero
+  width 100%
+  height 457px
+  margin-top 72px
+  padding-top 88px
+  box-sizing border-box
+  font-size 88px
+  font-weight bold
+  line-height 1.0
+  color white
+  background url('../../assets/image/bg_top.jpg') 50% 50% / cover no-repeat
+
+  @media (max-width: 768px)
+    height 232px
+    padding-top 64px
+    font-size 40px
+
+  &__content
+    margin 0 80px
+
+    @media (max-width: 768px)
+      margin 0 20px
+
+    @media (min-width: 1200px)
+      margin 0 auto
+      width 960px
+
 .title
   font-size 88px
   font-weight bold
@@ -55,11 +84,11 @@ export default {
   margin 40px 0 60px
   padding 16px 60px
   width fit-content
-  border 1px solid rgb(36, 40, 42)
   border-radius 4px
   font-size 16px
   font-weight 700
   color rgb(36, 40, 42)
+  background-color white
 
   &:hover
     opacity 0.6

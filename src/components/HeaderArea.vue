@@ -30,8 +30,7 @@ export default {
   padding 0 16px
   box-sizing border-box
   display flex
-  background-color rgba(white, 0.6)
-  backdrop-filter blur(3px)
+  background-color #fafafa
 
   @media (max-width: 768px)
     overflow scroll

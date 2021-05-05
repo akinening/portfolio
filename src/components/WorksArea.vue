@@ -1,7 +1,6 @@
 <template>
   <article class="works c-centering" itemscope="" itemtype="http://schema.org/Person">
-    <section class="mt-80">
-      <h2 class="c-title">最近の取り組み</h2>
+    <section class="mt-minus">
       <ul class="cards">
         <li class="card card--top mb-30">
           <router-link :to="top.url">
@@ -123,9 +122,11 @@ export default {
 
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
-
 .works
   margin-bottom 100px
+
+.mt-minus
+  margin-top -40px
 
 .cards
   display flex
