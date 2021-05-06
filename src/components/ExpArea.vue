@@ -17,11 +17,6 @@
           <h3 class="lab__title">
             <span>教育・育成事業のDX推進。新規自社事業の立ち上げに参加</span>
           </h3>
-          <p class="c-description">
-            教育系SaaS「Core」のUIリニューアルにUI/UXデザイナーとして参加。<br>
-            新規自社事業「Stockr」では、プロトタイプ作成から公開、グロースに至るまで、デザインを担当しています。<br>
-            その他、士業の業務管理システム(ワイヤー作成、UIデザイン)など、複数の受託開発。
-          </p>
         </div>
       </li>
       <li class="card">
@@ -39,10 +34,6 @@
           <h3 class="lab__title">
             <span>ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</span>
           </h3>
-          <p class="c-description">
-            主要事業の１つである「Lobi」では、Nuxt.jsを用いてWebのリニューアルやリファクタリング、新規機能開発を行いました。<br>
-            「Lobi Tournament」では、同時接続1000人を超える、比較的大規模なサービスの開発経験が得られました。
-          </p>
         </div>
       </li>
       <li class="card">
