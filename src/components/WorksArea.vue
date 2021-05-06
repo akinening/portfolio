@@ -6,7 +6,7 @@
           <router-link :to="top.url">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
-              <h3 class="detail__title">{{ top.title }}</h3>
+              <p class="detail__title">{{ top.title }}</p>
               <p class="detail__text">{{ top.date }}</p>
               <p class="detail__text">{{ top.description }}</p>
               <div class="top-btn">事例を見る</div>
@@ -23,7 +23,7 @@
           <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
-              <h3 class="detail__title">{{ project.title }}</h3>
+              <p class="detail__title">{{ project.title }}</p>
               <p class="detail__text">{{ project.date }}</p>
               <p class="detail__text">{{ project.description }}</p>
             </div>
@@ -39,7 +39,7 @@
           <a :href="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
-              <h3 class="detail__title">{{ activity.title }}</h3>
+              <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
