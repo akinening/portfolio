@@ -1,10 +1,11 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-top-margin c-page-title">Media</h1>
+  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_media + ')' }">
+    <span class="hero__content">Media</span>
+  </h1>
   <article class="c-centering">
-    <section class="mt-80">
-      <h2 class="c-title">note</h2>
+    <section class="mt-minus">
       <ul class="cards">
         <li class="card mb-30" v-for="(note, num) in notes" :key="`note-${num}`">
           <a :href="note.url" target="_blank" rel="noopener noreferrer">
@@ -52,6 +53,7 @@ export default {
   },
   data () {
     return {
+      bg_media: require('@/assets/image/bg_media.jpg'),
       notes: [
         {
           url: 'https://note.com/012/n/n94a5fb13ab60',
