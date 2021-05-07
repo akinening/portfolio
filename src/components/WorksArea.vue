@@ -36,14 +36,14 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url">
+          <router-link :to="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
     </section>
@@ -96,14 +96,14 @@ export default {
         {
           title: '技術書を執筆＆頒布',
           description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。技術書展11に出展予定。',
-          url: '#/works/Book',
+          url: '/works/Book',
           image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021-2'
         },
         {
           title: 'Chrome拡張機能を個人開発',
           description: '「Spott」というChrome拡張機能をつくり、公開しました。日々のデザイン業務で便利な「おすすめスポット」をまとめています。レスポンシブ未対応。',
-          url: '#/works/Spott',
+          url: '/works/Spott',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
         }
