@@ -12,13 +12,9 @@
           UI/UXデザイナー
         </p>
         <span class="c-time">2019.11 - 2021.現在</span>
-
-        <div class="lab">
-          <h3 class="lab__title">
-            <span>教育・育成事業のDX推進。新規自社事業の立ち上げに参加</span>
-          </h3>
-        </div>
+        <p class="c-description">教育・育成事業のDX推進。新規自社事業の立ち上げに参加</p>
       </li>
+
       <li class="card">
         <h3 class="c-entry-title">
           <span>
@@ -29,13 +25,9 @@
           フロントエンドエンジニア
         </p>
         <span class="c-time">2018.04 - 2019.08</span>
-
-        <div class="lab">
-          <h3 class="lab__title">
-            <span>ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</span>
-          </h3>
-        </div>
+        <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</p>
       </li>
+
       <li class="card">
         <h3 class="c-entry-title">
           <span>
@@ -46,6 +38,7 @@
         <p class="c-description">VUI (Voice User Interface)に関心があり、「音声で操作できるブラウザ」や「Watsonを用いたVR上での対話UI」について研究を行いました。</p>
         <span class="c-time">- 2018</span>
       </li>
+
       <li class="card">
         <h3 class="c-entry-title">
           <span>
@@ -77,37 +70,6 @@ export default {
   padding 20px
   background-color white
   border-radius 8px
-
-.lab
-  position relative
-  padding 20px 20px 20px 26px
-  margin-top 20px
-
-  &:before
-    content ''
-    display block
-    position absolute
-    top 0
-    left 0
-    width 6px
-    height 100%
-    background-color #eee
-    border-radius 4px
-
-  &__title
-    z-index 2
-    position relative
-
-    & > span
-      display inline-block
-      font-size 20px
-      font-weight 500
-
-      & > a
-        color #45494B
-
-  &__date
-    color #909294
 
 .c-time
   position absolute
