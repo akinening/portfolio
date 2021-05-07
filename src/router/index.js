@@ -5,7 +5,6 @@ import WorksDetail from '@/components/pages/WorksDetail'
 import Media from '@/components/pages/Media'
 import About from '@/components/pages/About'
 import Skills from '@/components/pages/Skills'
-import Starlight from '@/components/pages/Starlight'
 
 Vue.use(Router)
 
@@ -15,8 +14,7 @@ export default new Router({
     { path: '/works/:id', component: WorksDetail },
     { path: '/media', name: 'Media', component: Media },
     { path: '/about', name: 'About', component: About },
-    { path: '/skills', name: 'Skills', component: Skills },
-    { path: '/starlight', name: 'Starlight', component: Starlight }
+    { path: '/skills', name: 'Skills', component: Skills }
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }

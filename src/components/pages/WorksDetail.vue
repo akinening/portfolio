@@ -7,7 +7,7 @@
     </router-link>
     <h1 class="c-page-title">{{ $route.params.id }}</h1>
   </div>
-  <article class="skills c-centering">
+  <article class="c-centering mb-100">
     <stockr v-if="$route.params.id === 'Stockr'" />
     <build-it v-if="$route.params.id === 'Build It'" />
     <core v-if="$route.params.id === 'Core'" />
@@ -65,7 +65,4 @@ export default {
   @media (min-width: 1200px)
     margin 180px auto 0
     width 960px
-
-.skills
-  margin-bottom 100px
 </style>

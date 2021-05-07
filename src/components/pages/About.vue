@@ -4,7 +4,7 @@
   <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
     <span class="hero__content">About</span>
   </h1>
-  <article class="contents mt-minus" itemscope="" itemtype="http://schema.org/Person">
+  <article class="mb-100 mt-minus" itemscope="" itemtype="http://schema.org/Person">
     <section class="profiles c-centering">
       <img class="akinen" :src="note1" alt="プロフィール画像">
       <div class="profile">
@@ -47,9 +47,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-
-.contents
-  margin-bottom 100px
 
 .profiles
   position relative

@@ -1,5 +1,5 @@
 <template>
-  <article class="works c-centering" itemscope="" itemtype="http://schema.org/Person">
+  <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-minus">
       <ul class="cards">
         <li class="card card--top mb-30">
@@ -32,7 +32,7 @@
       </ul>
     </section>
 
-    <section class="mt-80">
+    <section class="mt-80 mb-100">
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
@@ -122,8 +122,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
-.works
-  margin-bottom 100px
 
 .cards
   display flex

@@ -2,7 +2,7 @@
 <div>
   <header-area />
   <h1 class="c-top-margin c-page-title">Media</h1>
-  <article class="media c-centering">
+  <article class="c-centering">
     <section class="mt-80">
       <h2 class="c-title">note</h2>
       <ul class="cards">
@@ -25,7 +25,7 @@
       </ul>
     </section>
 
-    <section class="mt-80">
+    <section class="mt-80 mb-100">
       <h2 class="c-title">登壇資料</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(slide, num) in slides" :key="`slide-${num}`">
@@ -89,9 +89,6 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-
-.media
-  margin-bottom 100px
 
 .cards
   display flex

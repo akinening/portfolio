@@ -1,9 +1,11 @@
 <template>
 <div>
   <header-area />
-  <h1 class="c-top-margin c-page-title">Skills</h1>
-  <article class="skills c-centering">
-    <section class="development mt-80">
+  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_skills + ')' }">
+    <span class="hero__content">Skills</span>
+  </h1>
+  <article class="c-centering">
+    <section class="development mt-minus">
       <div class="skill mb-30">
         <h2 class="title">UXデザイン</h2>
         <ul class="description">
@@ -43,7 +45,7 @@
     </section>
 
     <h2 class="c-title mt-80">対応不可</h2>
-    <section class="skill mb-30">
+    <section class="skill mb-100">
       <h2 class="title">副業案件</h2>
       <ul class="description">
         <li>現在、副業案件のご依頼は承っておりません。</li>
@@ -64,6 +66,11 @@ export default {
   components: {
     HeaderArea,
     FooterArea
+  },
+  data () {
+    return {
+      bg_skills: require('@/assets/image/bg_skills.jpg')
+    }
   }
 }
 </script>
@@ -72,12 +79,9 @@ export default {
 @import "../../assets/css/common.styl"
 
 .title
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 20px;
-
-.skills
-  margin-bottom 100px
+  font-size 20px
+  font-weight 600
+  margin-bottom 20px
 
 .skill
   width 100%
