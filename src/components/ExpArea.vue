@@ -25,7 +25,7 @@
           フロントエンドエンジニア
         </p>
         <span class="c-time">2018.04 - 2019.08</span>
-        <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」</p>
+        <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」の開発に参加。ユーザーの声を聞くなかで体験設計に興味を持ち、デザイナーへの転向を決意。</p>
       </li>
 
       <li class="card">
@@ -35,7 +35,7 @@
           </span>
         </h3>
         <p class="font-13">情報工学 / HCD</p>
-        <p class="c-description">VUI (Voice User Interface)に関心があり、「音声で操作できるブラウザ」や「Watsonを用いたVR上での対話UI」について研究を行いました。</p>
+        <p class="c-description">VUI (Voice User Interface)に関心を持ち、「音声で操作できるブラウザ」や「Watsonを用いたVR上での対話UI」について研究</p>
         <span class="c-time">- 2018</span>
       </li>
 
