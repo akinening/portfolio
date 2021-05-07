@@ -106,13 +106,6 @@ export default {
           url: '#/works/Spott',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
-        },
-        {
-          title: 'STARLIGHT',
-          description: 'サークル「STARLIGHT」のLPをSTUDIOで制作中です。',
-          url: 'https://starlight.studio.site',
-          image_url: require('@/assets/image/starlight.jpg'),
-          date: '2021-4'
         }
       ]
     }
