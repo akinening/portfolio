@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2 class="c-title mt-80">Experience</h2>
-    <ul class="c-entries">
+    <ul>
       <li class="card">
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
@@ -11,7 +11,7 @@
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <span class="c-time">2019.11 - 2021.現在</span>
+        <span class="c-time">2019 - 現在</span>
         <p class="c-description">教育・育成事業のDX推進。新規自社事業の立ち上げに参加</p>
       </li>
 
@@ -24,7 +24,7 @@
         <p class="font-13">
           フロントエンドエンジニア
         </p>
-        <span class="c-time">2018.04 - 2019.08</span>
+        <span class="c-time">2018</span>
         <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」の開発に参加。ユーザーの声を聞くなかで体験設計に興味を持ち、デザイナーへの転向を決意。</p>
       </li>
 
@@ -36,18 +36,7 @@
         </h3>
         <p class="font-13">情報工学 / HCD</p>
         <p class="c-description">VUI (Voice User Interface)に関心を持ち、「音声で操作できるブラウザ」や「Watsonを用いたVR上での対話UI」について研究</p>
-        <span class="c-time">- 2018</span>
-      </li>
-
-      <li class="card">
-        <h3 class="c-entry-title">
-          <span>
-            <a href="https://w.wiki/ibi">諏訪清陵高等学校</a>
-          </span>
-        </h3>
-        <p class="font-13">SSHコース</p>
-        <p class="c-description">「VBAを用いた渋滞シミュレーション」が 第56回長野県学生科学賞を受賞</p>
-        <span class="c-time">- 2013</span>
+        <span class="c-time">2014</span>
       </li>
     </ul>
   </section>
@@ -67,6 +56,8 @@ export default {
 @import "../assets/css/common.styl"
 
 .card
+  position relative
+  margin-bottom 20px
   padding 20px
   background-color white
   border-radius 8px
