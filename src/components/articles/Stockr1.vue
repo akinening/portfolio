@@ -2,40 +2,52 @@
   <section class="skill mt-80 mb-30">
     <img class="image" :src="stockr_ogp" alt="ストッカー">
     <p class="description">
-      メインのデザイナーとして自社事業のコンセプト立案、プロトタイピング、リリース、検証・グロースまで一貫して携わっています。<br>
-      チーム構成：ディレクター1名、エンジニア3名、デザイナー1名
+      弊社の「一人ひとりの成長が、世界をより良くする」というビジョンを実現するため、Stockrの開発が始動しました。<br>
+      チーム構成はPM１名、エンジニア２名、そして私。私はデザイナーとしてコンセプト立案からプロトタイピング、リリース、グロースに至るまでの工程に一貫して携わっています。
+      <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
     </p>
 
     <h2 class="title">サービス概要</h2>
     <p class="description">
-      Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。
-      <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
+      せわしなく過ぎる時間の中で、自分と向き合いふりかえる時間を意識的に取ることは、中々難しいものです。<br>
+      Stockrは、投稿した気づきを定期的にピックアップすることで「ふりかえりの習慣化」をサポートするアプリです。「ストック」「ふりかえり」「スコア」の３つを主な機能としています。
     </p>
 
-    <h2 class="title">0→1のデザイン</h2>
+    <h2 class="title">ストック</h2>
     <p class="description">
-      <img class="image" :src="stockr_process" alt="作業フロー">
-      ０→１のデザインでは計画立案や体験設計、仮説検証のためのプロトタイプ作成などに取り組みました。<br>
-      詳しくはこちらをご覧ください。
-      <a href="https://inside.bldt.jp/entry/2020/11/26/104143" target="_blank" class="top-btn">取り組み事例</a>
+      Stockrでは投稿のことを「ストック」と呼びます。<br>
+      当初はTwitterアカウントと密に連携し、投稿を保存・編集できることがメインの機能でした。しかしコアとなる体験を洗い出していくうちに、提供したいものはツイートというよりはブログに近いのではないかと考えるようになりました。
+      <img class="image" :src="stockr_process2" alt="デザインの検討">
+      ツイートはリアルタイムなものであり流れていく前提で書き込むため、しばらく経って振り返っても、当時のコンテキストを思い出しづらい傾向にあります。<br>
+      <br>
+      一方でブログは「記事ごとにテーマ性を持って投稿する」「開いたらその先にさらに情報がある」構造になっています。「気づいたことを書き溜めていくことで、自分の思考を深める」というStockrが目指す世界は、文章量は違えどブログのほうが近いのではないか？ という考えに至り、カードごとにテーマ性をもたせることにしました。<br>
+      <br>
+      また、当初は月ごとに気づきをまとめることで フラットに遡れるようなUIでしたが、社内で触ってもらったところ「投稿したのが何月のことだったか覚えてないので、月ごとに分けられると逆に探しにくい」「関連する気づきを連投した際に月をまたぐと、気付きが分断されてしまう」といった意見をいただき、現在の形に着地しました。あえて投稿日時を目立たせないことで、後ろめたさなく積み重ねを実感できるUIになっています。<br>
+      <br>
+      「自己理解」や「リワード」を実現すべく再度検討した結果、以下の「ふりかえり」と「スコア」に着地しました。
     </p>
 
-    <h2 class="title">1→10のデザイン</h2>
+    <h2 class="title">ふりかえり</h2>
     <p class="description">
-      <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
-      <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
-      現在執筆中です。
-      主に基本機能の改善、プレミアム機能、マーケ施策の３つのデザインを行いました。<br>
-      マーケ施策については、広報やマーケターの方と相談しながらデザインに取り組みました。
+      先述の反省を踏まえて、改めてStockrの「気づき」とはなにかを再考しました。その結果、Tipsやハウツーのようなものというよりは、「常に意識したい」「忘れないようにしたい」といった、将来の自分のための気づきであると考えました。<br>
+      <br>
+      このことから、自己学習に必要なのは「リマインド」ではないか？という仮説を立て、アプリ側からサジェストして振り返りを促してくれる、現在の機能に着地しました。<br>
+      <br>
+      毎日投稿が５件ピックアップされ、ユーザーはそれを棚卸しします。朝7時(始業前)と19時(退社後)に通知で問いかけることで、無理なく振り返りを促進します。<br>
+      <br>
+      自分が考えていたことを思い出す機会は、一日のうちあまり無いのではないかと思います。また単に投稿を見返しただけでは、内容が頭に入ってきづらく、振り返りになりません。<br>
+      <br>
+      そこでStockrでは、ただリマインドするのではなく「過去の自分の投稿に追記する」ことで手を動かしながら思考の深掘りができるようにしました。追記を繰り返すことで内容が整理され、思考を体系化できます。
     </p>
 
-    <h2 class="title">デザインガイドライン</h2>
+    <h2 class="title">スコア</h2>
     <p class="description">
-      現在Stockrのデザインはほぼ自分１人で行っているため、デザインが属人的になっています。そこで少しずつデザインガイドラインを構築したり、デザイン意図を明文化しています。<br>
-      FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。<br>
-      <img class="image image--2col" :src="stockr_color" alt="カラー" loading="lazy">
-      <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">
-      フロントエンドエンジニアとしての知識を活かし、職種間での意思疎通がスムーズになるよう取り組んでいます。
+      ユーザーのLTVについて、Google Play全アプリの平均継続率は「翌日で50%」「3日後には80%が休眠」するというデータがあります。言い換えるとダウンロードから3日が経過した時には、全体の20%のユーザーしかアプリを利用しなくなるということです。そこで、継続するモチベーションとなるリワード設計が必要であると考えました。<br>
+      <br>
+      自然とユーザーの習慣に定着するものとして、バッジ機能、投稿のテキスト解析など幾つものパターンを出して検討し、最終的にスコア機能に着地しました。ユーザー自身の「思考した量」をスコアで表現し、成長を可視化してくれます。<br>
+      <br>
+      ただし、スコアを上げることが目的化しないようにする必要がありました。スコアリングはあくまでサポートするためのものであり、「プラスアルファで嬉しい体験」になるように意識しています。
+      <img class="image" :src="stockr_score" alt="プラスアルファの体験の提供">
     </p>
   </section>
 </template>
@@ -45,12 +57,9 @@ export default {
   name: 'Stockr1',
   data () {
     return {
-      stockr_color: require('@/assets/image/stockr-color.png'),
-      stockr_component: require('@/assets/image/stockr-component.png'),
-      stockr_ogp: require('@/assets/image/stockr.png'),
-      stockr_process: require('@/assets/image/stockr-process.png'),
-      stockr_flow1: require('@/assets/image/stockr-flow1.png'),
-      stockr_flow2: require('@/assets/image/stockr-flow2.png')
+      stockr_ogp: require('@/assets/image/stockr0.jpg'),
+      stockr_process2: require('@/assets/image/stockr-process2.png'),
+      stockr_score: require('@/assets/image/stockr-score.png')
     }
   }
 }

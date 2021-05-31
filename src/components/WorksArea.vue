@@ -64,7 +64,7 @@ export default {
       isOpen: false,
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
-        description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
+        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。2021年現在、アプリストアでは5段階評価で4.7~4.9の高評価を獲得しています。',
         image_url: require('@/assets/image/stockr.png'),
         date: '2020-6 - 現在'
       },
@@ -193,7 +193,6 @@ export default {
   @media (min-width: 769px)
     float right
     width calc(50% - 20px)
-    // height calc(100% - 40px)
     margin 20px
     border-radius 8px
 
