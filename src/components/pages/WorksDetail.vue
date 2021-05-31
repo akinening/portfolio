@@ -8,7 +8,8 @@
     <h1 class="c-page-title">{{ $route.params.id }}</h1>
   </div>
   <article class="c-centering mb-100">
-    <stockr v-if="$route.params.id === 'Stockr'" />
+    <stockr1 v-if="$route.params.id === 'Stockr1'" />
+    <stockr10 v-if="$route.params.id === 'Stockr10'" />
     <build-it v-if="$route.params.id === 'Build It'" />
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
@@ -23,7 +24,8 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import Stockr from '@/components/articles/Stockr'
+import Stockr1 from '@/components/articles/Stockr1'
+import Stockr10 from '@/components/articles/Stockr10'
 import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
@@ -36,7 +38,8 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
-    Stockr,
+    Stockr1,
+    Stockr10,
     BuildIt,
     Core,
     Lobi,

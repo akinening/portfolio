@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  name: 'Stockr',
+  name: 'Stockr10',
   data () {
     return {
       stockr_color: require('@/assets/image/stockr-color.png'),

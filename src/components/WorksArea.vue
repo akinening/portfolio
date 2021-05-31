@@ -3,7 +3,7 @@
     <section class="mt-minus">
       <ul class="cards">
         <li class="card card--top mb-30">
-          <router-link :to="top.url">
+          <div @click="toggleModal">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ top.title }}</p>
@@ -11,7 +11,8 @@
               <p class="detail__text">{{ top.description }}</p>
               <div class="top-btn">事例を見る</div>
             </div>
-          </router-link>
+          </div>
+          <stockr-modal @close="toggleModal" v-if="isOpen"/>
         </li>
       </ul>
     </section>
@@ -51,14 +52,19 @@
 </template>
 
 <script>
+import StockrModal from '@/components/StockrModal'
+
 export default {
   name: 'WorksArea',
+  components: {
+    StockrModal
+  },
   data () {
     return {
+      isOpen: false,
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーインタビューを実施して機能を改善。',
-        url: '/works/Stockr',
         image_url: require('@/assets/image/stockr.png'),
         date: '2020-6 - 現在'
       },
@@ -108,6 +114,11 @@ export default {
           date: '2020-9'
         }
       ]
+    }
+  },
+  methods: {
+    toggleModal () {
+      this.isOpen = !this.isOpen
     }
   }
 }
@@ -182,7 +193,7 @@ export default {
   @media (min-width: 769px)
     float right
     width calc(50% - 20px)
-    height calc(100% - 40px)
+    // height calc(100% - 40px)
     margin 20px
     border-radius 8px
 
