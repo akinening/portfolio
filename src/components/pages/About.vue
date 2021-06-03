@@ -11,7 +11,33 @@
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
         <p class="profile__discription">長野県諏訪市出身。面白法人カヤックにて、ゲームコミュニティ事業のフロントエンド開発を行う。現在は株式会社ビルディットにて、経験学習支援アプリ「Stockr」のメインデザイナーを担当。</p>
-        <a href="https://note.com/012/n/ne82251f29c00" class="profile__link" target="_blank" rel="noopener noreferrer">noteで自己紹介を読む</a>
+
+        <ul class="statuses">
+          <li class="status">
+            <p class="status__title">あだ名</p>
+            <p class="status__item">あきねん(Akinen)</p>
+          </li>
+          <li class="status">
+            <p class="status__title">座右の銘</p>
+            <p class="status__item">Small Gift, Big Smile.</p>
+          </li>
+          <li class="status">
+            <p class="status__title">性格</p>
+            <p class="status__item">
+              知的好奇心(思考力、想像力)<br>
+              誠実性(達成努力、自己効力感)<br>
+              現代性、変化許容性
+            </p>
+          </li>
+          <li class="status">
+            <p class="status__title">趣味</p>
+            <p class="status__item">
+              空手道(初段)、イラストなど<br>
+              最近は英語学習<br>
+              <a href="https://note.com/012/n/ne82251f29c00" target="_blank">詳しくはこちら</a>
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
     <vision-area class="c-centering" />
@@ -51,7 +77,6 @@ export default {
 .profiles
   position relative
   padding 20px
-  height 280px
   border-radius 8px
   background-color white
   box-sizing border-box
@@ -69,8 +94,6 @@ export default {
   border-radius 8px
 
 .profile
-  position relative
-  height 200px
   margin 20px 20px 20px 260px
 
   @media (max-width: 768px)
@@ -88,20 +111,37 @@ export default {
     line-height 2.0
     letter-spacing 0.04rem
 
-  &__link
-    position absolute
-    bottom 0
-    left 0
-    display block
-    margin-top 26px
-    padding 8px 32px
-    width fit-content
-    border 1px solid rgb(36, 40, 42)
-    border-radius 4px
-    font-size 13px
-    font-weight 700
-    color rgb(36, 40, 42)
+.statuses
+  display flex
+  flex-wrap wrap
+  flex-direction row
 
-    @media screen and (max-width: 768px)
-      position relative
+  @media (max-width: 1024px)
+    flex-direction column
+
+.status
+  display flex
+  width 50%
+  margin-top 20px
+  line-height 2
+  letter-spacing 0.04rem
+
+  @media (max-width: 1024px)
+    width 100%
+
+  &__title
+    width 72px
+    margin-right 12px
+    height 24px
+    display inline-block
+    color white
+    background-color #3AB5A9
+    border-radius 2px
+    text-align center
+
+  &__item
+    display inline-block
+    > a
+      color base-black
+      text-decoration underline
 </style>
