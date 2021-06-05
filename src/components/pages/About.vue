@@ -5,12 +5,12 @@
     <span class="hero__content">About</span>
   </h1>
   <article class="mb-100 mt-minus" itemscope="" itemtype="http://schema.org/Person">
-    <section class="profiles c-centering">
+    <section class="profiles c-shadow c-centering">
       <img class="akinen" :src="note1" alt="プロフィール画像">
       <div class="profile">
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
-        <p class="profile__discription">長野県諏訪市出身。面白法人カヤックにて、ゲームコミュニティ事業のフロントエンド開発を行う。現在は株式会社ビルディットにて、経験学習支援アプリ「Stockr」のメインデザイナーを担当。</p>
+        <p class="profile__discription">長野県諏訪市出身。大学卒業後、面白法人カヤックにてゲームコミュニティ事業のフロントエンド開発を行う。現在は株式会社ビルディットにて、経験学習支援アプリ「Stockr」のメインデザイナーを担当。</p>
 
         <ul class="statuses">
           <li class="status">
@@ -93,12 +93,19 @@ export default {
   height 240px
   border-radius 8px
 
+  @media (max-width: 768px)
+    position relative
+    top 0
+    left 0
+    margin 0 auto
+    display block
+
 .profile
   margin 20px 20px 20px 260px
 
   @media (max-width: 768px)
     height auto
-    margin 240px 20px 20px
+    margin 0
 
   &__name
     font-size 32px
@@ -106,10 +113,16 @@ export default {
     line-height 2rem
     letter-spacing 0.2rem
 
+    @media (max-width: 768px)
+      text-align center
+
   &__discription
     padding-top 8px
     line-height 2.0
     letter-spacing 0.04rem
+
+    @media (max-width: 768px)
+      text-align center
 
 .statuses
   display flex

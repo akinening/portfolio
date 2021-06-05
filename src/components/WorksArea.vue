@@ -2,7 +2,7 @@
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-minus">
       <ul class="cards">
-        <li class="card card--top mb-30">
+        <li class="card card--top mb-30 c-shadow">
           <div @click="toggleModal">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
@@ -20,7 +20,7 @@
     <section class="mt-80">
       <h2 class="c-title">プロジェクト</h2>
       <ul class="cards">
-        <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
+        <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
           <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
@@ -36,7 +36,7 @@
     <section class="mt-80 mb-100">
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
-        <li class="card mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
+        <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <router-link :to="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">

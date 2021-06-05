@@ -5,7 +5,7 @@
     <div class="hero__content">
       <h1 class="title">Hi, I'm Akinen.</h1>
       <p class="sub-title">― A Digital Product Designer.</p>
-      <router-link to="/about" class="top-btn">私について</router-link>
+      <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
   </div>
   <works-area />
@@ -68,9 +68,11 @@ export default {
   font-weight 700
   color rgb(36, 40, 42)
   background-color white
+  transition all 0.2s
 
   &:hover
-    opacity 0.6
+    box-shadow none
+    opacity 0.8
 
   @media (max-width: 768px)
     display none

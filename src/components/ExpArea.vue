@@ -2,7 +2,7 @@
   <section>
     <h2 class="c-title mt-80">Experience</h2>
     <ul>
-      <li class="card">
+      <li class="card c-shadow">
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
             <a href="https://bldt.jp/">株式会社Build It</a>
@@ -15,7 +15,7 @@
         <p class="c-description">教育・育成事業のDX推進。新規自社事業の立ち上げに参加</p>
       </li>
 
-      <li class="card">
+      <li class="card c-shadow">
         <h3 class="c-entry-title">
           <span>
             <a href="https://www.kayac.com/">面白法人カヤック</a>
@@ -26,17 +26,6 @@
         </p>
         <span class="c-time">2018</span>
         <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」の開発に参加。ユーザーの声を聞くなかで体験設計に興味を持ち、デザイナーへの転向を決意。</p>
-      </li>
-
-      <li class="card">
-        <h3 class="c-entry-title">
-          <span>
-            <a>東京電機大学</a>
-          </span>
-        </h3>
-        <p class="font-13">情報工学 / HCD</p>
-        <p class="c-description">VUI (Voice User Interface)に関心を持ち、「音声で操作できるブラウザ」や「Watsonを用いたVR上での対話UI」について研究</p>
-        <span class="c-time">2014</span>
       </li>
     </ul>
   </section>

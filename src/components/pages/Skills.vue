@@ -6,7 +6,7 @@
   </h1>
   <article class="c-centering">
     <section class="development mt-minus">
-      <div class="skill mb-30">
+      <div class="skill mb-30 c-shadow">
         <h2 class="title">UXデザイン</h2>
         <ul class="description">
           <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。</li>
@@ -15,7 +15,7 @@
         </ul>
       </div>
 
-      <div class="skill mb-30">
+      <div class="skill mb-30 c-shadow">
         <h2 class="title">UIデザイン</h2>
         <ul class="description">
           <li>toBの業務管理システム、toCのネイティブアプリやWebサービスの経験があります。</li>
@@ -24,7 +24,7 @@
         </ul>
       </div>
 
-      <div class="skill mb-30">
+      <div class="skill mb-30 c-shadow">
         <h2 class="title">エンジニアリング</h2>
         <ul class="description">
           <li>フロントエンドの開発経験があります。なかでもVue.js での開発が得意です。Nuxt.js + TypeScriptでの開発経験もあります。</li>
@@ -34,7 +34,7 @@
     </section>
 
     <h2 class="c-title mt-80">その他</h2>
-    <section class="skill mb-100">
+    <section class="skill mb-100 c-shadow">
       <h2 class="title">チームとして</h2>
       <ul class="description">
         <li>ドメインの理解：業界によって使われる用語や前提知識が異なるため、デザイナーとして参画する際はまず、ヒアリングや調査。認識をあわせた上で体験設計・情報設計することを心がけています。</li>
