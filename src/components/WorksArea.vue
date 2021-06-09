@@ -33,7 +33,7 @@
       </ul>
     </section>
 
-    <section class="mt-80 mb-100">
+    <section class="mt-80">
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">

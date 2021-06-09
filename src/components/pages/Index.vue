@@ -9,6 +9,11 @@
     </div>
   </div>
   <works-area />
+  <div class="share c-shadow">
+    <p class="share__title">このページをシェア</p>
+    <div class="share__button" @click="copyUrl">{{ text_copy }}</div>
+    <a class="share__button" href="https://slack.com/ssb/redirect" target="_blank">Slackを開く</a>
+  </div>
   <footer-area />
 </div>
 </template>
@@ -27,7 +32,19 @@ export default {
   },
   data () {
     return {
-      bg_top: require('@/assets/image/bg_top.jpg')
+      bg_top: require('@/assets/image/bg_top.jpg'),
+      text_copy: 'URLをコピー'
+    }
+  },
+  methods: {
+    copyUrl () {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText('https://akinen.com/')
+        this.text_copy = 'コピーしました'
+      }
+      setTimeout(() => {
+        this.text_copy = 'URLをコピー'
+      }, 700)
     }
   }
 }
@@ -76,4 +93,32 @@ export default {
 
   @media (max-width: 768px)
     display none
+
+.share
+  display block
+  width fit-content
+  margin 40px auto
+  padding 20px
+  text-align center
+  background-color white
+  border-radius 8px
+
+  &__title
+    margin-bottom 20px
+    font-size 20px
+    font-weight 500
+
+  &__button
+    display inline-block
+    margin 0 10px 10px
+    width 200px
+    padding 12px 30px
+    color base-black
+    border 1px solid base-black
+    border-radius 4px
+    font-size 16px
+    font-weight 500
+
+    &:hover
+      opacity 0.6
 </style>
