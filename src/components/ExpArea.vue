@@ -12,7 +12,11 @@
           UI/UXデザイナー
         </p>
         <span class="c-time">2019 - 現在</span>
-        <p class="c-description">教育・育成事業のDX推進。新規自社事業の立ち上げに参加</p>
+        <p class="c-description">
+          新規自社事業「Stockr」の立ち上げからグロースまでを一貫してデザイン。<br>
+          教育系SaaS「Core」の情報設計・UIデザイン。<br>
+          その他、複数の受託開発にデザイナーとして参加。
+        </p>
       </li>
 
       <li class="card c-shadow">
@@ -25,7 +29,11 @@
           フロントエンドエンジニア
         </p>
         <span class="c-time">2018</span>
-        <p class="c-description">ゲームコミュニティ事業「Lobi」および「Lobi Tournament」の開発に参加。ユーザーの声を聞くなかで体験設計に興味を持ち、デザイナーへの転向を決意。</p>
+        <p class="c-description">
+          ゲームコミュニティ事業「Lobi」および「Lobi Tournament」の開発。<br>
+          AngularからNuxt.jsへの全面リニューアルや、生配信機能など。<br>
+          ユーザーの声を聞くなかで体験設計に興味を持ち、デザイナーへの転向を決意。
+        </p>
       </li>
     </ul>
   </section>

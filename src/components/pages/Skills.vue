@@ -33,15 +33,28 @@
       </div>
     </section>
 
-    <h2 class="c-title mt-80">その他</h2>
-    <section class="skill mb-100 c-shadow">
-      <h2 class="title">チームとして</h2>
-      <ul class="description">
-        <li>ドメインの理解：業界によって使われる用語や前提知識が異なるため、デザイナーとして参画する際はまず、ヒアリングや調査。認識をあわせた上で体験設計・情報設計することを心がけています。</li>
-        <li>表層のデザインだけで完結するのではなく、事業やサービスの成功にコミットすることを意識しています。常に事業の未来像を見据え、チームと共有しながらデザインに取り組みます。</li>
-        <li>UIの意図を言語化し、チームに相談しながらデザインしています。議論や仕様については流さず、適宜文章化することを心がけています。</li>
-        <li>フロントエンドエンジニアとしての経験があるため、既存の運用や実装上の制約を考慮したデザインやコミュニケーションが得意です。また、コードレビューだけでなく自らも実装することで、最終的なアウトプットをよりよいものにします。</li>
-      </ul>
+    <h2 class="c-title mt-80">チームとして</h2>
+    <section class="development mb-100">
+      <div class="skill mb-30 c-shadow">
+        <h2 class="title">ドメインの理解</h2>
+        <ul class="description">
+          <li>業界によって使われる用語や前提知識が異なるため、デザイナーとして参画する際はまず、ヒアリングや調査。認識をあわせた上で体験設計・情報設計することを心がけています。</li>
+        </ul>
+      </div>
+
+      <div class="skill mb-30 c-shadow">
+        <h2 class="title">コミュニケーション</h2>
+        <ul class="description">
+          <li>フロントエンドエンジニアとしての経験があるため、既存の運用や実装上の制約を考慮したデザインやコミュニケーションが得意です。</li>
+        </ul>
+      </div>
+
+      <div class="skill mb-30 c-shadow">
+        <h2 class="title">仕様の明文化</h2>
+        <ul class="description">
+          <li>UIの意図を言語化し、チームに相談しながらデザインしています。議論や仕様については流さず、適宜文章化することを心がけています。</li>
+        </ul>
+      </div>
     </section>
   </article>
   <footer-area />
@@ -95,6 +108,9 @@ export default {
     flex-direction column
 
   > .skill
+    &:last-child
+      margin 0
+
     &:not(:last-child)
       margin 0 20px 0 0
 
