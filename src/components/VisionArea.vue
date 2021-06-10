@@ -3,15 +3,15 @@
     <h2 class="c-title mt-80">Vision / Philosophy</h2>
     <ul class="visionaly">
       <li class="vision c-shadow">
-        <p class="vision__title">Design × Engineering</p>
-        <p class="vision__description">
-          元エンジニアとしての経験を活かし、他職種との意思疎通の橋渡し役となることで、より良いサービス開発を目指します。
-        </p>
-      </li>
-      <li class="vision c-shadow">
         <p class="vision__title">Service Design</p>
         <p class="vision__description">
           幅広い媒体のデザイン経験をもとに、一貫したサービスデザインに取り組んでいます。「人から愛されるデザイン」がテーマ。
+        </p>
+      </li>
+      <li class="vision c-shadow">
+        <p class="vision__title">Design × Engineering</p>
+        <p class="vision__description">
+          元エンジニアとしての経験を活かし、他職種との意思疎通の橋渡し役となることで、より良いサービス開発を目指します。
         </p>
       </li>
       <li class="vision c-shadow">

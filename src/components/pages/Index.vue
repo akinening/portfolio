@@ -4,7 +4,7 @@
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <div class="hero__content">
       <h1 class="title">Hi, I'm Akinen.</h1>
-      <p class="sub-title">― A Digital Product Designer.</p>
+      <p class="sub-title">ヒトとモノを、やさしく繋ぐデザイナー</p>
       <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
   </div>
@@ -62,17 +62,17 @@ export default {
     font-size 40px
 
 .sub-title
-  margin-top 16px
-  font-size 32px
+  margin-top 20px
+  font-size 28px
   font-weight 500
   line-height 1.0
+  letter-spacing 0.1rem
 
   @media (max-width: 768px)
     font-size 18px
-    margin-top 8px
+    margin-top 12px
 
   @media (min-width: 1200px)
-    margin-top 16px
     width 960px
 
 .top-btn
