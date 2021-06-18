@@ -18,12 +18,14 @@
     <spott v-if="$route.params.id === 'Spott'" />
   </article>
   <footer-area />
+  <scroll-top />
 </div>
 </template>
 
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
+import ScrollTop from '@/components/ScrollTop'
 import Stockr1 from '@/components/articles/Stockr1'
 import Stockr10 from '@/components/articles/Stockr10'
 import BuildIt from '@/components/articles/BuildIt'
@@ -38,6 +40,7 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
+    ScrollTop,
     Stockr1,
     Stockr10,
     BuildIt,

@@ -1,0 +1,51 @@
+<template>
+  <div class="scroller" v-show="isActive" @click="scrollTop">
+    <img class="scroller__icon" src="@/assets/arrow_back.svg" alt="Topへ戻る">
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'ScrollTop',
+  data () {
+    return {
+      isActive: false,
+      scroll: 0
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.scrollWindow)
+  },
+  methods: {
+    scrollTop () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    },
+    scrollWindow () {
+      const top = 300
+      this.scroll = window.scrollY
+      this.isActive = !!(top <= this.scroll)
+    }
+  }
+}
+</script>
+
+<style scoped lang="stylus">
+.scroller
+  position fixed
+  bottom 0
+  right 0
+  background-color #fafafa
+  padding 20px 23px
+  border-radius 8px 0 0 0
+
+  @media (max-width: 768px)
+    padding 10px 13px
+
+  &__icon
+    width 40px
+    height 40px
+    transform rotate(90deg)
+</style>
