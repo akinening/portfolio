@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="stockr_ogp" alt="ストッカー">
+    <img class="image" :src="ogp" alt="ストッカー">
     <p class="description">
       弊社の「一人ひとりの成長が、世界をより良くする」というビジョンを実現するため、Stockrの開発が始動しました。<br>
       チーム構成はPM１名、エンジニア２名、そして私。私はデザイナーとしてコンセプト立案からプロトタイピング、リリース、グロースに至るまでの工程に一貫して携わっています。
@@ -53,6 +53,12 @@
       <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">
       フロントエンドエンジニアとしての知識を活かし、職種間での意思疎通がスムーズになるよう取り組んでいます。
     </p>
+
+    <h2 class="title">スキン変更機能</h2>
+    <p class="description">
+      手帳のように自分好みにカスタマイズすることで、アプリを自分のものにしてもらうことを目的に、スキン変更機能をデザインしました。従来の色であるシアンとバランスが取れる色を選んでいます。<br>
+      <img class="image" :src="skin" alt="５種類のスキン">
+    </p>
   </section>
 </template>
 
@@ -61,11 +67,12 @@ export default {
   name: 'Stockr1',
   data () {
     return {
-      stockr_ogp: require('@/assets/image/stockr0.jpg'),
+      ogp: require('@/assets/image/stockr/ogp1.jpg'),
       stockr_process2: require('@/assets/image/stockr-process2.png'),
       stockr_score: require('@/assets/image/stockr-score.png'),
       stockr_color: require('@/assets/image/stockr-color.png'),
-      stockr_component: require('@/assets/image/stockr-component.png')
+      stockr_component: require('@/assets/image/stockr-component.png'),
+      skin: require('@/assets/image/stockr/skin.png')
     }
   }
 }

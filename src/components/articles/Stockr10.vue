@@ -16,9 +16,9 @@ export default {
   name: 'Stockr10',
   data () {
     return {
-      stockr_ogp: require('@/assets/image/stockr.png'),
-      stockr_flow1: require('@/assets/image/stockr-flow1.png'),
-      stockr_flow2: require('@/assets/image/stockr-flow2.png')
+      stockr_ogp: require('@/assets/image/stockr/ogp2.png'),
+      stockr_flow1: require('@/assets/image/stockr/flow1.png'),
+      stockr_flow2: require('@/assets/image/stockr/flow2.png')
     }
   }
 }

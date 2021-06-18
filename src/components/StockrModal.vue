@@ -2,11 +2,11 @@
   <transition name="modal" appear>
     <div class="overlay" @click.self="$emit('close')">
       <router-link to="/works/Stockr1" class="card">
-        <img class="card__img" src="@/assets/image/stockr0.jpg" alt="0から1のデザイン">
+        <img class="card__img" src="@/assets/image/stockr/ogp1.jpg" alt="0から1のデザイン">
         <p class="card__text">0→1のデザイン</p>
       </router-link>
       <router-link to="/works/Stockr10" class="card">
-        <img class="card__img" src="@/assets/image/stockr.png" alt="1から10のデザイン">
+        <img class="card__img" src="@/assets/image/stockr/ogp2.png" alt="1から10のデザイン">
         <p class="card__text">1→10のデザイン</p>
       </router-link>
     </div>

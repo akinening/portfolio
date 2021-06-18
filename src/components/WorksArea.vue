@@ -65,7 +65,7 @@ export default {
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。2021年現在、アプリストアでは5段階評価で4.7~4.9の高評価を獲得しています。',
-        image_url: require('@/assets/image/stockr.png'),
+        image_url: require('@/assets/image/stockr/ogp2.png'),
         date: '2020-6 - 現在'
       },
       projects: [
