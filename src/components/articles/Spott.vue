@@ -16,7 +16,9 @@
       Spottは、デザイナーのための便利ツールを１つにまとめた拡張機能です。<br>
       イラストやアイコン、UI Kitといった素材を探す煩わしい作業を軽減し、本来の仕事であるUIづくりに集中することを目的としています。<br>
       もとは自分のためにつくったツールですが、せっかくなら公開しようということでChrome拡張機能を作成しました。
-      <a href="https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid" target="_blank" class="top-btn">Chromeウェブストア</a>
+      <span class="link">
+        <a href="https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid" target="_blank" class="link__button">Chromeウェブストア</a>
+      </span>
     </p>
   </section>
 </template>

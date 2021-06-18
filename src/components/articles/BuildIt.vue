@@ -5,7 +5,9 @@
     <p class="description">
       株式会社ビルディットのコーポレートサイトのリデザインを担当しました。<br>
       チーム構成：PM１名、リードデザイン１名 (私)、デザイン/イラストレーション２名、広報１名
-      <a href="https://bldt.jp/" target="_blank" class="top-btn">コーポレートサイト</a>
+      <span class="link">
+        <a href="https://bldt.jp/" target="_blank" class="link__button">コーポレートサイト</a>
+      </span>
     </p>
 
     <h2 class="title">打ち出し方の検討</h2>

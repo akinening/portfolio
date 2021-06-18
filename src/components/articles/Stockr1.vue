@@ -10,7 +10,9 @@
     <p class="description">
       せわしなく過ぎる時間の中で、自分と向き合いふりかえる時間を意識的に取ることは、中々難しいものです。<br>
       Stockrは、投稿した気づきを定期的にピックアップすることで<b>ふりかえりの習慣化</b>をサポートするアプリです。「ストック」「ふりかえり」「スコア」の３つを主な機能としています。
-      <a href="https://stockr.bldt.jp/" target="_blank" class="top-btn">公式HP</a>
+      <span class="link">
+        <a href="https://stockr.bldt.jp/" target="_blank" class="link__button">公式HP</a>
+      </span>
     </p>
 
     <h2 class="title">気づきを貯める「ストック」</h2>
