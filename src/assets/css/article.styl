@@ -1,6 +1,6 @@
 .skill
   width 100%
-  padding 40px
+  padding 40px 60px
   background-color white
   border-radius 8px
   box-sizing border-box
@@ -26,13 +26,12 @@
 
 .image
   display block
-  width calc(100% - 40px)
-  margin 20px
+  width 100%
+  margin 20px auto
   border-radius 8px
 
   @media (max-width: 768px)
     width 100%
-    margin 20px 0
 
   &--w80
     width 80%
@@ -41,6 +40,14 @@
     @media (max-width: 768px)
       width 100%
       margin 20px 0
+
+  &--2col
+    display inline-block
+    width calc(50% - 20px)
+    margin 20px 8px
+
+    @media (max-width: 768px)
+      width 100%
 
 .top-btn
   display block
