@@ -42,15 +42,15 @@
       自然とユーザーの習慣に定着するものとして、バッジ機能、投稿のテキスト解析など幾つものパターンを出して検討し、最終的にスコア機能に着地しました。ユーザー自身の<b>思考した量</b>をスコアで表現し、成長を可視化してくれます。<br>
       <br>
       ただし、スコアを上げることが目的化しないようにする必要がありました。スコアリングはあくまでサポートするためのものであり、<b>プラスアルファで嬉しい体験</b>になるように意識しています。
-      <img class="image" :src="stockr_score" alt="プラスアルファの体験の提供">
+      <img class="image" :src="reward" alt="プラスアルファの体験の提供">
     </p>
 
     <h2 class="title">デザインガイドラインの作成</h2>
     <p class="description">
       現在Stockrのデザインはほぼ自分１人で行っているため、デザインが属人的になっています。そこで少しずつデザインガイドラインを構築したり、デザイン意図を明文化しています。<br>
       FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。フォントについては英字はRoboto, 日本語はNoto Sans JPを使用しています。<br>
-      <img class="image image--2col" :src="stockr_color" alt="カラー" loading="lazy">
-      <img class="image image--2col" :src="stockr_component" alt="コンポーネントの例" loading="lazy">
+      <img class="image image--2col" :src="color" alt="カラー" loading="lazy">
+      <img class="image image--2col" :src="component" alt="コンポーネントの例" loading="lazy">
       フロントエンドエンジニアとしての知識を活かし、職種間での意思疎通がスムーズになるよう取り組んでいます。
     </p>
 
@@ -58,6 +58,12 @@
     <p class="description">
       手帳のように自分好みにカスタマイズすることで、アプリを自分のものにしてもらうことを目的に、スキン変更機能をデザインしました。従来の色であるシアンとバランスが取れる色を選んでいます。<br>
       <img class="image" :src="skin" alt="５種類のスキン">
+    </p>
+
+    <h2 class="title">アプリ内イラスト制作</h2>
+    <p class="description">
+      Stockrの各機能をひと目で説明するために、SVGイラストを作成しました。Stockrに合うトンマナを検討し、線画＋ベースカラーのイラストに着地しました。<br>
+      <img class="image" :src="illust" alt="イラスト">
     </p>
   </section>
 </template>
@@ -69,10 +75,11 @@ export default {
     return {
       ogp: require('@/assets/image/stockr/ogp1.jpg'),
       stockr_process2: require('@/assets/image/stockr-process2.png'),
-      stockr_score: require('@/assets/image/stockr-score.png'),
-      stockr_color: require('@/assets/image/stockr-color.png'),
-      stockr_component: require('@/assets/image/stockr-component.png'),
-      skin: require('@/assets/image/stockr/skin.png')
+      reward: require('@/assets/image/stockr/reward.png'),
+      color: require('@/assets/image/stockr/color.png'),
+      component: require('@/assets/image/stockr/component.png'),
+      skin: require('@/assets/image/stockr/skin.png'),
+      illust: require('@/assets/image/stockr/illust.png')
     }
   }
 }
