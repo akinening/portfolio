@@ -1,6 +1,5 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="stockr_ogp" alt="ストッカー">
     <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
     <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
 
@@ -38,6 +37,34 @@
       <span class="link">
         <a href="https://www.figma.com/file/gZ8HENIkSCekXn0truBnnf/Stokr%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A?node-id=0%3A1" target="_blank" class="link__button">新ペルソナ</a>
       </span>
+    </p>
+
+    <h2 class="title">2. プレミアム機能のデザイン</h2>
+    <p class="description">
+      現在執筆中です。
+    </p>
+
+    <h2 class="title">3. マーケティング</h2>
+    <br>
+    <h3 class="title title--sub">3-1. LPのリニューアル</h3>
+    <p class="description">
+      ユーザーインタビューの結果をまとめ分析した結果、気づきの投稿よりもその<b>ふりかえりがStockrの本質的価値</b>だとわかりました。<br>
+      そこで、キャッチコピーやヒーローエリアを見直し、LPを全面的にリニューアルしました。マーケティングについて外部の方に入っていただき、相談しながらデザインを詰めていきました。
+      <img class="image image--w80" src="@/assets/image/stockr/landing-page.png" alt="LP" loading="lazy">
+      ヒーローエリアには「ふりかえり」を想起しやすい人物写真を購入して使用。ユーザーボイスを掲載することで、安心感を出しました。<br>
+      デザイン作成後 STUDIOで自らページを作成し、約2日で公開しました。CMS機能を用いてキャンペーンごとにページを出し分けることで、掲載媒体ごとに流入が取れるようにしています。
+    </p>
+
+    <h3 class="title title--sub">3-2. ASO対策</h3>
+    <p class="description">
+      CTRを測定しながら、説明文やスクリーンショットを磨いていきました。
+      <img class="image image--w80" src="@/assets/image/stockr/aso.png" alt="ASO" loading="lazy">
+    </p>
+
+    <h3 class="title title--sub">3-3. mailchimpを用いたステップメール</h3>
+    <p class="description">
+      インストール初日のモチベーションが高い時期にStockrの価値やコンセプトを伝えることを目的として、アカウント登録をしたユーザーへ3日間メールを送る施策に取り組みました。<br>
+      スパム感のないデザインやメール容量の削減、送信タイミングの検討といった工夫をした結果、<b>開封率は平均50%、最終日までの購読解除率は0%</b>と、高い水準で閲覧されるメールとなりました。
     </p>
   </section>
 </template>
