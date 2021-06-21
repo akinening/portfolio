@@ -41,6 +41,18 @@
 
     <h2 class="title">2. プレミアム機能のデザイン</h2>
     <p class="description">
+      マネタイズの第一歩として、toCの課金機能をデザインしました。
+    </p>
+
+    <h3 class="title title--sub">2-1. レポート機能</h3>
+    <p class="description">
+      ユーザーインタビューからペルソナは<b>向上心が高く、自己投資に興味のある層</b>であると特定しました。そこでStockrの活用度を可視化する、レポート機能を有料機能とすることにしました。
+      <img class="image image--w80" src="@/assets/image/stockr/report.png" alt="レポート" loading="lazy">
+      課金機能の導線からグラフで表示する項目、その見せ方や更新タイミングなど、一連のデザインを考えました。
+    </p>
+
+    <h3 class="title title--sub">2-2. トピック検索機能</h3>
+    <p class="description">
       現在執筆中です。
     </p>
 
