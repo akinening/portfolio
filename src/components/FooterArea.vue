@@ -6,10 +6,6 @@
         <img class="contact__img" :src="facebook" alt="facebook">
         <p>Facebook</p>
       </a>
-      <a class="contact" href="https://twitter.com/_akinen" target="blank" rel="noopener noreferrer">
-        <img class="contact__img" :src="twitter" alt="twitter">
-        <p>Twitter</p>
-      </a>
     </div>
     <p class="footer__copy">©︎ 2021 Akinen</p>
   </footer>
@@ -20,8 +16,7 @@ export default {
   name: 'FooterArea',
   data () {
     return {
-      facebook: require('@/assets/image/sns/facebook.svg'),
-      twitter: require('@/assets/image/sns/twitter.svg')
+      facebook: require('@/assets/image/sns/facebook.svg')
     }
   }
 }
