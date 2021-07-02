@@ -32,9 +32,9 @@
           <li class="status">
             <p class="status__title">趣味</p>
             <p class="status__item">
-              空手道(初段)、イラストなど<br>
-              最近は英語学習<br>
-              <a href="https://note.com/012/n/ne82251f29c00" target="_blank">詳しくはこちら</a>
+              空手道(初段)<br>
+              創作活動<br>
+              英語学習
             </p>
           </li>
         </ul>
