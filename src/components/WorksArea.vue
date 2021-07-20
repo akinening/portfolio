@@ -71,7 +71,7 @@ export default {
       projects: [
         {
           title: '株式会社BuildIt 公式サイト - リードデザイン',
-          description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。',
+          description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt.jpg'),
           date: '2020-5 - 2020-6'
