@@ -3,7 +3,7 @@
     <img class="image" :src="book_ogp" alt="現場から見る デザインとエンジニアリングの間">
 
     <p class="description">
-      「デザイン読書日和」にて初版を頒布。現在は技術書典に向けて準備中です。
+      「デザイン読書日和」および「技術書典11」に出展し、およそ50部ほど頒布しました。
       <span class="link">
         <a href="https://booth.pm/ja/items/2470035" target="_blank" class="link__button">BOOTH</a>
       </span>
