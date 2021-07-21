@@ -57,7 +57,7 @@ export default {
   margin-bottom 20px
   padding 20px
   background-color white
-  border-radius 8px
+  border-radius 4px
 
 .c-time
   position absolute

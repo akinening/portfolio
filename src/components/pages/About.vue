@@ -77,7 +77,7 @@ export default {
 .profiles
   position relative
   padding 20px
-  border-radius 8px
+  border-radius 4px
   background-color white
   box-sizing border-box
 
@@ -91,7 +91,7 @@ export default {
   left 20px
   width 240px
   height 240px
-  border-radius 8px
+  border-radius 4px
 
   @media (max-width: 768px)
     position relative

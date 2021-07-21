@@ -45,6 +45,6 @@ export default {
     position absolute
     width 100%
     height 100%
-    border-radius 8px
+    border-radius 4px
     background-color #F0F4FA
 </style>

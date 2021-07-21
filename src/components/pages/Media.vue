@@ -101,7 +101,7 @@ export default {
   position relative
   width calc(50% - 16px)
   min-width 320px
-  border-radius 8px
+  border-radius 4px
   overflow hidden
 
   &:before
@@ -134,7 +134,7 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 8px
+  border-radius 4px
   object-fit cover
   transition all 0.25s
 

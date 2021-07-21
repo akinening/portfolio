@@ -101,7 +101,7 @@ export default {
   padding 20px
   text-align center
   background-color white
-  border-radius 8px
+  border-radius 4px
 
   &__title
     margin-bottom 20px
