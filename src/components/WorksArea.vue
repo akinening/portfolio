@@ -77,6 +77,13 @@ export default {
           date: '2020-5 - 2020-6'
         },
         {
+          title: '士業の業務管理システム - IA/UIデザイン',
+          description: '弁護士や税理士の先生とユーザーを繋げる業務管理システムの新規開発に、デザイナーとして携わりました。情報設計やワイヤー作成、UIデザインを担当しました。',
+          url: '/works/Kamakura',
+          image_url: require('@/assets/image/kamakura1.png'),
+          date: '2020-4 - 2020-5'
+        },
+        {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
           description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
