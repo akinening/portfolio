@@ -27,7 +27,7 @@
       <div class="skill mb-30 c-shadow">
         <h2 class="title">エンジニアリング</h2>
         <ul class="description">
-          <li>フロントエンドの開発経験があります。なかでもVue.js での開発が得意です。Nuxt.js + TypeScriptでの開発経験もあります。</li>
+          <li>大学では情報工学を専攻し、前職ではフロントエンド（主にVue.js, Nuxt.js)の開発に携わりました。</li>
           <li>CSS設計のノウハウがあります。BEMやAtomic Design, Tailwindでの経験があります。</li>
         </ul>
       </div>

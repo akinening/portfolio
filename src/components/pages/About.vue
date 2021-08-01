@@ -10,7 +10,7 @@
       <div class="profile">
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
-        <p class="profile__discription">東京在住のプロダクトデザイナー。長野県諏訪市出身。大学卒業後、面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。</p>
+        <p class="profile__discription">長野県諏訪市出身。大学では音声UIに興味を持ち研究。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。</p>
 
         <ul class="statuses">
           <li class="status">
