@@ -53,7 +53,7 @@ export default {
 .vision
   width 100%
   background-color white
-  border-radius 6px
+  border-radius 4px
   box-sizing border-box
   overflow hidden
 

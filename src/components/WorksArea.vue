@@ -71,7 +71,7 @@ export default {
       projects: [
         {
           title: '株式会社BuildIt 公式サイト - リードデザイン',
-          description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。',
+          description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt.jpg'),
           date: '2020-5 - 2020-6'
@@ -144,7 +144,7 @@ export default {
   width calc(50% - 16px)
   min-width 320px
   background-color white
-  border-radius 8px
+  border-radius 4px
 
   .detail__title
   .detail__text
@@ -165,7 +165,7 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 8px 8px 0 0
+  border-radius 4px 4px 0 0
 
   @media (max-width: 768px)
     height 50vw
@@ -201,7 +201,7 @@ export default {
     float right
     width calc(50% - 20px)
     margin 20px
-    border-radius 8px
+    border-radius 4px
 
 .top-btn
   display block

@@ -8,6 +8,7 @@
       <span class="link">
         <a href="https://bldt.jp/" target="_blank" class="link__button">コーポレートサイト</a>
       </span>
+      ※現在、コンテンツ差し替えのためデザインが崩れています。
     </p>
 
     <h2 class="title">打ち出し方の検討</h2>

@@ -46,7 +46,7 @@ export default {
   margin 20px
   padding 20px
   background-color white
-  border-radius 8px
+  border-radius 4px
 
   &:hover > &__img
       opacity 0.88
@@ -54,7 +54,7 @@ export default {
   &__img
     width 100%
     height 230px
-    border-radius 8px
+    border-radius 4px
     object-fit cover
 
   &__text

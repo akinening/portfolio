@@ -91,7 +91,7 @@ export default {
   width 100%
   padding 20px
   background-color white
-  border-radius 8px
+  border-radius 4px
   box-sizing border-box
 
 .description
