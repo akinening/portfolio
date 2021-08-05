@@ -28,7 +28,7 @@
         <h2 class="title">エンジニアリング</h2>
         <ul class="description">
           <li>大学では情報工学を専攻し、前職ではフロントエンド（主にVue.js, Nuxt.js)の開発に携わりました。</li>
-          <li>CSS設計のノウハウがあります。BEMやAtomic Design, Tailwindでの経験があります。</li>
+          <li>元エンジニアとしての経験を活かし、他職種との意思疎通の橋渡し役となることで、より良いサービス開発を目指します。</li>
         </ul>
       </div>
     </section>

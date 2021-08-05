@@ -10,21 +10,14 @@
       <div class="profile">
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
-        <p class="profile__discription">長野県諏訪市出身。大学では音声UIに興味を持ち研究。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。空手道初段。</p>
-
-        <ul class="statuses">
-          <li class="status">
-            <p class="status__title">あだ名</p>
-            <p class="status__item">あきねん(Akinen)</p>
-          </li>
-          <li class="status">
-            <p class="status__title">座右の銘</p>
-            <p class="status__item">Small Gift, Big Smile.</p>
-          </li>
-        </ul>
+        <p class="profile__discription">
+          長野県諏訪市出身。大学では音声UIに興味を持ち研究。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。空手道初段。<br>
+          <br>
+          デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。その思いから、日々プロダクトデザイナーとして試行錯誤しています。
+        </p>
       </div>
     </section>
-    <vision-area class="c-centering" />
+    <!-- <vision-area class="c-centering" /> -->
     <exp-area class="c-centering" />
   </article>
 
@@ -35,7 +28,7 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import VisionArea from '@/components/VisionArea'
+// import VisionArea from '@/components/VisionArea'
 import ExpArea from '@/components/ExpArea'
 
 export default {
@@ -49,7 +42,7 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
-    VisionArea,
+    // VisionArea,
     ExpArea
   }
 }
@@ -107,38 +100,4 @@ export default {
 
     @media (max-width: 768px)
       text-align center
-
-.statuses
-  display flex
-  flex-wrap wrap
-  flex-direction row
-
-  @media (max-width: 1024px)
-    flex-direction column
-
-.status
-  display flex
-  width 50%
-  margin-top 20px
-  line-height 2
-  letter-spacing 0.04rem
-
-  @media (max-width: 1024px)
-    width 100%
-
-  &__title
-    width 72px
-    margin-right 12px
-    height 24px
-    display inline-block
-    color white
-    background-color #3AB5A9
-    border-radius 2px
-    text-align center
-
-  &__item
-    display inline-block
-    > a
-      color base-black
-      text-decoration underline
 </style>

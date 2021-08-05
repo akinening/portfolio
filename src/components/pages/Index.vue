@@ -3,8 +3,7 @@
   <header-area />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <div class="hero__content">
-      <h1 class="title">Hi, I'm Akinen.</h1>
-      <p class="sub-title">ヒトとモノ・コトを、やさしく繋ぐデザイナー</p>
+      <h1 class="title">Design can change our lives.</h1>
       <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
   </div>
