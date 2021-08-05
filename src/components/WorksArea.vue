@@ -64,9 +64,9 @@ export default {
       isOpen: false,
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
-        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。2021年現在、アプリストアでは5段階評価で4.7~4.9の高評価を獲得しています。',
+        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。アプリストアで高評価を獲得しています。',
         image_url: require('@/assets/image/stockr/ogp2.png'),
-        date: '2020-6 - 現在'
+        date: '2020-6 - 2021-現在'
       },
       projects: [
         {
@@ -108,7 +108,7 @@ export default {
       activities: [
         {
           title: '技術書を執筆＆頒布',
-          description: 'オンライン即売会「デザイン読書日和」に出展し、本を執筆・頒布しました。技術書展11に出展予定。',
+          description: '「デザイン読書日和」および「技術書典11」に出展し、本を執筆・頒布しました。',
           url: '/works/Book',
           image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021-2'

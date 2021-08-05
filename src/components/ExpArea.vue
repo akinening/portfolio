@@ -11,11 +11,10 @@
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <span class="c-time">2019 - 現在</span>
+        <span class="c-time">2019 - 2021.現在</span>
         <p class="c-description">
           新規自社事業「Stockr」の立ち上げからグロースまでを一貫してデザイン。<br>
-          教育系SaaS「Core」の情報設計・UIデザイン。<br>
-          その他、複数の受託開発にデザイナーとして参加。
+          教育・育成事業のDX推進など、複数の受託開発にデザイナーとして参加。
         </p>
       </li>
 

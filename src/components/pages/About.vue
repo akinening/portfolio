@@ -10,7 +10,7 @@
       <div class="profile">
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
-        <p class="profile__discription">長野県諏訪市出身。大学では音声UIに興味を持ち研究。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。</p>
+        <p class="profile__discription">長野県諏訪市出身。大学では音声UIに興味を持ち研究。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。空手道初段。</p>
 
         <ul class="statuses">
           <li class="status">
@@ -20,22 +20,6 @@
           <li class="status">
             <p class="status__title">座右の銘</p>
             <p class="status__item">Small Gift, Big Smile.</p>
-          </li>
-          <li class="status">
-            <p class="status__title">性格</p>
-            <p class="status__item">
-              知的好奇心(思考力、想像力)<br>
-              誠実性(達成努力、自己効力感)<br>
-              現代性、変化許容性
-            </p>
-          </li>
-          <li class="status">
-            <p class="status__title">趣味</p>
-            <p class="status__item">
-              空手道(初段)<br>
-              創作活動<br>
-              英語学習
-            </p>
           </li>
         </ul>
       </div>
