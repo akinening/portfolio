@@ -5,7 +5,7 @@
     <span class="hero__content">Skills</span>
   </h1>
   <article class="c-centering">
-    <section class="development mt-minus">
+    <section class="development mt-plus">
       <div class="skill mb-30 c-shadow">
         <h2 class="title">UXデザイン</h2>
         <ul class="description">

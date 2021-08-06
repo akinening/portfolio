@@ -5,7 +5,7 @@
     <span class="hero__content">Media</span>
   </h1>
   <article class="c-centering">
-    <section class="mt-minus">
+    <section class="mt-plus">
       <ul class="cards">
         <li class="card mb-30" v-for="(note, num) in notes" :key="`note-${num}`">
           <a :href="note.url" target="_blank" rel="noopener noreferrer">

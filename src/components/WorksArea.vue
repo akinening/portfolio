@@ -1,6 +1,6 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
-    <section class="mt-minus">
+    <section class="mt-plus">
       <ul class="cards">
         <li class="card card--top mb-30 c-shadow">
           <div @click="toggleModal">

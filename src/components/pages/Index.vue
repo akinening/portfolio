@@ -74,7 +74,7 @@ export default {
   font-weight 400
   line-height 1.6
   letter-spacing 0.1rem
-  text-shadow 0 0.5px 2px rgba(#035599, 0.5)
+  text-shadow 0 0.5px 4px #035599
 
   @media (max-width: 768px)
     display none
