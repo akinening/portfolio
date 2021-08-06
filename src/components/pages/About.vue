@@ -11,13 +11,11 @@
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
         <p class="profile__discription">
-          長野県諏訪市出身。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。現在はビルディットにて、Web製品のデザインを包括的に担当。空手道初段。<br>
-          <br>
-          デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。その思いから、日々プロダクトデザイナーとして試行錯誤しています。
+          1995年、長野県諏訪市に生まれる。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。<br>
+          現在はビルディットにて、Web製品のデザインを包括的に担当している。空手道初段。
         </p>
       </div>
     </section>
-    <!-- <vision-area class="c-centering" /> -->
     <exp-area class="c-centering" />
   </article>
 
@@ -28,7 +26,6 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-// import VisionArea from '@/components/VisionArea'
 import ExpArea from '@/components/ExpArea'
 
 export default {
@@ -42,7 +39,6 @@ export default {
   components: {
     HeaderArea,
     FooterArea,
-    // VisionArea,
     ExpArea
   }
 }
@@ -64,10 +60,10 @@ export default {
 
 .akinen
   position absolute
-  top 20px
-  left 20px
-  width 240px
-  height 240px
+  top 16px
+  left 40px
+  width 200px
+  height 200px
   border-radius 4px
 
   @media (max-width: 768px)
@@ -78,7 +74,7 @@ export default {
     display block
 
 .profile
-  margin 20px 20px 20px 260px
+  margin 20px 20px 20px 240px
 
   @media (max-width: 768px)
     height auto

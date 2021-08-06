@@ -64,7 +64,7 @@ export default {
       isOpen: false,
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
-        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。アプリストアで高評価を獲得しています。',
+        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
         image_url: require('@/assets/image/stockr/ogp2.png'),
         date: '2020-6 - 2021-現在'
       },
@@ -78,28 +78,28 @@ export default {
         },
         {
           title: '士業の業務管理システム - IA/UIデザイン',
-          description: '弁護士や税理士の先生とユーザーを繋げる業務管理システムの新規開発に、デザイナーとして携わりました。情報設計やワイヤー作成、UIデザインを担当しました。',
+          description: '弁護士や税理士の先生とユーザーを繋げる業務管理システムの新規開発で、情報設計やワイヤー作成、UIデザインを担当しました。',
           url: '/works/Kamakura',
           image_url: require('@/assets/image/kamakura1.png'),
           date: '2020-4 - 2020-5'
         },
         {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
-          description: 'Coreは企業の人財育成をフォローし、働く人の経験学習を促進するSaaSです。主にホーム画面や管理画面のリデザインを担当しました。',
+          description: 'ホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
           image_url: require('@/assets/image/core.jpg'),
           date: '2019-11 - 2020-3'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ事業',
-          description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。そのほか、ユニットテスト(Jest)やA/Bテストなど。',
+          description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。',
           url: '/works/Lobi',
           image_url: require('@/assets/image/lobi.png'),
           date: '2019-1 - 2019-8'
         },
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
-          description: '主に複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
+          description: '複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
           url: '/works/Lobi%20Tournament',
           image_url: require('@/assets/image/lobi-tournament.png'),
           date: '2018-4 - 2018-12'
@@ -115,7 +115,7 @@ export default {
         },
         {
           title: 'Chrome拡張機能を個人開発',
-          description: '「Spott」というChrome拡張機能をつくり、公開しました。日々のデザイン業務で便利な「おすすめスポット」をまとめています。レスポンシブ未対応。',
+          description: '「Spott」というChrome拡張機能をつくり、公開しました。レスポンシブ未対応。',
           url: '/works/Spott',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
