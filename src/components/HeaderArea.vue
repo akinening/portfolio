@@ -1,8 +1,7 @@
 <template>
   <header class="header">
     <router-link to="/">
-      <img class="logo logo--pc" width="auto" height="72" src="@/assets/image/logo_pc.png" alt="Akinen">
-      <img class="logo logo--sp" width="52" height="52" src="@/assets/image/logo_sp.png" alt="Akinen">
+      <img class="logo" width="auto" height="72" src="@/assets/image/logo_pc.png" alt="Akinen">
     </router-link>
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
@@ -21,45 +20,14 @@ export default {
 
 <style scoped lang="stylus">
 .header
-  z-index 100
-  position fixed
-  top 0
-  left 0
   width 100%
-  height 72px
   padding 0 16px
   box-sizing border-box
-  display flex
   background-color #fafafa
-
-  @media (max-width: 768px)
-    overflow scroll
-    white-space nowrap
-
-    &::-webkit-scrollbar
-      display none
+  text-align center
 
 .logo
   margin-left 12px
-
-  &--pc
-    @media (max-width: 768px)
-      display none
-
-  &--sp
-    display none
-
-    @media (max-width: 768px)
-      display block
-      margin 12px -8px 0 12px
-
-.tabs
-  position absolute
-  right 48px
-
-  @media (max-width: 768px)
-    position relative
-    right 0
 
 .tab
   position relative
@@ -69,7 +37,7 @@ export default {
   vertical-align middle
   font-size 16px
   font-weight bold
-  margin-left 32px
+  margin -16px 0 0 32px
 
   @media (max-width: 768px)
     margin-left 16px

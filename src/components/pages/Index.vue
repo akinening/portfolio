@@ -2,8 +2,9 @@
 <div class="index">
   <header-area />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
-    <div class="hero__content">
+    <div class="hero__content text-center">
       <h1 class="title">Design can change our lives.</h1>
+      <p class="sub-title">デザインで暮らしを豊かに</p>
       <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
   </div>
@@ -52,8 +53,11 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
+.text-center
+  text-align center
+
 .title
-  font-size 88px
+  font-size 64px
   font-weight bold
   line-height 1.0
 
@@ -75,8 +79,8 @@ export default {
     width 960px
 
 .top-btn
-  display block
-  margin 40px 0 60px
+  display inline-block
+  margin 60px 0
   padding 16px 60px
   width fit-content
   border-radius 4px

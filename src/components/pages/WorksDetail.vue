@@ -66,12 +66,12 @@ export default {
 
 // 40pxぶん下げる
 .top-margin
-  margin 180px 80px 0
+  margin 80px 80px 0
 
   @media (max-width: 768px)
-    margin 120px 20px 0 20px
+    margin 40px 20px 0 20px
 
   @media (min-width: 1200px)
-    margin 180px auto 0
+    margin 80px auto 0
     width 960px
 </style>
