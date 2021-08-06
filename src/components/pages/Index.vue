@@ -4,7 +4,10 @@
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <div class="hero__content text-center">
       <h1 class="title">Design can change our lives.</h1>
-      <p class="sub-title">デザインで暮らしを豊かに</p>
+      <p class="sub-title">
+        デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。<br>
+        その思いから、日々プロダクトデザイナーとして試行錯誤しています。
+      </p>
       <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
   </div>
@@ -60,20 +63,21 @@ export default {
   font-size 64px
   font-weight bold
   line-height 1.0
+  text-shadow 0 1px 2px rgba(#035599, 0.5)
 
   @media (max-width: 768px)
     font-size 40px
 
 .sub-title
   margin-top 20px
-  font-size 28px
-  font-weight 500
-  line-height 1.0
+  font-size 20px
+  font-weight 400
+  line-height 1.6
   letter-spacing 0.1rem
+  text-shadow 0 0.5px 2px rgba(#035599, 0.5)
 
   @media (max-width: 768px)
-    font-size 18px
-    margin-top 12px
+    display none
 
   @media (min-width: 1200px)
     width 960px
