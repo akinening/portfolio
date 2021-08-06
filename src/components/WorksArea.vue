@@ -1,6 +1,11 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-plus">
+      <p class="sub-title">
+        デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。<br>
+        その思いから、日々デザイナーとして試行錯誤しています。<br>
+        一貫したサービスデザインによって、ユーザーに体験を届けます。
+      </p>
       <ul class="cards">
         <li class="card card--top mb-30 c-shadow">
           <div @click="toggleModal">
@@ -63,7 +68,7 @@ export default {
     return {
       isOpen: false,
       top: {
-        title: 'Stockr - 自社事業の立ち上げからグロースまでデザインを一貫して担当',
+        title: 'Stockr - 自社事業の立ち上げからグロースまで',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
         image_url: require('@/assets/image/stockr/ogp2.png'),
         date: '2020-6 - 2021-現在'
@@ -75,13 +80,6 @@ export default {
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt.jpg'),
           date: '2020-5 - 2020-6'
-        },
-        {
-          title: '士業の業務管理システム - IA/UIデザイン',
-          description: '弁護士や税理士の先生とユーザーを繋げる業務管理システムの新規開発で、情報設計やワイヤー作成、UIデザインを担当しました。',
-          url: '/works/Kamakura',
-          image_url: require('@/assets/image/kamakura1.png'),
-          date: '2020-4 - 2020-5'
         },
         {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
@@ -133,6 +131,20 @@ export default {
 
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
+
+.sub-title
+  text-align center
+  margin 40px 0 60px
+  font-size 16px
+  font-weight 400
+  line-height 2
+  letter-spacing 0.1rem
+
+  @media (max-width: 768px)
+    display none
+
+  @media (min-width: 1200px)
+    width 960px
 
 .cards
   display flex
