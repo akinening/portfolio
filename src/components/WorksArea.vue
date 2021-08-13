@@ -105,6 +105,13 @@ export default {
       ],
       activities: [
         {
+          title: 'We部(仮称)',
+          description: 'We部は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。現在開発中。',
+          url: '',
+          image_url: require('@/assets/image/webukatsu.png'),
+          date: '2021-8'
+        },
+        {
           title: '技術書を執筆＆頒布',
           description: '「デザイン読書日和」および「技術書典11」に出展し、本を執筆・頒布しました。',
           url: '/works/Book',
