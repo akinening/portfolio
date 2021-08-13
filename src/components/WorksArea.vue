@@ -7,7 +7,7 @@
         一貫したサービスデザインによって、ユーザーに体験を届けます。
       </p>
       <ul class="cards">
-        <li class="card card--top mb-30 c-shadow">
+        <li class="card card--top mb-30 c-shadow allowed">
           <div @click="toggleModal">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
@@ -23,10 +23,10 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title">プロジェクト</h2>
+      <h2 class="c-title">主なプロジェクト</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
-          <router-link :to="project.url">
+          <router-link :to="project.url" :class="isAllowed(project.url)">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ project.title }}</p>
@@ -42,7 +42,7 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <router-link :to="activity.url">
+          <router-link :to="activity.url" :class="isAllowed(activity.url)">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
@@ -112,6 +112,13 @@ export default {
           date: '2021-8'
         },
         {
+          title: 'STARLIGHT HPリニューアル',
+          description: '創作サークル「STARLIGHT」のHPをリデザイン中です。',
+          url: '',
+          image_url: require('@/assets/image/starlight.png'),
+          date: '2021-8'
+        },
+        {
           title: '技術書を執筆＆頒布',
           description: '「デザイン読書日和」および「技術書典11」に出展し、本を執筆・頒布しました。',
           url: '/works/Book',
@@ -131,6 +138,9 @@ export default {
   methods: {
     toggleModal () {
       this.isOpen = !this.isOpen
+    },
+    isAllowed (url) {
+      return url ? 'allowed' : 'not-allowed'
     }
   }
 }
@@ -235,4 +245,10 @@ export default {
 
   @media screen and (max-width: 768px)
     display none
+
+.allowed
+  cursor pointer
+
+.not-allowed
+  cursor not-allowed
 </style>
