@@ -15,6 +15,7 @@
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
+    <webukatsu v-if="$route.params.id === 'Webukatsu'" />
     <book v-if="$route.params.id === 'Book'" />
     <spott v-if="$route.params.id === 'Spott'" />
   </article>
@@ -34,6 +35,7 @@ import Kamakura from '@/components/articles/Kamakura'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
+import Webukatsu from '@/components/articles/Webukatsu'
 import Book from '@/components/articles/Book'
 import Spott from '@/components/articles/Spott'
 
@@ -50,6 +52,7 @@ export default {
     Core,
     Lobi,
     LobiTournament,
+    Webukatsu,
     Book,
     Spott
   }
