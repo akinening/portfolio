@@ -6,16 +6,6 @@
   </h1>
   <article class="c-centering">
     <section class="mt-plus">
-      <ul class="cards">
-        <li class="card mb-30" v-for="(note, num) in notes" :key="`note-${num}`">
-          <a :href="note.url" target="_blank" rel="noopener noreferrer">
-            <img class="photo" :src="note.image_url" loading="lazy" alt="新しいタブで記事を読む">
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="mt-80">
       <h2 class="c-title">Zenn</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(zen, num) in zenn" :key="`zen-${num}`">
@@ -54,16 +44,6 @@ export default {
   data () {
     return {
       bg_media: require('@/assets/image/bg_media.jpg'),
-      notes: [
-        {
-          url: 'https://note.com/012/n/n94a5fb13ab60',
-          image_url: require('@/assets/image/note2.png')
-        },
-        {
-          url: 'https://note.com/012/n/n6e7e5680013c',
-          image_url: require('@/assets/image/note3.png')
-        }
-      ],
       zenn: [
         {
           url: 'https://zenn.dev/012/articles/537115a9d8020d79479e',

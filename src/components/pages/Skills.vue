@@ -16,19 +16,19 @@
       </div>
 
       <div class="skill mb-30 c-shadow">
+        <h2 class="title">IA(情報設計）</h2>
+        <ul class="description">
+          <li>元エンジニアとしての経験を活かし、メンタルモデルを意識した構造設計が可能です。</li>
+          <li>ユーザビリティを考慮し、目的の行動がスムーズに行えるよう意識しています。</li>
+        </ul>
+      </div>
+
+      <div class="skill mb-30 c-shadow">
         <h2 class="title">UIデザイン</h2>
         <ul class="description">
           <li>toBの業務管理システム、toCのネイティブアプリやWebサービスの経験があります。</li>
           <li>ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
           <li>開発過程で生まれた成果物をアセット化していくことでデザインガイドラインを作成し、開発を効率化します。</li>
-        </ul>
-      </div>
-
-      <div class="skill mb-30 c-shadow">
-        <h2 class="title">エンジニアリング</h2>
-        <ul class="description">
-          <li>大学では情報工学を専攻し、前職ではフロントエンド（主にVue.js, Nuxt.js)の開発に携わりました。</li>
-          <li>元エンジニアとしての経験を活かし、他職種との意思疎通の橋渡し役となることで、より良いサービス開発を目指します。</li>
         </ul>
       </div>
     </section>
