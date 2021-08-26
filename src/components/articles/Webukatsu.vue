@@ -12,7 +12,7 @@
       夏期休暇を利用してWebサービスのプロトタイプをざっくりと作成しました。<br>
       ただいまデザイン・開発中。
       <span class="link">
-        <a href="https://webukatsu.web.app/" target="_blank" class="link__button">プロトタイプ</a>
+        <a href="https://bosyu.club/" target="_blank" class="link__button">プロトタイプ</a>
       </span>
     </p>
   </section>

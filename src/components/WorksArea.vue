@@ -105,10 +105,10 @@ export default {
       ],
       activities: [
         {
-          title: 'We部(仮称)',
-          description: 'We部は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。現在開発中。',
+          title: 'Zenb',
+          description: 'Zenb（旧We部）は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。現在開発中。',
           url: '/works/Webukatsu',
-          image_url: require('@/assets/image/webukatsu.png'),
+          image_url: require('@/assets/image/zenb.png'),
           date: '2021-8'
         },
         {

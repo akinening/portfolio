@@ -16,7 +16,7 @@
       </div>
 
       <div class="skill mb-30 c-shadow">
-        <h2 class="title">IA(情報設計）</h2>
+        <h2 class="title">IA（情報設計）</h2>
         <ul class="description">
           <li>元エンジニアとしての経験を活かし、メンタルモデルを意識した構造設計が可能です。</li>
           <li>ユーザビリティを考慮し、目的の行動がスムーズに行えるよう意識しています。</li>
