@@ -9,11 +9,7 @@
     <h2 class="title">サービス概要</h2>
     <p class="description">
       Lobiは、日本最大級のゲームコミュニティです。アクティブブループ数は16万を突破。<br>
-      肌の合うコミュニティが見つかり、共通の話題で盛り上がれる「だべり場」を目指してサービスの運用・新規開発を行っていました。<br>
-      他にも Lobi Tournament(現Tonamel)との連携やゲームデベロッパー公認のオフ会の開催を通じて、ゲームの新たな楽しみ方をユーザーに提供しています。
-      <span class="link">
-        <a href="https://web.lobi.co/" target="_blank" class="link__button">Webサイト</a>
-      </span>
+      肌の合うコミュニティが見つかり、共通の話題で盛り上がれる「だべり場」を目指してサービスの運用・新規開発を行っていました。
     </p>
 
     <h2 class="title">全面リニューアル</h2>
