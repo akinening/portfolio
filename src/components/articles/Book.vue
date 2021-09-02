@@ -10,7 +10,7 @@
     </p>
 
     <p class="description">
-      主催者の方からもコメントをいただきました(うれしい)。
+      主催者の方からもコメントをいただきました。
     </p>
     <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">技術書典オンラインマーケットでSTARLIGHTの「現場から見る デザインとエンジニアリングの間」を購入しました！ <a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw">#技術書典</a> <a href="https://t.co/6MuRqvRCzZ">https://t.co/6MuRqvRCzZ</a> チームで共同作業してると当事者間だけなのか、一般的なのかわからない時があるのでこういうのは助かる</p>&mdash; mhidaka@DroidKaigi (@mhidaka) <a href="https://twitter.com/mhidaka/status/1419141749063127046?ref_src=twsrc%5Etfw">July 25, 2021</a></blockquote>
   </section>
