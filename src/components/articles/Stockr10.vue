@@ -76,6 +76,12 @@
       スパム感のないデザインやメール容量の削減、送信タイミングの検討といった工夫をした結果、<b>開封率は平均50%、最終日までの購読解除率は0%</b>と、高い水準で閲覧されるメールとなりました。
       <img class="image image--w80" src="@/assets/image/stockr/mailchimp.png" alt="ステップメール" loading="lazy">
     </p>
+
+    <h3 class="title title--sub">3-4. ターゲティング広告</h3>
+    <p class="description">
+      現在、作成中です。
+      <img class="image image--w80" style="opacity: 30%;" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
+    </p>
   </section>
 </template>
 
