@@ -80,7 +80,7 @@
     <h3 class="title title--sub">3-4. ターゲティング広告</h3>
     <p class="description">
       現在、作成中です。
-      <img class="image image--w80" style="opacity: 30%;" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
+      <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
     </p>
   </section>
 </template>
