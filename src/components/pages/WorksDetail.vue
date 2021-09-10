@@ -18,6 +18,7 @@
     <zenb v-if="$route.params.id === 'Zenb'" />
     <book v-if="$route.params.id === 'Book'" />
     <spott v-if="$route.params.id === 'Spott'" />
+    <starlight v-if="$route.params.id === 'Starlight'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -38,6 +39,7 @@ import LobiTournament from '@/components/articles/LobiTournament'
 import Zenb from '@/components/articles/Zenb'
 import Book from '@/components/articles/Book'
 import Spott from '@/components/articles/Spott'
+import Starlight from '@/components/articles/Starlight'
 
 export default {
   name: 'WorksDetail',
@@ -54,7 +56,8 @@ export default {
     LobiTournament,
     Zenb,
     Book,
-    Spott
+    Spott,
+    Starlight
   }
 }
 </script>

@@ -124,6 +124,13 @@ export default {
           url: '/works/Spott',
           image_url: require('@/assets/image/spott.png'),
           date: '2020-9'
+        },
+        {
+          title: 'STARLIGHT',
+          description: '創作サークル「STARLIGHT」さんの企画・コンセプト立案をお手伝いしました。',
+          url: '/works/Starlight',
+          image_url: require('@/assets/image/starlight.png'),
+          date: '2021-9'
         }
       ]
     }
