@@ -5,23 +5,12 @@
     <span class="hero__content">Media</span>
   </h1>
   <article class="c-centering">
-    <section class="mt-plus">
-      <h2 class="c-title">Zenn</h2>
+    <section class="mt-plus mb-100">
+      <h2 class="c-title">Article</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(zen, num) in zenn" :key="`zen-${num}`">
           <a :href="zen.url" target="_blank" rel="noopener noreferrer">
             <img class="photo" :src="zen.image_url" loading="lazy" alt="新しいタブで記事を読む">
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="mt-80 mb-100">
-      <h2 class="c-title">登壇資料</h2>
-      <ul class="cards">
-        <li class="card mb-30" v-for="(slide, num) in slides" :key="`slide-${num}`">
-          <a :href="slide.url" target="_blank" rel="noopener noreferrer">
-            <img class="photo" :src="slide.image_url" loading="lazy" alt="新しいタブで記事を読む">
           </a>
         </li>
       </ul>
@@ -46,18 +35,16 @@ export default {
       bg_media: require('@/assets/image/bg_media.jpg'),
       zenn: [
         {
+          url: 'https://zenn.dev/012/articles/328ae694e07d54',
+          image_url: require('@/assets/image/zenn-figma-2-xd.png')
+        },
+        {
           url: 'https://zenn.dev/012/articles/537115a9d8020d79479e',
           image_url: require('@/assets/image/zenn-movie.png')
         },
         {
           url: 'https://zenn.dev/012/articles/b6ef35b68e0e1494141e',
           image_url: require('@/assets/image/zenn-css.png')
-        }
-      ],
-      slides: [
-        {
-          url: 'https://speakerdeck.com/akinen/efforts-i-made-to-regain-the-feeling-of-drawing',
-          image_url: 'https://files.speakerdeck.com/presentations/8266f85cdbc940d88c966203b2ed47c7/slide_0.jpg'
         },
         {
           url: 'https://speakerdeck.com/akinen/examples-of-ui-prototyping-practices-for-new-businesses',
