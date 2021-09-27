@@ -105,13 +105,6 @@ export default {
       ],
       activities: [
         {
-          title: 'Zenb',
-          description: 'Zenb（旧We部）は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。現在開発中。',
-          url: '/works/Zenb',
-          image_url: require('@/assets/image/zenb.png'),
-          date: '2021-8'
-        },
-        {
           title: '技術書を執筆＆頒布',
           description: '「デザイン読書日和」および「技術書典11」に出展し、本を執筆・頒布しました。',
           url: '/works/Book',
@@ -126,11 +119,18 @@ export default {
           date: '2020-9'
         },
         {
+          title: 'Zenb',
+          description: 'Zenb（旧We部）は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。開発停止中。',
+          url: '/works/Zenb',
+          image_url: require('@/assets/image/zenb.png'),
+          date: '2021-8'
+        },
+        {
           title: 'STARLIGHT',
           description: '創作サークル「STARLIGHT」さんの企画・コンセプト立案をお手伝いしました。',
           url: '/works/Starlight',
           image_url: require('@/assets/image/starlight.png'),
-          date: '2021-9'
+          date: '2021-8'
         }
       ]
     }
