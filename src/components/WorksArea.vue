@@ -42,7 +42,7 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url">
+          <a :href="activity.url" rel="noopener noreferrer">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
@@ -107,7 +107,7 @@ export default {
         {
           title: 'DRAWER',
           description: '「クリエイターの生産性を向上する」を目的としたプロジェクトです。現在サイト構築中。',
-          url: 'https://draw-from.studio.site/top',
+          url: 'https://draw-from.studio.site/',
           image_url: require('@/assets/image/drawer.png'),
           date: '2020-2021'
         },
