@@ -26,7 +26,7 @@
       <h2 class="c-title">主なプロジェクト</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
-          <router-link :to="project.url" :class="isAllowed(project.url)">
+          <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ project.title }}</p>
@@ -42,14 +42,14 @@
       <h2 class="c-title">個人活動</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <router-link :to="activity.url" :class="isAllowed(activity.url)">
+          <a :href="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
-          </router-link>
+          </a>
         </li>
       </ul>
     </section>
@@ -105,30 +105,16 @@ export default {
       ],
       activities: [
         {
-          title: '技術書を執筆＆頒布',
-          description: '「デザイン読書日和」および「技術書典11」に出展し、本を執筆・頒布しました。',
-          url: '/works/Book',
-          image_url: require('@/assets/image/dezabiyo.png'),
-          date: '2021-2'
-        },
-        {
-          title: 'Chrome拡張機能を個人開発',
-          description: '「Spott」というChrome拡張機能をつくり、公開しました。レスポンシブ未対応。',
-          url: '/works/Spott',
-          image_url: require('@/assets/image/spott.png'),
-          date: '2020-9'
-        },
-        {
-          title: 'Zenb',
-          description: 'Zenb（旧We部）は、部活やサークルをWeb上で気軽に立ち上げられるサービスです。開発停止中。',
-          url: '/works/Zenb',
-          image_url: require('@/assets/image/zenb.png'),
-          date: '2021-8'
+          title: 'DRAWER',
+          description: '「クリエイターの生産性を向上する」を目的としたプロジェクトです。現在サイト構築中。',
+          url: 'https://draw-from.studio.site/top',
+          image_url: require('@/assets/image/drawer.png'),
+          date: '2020-2021'
         },
         {
           title: 'STARLIGHT',
           description: '創作サークル「STARLIGHT」さんの企画・コンセプト立案をお手伝いしました。',
-          url: '/works/Starlight',
+          url: 'https://akinen.com/#/works/Starlight',
           image_url: require('@/assets/image/starlight.png'),
           date: '2021-8'
         }
@@ -138,9 +124,6 @@ export default {
   methods: {
     toggleModal () {
       this.isOpen = !this.isOpen
-    },
-    isAllowed (url) {
-      return url ? 'allowed' : 'not-allowed'
     }
   }
 }
@@ -246,9 +229,4 @@ export default {
   @media screen and (max-width: 768px)
     display none
 
-.allowed
-  cursor pointer
-
-.not-allowed
-  cursor not-allowed
 </style>
