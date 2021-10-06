@@ -11,8 +11,9 @@
         <h2 class="profile__name">AKINORI OZAWA</h2>
         <p class="profile__discription">PRODUCT DESIGNER</p>
         <p class="profile__discription">
-          1995年、長野県諏訪市に生まれる。面白法人カヤックにてエンジニアとして自社事業の開発に携わる。<br>
-          現在はビルディットにて、Web製品のデザインを包括的に担当している。空手道初段。
+          大学卒業後、面白法人カヤックに入社。フロントエンドエンジニアとしてNuxt.jsやTypeScriptを用いたゲームコミュニティ事業の開発に参画。<br>
+          その後UI/UXデザイナーに転向し、現在は新規自社事業の立ち上げフェーズからグロースまで一貫して携わっている。<br>
+          <!-- 現在は東京海上日動システムズにて、損害保険事業のデザインに取り組んでいる。 -->
         </p>
       </div>
     </section>

@@ -5,13 +5,13 @@
       <li class="card c-shadow">
         <h3 class="c-entry-title">
           <span itemprop="affiliation">
-            <a href="https://bldt.jp/">株式会社Build It</a>
+            <a href="https://bldt.jp/">株式会社ビルディット</a>
           </span>
         </h3>
         <p class="font-13" itemprop="title">
           UI/UXデザイナー
         </p>
-        <span class="c-time">2019 - 2021.現在</span>
+        <span class="c-time">2019 - 2021</span>
         <p class="c-description">
           新規自社事業「Stockr」の立ち上げからグロースまでを一貫してデザイン。<br>
           教育・育成事業のDX推進など、複数の受託開発にデザイナーとして参加。
