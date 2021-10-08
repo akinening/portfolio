@@ -4,7 +4,7 @@
   <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
     <span class="hero__content">About</span>
   </h1>
-  <article class="mb-100 mt-plus" itemscope="" itemtype="http://schema.org/Person">
+  <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
       <h2 class="message">
         ヒトと事業の「間」をデザインし、<br class="hide-sp">日々の暮らしに体験価値を届けます。
@@ -14,7 +14,7 @@
         ユーザーフレンドリーなUI・UXデザインを通じて、人々の暮らしのなかに体験を届けます。
       </p>
 
-      <div class="development mt-plus mb-30">
+      <div class="development mt-plus mb-100">
         <div class="skill c-shadow">
           <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
           <div class="skill__box">
@@ -52,16 +52,18 @@
       </div>
     </section>
 
-    <section class="profiles c-shadow c-centering">
-      <img class="akinen" :src="note1" alt="プロフィール画像">
-      <div class="profile">
-        <h2 class="profile__name">AKINORI OZAWA</h2>
-        <p class="profile__discription">PRODUCT DESIGNER</p>
-        <p class="profile__discription">
-          大学卒業後、面白法人カヤックに入社。フロントエンドエンジニアとしてNuxt.jsやTypeScriptを用いたゲームコミュニティ事業の開発に参画。<br>
-          その後UI/UXデザイナーに転向し、現在は新規自社事業の立ち上げフェーズからグロースまで一貫して携わっている。<br>
-          <!-- 現在は東京海上日動システムズにて、損害保険事業のデザインに取り組んでいる。 -->
-        </p>
+    <section class="aboutme" :style="{backgroundImage: 'url(' + bg_about + ')' }">
+      <div class="profiles c-centering c-shadow">
+        <img class="akinen" :src="note1" alt="プロフィール画像">
+        <div class="profile">
+          <h2 class="profile__name">AKINORI OZAWA</h2>
+          <p class="profile__discription">PRODUCT DESIGNER</p>
+          <p class="profile__discription">
+            大学卒業後、面白法人カヤックに入社。フロントエンドエンジニアとしてNuxt.jsやTypeScriptを用いたゲームコミュニティ事業の開発に参画。<br>
+            その後UI/UXデザイナーに転向し、現在は新規自社事業の立ち上げフェーズからグロースまで一貫して携わっている。<br>
+            <!-- 現在は東京海上日動システムズにて、損害保険事業のデザインに取り組んでいる。 -->
+          </p>
+        </div>
       </div>
     </section>
   </article>
@@ -146,6 +148,12 @@ export default {
           margin 0 0 20px 0
 
 // プロフィール
+.aboutme
+  width 100%
+  padding 88px 0
+  box-sizing border-box
+  background 50% 50% / cover no-repeat
+
 .profiles
   position relative
   padding 20px
