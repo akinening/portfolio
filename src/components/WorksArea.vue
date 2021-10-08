@@ -132,20 +132,6 @@ export default {
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
 
-.sub-title
-  text-align center
-  margin 40px 0 60px
-  font-size 16px
-  font-weight 400
-  line-height 2
-  letter-spacing 0.1rem
-
-  @media (max-width: 768px)
-    display none
-
-  @media (min-width: 1200px)
-    width 960px
-
 .cards
   display flex
   flex-wrap wrap

@@ -6,6 +6,17 @@
   </h1>
   <article class="mb-100 mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
+      <h2 class="message">
+        ユーザーと事業の「間」をデザインし、<br>
+        体験価値を届けます。
+      </h2>
+      <p class="sub-title">
+        たとえ良いアイデア、良い機能があっても、<br>
+        それがユーザーに届かなければ意味がありません。<br>
+        ユーザーフレンドリーなUI・UXデザインを<br>
+        通じて、適切に体験を届けます。
+      </p>
+
       <div class="development mt-plus mb-30">
         <div class="skill c-shadow">
           <h2 class="title">UXデザイン</h2>
@@ -17,7 +28,7 @@
         </div>
 
         <div class="skill c-shadow">
-          <h2 class="title">IA（情報設計）</h2>
+          <h2 class="title">情報設計</h2>
           <ul class="description">
             <li>元エンジニアとしての経験を活かし、メンタルモデルを意識した構造設計が可能です。</li>
             <li>ユーザビリティを考慮し、目的の行動がスムーズに行えるよう意識しています。</li>
@@ -74,6 +85,12 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
+
+.message
+  font-size 24px
+  font-weight 600
+  text-align center
+  line-height 1.8
 
 // スキル
 .skill
