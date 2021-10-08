@@ -2,7 +2,7 @@
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-plus">
       <p class="sub-title">
-        デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。<br>
+        デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。<br class="hide-sp">
         その思いから、日々デザイナーとして試行錯誤しています。<br>
         一貫したサービスデザインによって、ユーザーに体験を届けます。
       </p>

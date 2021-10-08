@@ -7,14 +7,12 @@
   <article class="mb-100 mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
       <h2 class="message">
-        ユーザーと事業の「間」をデザインし、<br>
+        ユーザーと事業の「間」をデザインし、<br class="hide-sp">
         体験価値を届けます。
       </h2>
       <p class="sub-title">
-        たとえ良いアイデア、良い機能があっても、<br>
-        それがユーザーに届かなければ意味がありません。<br>
-        ユーザーフレンドリーなUI・UXデザインを<br>
-        通じて、適切に体験を届けます。
+        たとえ良いアイデア・良い機能があっても、<br class="hide-sp">それがユーザーに届かなければ意味がありません。<br>
+        ユーザーフレンドリーなUI・UXデザインを<br class="hide-sp">通じて、適切に体験を届けます。
       </p>
 
       <div class="development mt-plus mb-30">
