@@ -5,6 +5,36 @@
     <span class="hero__content">About</span>
   </h1>
   <article class="mb-100 mt-plus" itemscope="" itemtype="http://schema.org/Person">
+    <section class="c-centering">
+      <div class="development mt-plus mb-30">
+        <div class="skill c-shadow">
+          <h2 class="title">UXデザイン</h2>
+          <ul class="description">
+            <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。</li>
+            <li><b>定量評価</b>：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
+            <li><b>定性評価</b>：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
+          </ul>
+        </div>
+
+        <div class="skill c-shadow">
+          <h2 class="title">IA（情報設計）</h2>
+          <ul class="description">
+            <li>元エンジニアとしての経験を活かし、メンタルモデルを意識した構造設計が可能です。</li>
+            <li>ユーザビリティを考慮し、目的の行動がスムーズに行えるよう意識しています。</li>
+          </ul>
+        </div>
+
+        <div class="skill c-shadow">
+          <h2 class="title">UIデザイン</h2>
+          <ul class="description">
+            <li>toBの業務管理システム、toCのネイティブアプリやWebサービスの経験があります。</li>
+            <li>ワイヤーフレームの段階からご相談しながら、情報設計を行いUIに落とし込んでいくことが出来ます。</li>
+            <li>開発過程で生まれた成果物をアセット化していくことでデザインガイドラインを作成し、開発を効率化します。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section class="profiles c-shadow c-centering">
       <img class="akinen" :src="note1" alt="プロフィール画像">
       <div class="profile">
@@ -17,7 +47,6 @@
         </p>
       </div>
     </section>
-    <exp-area class="c-centering" />
   </article>
 
   <footer-area />
@@ -27,7 +56,6 @@
 <script>
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
-import ExpArea from '@/components/ExpArea'
 
 export default {
   name: 'About',
@@ -39,8 +67,7 @@ export default {
   },
   components: {
     HeaderArea,
-    FooterArea,
-    ExpArea
+    FooterArea
   }
 }
 </script>
@@ -48,6 +75,44 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
+// スキル
+.skill
+  width 100%
+  padding 20px
+  background-color white
+  border-radius 4px
+  box-sizing border-box
+
+.title
+  font-size 20px
+  font-weight 600
+  margin-bottom 20px
+
+.description
+  > li
+    list-style-type disc
+    line-height 1.8
+    margin 0 0 6px 20px
+
+.development
+  display flex
+  flex-direction row
+
+  @media (max-width: 960px)
+    flex-direction column
+
+  > .skill
+    &:last-child
+      margin 0
+
+    &:not(:last-child)
+      margin 0 20px 0 0
+
+    @media (max-width: 960px)
+      &:not(:last-child)
+          margin 0 0 20px 0
+
+// プロフィール
 .profiles
   position relative
   padding 20px
