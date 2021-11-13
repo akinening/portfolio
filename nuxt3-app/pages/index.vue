@@ -8,6 +8,8 @@
   </div>
 
   <works-area />
+
+  <p style="text-align: center; margin: 40px 0 40px;">【お知らせ】 Vue2からNuxt3への置き換えに伴い、一部レイアウトが崩れている箇所があります。予めご了承ください</p>
 </div>
 </template>
 

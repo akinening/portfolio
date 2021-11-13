@@ -137,15 +137,19 @@ export default {
   min-width 320px
   background-color white
   border-radius 4px
+  transition 0.2s ease
 
   .detail__title
   .detail__text
     color rgb(36, 40, 42)
 
   &:hover
-    .detail__title
-    .detail__text
-      opacity 0.6
+    box-shadow none
+
+    .photo
+    .detail
+    .top-btn
+      opacity 0.9
 
   @media (max-width: 768px)
     width 100%
@@ -158,6 +162,7 @@ export default {
   background-size cover
   background-position 50%
   border-radius 4px 4px 0 0
+  transition 0.2s ease
 
   @media (max-width: 768px)
     height 50vw
@@ -179,14 +184,11 @@ export default {
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
+    opacity 0.75
 
 .card--top
   @media (min-width: 769px)
     width 100%
-
-    &:hover
-      .top-btn
-        opacity 0.6
 
 .photo--top
   @media (min-width: 769px)
@@ -204,7 +206,7 @@ export default {
   border-radius 4px
   font-size 13px
   font-weight 700
-  color rgb(36, 40, 42)
+  color rgba(36, 40, 42, 0.75)
 
   @media screen and (max-width: 768px)
     display none
