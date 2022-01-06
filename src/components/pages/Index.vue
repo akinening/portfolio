@@ -1,112 +1,42 @@
 <template>
 <div class="index">
-  <header-area />
-  <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
-    <div class="hero__content text-center">
-      <h1 class="title">Design can change our lives.</h1>
-      <router-link to="/about" class="top-btn c-shadow">私について</router-link>
+  <div class="c-centering">
+    <h1 class="title">Akinen</h1>
+    <p>出典: フリー百科事典『アキペディア（Akipedia）』</p>
+    <div class="alert">
+      <svg class="alert__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f28500"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+      <p class="alert__text">この存命人物の記事には検証可能な出典が不足しています。信頼できる情報源の提供に協力をお願いします。存命人物に関する出典の無い、もしくは不完全な情報に基づいた論争の材料、特に潜在的に中傷・誹謗・名誉毀損あるいは有害となるものはすぐに除去する必要があります。</p>
     </div>
   </div>
-  <works-area />
-  <div class="share c-shadow">
-    <p class="share__title">このページをシェア</p>
-    <div class="share__button" @click="copyUrl">{{ text_copy }}</div>
-    <a class="share__button" href="https://slack.com/ssb/redirect" target="_blank">Slackを開く</a>
-  </div>
-  <footer-area />
 </div>
 </template>
 
 <script>
-import HeaderArea from '@/components/HeaderArea'
-import WorksArea from '@/components/WorksArea'
-import FooterArea from '@/components/FooterArea'
-
 export default {
-  name: 'Index',
-  components: {
-    HeaderArea,
-    WorksArea,
-    FooterArea
-  },
-  data () {
-    return {
-      bg_top: require('@/assets/image/bg_top.jpg'),
-      text_copy: 'URLをコピー'
-    }
-  },
-  methods: {
-    copyUrl () {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText('https://akinen.com/')
-        this.text_copy = 'コピーしました'
-      }
-      setTimeout(() => {
-        this.text_copy = 'URLをコピー'
-      }, 700)
-    }
-  }
+  name: 'Index'
 }
 </script>
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
-.text-center
-  text-align center
-
 .title
-  font-size 64px
-  font-weight bold
-  line-height 1.0
+  margin 100px 0 12px
+  font-size 32px
+  padding-bottom 12px
+  border-bottom 1px solid rgb(162, 169, 177)
 
-  @media (max-width: 768px)
-    font-size 40px
-
-.top-btn
-  display inline-block
-  margin 60px 0
-  padding 16px 60px
-  width fit-content
-  border-radius 4px
-  font-size 16px
-  font-weight 700
-  color #015898
-  background-color white
-  transition all 0.2s
-
-  &:hover
-    box-shadow none
-    opacity 0.8
-
-  @media (max-width: 768px)
-    display none
-
-.share
-  display block
-  width fit-content
-  margin 40px auto
+.alert
+  position relative
+  margin 20px
   padding 20px
-  text-align center
-  background-color white
-  border-radius 4px
+  border 1px solid rgb(162, 169, 177)
 
-  &__title
-    margin-bottom 20px
-    font-size 20px
-    font-weight 500
+  &__icon
+    position absolute
+    top calc(50% - 12px)
+    left 20px
 
-  &__button
-    display inline-block
-    margin 0 10px 10px
-    width 200px
-    padding 12px 30px
-    color base-black
-    border 1px solid base-black
-    border-radius 4px
-    font-size 16px
-    font-weight 500
-
-    &:hover
-      opacity 0.6
+  &__text
+    margin-left 44px
 </style>
