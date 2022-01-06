@@ -23,7 +23,12 @@
       前略オフクロ様、 晴れてエンジニアになったつもりが、いつの間にかデザイナーになっていました。デザイナーって全員丸眼鏡をかけてるイメージがありますが、僕だけはつけないようがんばります。
     </p>
 
-    <h2 class="title title--2nd">エピソード</h2>
+    <h2 class="title title--2nd">外部リンク</h2>
+    <ul class="mb-100">
+      <li class="list"><a href="https://zenn.dev/012" target="_blank">Akinen(@012) - Zenn</a></li>
+      <li class="list"><a href="https://note.com/012" target="_blank">Akinen(@012) - note</a></li>
+      <li class="list"><a href="https://www.figma.com/@012" target="_blank">Akinen(@012) - Figma</a></li>
+    </ul>
 
   </div>
 </div>
@@ -54,9 +59,6 @@ export default {
     font-size 16px
     border none
 
-.mb-20
-  margin-bottom 20px
-
 .alert
   position relative
   margin 20px
@@ -70,4 +72,10 @@ export default {
 
   &__text
     margin-left 44px
+
+.mb-20
+  margin-bottom 20px
+
+.list
+  list-style inside
 </style>
