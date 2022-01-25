@@ -37,6 +37,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  layout: "app",
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap',
+      }
+    ]
+  }
+}
+</script>
+
 <style>
 #app {
   overflow: hidden;

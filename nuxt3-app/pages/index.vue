@@ -1,15 +1,14 @@
 <template>
 <div>
+  <auth-modal />
+
   <div class="hero" style="background-image: url('/assets/image/bg_top.jpg')">
-    <div class="hero__content" style="text-align: center;">
+    <div class="hero__content">
       <h1 class="title">Design can change our lives.</h1>
-      <nuxt-link to="/about" class="top-btn c-shadow">私について</nuxt-link>
     </div>
   </div>
 
   <works-area />
-
-  <p style="text-align: center; margin: 40px 0 40px;">【お知らせ】 Vue2からNuxt3への置き換えに伴い、一部レイアウトが崩れている箇所があります。予めご了承ください</p>
 </div>
 </template>
 
@@ -23,23 +22,4 @@
 
   @media (max-width: 768px)
     font-size 40px
-
-.top-btn
-  display inline-block
-  margin 60px 0
-  padding 16px 60px
-  width fit-content
-  border-radius 4px
-  font-size 16px
-  font-weight 700
-  color #015898
-  background-color white
-  transition all 0.2s
-
-  &:hover
-    box-shadow none
-    opacity 0.8
-
-  @media (max-width: 768px)
-    display none
 </style>
