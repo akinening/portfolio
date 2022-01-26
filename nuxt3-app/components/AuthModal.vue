@@ -1,5 +1,5 @@
 <template>
-  <transition name="modal" appear v-if="!isAuthed">
+  <transition name="modal" appear>
     <div class="overlay">
       <div class="card">
         <h1>あいことば</h1>
@@ -14,15 +14,15 @@
 export default {
   data() {
     return {
-      aikotoba: '',
-      isAuthed: false
+      aikotoba: ''
     }
   },
   methods: {
     authPW(event) {
       if (event.keyCode !== 13) return
       if (this.aikotoba === 'ぽぽぽ') {
-        this.isAuthed = true
+        localStorage.setItem('isAuthed', true)
+        location.reload()
       } else {
         alert('合言葉が違うようです。再度ご確認ください。')
       }

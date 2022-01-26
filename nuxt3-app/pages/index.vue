@@ -1,6 +1,6 @@
 <template>
 <div>
-  <auth-modal />
+  <auth-modal v-if="!isAuthed" />
 
   <div class="hero" style="background-image: url('/assets/image/bg_top.jpg')">
     <div class="hero__content">
@@ -11,6 +11,19 @@
   <works-area />
 </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isAuthed: true
+    }
+  },
+  beforeMount() {
+    this.isAuthed = localStorage.getItem('isAuthed')
+  }
+}
+</script>
 
 <style scoped lang="stylus">
 @import "../assets/css/common.styl"
