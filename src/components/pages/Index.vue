@@ -1,81 +1,120 @@
 <template>
 <div class="index">
-  <div class="c-centering">
-    <h1 class="title">Akinen</h1>
-    <p>出典: フリー百科事典『アキペディア（Akipedia）』</p>
-    <div class="alert">
-      <svg class="alert__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f28500"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
-      <p class="alert__text">この存命人物の記事には検証可能な出典が不足しています。信頼できる情報源の提供に協力をお願いします。存命人物に関する出典の無い、もしくは不完全な情報に基づいた論争の材料、特に潜在的に中傷・誹謗・名誉毀損あるいは有害となるものはすぐに除去する必要があります。</p>
+  <auth-modal v-if="!isAuthed" />
+
+  <header-area />
+  <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
+    <div class="hero__content text-center">
+      <h1 class="title">Design can change our lives.</h1>
+      <router-link to="/about" class="top-btn c-shadow">私について</router-link>
     </div>
-    <p>Akinen（あきねん）は、日本のデザイナー。長野県諏訪市出身。東京都在住。</p>
-
-    <h2 class="title title--2nd">経歴</h2>
-    <h3 class="title title--3rd">出生・幼少期</h3>
-    <p class="mb-20">出生については諸説あるが、諏訪湖の初島で生まれどんぶらこ、どんぶらこと天竜川を流れてきたところを発見されたと言われている。幼少期はわりと平和に過ごしていたが、節分の鬼のお面が怖すぎて号泣したのがトラウマである。</p>
-
-    <h3 class="title title--3rd">大学時代</h3>
-    <p class="mb-20">
-      キャンパスが都内にあるかと思いきや、入学するのは千葉のほうであることに受かってから気づく。ピザとお酒に釣られてWeb系のイベントに参加していたところを、「面白法人」を自称する会社に見つかり内定をもらう。
-    </p>
-
-    <h3 class="title title--3rd">現在</h3>
-    <p class="mb-20">
-      前略オフクロ様、 晴れてエンジニアになったつもりが、いつの間にかデザイナーになっていました。デザイナーって全員丸眼鏡をかけてるイメージがありますが、全人類が丸眼鏡になっても僕だけはつけないようがんばります。
-    </p>
-
-    <h2 class="title title--2nd">外部リンク</h2>
-    <ul class="mb-100">
-      <li class="list"><a href="https://zenn.dev/012" target="_blank">Akinen(@012) - Zenn</a></li>
-      <li class="list"><a href="https://note.com/012" target="_blank">Akinen(@012) - note</a></li>
-      <li class="list"><a href="https://www.figma.com/@012" target="_blank">Akinen(@012) - Figma</a></li>
-    </ul>
-
   </div>
+  <works-area />
+  <div class="share c-shadow">
+    <p class="share__title">このページをシェア</p>
+    <div class="share__button" @click="copyUrl">{{ text_copy }}</div>
+    <a class="share__button" href="https://slack.com/ssb/redirect" target="_blank">Slackを開く</a>
+  </div>
+  <footer-area />
 </div>
 </template>
 
 <script>
+import AuthModal from '@/components/AuthModal'
+import HeaderArea from '@/components/HeaderArea'
+import WorksArea from '@/components/WorksArea'
+import FooterArea from '@/components/FooterArea'
+
 export default {
-  name: 'Index'
+  name: 'Index',
+  components: {
+    AuthModal,
+    HeaderArea,
+    WorksArea,
+    FooterArea
+  },
+  data () {
+    return {
+      isAuthed: true,
+      bg_top: require('@/assets/image/bg_top.jpg'),
+      text_copy: 'URLをコピー'
+    }
+  },
+  beforeMount () {
+    this.isAuthed = localStorage.getItem('isAuthed')
+  },
+  methods: {
+    copyUrl () {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText('https://akinen.com/')
+        this.text_copy = 'コピーしました'
+      }
+      setTimeout(() => {
+        this.text_copy = 'URLをコピー'
+      }, 700)
+    }
+  }
 }
 </script>
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
+.text-center
+  text-align center
+
 .title
-  margin 100px 0 12px
-  font-size 32px
-  padding-bottom 12px
-  border-bottom 1px solid rgb(162, 169, 177)
+  font-size 64px
+  font-weight bold
+  line-height 1.0
 
-  &--2nd
-    margin-top 32px
-    font-size 24px
-    font-weight normal
+  @media (max-width: 768px)
+    font-size 40px
 
-  &--3rd
-    margin 0
-    font-size 16px
-    border none
+.top-btn
+  display inline-block
+  margin 60px 0
+  padding 16px 60px
+  width fit-content
+  border-radius 4px
+  font-size 16px
+  font-weight 700
+  color #015898
+  background-color white
+  transition all 0.2s
 
-.alert
-  position relative
-  margin 20px
+  &:hover
+    box-shadow none
+    opacity 0.8
+
+  @media (max-width: 768px)
+    display none
+
+.share
+  display block
+  width fit-content
+  margin 40px auto
   padding 20px
-  border 1px solid rgb(162, 169, 177)
+  text-align center
+  background-color white
+  border-radius 4px
 
-  &__icon
-    position absolute
-    top calc(50% - 12px)
-    left 20px
+  &__title
+    margin-bottom 20px
+    font-size 20px
+    font-weight 500
 
-  &__text
-    margin-left 44px
+  &__button
+    display inline-block
+    margin 0 10px 10px
+    width 200px
+    padding 12px 30px
+    color base-black
+    border 1px solid base-black
+    border-radius 4px
+    font-size 16px
+    font-weight 500
 
-.mb-20
-  margin-bottom 20px
-
-.list
-  list-style inside
+    &:hover
+      opacity 0.6
 </style>
