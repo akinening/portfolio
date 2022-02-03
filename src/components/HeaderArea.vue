@@ -6,7 +6,7 @@
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
-      <router-link to="/media" class="tab">MEDIA</router-link>
+      <a class="tab" href="https://drawer.akinen.com" target="_blank">DRAWER</a>
     </nav>
   </header>
 </template>

@@ -113,10 +113,10 @@ export default {
         },
         {
           title: 'STARLIGHT',
-          description: '創作サークル「STARLIGHT」さんの企画・コンセプト立案をお手伝いしました。',
-          url: 'https://akinen.com/#/works/Starlight',
+          description: 'サークル「STARLIGHT」として、一次創作イラストを中心に活動しています。',
+          url: 'https://starlight.akinen.com/',
           image_url: require('@/assets/image/starlight.png'),
-          date: '2021-8'
+          date: '2021.08 - 現在'
         }
       ]
     }
