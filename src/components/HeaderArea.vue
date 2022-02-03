@@ -1,7 +1,7 @@
-<template>
+<template class="c-centering">
   <header class="header">
     <router-link to="/">
-      <img class="logo" width="auto" height="72" src="@/assets/image/logo_pc.png" alt="Akinen">
+      <img class="logo" width="auto" height="72" src="@/assets/image/logo.svg" alt="Akinen">
     </router-link>
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
@@ -19,14 +19,14 @@ export default {
 
 <style scoped lang="stylus">
 .header
-  width 100%
-  padding 0 16px
+  display flex
+  justify-content space-between
+  margin 0 80px
   box-sizing border-box
   background-color #fafafa
-  text-align center
 
 .logo
-  margin-left 12px
+  margin 8px 0 0 12px
 
 .tab
   position relative
@@ -36,7 +36,7 @@ export default {
   vertical-align middle
   font-size 16px
   font-weight bold
-  margin -16px 0 0 32px
+  margin 4px 0 0 32px
 
   @media (max-width: 768px)
     margin-left 16px
