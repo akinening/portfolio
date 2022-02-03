@@ -32,7 +32,6 @@ import ScrollTop from '@/components/ScrollTop'
 import Stockr1 from '@/components/articles/Stockr1'
 import Stockr10 from '@/components/articles/Stockr10'
 import BuildIt from '@/components/articles/BuildIt'
-import Kamakura from '@/components/articles/Kamakura'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
@@ -50,7 +49,6 @@ export default {
     Stockr1,
     Stockr10,
     BuildIt,
-    Kamakura,
     Core,
     Lobi,
     LobiTournament,
