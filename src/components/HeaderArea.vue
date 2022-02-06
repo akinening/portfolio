@@ -25,8 +25,14 @@ export default {
   box-sizing border-box
   background-color #fafafa
 
+  @media (max-width: 768px)
+    margin 0 20px
+
 .logo
   margin 8px 0 0 12px
+
+  @media (max-width: 768px)
+    margin 8px 0 0
 
 .tab
   position relative
