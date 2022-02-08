@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       isAuthed: true,
-      bg_top: require('@/assets/image/bg_top.jpg'),
+      bg_top: require('@/assets/image/bg_about.jpg'),
       text_copy: 'URLをコピー'
     }
   },
@@ -48,8 +48,9 @@ export default {
   text-align center
 
 .title
+  font-family "Zilla Slab"
   font-size 64px
-  font-weight bold
+  font-weight 600
   line-height 1.0
 
   @media (max-width: 768px)

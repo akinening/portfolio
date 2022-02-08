@@ -1,13 +1,25 @@
 <template>
   <footer class="footer">
-    <p class="title">Contact</p>
-    <div class="contacts">
-      <a class="contact" href="https://www.facebook.com/ackiena" target="_blank" rel="noopener noreferrer">
-        <img class="contact__img" :src="facebook" alt="facebook">
-        <p>Facebook</p>
-      </a>
+    <div class="footer__left">
+      <img class="logo" src="@/assets/image/logo_footer.svg" alt="Akinen">
+      <div class="link">
+        <p class="link__title">WEBSITE</p>
+        <span class="link__border"></span>
+        <a class="link__url" href="https://akinen.com">akinen.com</a>
+      </div>
+      <div class="link">
+        <p class="link__title">STARLIGHT</p>
+        <span class="link__border"></span>
+        <a class="link__url" href="https://starlight.akinen.com">starlight.akinen.com</a>
+      </div>
+      <div class="link">
+        <p class="link__title">DRAWER</p>
+        <span class="link__border"></span>
+        <a class="link__url" href="https://drawer.akinen.com">drawer.akinen.com</a>
+      </div>
     </div>
-    <p class="footer__copy">©︎ 2021 Akinen</p>
+    <div class="footer__right">
+    </div>
   </footer>
 </template>
 
@@ -24,44 +36,38 @@ export default {
 
 <style scoped lang="stylus">
 .footer
-  padding-top 40px
-  text-align center
+  display flex
+  justify-content space-between
+  padding 40px 80px
   color white
   background-color rgb(36, 40, 42)
 
-  &__copy
-    font-weight 500
-    padding 24px 0 16px
+  @media (max-width: 768px)
+    padding 40px 4px
 
-.title
-  font-size 24px
-  font-weight 600
-  margin-bottom 32px
+  &__left
+  &__right
+    display block
 
-.contacts
+.logo
+  width 280px
+
+.link
   display flex
-  justify-content center
-  margin 0 10px
-
-.contact
-  display inline-block
-  margin 0 10px 10px
-  width 200px
-  padding 12px 30px
-  color rgba(36, 40, 42, 1.0)
-  background-color white
-  border-radius 4px
-  font-size 16px
+  font-family "Zilla Slab"
   font-weight 500
-  transition all 0.15s
+  font-size 16px
 
-  &__img
-    opacity 1
-    transition all 0.15s
+  &__title
+    width 104px
+    margin-left 16px
 
-  &:hover
-    color rgba(36, 40, 42, 0.6)
+  &__border
+    height 12px
+    border 1px solid white
+    margin 5px 0
 
-    > .contact__img
-      opacity 0.6
+  &__url
+    margin-left 16px
+    color white
 </style>
