@@ -19,10 +19,10 @@
       </div>
     </div>
     <div class="footer__right">
-      <a href="" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
-      <a href="" target="_blank"><img class="sns" src="@/assets/image/sns/facebook.png" alt="twitter"></a>
-      <a href="" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="twitter"></a>
-      <a href="" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="twitter"></a>
+      <a href="https://twitter.com/_akinen" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
+      <a href="https://www.facebook.com/ackiena" target="_blank"><img class="sns" src="@/assets/image/sns/facebook.png" alt="twitter"></a>
+      <a href="https://www.instagram.com/ak1nen" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="twitter"></a>
+      <a href="https://note.com/012" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="twitter"></a>
     </div>
   </footer>
 </template>
