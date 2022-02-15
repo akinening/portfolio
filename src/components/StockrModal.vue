@@ -5,7 +5,7 @@
         <img class="card__img" src="@/assets/image/stockr/ogp1.jpg" alt="0から1のデザイン">
         <p class="card__text">0→1のデザイン</p>
       </router-link>
-      <router-link to="/works/Stockr10" class="card">
+      <router-link to="/works/Stockr" class="card">
         <img class="card__img" src="@/assets/image/stockr/ogp2.png" alt="1から10のデザイン">
         <p class="card__text">1→10のデザイン</p>
       </router-link>

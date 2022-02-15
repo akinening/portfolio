@@ -8,7 +8,7 @@
       </p>
       <ul class="cards">
         <li class="card card--top mb-30 c-shadow allowed">
-          <div @click="toggleModal">
+          <router-link to="/works/Stockr">
             <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ top.title }}</p>
@@ -16,8 +16,7 @@
               <p class="detail__text">{{ top.description }}</p>
               <div class="top-btn">事例を見る</div>
             </div>
-          </div>
-          <stockr-modal @close="toggleModal" v-if="isOpen"/>
+          </router-link>
         </li>
       </ul>
     </section>
@@ -57,16 +56,10 @@
 </template>
 
 <script>
-import StockrModal from '@/components/StockrModal'
-
 export default {
   name: 'WorksArea',
-  components: {
-    StockrModal
-  },
   data () {
     return {
-      isOpen: false,
       top: {
         title: 'Stockr - 自社事業の立ち上げからグロースまで',
         description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
@@ -119,11 +112,6 @@ export default {
           date: '2021.08 - 現在'
         }
       ]
-    }
-  },
-  methods: {
-    toggleModal () {
-      this.isOpen = !this.isOpen
     }
   }
 }

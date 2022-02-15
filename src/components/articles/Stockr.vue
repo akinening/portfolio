@@ -1,5 +1,14 @@
 <template>
   <section class="skill mt-80 mb-30">
+    <img class="image" :src="stockr_ogp" alt="ストッカー">
+    <p class="description">
+      Stockrは、<b>ふりかえりの習慣化</b>をサポートし、ユーザー自身の思考を促進するアプリです。「ストック」「ふりかえり」「スコア」の３つを主な機能としています。<br>
+      ストックが毎日３件ピックアップされ、ユーザーはそれを棚卸しします。また、朝7時(始業前)と19時(退社後)に通知で問いかけてくれます。
+      <span class="link">
+        <a href="https://stockr.bldt.jp/" target="_blank" class="link__button">公式HP</a>
+      </span>
+    </p>
+
     <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
     <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
 
@@ -79,20 +88,38 @@
 
     <h3 class="title title--sub">3-4. ターゲティング広告</h3>
     <p class="description">
-      現在、作成中です。
       <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
+    </p>
+
+    <h2 class="title">4. その他の取り組み</h2>
+    <br>
+    <h3 class="title title--sub">4-1. デザインガイドラインの作成</h3>
+    <p class="description">
+      デザインの属人化を避けるため、デザインガイドラインを構築したり、デザイン意図を明文化しています。<br>
+      FlutterはMaterial Designを標準サポートしていることから、Material Designに寄せ、iOSとAndroidでデザインは極力同じにすることとしました。<br>
+      <img class="image image--2col" :src="color" alt="カラー" loading="lazy">
+      <img class="image image--2col" :src="component" alt="コンポーネントの例" loading="lazy">
+    </p>
+
+    <h2 class="title title--sub">4-2. アプリ内イラスト制作</h2>
+    <p class="description">
+      Stockrの各機能をひと目で説明するために、SVGイラストを作成しました。Stockrに合うトンマナを検討し、線画＋ベースカラーのイラストに着地しました。<br>
+      <img class="image" :src="illust" alt="イラスト">
     </p>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Stockr10',
+  name: 'Stockr',
   data () {
     return {
       stockr_ogp: require('@/assets/image/stockr/ogp2.png'),
       stockr_flow1: require('@/assets/image/stockr/flow1.png'),
-      stockr_flow2: require('@/assets/image/stockr/flow2.png')
+      stockr_flow2: require('@/assets/image/stockr/flow2.png'),
+      color: require('@/assets/image/stockr/color.png'),
+      component: require('@/assets/image/stockr/component.png'),
+      illust: require('@/assets/image/stockr/illust.png')
     }
   }
 }
