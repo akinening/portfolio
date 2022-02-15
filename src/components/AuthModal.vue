@@ -2,9 +2,16 @@
   <transition name="modal" appear>
     <div class="overlay">
       <div class="card">
-        <h1>あいことば</h1>
-        <p>このページを閲覧するには、合言葉が必要です。</p>
-        <input v-model="aikotoba" @keydown.enter="authPW">
+        <h1 class="card__title">あいことば</h1>
+        <p class="card__text">このページを閲覧するには、あいことばが必要です。</p>
+        <input class="card__input" v-model="aikotoba" @keydown.enter="authPW" placeholder="あいことばを入力">
+        <div class="card__border"></div>
+        <p class="card__text">あいことばを知りたい方は、<br>以下のいずれかの方法でご連絡ください。</p>
+        <div>
+          <a href="https://twitter.com/_akinen" target="_blank"><img class="sns" src="@/assets/image/sns/twitter_color.png" alt="twitter"></a>
+          <a href="https://www.facebook.com/ackiena" target="_blank"><img class="sns" src="@/assets/image/sns/facebook_color.png" alt="facebook"></a>
+          <a href="https://www.instagram.com/ak1nen" target="_blank"><img class="sns" src="@/assets/image/sns/instagram_color.png" alt="instagram"></a>
+        </div>
       </div>
     </div>
   </transition>
@@ -63,9 +70,39 @@ export default {
   background-color white
   border-radius 4px
 
+  &__title
+    margin-top 8px
+
+  &__text
+    margin 16px 0
+    color #666
+
+  &__input
+    height 44px
+    width 100%
+    max-width 280px
+    padding 0 16px
+    border 1px solid #aaa
+    border-radius 4px
+
+  &__border
+    display block
+    width 100%
+    margin-top 32px
+    border 1px solid #eee
+
 .modal-enter-active, .modal-leave-active
   transition: opacity .25s
 
 .modal-enter, .modal-leave-to
   opacity 0
+
+.sns
+  width 40px
+  height 40px
+  margin 0 10px
+  opacity 1.0
+
+  &:hover
+    opacity 0.5
 </style>
