@@ -6,23 +6,10 @@
         その思いから、日々デザイナーとして試行錯誤しています。<br>
         一貫したサービスデザインによって、ユーザーに体験を届けます。
       </p>
-      <ul class="cards">
-        <li class="card card--top mb-30 c-shadow allowed">
-          <router-link to="/works/Stockr">
-            <div class="photo photo--top" :style="{backgroundImage: 'url(' + top.image_url + ')' }"></div>
-            <div class="detail">
-              <p class="detail__title">{{ top.title }}</p>
-              <p class="detail__text">{{ top.date }}</p>
-              <p class="detail__text">{{ top.description }}</p>
-              <div class="top-btn">事例を見る</div>
-            </div>
-          </router-link>
-        </li>
-      </ul>
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title">主なプロジェクト</h2>
+      <h2 class="c-title c-title--center">PROJECTS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
           <router-link :to="project.url">
@@ -38,7 +25,7 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title">個人活動</h2>
+      <h2 class="c-title c-title--center">ACTIVITIES</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" rel="noopener noreferrer">
@@ -60,40 +47,48 @@ export default {
   name: 'WorksArea',
   data () {
     return {
-      top: {
-        title: 'Stockr - 自社事業の立ち上げからグロースまで',
-        description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
-        image_url: require('@/assets/image/stockr/ogp2.png'),
-        date: '2020-6 - 2021-現在'
-      },
       projects: [
+        {
+          title: '大手損保グループ - DX推進',
+          description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から実績は非公開です。',
+          url: '/',
+          image_url: require('@/assets/image/tmnf.png'),
+          date: '2021.11 - 現在'
+        },
+        {
+          title: 'Stockr - 新規自社事業のリードデザイン',
+          description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
+          url: '/works/Stockr',
+          image_url: require('@/assets/image/stockr/ogp2.png'),
+          date: '2020.06 - 2021.10'
+        },
         {
           title: '株式会社BuildIt 公式サイト - リードデザイン',
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt.jpg'),
-          date: '2020-5 - 2020-6'
+          date: '2020.05 - 2020.06'
         },
         {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
           description: 'ホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
           image_url: require('@/assets/image/core.jpg'),
-          date: '2019-11 - 2020-3'
+          date: '2019.11 - 2020.03'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ事業',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。',
           url: '/works/Lobi',
           image_url: require('@/assets/image/lobi.png'),
-          date: '2019-1 - 2019-8'
+          date: '2019.01 - 2019.08'
         },
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
           description: '複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
           url: '/works/Lobi%20Tournament',
           image_url: require('@/assets/image/lobi-tournament.png'),
-          date: '2018-4 - 2018-12'
+          date: '2018.04 - 2018.12'
         }
       ],
       activities: [
@@ -102,14 +97,14 @@ export default {
           description: '「クリエイターの生産性を向上する」を目的としたプロジェクトです。現在サイト構築中。',
           url: 'https://draw-from.studio.site/',
           image_url: require('@/assets/image/drawer.png'),
-          date: '2020-2021'
+          date: '2020 - 2021'
         },
         {
           title: 'STARLIGHT',
           description: 'サークル「STARLIGHT」として、一次創作イラストを中心に活動しています。',
           url: 'https://starlight.akinen.com/',
           image_url: require('@/assets/image/starlight.png'),
-          date: '2021.08 - 現在'
+          date: '2014 - 2022'
         }
       ]
     }
@@ -173,21 +168,6 @@ export default {
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
-
-.card--top
-  @media (min-width: 769px)
-    width 100%
-
-    &:hover
-      .top-btn
-        opacity 0.6
-
-.photo--top
-  @media (min-width: 769px)
-    float right
-    width calc(50% - 20px)
-    margin 20px
-    border-radius 4px
 
 .top-btn
   display block
