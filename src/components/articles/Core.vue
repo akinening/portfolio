@@ -48,9 +48,9 @@ export default {
   name: 'Core',
   data () {
     return {
-      core_dashboard: require('@/assets/image/core_dashboard.png'),
-      core_home: require('@/assets/image/core_home.png'),
-      core_ogp: require('@/assets/image/core.jpg')
+      core_dashboard: require('@/assets/image/core/dashboard.png'),
+      core_home: require('@/assets/image/core/home.png'),
+      core_ogp: require('@/assets/image/core/ogp.jpg')
     }
   }
 }

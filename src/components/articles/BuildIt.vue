@@ -46,10 +46,10 @@ export default {
   name: 'Build It',
   data () {
     return {
-      bldt_ogp: require('@/assets/image/bldt.jpg'),
-      bldt_old: require('@/assets/image/bldt_old.jpg'),
-      bldt_color: require('@/assets/image/bldt_color.jpg'),
-      bldt_illust: require('@/assets/image/bldt_illust.jpg')
+      bldt_ogp: require('@/assets/image/bldt/ogp.jpg'),
+      bldt_old: require('@/assets/image/bldt/old.jpg'),
+      bldt_color: require('@/assets/image/bldt/color.jpg'),
+      bldt_illust: require('@/assets/image/bldt/illust.jpg')
     }
   }
 }

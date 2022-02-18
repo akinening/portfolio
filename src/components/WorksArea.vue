@@ -66,29 +66,29 @@ export default {
           title: '株式会社BuildIt 公式サイト - リードデザイン',
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
           url: '/works/Build%20It',
-          image_url: require('@/assets/image/bldt.jpg'),
+          image_url: require('@/assets/image/bldt/ogp.jpg'),
           date: '2020.05 - 2020.06'
         },
         {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
           description: 'ホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
-          image_url: require('@/assets/image/core.jpg'),
+          image_url: require('@/assets/image/core/ogp.jpg'),
           date: '2019.11 - 2020.03'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ事業',
           description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。',
           url: '/works/Lobi',
-          image_url: require('@/assets/image/lobi.png'),
-          date: '2019.01 - 2019.08'
+          image_url: require('@/assets/image/lobi/lobi.png'),
+          date: '2019'
         },
         {
           title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
           description: '複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
           url: '/works/Lobi%20Tournament',
-          image_url: require('@/assets/image/lobi-tournament.png'),
-          date: '2018.04 - 2018.12'
+          image_url: require('@/assets/image/lobi/lobi-tournament.png'),
+          date: '2018'
         }
       ],
       activities: [

@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" :src="ogp" alt="Lobi">
+    <img class="image" src="@/assets/image/lobi/lobi.png" alt="Lobi">
 
     <p class="description">
       フロントエンドの開発を担当しました。 チームは数十名規模。エンジニアはフロントエンド３名、バックエンド３名
@@ -24,19 +24,13 @@
       WebRTC (Agora.io SDK)を用いて、Web,  Android, iOSのマルチプラットフォームで配信や視聴が可能な、生配信機能の実装を行いました。<br>
       Web 3名, Android 3名, iOS 3名, デザイナー 2名, ディレクター 2名のチームで、要件定義や設計の段階から携わりました。アプリとWebでは仕様が異なることが多々あり、その把握や調整に苦労しました。
     </p>
-    <img class="image" :src="lobi_live" alt="生配信のスクリーンショット" loading="lazy">
+    <img class="image" src="@/assets/image/lobi/lobi_live.png" alt="生配信のスクリーンショット" loading="lazy">
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Lobi',
-  data () {
-    return {
-      lobi_live: require('@/assets/image/lobi_live.png'),
-      ogp: require('@/assets/image/lobi.png')
-    }
-  }
+  name: 'Lobi'
 }
 </script>
 

@@ -32,8 +32,6 @@ import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
-import Zenb from '@/components/articles/Zenb'
-import Book from '@/components/articles/Book'
 import Spott from '@/components/articles/Spott'
 
 export default {
@@ -47,8 +45,6 @@ export default {
     Core,
     Lobi,
     LobiTournament,
-    Zenb,
-    Book,
     Spott
   }
 }
