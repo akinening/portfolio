@@ -22,7 +22,8 @@
           </router-link>
         </li>
       </ul>
-      <div class="show-more c-shadow" @click="showMore" v-if="this.count === 2">もっと見る</div>
+      <div class="show-more c-shadow" @click="toggle" v-if="!isOpen">もっと見る</div>
+      <div class="show-more c-shadow" @click="toggle" v-else>閉じる</div>
     </section>
 
     <section class="mt-80">
@@ -108,17 +109,19 @@ export default {
           date: '2014 - 2022'
         }
       ],
-      count: 2
+      count: 2,
+      isOpen: false
     }
   },
   computed: {
     activeLists () {
-      return this.projects.slice(0, this.count)
+      const count = this.isOpen ? 6 : 2
+      return this.projects.slice(0, count)
     }
   },
   methods: {
-    showMore () {
-      this.count = 6
+    toggle () {
+      this.isOpen = !this.isOpen
     }
   }
 }
