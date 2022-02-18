@@ -42,14 +42,22 @@ export default {
   background-color rgb(36, 40, 42)
 
   @media (max-width: 768px)
-    padding 40px 4px
+    flex-direction column
+    padding 20px
 
   &__left
     display block
 
+    @media (max-width: 768px)
+      margin 0 auto
+
   &__right
     display flex
     align-items center
+
+    @media (max-width: 768px)
+      margin 40px 0 20px
+      justify-content center
 
 .logo
   width 280px
@@ -78,6 +86,7 @@ export default {
   height 40px
   margin-left 20px
   opacity 0.5
+  transition all 0.2s
 
   &:hover
     opacity 1.0

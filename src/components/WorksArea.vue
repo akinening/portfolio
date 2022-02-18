@@ -11,7 +11,7 @@
     <section class="mt-80">
       <h2 class="c-title c-title--center">PROJECTS</h2>
       <ul class="cards">
-        <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
+        <li class="card mb-30 c-shadow" v-for="(project, num) in activeLists" :key="`project-${num}`">
           <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
@@ -22,6 +22,7 @@
           </router-link>
         </li>
       </ul>
+      <div class="show-more c-shadow" @click="showMore" v-if="this.count === 2">もっと見る</div>
     </section>
 
     <section class="mt-80">
@@ -106,7 +107,18 @@ export default {
           image_url: require('@/assets/image/starlight.png'),
           date: '2014 - 2022'
         }
-      ]
+      ],
+      count: 2
+    }
+  },
+  computed: {
+    activeLists () {
+      return this.projects.slice(0, this.count)
+    }
+  },
+  methods: {
+    showMore () {
+      this.count = 6
     }
   }
 }
@@ -169,18 +181,23 @@ export default {
     overflow hidden
     text-overflow ellipsis
 
-.top-btn
+.show-more
   display block
-  margin-top 48px
-  padding 8px 32px
-  width fit-content
-  border 1px solid rgb(36, 40, 42)
+  width 100%
+  margin-top -8px
+  padding 12px 0
+  text-align center
   border-radius 4px
+  border 1px solid rgba(0,0,0,0.2)
   font-size 13px
   font-weight 700
   color rgb(36, 40, 42)
+  background-color white
+  cursor pointer
+  box-shadow 0px 1px 4px 0px rgba(0,0,0,0.08)
+  transition all 0.2s
 
-  @media screen and (max-width: 768px)
-    display none
-
+  &:hover
+    box-shadow none
+    color rgba(36, 40, 42, 0.4)
 </style>
