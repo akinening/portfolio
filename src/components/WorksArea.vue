@@ -41,6 +41,22 @@
         </li>
       </ul>
     </section>
+
+    <section class="mt-80">
+      <h2 class="c-title c-title--center">STORE</h2>
+      <ul class="cards">
+        <li class="card mb-30 c-shadow" v-for="(store, num) in stores" :key="`store-${num}`">
+          <a :href="store.url" rel="noopener noreferrer">
+            <div class="photo" :style="{backgroundImage: 'url(' + store.image_url + ')' }"></div>
+            <div class="detail">
+              <p class="detail__title">{{ store.title }}</p>
+              <p class="detail__text">{{ store.date }}</p>
+              <p class="detail__text">{{ store.description }}</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
   </article>
 </template>
 
@@ -95,11 +111,11 @@ export default {
       ],
       activities: [
         {
-          title: 'DRAWER',
-          description: '「クリエイターの生産性を向上する」を目的としたプロジェクトです。現在サイト構築中。',
-          url: 'https://draw-from.studio.site/',
-          image_url: require('@/assets/image/drawer.png'),
-          date: '2020 - 2021'
+          title: 'Figmaたん',
+          description: 'Figmaの非公式キャラクター「Figmaたん」です。Figmaに関する日本語記事を紹介しています。',
+          url: 'https://www.figma.com/community/file/1063752787187389952',
+          image_url: require('@/assets/image/figma.png'),
+          date: '2022'
         },
         {
           title: 'STARLIGHT',
@@ -107,6 +123,22 @@ export default {
           url: 'https://starlight.akinen.com/',
           image_url: require('@/assets/image/starlight.png'),
           date: '2014 - 2022'
+        }
+      ],
+      stores: [
+        {
+          title: 'Chrome拡張機能「Drawer」',
+          description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
+          url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
+          image_url: require('@/assets/image/spott.png'),
+          date: '2020'
+        },
+        {
+          title: '技術書を執筆＆頒布',
+          description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
+          url: 'https://techbookfest.org/product/5108267816583168',
+          image_url: require('@/assets/image/dezabiyo.png'),
+          date: '2021'
         }
       ],
       count: 2,
