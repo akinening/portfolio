@@ -85,14 +85,14 @@ export default {
           description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt/ogp.jpg'),
-          date: '2020.05 - 2020.06'
+          date: '2020'
         },
         {
           title: '人財育成支援SaaS「Core」 - UIリニューアル',
           description: 'ホーム画面や管理画面のリデザインを担当しました。',
           url: '/works/Core',
           image_url: require('@/assets/image/core/ogp.jpg'),
-          date: '2019.11 - 2020.03'
+          date: '2019'
         },
         {
           title: 'Lobi - 日本最大級のゲームコミュニティ事業',
