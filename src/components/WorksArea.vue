@@ -30,7 +30,7 @@
       <h2 class="c-title c-title--center">ACTIVITIES</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" rel="noopener noreferrer">
+          <a :href="activity.url" rel="noopener noreferrer" target="_blank">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
@@ -111,10 +111,10 @@ export default {
       ],
       activities: [
         {
-          title: 'Figmaたん',
-          description: 'Figmaの非公式キャラクター「Figmaたん」です。Figmaに関する日本語記事を紹介しています。',
-          url: 'https://www.figma.com/community/file/1063752787187389952',
-          image_url: require('@/assets/image/figma.png'),
+          title: 'SUKEDACHI',
+          description: 'SUKEDACHIは、デザイナー不在の案件に助太刀するデザインユニットです。',
+          url: 'https://sukedachi.studio.site/',
+          image_url: require('@/assets/image/sukedachi.png'),
           date: '2022'
         },
         {
