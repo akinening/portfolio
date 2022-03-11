@@ -8,11 +8,6 @@
         <a class="link__url" href="https://akinen.com">akinen.com</a>
       </div>
       <div class="link">
-        <p class="link__title">STARLIGHT</p>
-        <span class="link__border"></span>
-        <a class="link__url" href="https://starlight.akinen.com">starlight.akinen.com</a>
-      </div>
-      <div class="link">
         <p class="link__title">DRAWER</p>
         <span class="link__border"></span>
         <a class="link__url" href="https://drawer.akinen.com">drawer.akinen.com</a>

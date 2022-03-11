@@ -119,8 +119,8 @@ export default {
         },
         {
           title: 'STARLIGHT',
-          description: 'サークル「STARLIGHT」として、一次創作イラストを中心に活動しています。',
-          url: 'https://starlight.akinen.com/',
+          description: 'STARLIGHTは喫茶店をコンセプトにした創作サークルです。',
+          url: 'https://starlight.studio.site/',
           image_url: require('@/assets/image/starlight.png'),
           date: '2014 - 2022'
         }
