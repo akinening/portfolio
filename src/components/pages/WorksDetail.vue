@@ -13,8 +13,6 @@
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
-    <zenb v-if="$route.params.id === 'Zenb'" />
-    <book v-if="$route.params.id === 'Book'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
   </article>
   <footer-area />
