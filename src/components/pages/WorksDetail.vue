@@ -10,13 +10,12 @@
   <article class="c-centering mb-100">
     <stockr v-if="$route.params.id === 'Stockr'" />
     <build-it v-if="$route.params.id === 'Build It'" />
-    <kamakura v-if="$route.params.id === 'Kamakura'" />
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
     <zenb v-if="$route.params.id === 'Zenb'" />
     <book v-if="$route.params.id === 'Book'" />
-    <spott v-if="$route.params.id === 'Spott'" />
+    <tmnf v-if="$route.params.id === 'Tmnf'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -32,7 +31,7 @@ import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import LobiTournament from '@/components/articles/LobiTournament'
-import Spott from '@/components/articles/Spott'
+import Tmnf from '@/components/articles/Tmnf'
 
 export default {
   name: 'WorksDetail',
@@ -45,7 +44,7 @@ export default {
     Core,
     Lobi,
     LobiTournament,
-    Spott
+    Tmnf
   }
 }
 </script>

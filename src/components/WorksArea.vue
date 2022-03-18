@@ -68,8 +68,8 @@ export default {
       projects: [
         {
           title: '大手損保グループ - DX推進',
-          description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から実績は非公開です。',
-          url: '/',
+          description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から詳細は非公開です。',
+          url: '/works/TMNF',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - 現在'
         },
