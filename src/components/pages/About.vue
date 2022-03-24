@@ -59,9 +59,9 @@
           <h2 class="profile__name">AKINORI OZAWA</h2>
           <p class="profile__discription">PRODUCT DESIGNER</p>
           <p class="profile__discription">
-            大学卒業後、面白法人カヤックに入社。フロントエンドエンジニアとしてNuxt.jsやTypeScriptを用いたゲームコミュニティ事業の開発に参画。<br>
-            その後UI/UXデザイナーに転向し、ビルディットにて複数の受託開発や新規自社事業の立ち上げに携わる。<br>
-            現在は損保大手グループにて、損害保険事業のデザインに取り組んでいる。
+            長野県諏訪市生まれ。面白法人カヤック、株式会社ビルディット（教育系ベンチャー）を経て現職に至る。エンジニアとデザイナーの両方を経験し、現在は損保大手グループにて、損害保険の新規事業創出に携わっている。<br>
+            <br>
+            Born in Suwa City, Nagano Prefecture. Worked at Kayac Corporation and Bildit Corporation (educational venture) before assuming my current position. I have experience as both an engineer and designer, and am currently involved in the creation of new non-life insurance business for a major non-life insurance group.
           </p>
         </div>
       </div>
