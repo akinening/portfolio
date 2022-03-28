@@ -7,11 +7,11 @@
   <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
       <h2 class="message">
-        ヒトと事業の「間」をデザインし、<br class="hide-sp">日々の暮らしに体験価値を届けます。
+        ヒトとプロダクトの「間」をデザインし、<br class="hide-sp">日々の暮らしに体験価値を届けます。
       </h2>
       <p class="sub-title">
-        たとえ良いアイデア・良い機能があっても、<br class="hide-sp">それがユーザーに届かなければ意味がありません。<br>
-        ユーザーフレンドリーなUI・UXデザインを通じて、人々の暮らしのなかに体験を届けます。
+        たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。<br>
+        サービスデザインを通じてコアバリューを洗い出し、人々の暮らしのなかに体験を届けます。
       </p>
 
       <div class="development mt-plus mb-100">

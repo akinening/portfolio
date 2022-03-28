@@ -2,7 +2,7 @@
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-plus">
       <p class="sub-title">
-        より多くの人々の暮らしを豊かにしたい―――<br class="hide-sp">
+        「より多くの人々の暮らしを豊かにしたい」<br class="hide-sp">
         その思いから、日々デジタルプロダクトと向き合っています。<br>
         事業戦略・デザイン・エンジニアリングの３つの視点から一貫して携わることで、プロダクトを成功に導きます。
       </p>
