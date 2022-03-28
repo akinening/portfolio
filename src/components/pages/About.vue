@@ -16,24 +16,24 @@
 
       <div class="development mt-plus mb-100">
         <div class="skill c-shadow">
-          <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
+          <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
           <div class="skill__box">
-            <h2 class="title">体験設計</h2>
+            <h2 class="title">PdM・PO支援</h2>
             <ul class="description">
-              <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。</li>
-              <li><b>定量評価</b>：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
-              <li><b>定性評価</b>：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
+              <li>デザイナーとして、プロダクト・マネジメントのデザインプロセスを支援します。</li>
+              <li>事業戦略をもとに体験設計を考慮し、POに提案します。</li>
             </ul>
           </div>
         </div>
 
         <div class="skill c-shadow">
-          <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
+          <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
           <div class="skill__box">
-            <h2 class="title">情報設計</h2>
+            <h2 class="title">UX設計</h2>
             <ul class="description">
-              <li>元エンジニアとしての経験を活かし、メンタルモデルを意識した構造設計が可能です。</li>
-              <li>ユーザビリティを考慮し、目的の行動がスムーズに行えるよう意識しています。</li>
+              <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。</li>
+              <li><b>定量評価</b>：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
+              <li><b>定性評価</b>：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
             </ul>
           </div>
         </div>
