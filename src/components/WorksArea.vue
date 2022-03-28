@@ -2,9 +2,9 @@
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-plus">
       <p class="sub-title">
-        デジタルプロダクトを通じて、より多くの人々の暮らしを豊かにしたい。<br class="hide-sp">
-        その思いから、日々デザイナーとして試行錯誤しています。<br>
-        一貫したサービスデザインによって、ユーザーに体験を届けます。
+        より多くの人々の暮らしを豊かにしたい―――<br class="hide-sp">
+        その思いから、日々デジタルプロダクトと向き合っています。<br>
+        事業戦略・デザイン・エンジニアリングの３つの視点から一貫して携わることで、プロダクトを成功に導きます。
       </p>
     </section>
 
@@ -69,7 +69,7 @@ export default {
         {
           title: '大手損保グループ - DX推進',
           description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から詳細は非公開です。',
-          url: '/works/TMNF',
+          url: '/works/Tmnf',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - 現在'
         },
