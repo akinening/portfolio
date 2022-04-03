@@ -123,6 +123,20 @@ export default {
           url: 'https://starlight.studio.site/',
           image_url: require('@/assets/image/starlight.png'),
           date: '2014 - 2022'
+        },
+        {
+          title: 'デザイン読書日和',
+          description: 'デザイン読書日和とは、デザインに関する同人誌の即売＆交流イベントです。 サークル参加予定。',
+          url: 'https://dezabiyo.studio.site',
+          image_url: require('@/assets/image/dezabiyo2.png'),
+          date: '2022'
+        },
+        {
+          title: 'Figmaたん',
+          description: 'Figmaの非公式キャラクター「Figmaたん」です。',
+          url: 'https://www.figma.com/community/file/1063752787187389952',
+          image_url: require('@/assets/image/figma.png'),
+          date: '2022'
         }
       ],
       stores: [
