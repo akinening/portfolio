@@ -2,12 +2,12 @@
   <transition name="modal" appear>
     <div class="overlay">
       <div class="card">
-        <h1 class="card__title">あいことば</h1>
+        <h1 class="card__title">ようこそ</h1>
         <p class="card__text">このページを閲覧するには、あいことばが必要です。</p>
         <input class="card__input" v-model="aikotoba" @keydown.enter="authPW" placeholder="あいことばを入力">
         <div class="card__border"></div>
         <p class="card__text">
-          <a href="https://forms.gle/p8h5Kx3q43pbnxbX9" target="_blank" rel="noopener noreferrer">こちら</a>より、アンケート調査にご協力ください。<br>
+          <a href="https://forms.gle/p8h5Kx3q43pbnxbX9" target="_blank" rel="noopener noreferrer">こちら</a> より、アンケート調査にご協力ください。<br>
           回答すると、あいことばを確認できます。
         </p>
         <!-- <div>
