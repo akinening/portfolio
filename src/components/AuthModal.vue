@@ -6,12 +6,15 @@
         <p class="card__text">このページを閲覧するには、あいことばが必要です。</p>
         <input class="card__input" v-model="aikotoba" @keydown.enter="authPW" placeholder="あいことばを入力">
         <div class="card__border"></div>
-        <p class="card__text">あいことばを知りたい方は、<br>以下のいずれかの方法でご連絡ください。</p>
-        <div>
+        <p class="card__text">
+          <a href="https://forms.gle/p8h5Kx3q43pbnxbX9" target="_blank" rel="noopener noreferrer">こちら</a>より、アンケート調査にご協力ください。<br>
+          回答すると、あいことばを確認できます。
+        </p>
+        <!-- <div>
           <a href="https://twitter.com/_akinen" target="_blank"><img class="sns" src="@/assets/image/sns/twitter_color.png" alt="twitter"></a>
           <a href="https://www.facebook.com/ackiena" target="_blank"><img class="sns" src="@/assets/image/sns/facebook_color.png" alt="facebook"></a>
           <a href="https://www.instagram.com/ak1nen" target="_blank"><img class="sns" src="@/assets/image/sns/instagram_color.png" alt="instagram"></a>
-        </div>
+        </div> -->
       </div>
     </div>
   </transition>
