@@ -27,7 +27,7 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title c-title--center">ACTIVITIES</h2>
+      <h2 class="c-title c-title--center">STARLIGHT</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" rel="noopener noreferrer" target="_blank">
@@ -36,22 +36,6 @@
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="mt-80">
-      <h2 class="c-title c-title--center">STORE</h2>
-      <ul class="cards">
-        <li class="card mb-30 c-shadow" v-for="(store, num) in stores" :key="`store-${num}`">
-          <a :href="store.url" rel="noopener noreferrer">
-            <div class="photo" :style="{backgroundImage: 'url(' + store.image_url + ')' }"></div>
-            <div class="detail">
-              <p class="detail__title">{{ store.title }}</p>
-              <p class="detail__text">{{ store.date }}</p>
-              <p class="detail__text">{{ store.description }}</p>
             </div>
           </a>
         </li>
@@ -104,20 +88,6 @@ export default {
       ],
       activities: [
         {
-          title: 'SUKEDACHI',
-          description: 'SUKEDACHIは、デザイナー不在の案件に助太刀するデザインユニットです。',
-          url: 'https://sukedachi.studio.site/',
-          image_url: require('@/assets/image/sukedachi.png'),
-          date: '2022'
-        },
-        {
-          title: 'STARLIGHT',
-          description: 'STARLIGHTは喫茶店をコンセプトにした創作サークルです。',
-          url: 'https://starlight.studio.site/',
-          image_url: require('@/assets/image/starlight.png'),
-          date: '2014 - 2022'
-        },
-        {
           title: 'デザイン読書日和',
           description: 'デザイン読書日和とは、デザインに関する同人誌の即売＆交流イベントです。 サークル参加予定。',
           url: 'https://dezabiyo.studio.site',
@@ -130,9 +100,7 @@ export default {
           url: 'https://www.figma.com/community/file/1063752787187389952',
           image_url: require('@/assets/image/figma.png'),
           date: '2022'
-        }
-      ],
-      stores: [
+        },
         {
           title: 'Chrome拡張機能「Drawer」',
           description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
