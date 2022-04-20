@@ -21,9 +21,6 @@
     <p class="description">
       <b>①被験者の募集</b><br>
       募集用のフォームを作成し、FacebookやStockrのTwitterアカウントでユーザーを募りました。被験者にはメールで事前にスケジュール概要や個人情報の取扱についての説明を送り、できるだけ不安のないよう心がけました。<br>
-      <span class="link">
-        <a href="https://forms.gle/AzEPLFdrgUkN9AUc8" target="_blank" class="link__button">募集フォーム</a>
-      </span>
 
       <b>②ヒアリングシートを用意</b><br>
       表面的な回答ではなく、できる限り潜在ニーズを探るため、事前にヒアリングシートを用意しました。Stockrの利用前や利用後の様子も見えるような質問を意識しています。<br>

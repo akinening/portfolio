@@ -12,7 +12,6 @@
     <build-it v-if="$route.params.id === 'Build It'" />
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
-    <lobi-tournament v-if="$route.params.id === 'Lobi Tournament'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
   </article>
   <footer-area />
@@ -28,7 +27,6 @@ import Stockr from '@/components/articles/Stockr'
 import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
-import LobiTournament from '@/components/articles/LobiTournament'
 import Tmnf from '@/components/articles/Tmnf'
 
 export default {
@@ -41,7 +39,6 @@ export default {
     BuildIt,
     Core,
     Lobi,
-    LobiTournament,
     Tmnf
   }
 }

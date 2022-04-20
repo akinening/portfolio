@@ -95,18 +95,11 @@ export default {
           date: '2019'
         },
         {
-          title: 'Lobi - 日本最大級のゲームコミュニティ事業',
-          description: 'AngularJSからNuxt.jsへのリニューアルや、WebRTCを用いた生配信機能の実装を行いました。',
+          title: 'Lobi - ゲームコミュニティ事業',
+          description: 'フロントエンドエンジニアとして、ゲームコミュニティ事業「Lobi」やeスポーツ開催サービス「Lobi Tournament」の開発に携わりました。',
           url: '/works/Lobi',
           image_url: require('@/assets/image/lobi/lobi.png'),
-          date: '2019'
-        },
-        {
-          title: 'Lobi Tournament - 日本有数のe-sports大会開催サービス',
-          description: '複数大会への一括エントリー機能や、スイスドロー形式の大会開催機能の実装を行いました。',
-          url: '/works/Lobi%20Tournament',
-          image_url: require('@/assets/image/lobi/lobi-tournament.png'),
-          date: '2018'
+          date: '2018 - 2019'
         }
       ],
       activities: [
