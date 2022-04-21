@@ -8,14 +8,20 @@
     </p>
 
     <h2 class="title">略歴</h2>
+    <br>
+    <h3 class="title title--sub">Apple Watchを用いた疾病予防アプリ</h3>
     <p class="description">
       2022.04 ~<br>
-      <b>Apple Watchを用いた疾病予防アプリ</b><br>
+      顧客のヘルスケアをサポートするiOSネイティブアプリのUX/UIデザインを担当しています。<br>
+       <img class="image image--w80" src="@/assets/image/apple watch.jpg" alt="Apple Watch">
       ・iOSネイティブアプリのUIデザイン： Apple本社のデザイナーに相談<br>
       ・Time To Value： 初回オンボーディングのステップ数（操作回数）を極力減らす。プロトタイピングでフローを確認<br>
-      <br>
+    </p>
+
+    <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
+    <p class="description">
       2021.11 ~ 2022.03<br>
-      <b>BCP（事業継続計画）策定支援サービスのUIデザイン</b><br>
+      製造業・小売・介護など、幅広い業種に対応した事業継続計画を策定できるWebサービスのUIデザインを担当しました。
     </p>
     <p class="description">
       ※コンプライアンスの観点から詳細は非公開です。
