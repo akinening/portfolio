@@ -91,7 +91,7 @@ export default {
           title: 'デザイン読書日和',
           description: 'デザイン読書日和とは、デザインに関する同人誌の即売＆交流イベントです。 サークル参加予定。',
           url: 'https://dezabiyo.studio.site',
-          image_url: require('@/assets/image/dezabiyo2.png'),
+          image_url: require('@/assets/image/design_biyori.png'),
           date: '2022'
         },
         {
