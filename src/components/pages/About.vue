@@ -1,7 +1,7 @@
 <template>
 <div>
   <header-area />
-  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
+  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_work + ')' }">
     <span class="hero__content">About</span>
   </h1>
   <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
@@ -81,6 +81,7 @@ export default {
   data () {
     return {
       bg_about: require('@/assets/image/bg_about.jpg'),
+      bg_work: require('@/assets/image/bg_work.png'),
       note1: require('@/assets/image/logo_sp.png')
     }
   },
