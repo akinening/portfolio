@@ -91,8 +91,15 @@ export default {
           title: 'デザイン読書日和',
           description: 'デザイン読書日和とは、デザインに関する同人誌の即売＆交流イベントです。 サークル参加予定。',
           url: 'https://dezabiyo.studio.site',
-          image_url: require('@/assets/image/design_biyori.png'),
+          image_url: require('@/assets/image/dezabiyo2.png'),
           date: '2022'
+        },
+        {
+          title: '技術書を執筆＆頒布',
+          description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
+          url: 'https://techbookfest.org/product/5108267816583168',
+          image_url: require('@/assets/image/dezabiyo.png'),
+          date: '2021'
         },
         {
           title: 'Figmaたん',
@@ -107,13 +114,6 @@ export default {
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/spott.png'),
           date: '2020'
-        },
-        {
-          title: '技術書を執筆＆頒布',
-          description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
-          url: 'https://techbookfest.org/product/5108267816583168',
-          image_url: require('@/assets/image/dezabiyo.png'),
-          date: '2021'
         }
       ],
       count: 2,
