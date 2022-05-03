@@ -9,6 +9,13 @@
       </span>
     </p>
 
+    <h2 class="title">0. 概要</h2>
+    <p class="description">
+      「高品質な学びの仕組みをつくる」という自社のミッションを実現するため、新規自社事業としてユーザーの経験学習を支援するアプリが企画されました。<br>
+      経験学習のプロセスをアプリに落とし込む必要があり、ストーリーマッピングやユーザーインタビューを通して、体験を洗い出していきました。<br>
+      PJには、企画段階からリードデザイナーとして参加。リリース後も改善を重ね、1万DLを突破しました。
+    </p>
+
     <img class="image image--2col" :src="stockr_flow1" alt="基本機能の改善">
     <img class="image image--2col" :src="stockr_flow2" alt="マーケ施策">
 
@@ -83,11 +90,6 @@
       <img class="image image--w80" src="@/assets/image/stockr/mailchimp.png" alt="ステップメール" loading="lazy">
     </p>
 
-    <h3 class="title title--sub">3-4. ターゲティング広告</h3>
-    <p class="description">
-      <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
-    </p>
-
     <h2 class="title">4. その他の取り組み</h2>
     <br>
     <h3 class="title title--sub">4-1. デザインガイドラインの作成</h3>
@@ -98,10 +100,16 @@
       <img class="image image--2col" :src="component" alt="コンポーネントの例" loading="lazy">
     </p>
 
-    <h2 class="title title--sub">4-2. アプリ内イラスト制作</h2>
+    <h3 class="title title--sub">4-2. アプリ内イラスト制作</h3>
     <p class="description">
       Stockrの各機能をひと目で説明するために、SVGイラストを作成しました。Stockrに合うトンマナを検討し、線画＋ベースカラーのイラストに着地しました。<br>
       <img class="image" :src="illust" alt="イラスト">
+    </p>
+
+    <h3 class="title title--sub">4-3. ターゲティング広告</h3>
+    <p class="description">
+      FacebookやTwitterに広告を作成し、出稿しました。各メディアではつ
+      <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
     </p>
   </section>
 </template>
