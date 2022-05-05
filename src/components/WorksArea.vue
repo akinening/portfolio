@@ -88,11 +88,11 @@ export default {
       ],
       activities: [
         {
-          title: 'デザイン読書日和',
-          description: 'デザイン読書日和とは、デザインに関する同人誌の即売＆交流イベントです。 サークル参加予定。',
+          title: 'Figmaのムック本',
+          description: '「第2回デザイン読書日和」に出展予定。FigmaをUIデザイン以外に使ってみようという話をします。',
           url: 'https://dezabiyo.studio.site',
           image_url: require('@/assets/image/dezabiyo2.png'),
-          date: '2022'
+          date: '2022.09'
         },
         {
           title: '技術書を執筆＆頒布',
