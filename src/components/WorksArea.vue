@@ -53,37 +53,72 @@ export default {
   data () {
     return {
       projects: [
+        // {
+        //   title: '大手損保グループ - DX推進',
+        //   description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から詳細は非公開です。',
+        //   url: '/works/Tmnf',
+        //   image_url: require('@/assets/image/tmnf.png'),
+        //   date: '2021.11 - 現在'
+        // },
+        // {
+        //   title: 'Stockr - 新規自社事業のリードデザイン',
+        //   description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
+        //   url: '/works/Stockr',
+        //   image_url: require('@/assets/image/stockr/ogp2.png'),
+        //   date: '2020.06 - 2021.10'
+        // },
+        // {
+        //   title: '株式会社BuildIt 公式サイト - リードデザイン',
+        //   description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
+        //   url: '/works/Build%20It',
+        //   image_url: require('@/assets/image/bldt/ogp.jpg'),
+        //   date: '2020'
+        // },
+        // {
+        //   title: '人財育成支援SaaS「Core」 - UIリニューアル',
+        //   description: 'ホーム画面や管理画面のリデザインを担当しました。',
+        //   url: '/works/Core',
+        //   image_url: require('@/assets/image/core/ogp.jpg'),
+        //   date: '2019'
+        // },
+        // {
+        //   title: 'Lobi - ゲームコミュニティ事業',
+        //   description: 'フロントエンドエンジニアとして、ゲームコミュニティ事業「Lobi」やeスポーツ開催サービス「Lobi Tournament」の開発に携わりました。',
+        //   url: '/works/Lobi',
+        //   image_url: require('@/assets/image/lobi/lobi.png'),
+        //   date: '2018 - 2019'
+        // }
         {
-          title: '大手損保グループ - DX推進',
-          description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から詳細は非公開です。',
+          title: 'New Business Development',
+          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/Tmnf',
           image_url: require('@/assets/image/tmnf.png'),
-          date: '2021.11 - 現在'
+          date: '2021.11 - Now'
         },
         {
-          title: 'Stockr - 新規自社事業のリードデザイン',
-          description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
+          title: 'Stockr - Design Lead',
+          description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
           url: '/works/Stockr',
           image_url: require('@/assets/image/stockr/ogp2.png'),
           date: '2020.06 - 2021.10'
         },
         {
-          title: '株式会社BuildIt 公式サイト - リードデザイン',
-          description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
+          title: 'Buildit Inc - Design Lead',
+          description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
           url: '/works/Build%20It',
           image_url: require('@/assets/image/bldt/ogp.jpg'),
           date: '2020'
         },
         {
-          title: '人財育成支援SaaS「Core」 - UIリニューアル',
-          description: 'ホーム画面や管理画面のリデザインを担当しました。',
+          title: 'Core - UI Design',
+          description: 'Core is a SaaS that supports human resource development. I redesigned the home and admin screens.',
           url: '/works/Core',
           image_url: require('@/assets/image/core/ogp.jpg'),
           date: '2019'
         },
         {
-          title: 'Lobi - ゲームコミュニティ事業',
-          description: 'フロントエンドエンジニアとして、ゲームコミュニティ事業「Lobi」やeスポーツ開催サービス「Lobi Tournament」の開発に携わりました。',
+          title: 'Lobi - Game Community',
+          description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
           url: '/works/Lobi',
           image_url: require('@/assets/image/lobi/lobi.png'),
           date: '2018 - 2019'
@@ -91,29 +126,29 @@ export default {
       ],
       activities: [
         {
-          title: 'Figmaのムック本',
-          description: '「第2回デザイン読書日和」に出展予定。FigmaをUIデザイン以外に使ってみようという話をします。',
+          title: 'Figma Mook',
+          description: 'I will be exhibiting at the "デザイン読書日和".This is about using Figma for something other than UI design.',
           url: 'https://dezabiyo.studio.site',
           image_url: require('@/assets/image/dezabiyo2.png'),
           date: '2022.09'
         },
         {
-          title: '技術書を執筆＆頒布',
-          description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
+          title: 'Writing & distributing technical book',
+          description: 'I exhibited at "デザイン読書日和" and "技術書典11" and distributed about 70 copies of the book.',
           url: 'https://techbookfest.org/product/5108267816583168',
           image_url: require('@/assets/image/dezabiyo.png'),
           date: '2021'
         },
         {
-          title: 'Figmaたん',
-          description: 'Figmaの非公式キャラクター「Figmaたん」です。',
+          title: 'Figma-tan',
+          description: 'This is "Figma-tan", an unofficial character of Figma.',
           url: 'https://www.figma.com/community/file/1063752787187389952',
           image_url: require('@/assets/image/figma.png'),
           date: '2022'
         },
         {
-          title: 'Chrome拡張機能「Drawer」',
-          description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
+          title: 'Drawer - Chrome Extension',
+          description: 'Drawer is a Chrome extension built in Vue.js. It reduces the tedious task of searching for materials and improves productivity.',
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/spott.png'),
           date: '2020'
