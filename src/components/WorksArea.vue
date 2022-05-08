@@ -161,7 +161,7 @@ export default {
           date: '2022.09'
         },
         {
-          title: 'Writing & distributing technical book',
+          title: 'Technical Book',
           description: 'I exhibited at "デザイン読書日和" and "技術書典11" and distributed about 70 copies of the book.',
           url: 'https://techbookfest.org/product/5108267816583168',
           image_url: require('@/assets/image/dezabiyo.png'),
