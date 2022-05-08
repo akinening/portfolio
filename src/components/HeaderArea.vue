@@ -7,13 +7,24 @@
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
       <a class="tab" href="https://drawer.akinen.com" target="_blank">DRAWER</a>
+      <p class="tab" @click="toggleLang">{{lang}}</p>
     </nav>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'HeaderArea'
+  name: 'HeaderArea',
+  data () {
+    return {
+      lang: 'EN'
+    }
+  },
+  methods: {
+    toggleLang () {
+      this.lang = (this.lang === 'EN') ? 'JP' : 'EN'
+    }
+  }
 }
 </script>
 

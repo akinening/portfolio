@@ -2,9 +2,12 @@
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-plus">
       <p class="sub-title">
-        「より多くの人々の暮らしを豊かにしたい」<br class="hide-sp">
+        <!-- 「より多くの人々の暮らしを豊かにしたい」<br class="hide-sp">
         その思いから、日々デジタルプロダクトと向き合っています。<br>
-        事業戦略・デザイン・エンジニアリングの３つの視点から一貫して携わることで、プロダクトを成功に導きます。
+        事業戦略・デザイン・エンジニアリングの３つの視点から一貫して携わることで、プロダクトを成功に導きます。 -->
+        "Enrich the lives of more people."<br class="hide-sp">
+        With this in mind, I face digital products on a daily basis.<br>
+        I'll lead products to success by consistently engaging from the three perspectives of business strategy, design, and engineering.
       </p>
     </section>
 
@@ -22,8 +25,8 @@
           </router-link>
         </li>
       </ul>
-      <div class="show-more c-shadow" @click="toggle" v-if="!isOpen">もっと見る</div>
-      <div class="show-more c-shadow" @click="toggle" v-else>閉じる</div>
+      <div class="show-more c-shadow" @click="toggle" v-if="!isOpen">READ MORE</div>
+      <div class="show-more c-shadow" @click="toggle" v-else>CLOSE</div>
     </section>
 
     <section class="mt-80">
