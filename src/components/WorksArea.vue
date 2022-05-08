@@ -125,6 +125,34 @@ export default {
         }
       ],
       activities: [
+        // {
+        //   title: 'Figmaのムック本',
+        //   description: '「第2回デザイン読書日和」に出展予定。FigmaをUIデザイン以外に使ってみようという話をします。',
+        //   url: 'https://dezabiyo.studio.site',
+        //   image_url: require('@/assets/image/dezabiyo2.png'),
+        //   date: '2022.09'
+        // },
+        // {
+        //   title: '技術書を執筆＆頒布',
+        //   description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
+        //   url: 'https://techbookfest.org/product/5108267816583168',
+        //   image_url: require('@/assets/image/dezabiyo.png'),
+        //   date: '2021'
+        // },
+        // {
+        //   title: 'Figmaたん',
+        //   description: 'Figmaの非公式キャラクター「Figmaたん」です。',
+        //   url: 'https://www.figma.com/community/file/1063752787187389952',
+        //   image_url: require('@/assets/image/figma.png'),
+        //   date: '2022'
+        // },
+        // {
+        //   title: 'Chrome拡張機能「Drawer」',
+        //   description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
+        //   url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
+        //   image_url: require('@/assets/image/spott.png'),
+        //   date: '2020'
+        // }
         {
           title: 'Figma Mook',
           description: 'I will be exhibiting at the "デザイン読書日和".This is about using Figma for something other than UI design.',
