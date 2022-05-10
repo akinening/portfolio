@@ -6,7 +6,7 @@
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
-      <a class="tab" href="https://drawer.akinen.com" target="_blank">DRAWER</a>
+      <a class="tab" href="https://drawer.akinen.com" target="_blank">BLOG</a>
       <p class="tab" @click="toggleLang">{{lang}}</p>
     </nav>
   </header>
