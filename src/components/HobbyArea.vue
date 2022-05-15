@@ -11,7 +11,7 @@
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" rel="noopener noreferrer" target="_blank">
-            <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
+            <img class="photo" :src="activity.image_url" alt="">
           </a>
         </li>
       </ul>
@@ -26,20 +26,20 @@ export default {
     return {
       activities: [
         {
+          url: 'https://www.figma.com/community/file/1063752787187389952',
+          image_url: require('@/assets/image/starlight/banner_figma.png')
+        },
+        {
           url: 'https://dezabiyo.studio.site',
-          image_url: require('@/assets/image/dezabiyo2.png')
+          image_url: require('@/assets/image/starlight/banner_mook.png')
         },
         {
           url: 'https://techbookfest.org/product/5108267816583168',
-          image_url: require('@/assets/image/dezabiyo.png')
-        },
-        {
-          url: 'https://www.figma.com/community/file/1063752787187389952',
-          image_url: require('@/assets/image/figma.png')
+          image_url: require('@/assets/image/starlight/banner_book.png')
         },
         {
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
-          image_url: require('@/assets/image/spott.png')
+          image_url: require('@/assets/image/starlight/banner_drawer.png')
         }
       ]
     }
@@ -90,17 +90,10 @@ export default {
 .photo
   float left
   width 100%
-  height 24vw
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 4px 4px 0 0
-
-  @media (max-width: 768px)
-    height 50vw
-
-  @media (min-width: 1200px)
-    height 288px
+  border-radius 4px
 
 .detail
   padding 20px

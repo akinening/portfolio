@@ -27,7 +27,7 @@ export default {
   data () {
     return {
       isOpen: false,
-      bg_top: require('@/assets/image/bg_tokyo.png')
+      bg_top: require('@/assets/image/bg_starlight.png')
     }
   },
   beforeMount () {
@@ -43,11 +43,13 @@ export default {
   position relative
 
 .hero__back
-  display block
-  padding 2px 8px 2px 16px
-  font-size 13px
+  display inline-block
+  margin-left 20px
+  padding 2px 8px 2px 8px
+  font-size 14px
   color base-black
-  background-color rgba(white, 0.8)
+  background-color rgba(white, 0.7)
+  border-radius 100px
 
 .title
   position absolute
