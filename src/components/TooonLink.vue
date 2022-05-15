@@ -7,9 +7,9 @@
       </div>
     </div>
     <div class="footer__right">
-      <a href="https://twitter.com/_akinen" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
-      <a href="https://www.instagram.com/ak1nen" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="instagram"></a>
-      <a href="https://note.com/012" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="note"></a>
+      <a href="https://twitter.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
+      <a href="https://www.instagram.com/_starl8" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="instagram"></a>
+      <a href="https://note.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="note"></a>
     </div>
   </footer>
 </template>
