@@ -1,41 +1,37 @@
 <template>
 <div class="index">
-  <auth-modal v-if="!isAuthed" />
+  <auth-modal v-if="isOpen" />
 
-  <header-area />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
-    <div class="hero__content text-center">
-      <h1 class="title">Design can change our lives.</h1>
-    </div>
+    <router-link to="/" class="hero__back">＜ Akinen.com</router-link>
+    <h1 class="title">STARLIGHT</h1>
   </div>
 
-  <works-area />
+  <hobby-area />
   <footer-area />
 </div>
 </template>
 
 <script>
 import AuthModal from '@/components/AuthModal'
-import HeaderArea from '@/components/HeaderArea'
-import WorksArea from '@/components/WorksArea'
+import HobbyArea from '@/components/HobbyArea'
 import FooterArea from '@/components/FooterArea'
 
 export default {
   name: 'Index',
   components: {
     AuthModal,
-    HeaderArea,
-    WorksArea,
+    HobbyArea,
     FooterArea
   },
   data () {
     return {
-      isAuthed: true,
+      isOpen: false,
       bg_top: require('@/assets/image/bg_tokyo.png')
     }
   },
   beforeMount () {
-    this.isAuthed = localStorage.getItem('isAuthed')
+    this.isOpen = localStorage.getItem('isOpen')
   }
 }
 </script>
@@ -43,14 +39,25 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
-.text-center
-  text-align center
+.hero
+  position relative
+
+.hero__back
+  display block
+  padding 2px 8px 2px 16px
+  font-size 13px
+  color base-black
+  background-color rgba(white, 0.8)
 
 .title
+  position absolute
+  bottom 12px
+  left 20px
   font-family "Zilla Slab"
   font-size 64px
   font-weight 600
   line-height 1.0
+  letter-spacing 0.1rem
 
   @media (max-width: 768px)
     font-size 40px
