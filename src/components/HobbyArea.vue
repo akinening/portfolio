@@ -7,7 +7,7 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title">STARLIGHT</h2>
+      <h2 class="c-title">PROJECTS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" rel="noopener noreferrer" target="_blank">

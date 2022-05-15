@@ -30,17 +30,17 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title c-title--center">STARLIGHT</h2>
+      <h2 class="c-title c-title--center">OTHERS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" rel="noopener noreferrer" target="_blank">
+          <router-link :to="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
     </section>
@@ -154,32 +154,11 @@ export default {
         //   date: '2020'
         // }
         {
-          title: 'Figma Mook',
-          description: 'I will be exhibiting at the "デザイン読書日和".This is about using Figma for something other than UI design.',
-          url: 'https://dezabiyo.studio.site',
-          image_url: require('@/assets/image/dezabiyo2.png'),
-          date: '2022.09'
-        },
-        {
-          title: 'Technical Book',
-          description: 'I exhibited at "デザイン読書日和" and "技術書典11" and distributed about 70 copies of the book.',
-          url: 'https://techbookfest.org/product/5108267816583168',
-          image_url: require('@/assets/image/dezabiyo.png'),
-          date: '2021'
-        },
-        {
-          title: 'Figma-tan',
-          description: 'This is "Figma-tan", an unofficial character of Figma.',
-          url: 'https://www.figma.com/community/file/1063752787187389952',
-          image_url: require('@/assets/image/figma.png'),
-          date: '2022'
-        },
-        {
-          title: 'Drawer - Chrome Extension',
-          description: 'Drawer is a Chrome extension built in Vue.js. It reduces the tedious task of searching for materials and improves productivity.',
-          url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
-          image_url: require('@/assets/image/spott.png'),
-          date: '2020'
+          title: 'STARLIGHT',
+          description: 'STARLIGHT is a creative circle based on the concept of a coffee shop.',
+          url: '/starlight',
+          image_url: require('@/assets/image/bg_starlight.png'),
+          date: '2014 - Now'
         }
       ],
       count: 2,
