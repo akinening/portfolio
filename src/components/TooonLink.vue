@@ -4,6 +4,7 @@
       <div class="link">
         <p class="link__title">ご依頼 受付窓口</p>
         <p class="">現在、ご依頼はTooonにて承っております。</p>
+        <a class="link__btn" href="https://tooon.app/illust" target="_blank" rel="noopener noreferrer">相談する</a>
       </div>
     </div>
     <div class="footer__right">
@@ -51,8 +52,34 @@ export default {
   font-weight 500
   font-size 16px
 
+  @media (max-width: 768px)
+    text-align center
+
   &__title
     font-weight bold
+
+    @media (max-width: 768px)
+      margin-top 20px
+
+  &__btn
+    display block
+    margin-top 20px
+    padding 12px 48px
+    width 280px
+    border-radius 4px
+    font-size 14px
+    font-weight 700
+    text-align center
+    color rgb(36, 40, 42)
+    background-color white
+    box-sizing border-box
+    transition all 0.2s
+
+    &:hover
+      opacity 0.5
+
+    @media (max-width: 768px)
+      margin 20px 20px 0
 
 .sns
   width 40px

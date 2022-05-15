@@ -3,8 +3,10 @@
   <auth-modal v-if="isOpen" />
 
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
-    <router-link to="/" class="hero__back">＜ Akinen.com</router-link>
-    <h1 class="title">STARLIGHT</h1>
+    <div class="c-centering">
+      <router-link to="/" class="hero__back">＜ Akinen.com</router-link>
+      <h1 class="title">STARLIGHT</h1>
+    </div>
   </div>
 
   <hobby-area />
@@ -44,7 +46,6 @@ export default {
 
 .hero__back
   display inline-block
-  margin-left 20px
   padding 2px 8px 2px 8px
   font-size 14px
   color base-black
@@ -54,7 +55,6 @@ export default {
 .title
   position absolute
   bottom 12px
-  left 20px
   font-family "Zilla Slab"
   font-size 64px
   font-weight 600
