@@ -8,21 +8,21 @@
   </div>
 
   <hobby-area />
-  <footer-area />
+  <tooon-link />
 </div>
 </template>
 
 <script>
 import AuthModal from '@/components/AuthModal'
 import HobbyArea from '@/components/HobbyArea'
-import FooterArea from '@/components/FooterArea'
+import TooonLink from '@/components/TooonLink'
 
 export default {
   name: 'Index',
   components: {
     AuthModal,
     HobbyArea,
-    FooterArea
+    TooonLink
   },
   data () {
     return {
