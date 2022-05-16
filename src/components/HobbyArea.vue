@@ -1,5 +1,7 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
+    <view-modal v-if="isOpen" :val="illustData" @close="closeModal" />
+
     <section class="mt-plus">
       <p class="sub-text">
         STARLIGHTは喫茶店をコンセプトにした創作サークルです。デザイン、ときどき絵。
@@ -21,7 +23,7 @@
       <h2 class="c-title">ILLUSTRATION</h2>
       <ul class="cards">
         <li class="card-illust mb-30 c-shadow" v-for="(illust, num) in illusts" :key="`illust-${num}`">
-          <img class="photo" :src="illust.image_url" alt="">
+          <img @click="openModal(illust)" class="photo" :src="illust.image_url" alt="">
         </li>
       </ul>
     </section>
@@ -29,10 +31,16 @@
 </template>
 
 <script>
+import ViewModal from '@/components/ViewModal'
+
 export default {
   name: 'WorksArea',
+  components: {
+    ViewModal
+  },
   data () {
     return {
+      isOpen: false,
       activities: [
         {
           url: 'https://www.figma.com/community/file/1063752787187389952',
@@ -53,21 +61,45 @@ export default {
       ],
       illusts: [
         {
+          title: 'ほげほげ',
+          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/cafe.png')
         },
         {
+          title: 'ほげほげ',
+          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/dezabiyo.png')
         },
         {
+          title: 'ほげほげ',
+          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/idol.png')
         },
         {
+          title: 'ほげほげ',
+          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/obog.png')
         },
         {
+          title: 'ほげほげ',
+          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/senju.png')
         }
-      ]
+      ],
+      illustData: {
+        title: '',
+        description: '',
+        image_url: ''
+      }
+    }
+  },
+  methods: {
+    openModal (illust) {
+      this.isOpen = true
+      this.illustData = illust
+    },
+    closeModal () {
+      this.isOpen = false
     }
   }
 }
