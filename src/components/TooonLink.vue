@@ -1,18 +1,20 @@
 <template>
-  <footer class="footer">
-    <div class="footer__left">
-      <div class="link">
-        <p class="link__title">ご依頼 受付窓口</p>
-        <p class="">現在、ご依頼はTooonにて承っております。</p>
-        <a class="link__btn" href="https://tooon.app/illust" target="_blank" rel="noopener noreferrer">相談する</a>
+  <div class="cover">
+    <footer class="footer">
+      <div class="footer__left">
+        <div class="link">
+          <p class="link__title">ご依頼 受付窓口</p>
+          <p class="">現在、ご依頼はTooonにて承っております。</p>
+          <a class="link__btn" href="https://tooon.app/illust" target="_blank" rel="noopener noreferrer">相談する</a>
+        </div>
       </div>
-    </div>
-    <div class="footer__right">
-      <a href="https://twitter.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
-      <a href="https://www.instagram.com/_starl8" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="instagram"></a>
-      <a href="https://note.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="note"></a>
-    </div>
-  </footer>
+      <div class="footer__right">
+        <a href="https://twitter.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/twitter.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/_starl8" target="_blank"><img class="sns" src="@/assets/image/sns/instagram.png" alt="instagram"></a>
+        <a href="https://note.com/hosi_xyz" target="_blank"><img class="sns" src="@/assets/image/sns/note.png" alt="note"></a>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -22,16 +24,25 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+.cover
+  width 100%
+  background-color rgb(36, 40, 42)
+  color white
+
 .footer
   display flex
   justify-content space-between
-  padding 40px 80px
-  color white
-  background-color rgb(36, 40, 42)
+  margin 0 80px
+  padding 40px 0
 
   @media (max-width: 768px)
     flex-direction column
+    margin 0 20px
     padding 20px
+
+  @media (min-width: 1200px)
+    margin 0 auto
+    width 960px
 
   &__left
     display block
