@@ -28,7 +28,7 @@ export default {
 .overlay
   display flex
   align-items center
-  justify-content end
+  justify-content center
   position fixed
   z-index 200
   top 0
@@ -48,9 +48,10 @@ export default {
 
 .card
   width 100%
+  margin 20px
   color white
   background-color rgba(36, 40, 42, 0.75)
-  border-radius 16px 16px 0 0
+  border-radius 16px
   text-align center
   overflow hidden
 
