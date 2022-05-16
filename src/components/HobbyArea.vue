@@ -16,6 +16,15 @@
         </li>
       </ul>
     </section>
+
+    <section class="mt-80">
+      <h2 class="c-title">ILLUSTRATION</h2>
+      <ul class="cards">
+        <li class="card-illust mb-30 c-shadow" v-for="(illust, num) in illusts" :key="`illust-${num}`">
+          <img class="photo" :src="illust.image_url" alt="">
+        </li>
+      </ul>
+    </section>
   </article>
 </template>
 
@@ -40,6 +49,23 @@ export default {
         {
           url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
           image_url: require('@/assets/image/starlight/banner_drawer.png')
+        }
+      ],
+      illusts: [
+        {
+          image_url: require('@/assets/image/starlight/cafe.png')
+        },
+        {
+          image_url: require('@/assets/image/starlight/dezabiyo.png')
+        },
+        {
+          image_url: require('@/assets/image/starlight/idol.png')
+        },
+        {
+          image_url: require('@/assets/image/starlight/obog.png')
+        },
+        {
+          image_url: require('@/assets/image/starlight/senju.png')
         }
       ]
     }
@@ -75,17 +101,33 @@ export default {
   background-color white
   border-radius 4px
 
-  .detail__title
-  .detail__text
-    color rgb(36, 40, 42)
-
-  &:hover
-    .detail__title
-    .detail__text
-      opacity 0.6
-
   @media (max-width: 768px)
     width 100%
+
+.card-illust
+  position relative
+  width calc((100% - 20px) / 3)
+  background-color white
+  border-radius 4px
+
+  @media (max-width: 768px)
+    width calc((100% - 20px) / 2)
+
+  &:before {
+    content ""
+    display block
+    padding-top 100%
+  }
+
+  img {
+    position absolute
+    width 100%
+    height 100%
+    top 0
+    left 0
+    object-fit cover
+    object-position center top
+  }
 
 .photo
   float left
