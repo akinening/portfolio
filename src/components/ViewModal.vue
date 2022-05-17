@@ -69,6 +69,6 @@ export default {
 
 .modal-enter, .modal-leave-to
   opacity 0
-  transform: translateY(40px)
+  transform: translateY(100vh)
 
 </style>
