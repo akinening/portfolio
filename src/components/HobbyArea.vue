@@ -61,34 +61,22 @@ export default {
       ],
       illusts: [
         {
-          title: 'ほげほげ',
-          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/cafe.png')
         },
         {
-          title: 'ほげほげ',
-          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/dezabiyo.png')
         },
         {
-          title: 'ほげほげ',
-          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/idol.png')
         },
         {
-          title: 'ほげほげ',
-          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/obog.png')
         },
         {
-          title: 'ほげほげ',
-          description: '山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。',
           image_url: require('@/assets/image/starlight/senju.png')
         }
       ],
       illustData: {
-        title: '',
-        description: '',
         image_url: ''
       }
     }

@@ -1,11 +1,9 @@
 <template>
   <transition name="modal" appear>
-    <div class="overlay">
+    <div class="overlay" @click.self="$emit('close')">
+      <div class="text">◀ 左右にスワイプ ▶</div>
       <div class="card">
         <img class="card__img" :src="val.image_url" alt="">
-        <h1 class="card__title">{{ val.title }}</h1>
-        <p class="card__text">{{ val.description }}</p>
-        <div class="card__close" @click="$emit('close')">閉じる</div>
       </div>
     </div>
   </transition>
@@ -27,7 +25,7 @@ export default {
 
 .overlay
   display flex
-  align-items center
+  align-items end
   justify-content center
   position fixed
   z-index 200
@@ -35,34 +33,27 @@ export default {
   left 0
   width 100%
   height 100%
-  background rgba(0, 0, 0, 0.25)
+  color white
+  background rgba(36, 40, 42, 0.75)
   backdrop-filter blur(10px)
-  flex-direction row
   text-align center
 
-  @media (max-width: 768px)
-      flex-direction column
-
-      .card
-        width auto
+.text
+  position absolute
+  top 14vh
 
 .card
   width 100%
-  margin 20px
-  color white
-  background-color rgba(36, 40, 42, 0.75)
-  border-radius 16px
+  margin 0
+  border-radius 16px 16px 0 0
   text-align center
-  overflow hidden
+  overflow-x scroll
 
   &__img
-    width 100%
+    height 80vh
 
   &__title
     margin 28px 20px 0
-
-  &__text
-    margin 16px 20px 20px
 
   &__close
     display block
@@ -77,9 +68,10 @@ export default {
     box-sizing border-box
 
 .modal-enter-active, .modal-leave-active
-  transition: opacity .25s
+  transition: all .25s ease
 
 .modal-enter, .modal-leave-to
   opacity 0
+  transform: translateY(40px)
 
 </style>
