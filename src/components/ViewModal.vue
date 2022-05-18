@@ -40,12 +40,17 @@ export default {
 
 .card
   position relative
-  width 100%
-  margin-top 48px
-  border-radius 16px 16px 0 0
+  width auto
+  margin 48px 0
+  border-radius 16px
   background-color rgba(36, 40, 42, 0.75)
   text-align center
   overflow-x scroll
+
+  @media (max-width: 768px)
+    width 100%
+    margin 48px 0 0 0
+    border-radius 16px 16px 0 0
 
   &__img
     height calc(100% - 120px)
@@ -56,13 +61,16 @@ export default {
   padding 12px 48px
   width 280px
   left calc(50% - 140px)
-  bottom 36px
+  bottom 84px
   border-radius 4px
   border 1px solid white
   font-size 14px
   font-weight 700
   text-align center
   box-sizing border-box
+
+  @media (max-width: 768px)
+    bottom 36px
 
 .modal-enter-active, .modal-leave-active
   transition: all .25s ease
