@@ -70,6 +70,9 @@ export default {
           image_url: require('@/assets/image/starlight/idol.png')
         },
         {
+          image_url: require('@/assets/image/starlight/tdu.png')
+        },
+        {
           image_url: require('@/assets/image/starlight/obog.png')
         },
         {
