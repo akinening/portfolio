@@ -1,10 +1,10 @@
 <template>
   <transition name="modal" appear>
     <div class="overlay" @click.self="$emit('close')">
-      <div class="card">
-        <img class="card__img" :src="val.image_url" alt="">
+      <img class="img" :src="val.image_url" alt="">
+      <div class="card" :style="{backgroundColor: val.color }">
+        <div class="card__close" @click="$emit('close')">閉じる</div>
       </div>
-      <div class="close" @click="$emit('close')">閉じる</div>
     </div>
   </transition>
 </template>
@@ -34,43 +34,36 @@ export default {
   width 100%
   height 100%
   color white
-  background rgba(0, 0, 0, 0.1)
+  background rgba(0, 0, 0, 0.3)
   backdrop-filter blur(10px)
   text-align center
 
-.card
-  position relative
+.img
   width auto
-  margin 48px 0
-  border-radius 16px
-  background-color rgba(36, 40, 42, 0.75)
-  text-align center
-  overflow-x scroll
+  height 75vh
 
-  @media (max-width: 768px)
-    width 100%
-    margin 48px 0 0 0
-    border-radius 16px 16px 0 0
-
-  &__img
-    height calc(100% - 120px)
-
-.close
+.card
   position absolute
-  display block
-  padding 12px 48px
-  width 280px
-  left calc(50% - 140px)
-  bottom 84px
-  border-radius 4px
-  border 1px solid white
-  font-size 14px
-  font-weight 700
+  bottom 0
+  width 100%
+  height 25vh
   text-align center
-  box-sizing border-box
 
-  @media (max-width: 768px)
-    bottom 36px
+  &__close
+    position absolute
+    padding 12px 48px
+    width 280px
+    left calc(50% - 140px)
+    bottom 28px
+    border-radius 4px
+    border 1px solid white
+    font-size 14px
+    font-weight 700
+    text-align center
+    box-sizing border-box
+
+    @media (max-width: 768px)
+      bottom 36px
 
 .modal-enter-active, .modal-leave-active
   transition: all .25s ease
@@ -78,7 +71,7 @@ export default {
 .modal-enter, .modal-leave-to
   opacity 0
 
-  @media (max-width: 768px)
-    transform: translateY(100vh)
+  // @media (max-width: 768px)
+  //  transform: translateY(100vh)
 
 </style>

@@ -61,22 +61,24 @@ export default {
       ],
       illusts: [
         {
-          image_url: require('@/assets/image/starlight/cafe.png')
+          image_url: require('@/assets/image/starlight/dezabiyo1.png'),
+          color: '#FF746C'
         },
         {
-          image_url: require('@/assets/image/starlight/dezabiyo.png')
+          image_url: require('@/assets/image/starlight/dezabiyo2.png'),
+          color: '#5454A8'
         },
         {
-          image_url: require('@/assets/image/starlight/idol.png')
+          image_url: require('@/assets/image/starlight/senju.png'),
+          color: '#885150'
         },
         {
-          image_url: require('@/assets/image/starlight/tdu.png')
+          image_url: require('@/assets/image/starlight/obog.png'),
+          color: '#FFA030'
         },
         {
-          image_url: require('@/assets/image/starlight/obog.png')
-        },
-        {
-          image_url: require('@/assets/image/starlight/senju.png')
+          image_url: require('@/assets/image/starlight/idol.png'),
+          color: '#FFC423'
         }
       ],
       illustData: {
