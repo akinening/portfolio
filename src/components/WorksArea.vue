@@ -33,14 +33,14 @@
       <h2 class="c-title c-title--center">OTHERS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <router-link :to="activity.url">
+          <a :href="activity.url">
             <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
               <p class="detail__text">{{ activity.description }}</p>
             </div>
-          </router-link>
+          </a>
         </li>
       </ul>
     </section>
@@ -159,6 +159,13 @@ export default {
           url: '/starlight',
           image_url: require('@/assets/image/bg_starlight.png'),
           date: '2014 - Now'
+        },
+        {
+          title: 'BLOG',
+          description: 'Comming Soon...',
+          url: 'https://times.akinen.com',
+          image_url: require('@/assets/image/bg_media.jpg'),
+          date: '2022'
         }
       ],
       count: 2,
