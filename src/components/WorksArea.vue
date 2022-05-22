@@ -156,7 +156,7 @@ export default {
         {
           title: 'STARLIGHT',
           description: 'STARLIGHT is a creative circle based on the concept of a coffee shop.',
-          url: '/starlight',
+          url: '/#/starlight',
           image_url: require('@/assets/image/bg_starlight.png'),
           date: '2014 - Now'
         },
