@@ -22,6 +22,7 @@
     <p class="description">
       2021.11 ~ 2022.03<br>
       製造業・小売・介護など、幅広い業種に対応した事業継続計画を策定できるWebサービスのUIデザインを担当しました。
+      <img class="image image--w80" src="@/assets/image/tmnf/bcsp.png" alt="BCSP">
     </p>
     <p class="description">
       ※コンプライアンスの観点から詳細は非公開です。
