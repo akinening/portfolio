@@ -8,9 +8,9 @@
         <a class="link__url" href="https://akinen.com">akinen.com</a>
       </div>
       <div class="link">
-        <p class="link__title">DRAWER</p>
+        <p class="link__title">BLOG</p>
         <span class="link__border"></span>
-        <a class="link__url" href="https://drawer.akinen.com">drawer.akinen.com</a>
+        <a class="link__url" href="https://times.akinen.com">times.akinen.com</a>
       </div>
     </div>
     <div class="footer__right">
