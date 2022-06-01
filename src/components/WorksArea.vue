@@ -154,18 +154,18 @@ export default {
         //   date: '2020'
         // }
         {
+          title: '#times',
+          description: 'A blog about technology, design and product management.',
+          url: 'https://times.akinen.com',
+          image_url: require('@/assets/image/bg_media.jpg'),
+          date: '2022'
+        },
+        {
           title: 'STARLIGHT',
           description: 'STARLIGHT is a creative circle based on the concept of a coffee shop.',
           url: '/#/starlight',
           image_url: require('@/assets/image/bg_starlight.png'),
           date: '2014 - Now'
-        },
-        {
-          title: 'BLOG',
-          description: 'Comming Soon...',
-          url: 'https://times.akinen.com',
-          image_url: require('@/assets/image/bg_media.jpg'),
-          date: '2022'
         }
       ],
       count: 2,
