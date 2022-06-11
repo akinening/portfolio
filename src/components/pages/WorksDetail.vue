@@ -13,6 +13,7 @@
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
+    <logo v-if="$route.params.id === 'Logo'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -28,6 +29,7 @@ import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
+import Logo from '@/components/articles/Logo'
 
 export default {
   name: 'WorksDetail',
@@ -39,7 +41,8 @@ export default {
     BuildIt,
     Core,
     Lobi,
-    Tmnf
+    Tmnf,
+    Logo
   }
 }
 </script>

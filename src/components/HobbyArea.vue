@@ -27,6 +27,22 @@
         </li>
       </ul>
     </section>
+
+    <section class="mt-80">
+      <h2 class="c-title c-title--center">OTHERS</h2>
+      <ul class="cards">
+        <li class="card mb-30 c-shadow" v-for="(activity, num) in works" :key="`work-${num}`">
+          <a :href="activity.url">
+            <div class="photo photo--other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
+            <div class="detail">
+              <p class="detail__title">{{ activity.title }}</p>
+              <p class="detail__text">{{ activity.date }}</p>
+              <p class="detail__text">{{ activity.description }}</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
   </article>
 </template>
 
@@ -83,7 +99,16 @@ export default {
       ],
       illustData: {
         image_url: ''
-      }
+      },
+      works: [
+        {
+          title: 'Logo',
+          description: 'DJロゴを制作しました。',
+          url: '/#/works/Logo',
+          image_url: require('@/assets/image/deneb.png'),
+          date: '2022'
+        }
+      ]
     }
   },
   methods: {
@@ -126,6 +151,15 @@ export default {
   background-color white
   border-radius 4px
 
+  .detail__title
+  .detail__text
+    color rgb(36, 40, 42)
+
+  &:hover
+    .detail__title
+    .detail__text
+      opacity 0.6
+
   @media (max-width: 768px)
     width 100%
 
@@ -161,6 +195,15 @@ export default {
   background-size cover
   background-position 50%
   border-radius 4px
+
+  &--other
+    height 24vw
+
+    @media (max-width: 768px)
+      height 50vw
+
+    @media (min-width: 1200px)
+      height 288px
 
 .detail
   padding 20px
