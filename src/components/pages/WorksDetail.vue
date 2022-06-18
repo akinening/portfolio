@@ -14,6 +14,7 @@
     <lobi v-if="$route.params.id === 'Lobi'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
     <logo v-if="$route.params.id === 'Logo'" />
+    <creative v-if="$route.params.id === 'Creative'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -30,6 +31,7 @@ import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
 import Logo from '@/components/articles/Logo'
+import Creative from '@/components/articles/Creative'
 
 export default {
   name: 'WorksDetail',
@@ -42,7 +44,8 @@ export default {
     Core,
     Lobi,
     Tmnf,
-    Logo
+    Logo,
+    Creative
   }
 }
 </script>

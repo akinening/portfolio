@@ -107,6 +107,13 @@ export default {
           url: '/#/works/Logo',
           image_url: require('@/assets/image/deneb.png'),
           date: '2022'
+        },
+        {
+          title: 'その他クリエイティブ',
+          description: '過去の制作物をいくつかご紹介します',
+          url: '/#/works/Creative',
+          image_url: require('@/assets/image/deneb.png'),
+          date: '2014 - Now'
         }
       ]
     }
