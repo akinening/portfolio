@@ -23,10 +23,15 @@
 
     <h2 class="title">ベンチャー文化の導入</h2>
     <p class="description">
-      ・DXの一環<br>
       ・Slackにチームメンバーのtimesチャンネル作成を提言し、業務での気づきやデザインについての話題を共有する場をつくった。<br>
       ・HCD-Netへの賛助会員登録を提言し、現在関係各所と調整中。<br>
       ・イラストの刷新を提言するため、各社のイラストシステムについて調査。
+    </p>
+
+    <h2 class="title">社内ポータルのリデザイン</h2>
+    <p class="description">
+      秘伝のタレと化した社内ポータルを、現在リデザイン中です。
+      <img class="image image--w80" src="@/assets/image/tmnf/portal.png" alt="ポータル">
     </p>
 
     <h2 class="title">その他</h2>
