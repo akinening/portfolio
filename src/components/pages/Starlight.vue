@@ -2,7 +2,8 @@
   <div class="screen">
     <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
       <div class="character">
-        <img class="character__img" src="@/assets/image/starlight/idol.png" alt="">
+        <img v-on:click="greet" class="character__img" src="@/assets/image/starlight/idol.png" alt="">
+        <div v-if="msgVisible" class="character__msg">お疲れさまです！今日も無理せず頑張ってくださいね！</div>
       </div>
 
       <!-- 上部エリア -->
@@ -32,12 +33,13 @@ export default {
     return {
       cursor: require('@/assets/image/starlight/icon/cursor.png'),
       BG: require('@/assets/image/starlight/BG.png'),
-      clock: '00:00:00'
+      clock: '00:00:00',
+      voice: new Audio(require('@/assets/sound/idol_1.wav')),
+      msgVisible: false
     }
   },
   created () {
     this.tick()
-    console.log(this.cursor)
   },
   methods: {
     tick () {
@@ -54,6 +56,14 @@ export default {
       setTimeout(() => {
         this.tick()
       }, 100)
+    },
+    greet () {
+      this.msgVisible = true
+      this.voice.currentTime = 0
+      this.voice.play()
+      this.voice.onended = () => {
+        this.msgVisible = false
+      }
     }
   }
 }
@@ -101,6 +111,18 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
 
     @media (max-width: 768px)
       height calc(100vh - 100px)
+
+  &__msg
+    position fixed
+    bottom 168px
+    left calc(50% - 240px)
+    width 480px
+    padding 40px
+    box-sizing border-box
+    border 3px solid white
+    background rgba(white 0.5)
+    backdrop-filter blur(10px)
+    border-radius 100px
 
 // 上部エリア
 .top-right
