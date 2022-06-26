@@ -6,8 +6,13 @@
       </div>
 
       <!-- 上部エリア -->
-      <div class="clock">
-        <p class="clock__time">{{ clock }}</p>
+      <div class="top-right">
+        <div class="clock">
+          <p class="clock__text">{{ clock }}</p>
+        </div>
+        <div class="share">
+          <p class="share__text">SHARE</p>
+        </div>
       </div>
 
       <!-- 下部エリア -->
@@ -92,17 +97,22 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
       height calc(100vh - 100px)
 
 // 上部エリア
-.clock
+.top-right
   z-index 10
   position fixed
   top 20px
   right 32px
+  display flex
+
+.clock
+.share
+  margin-left 20px
   padding 12px 28px
   background-color rgba(#2E0039, 0.5)
   border-radius 100px
   filter shadow044
 
-  &__time
+  &__text
     font-weight 800
     font-size 20px
     color white
