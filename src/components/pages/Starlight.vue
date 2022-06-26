@@ -1,66 +1,97 @@
 <template>
-<div class="index">
-  <auth-modal v-if="isOpen" />
+  <div class="screen">
+    <div class="bg" :style="{backgroundImage: 'url(' + BG + ')'}">
+      <div class="character">
+        <img class="character__img" src="@/assets/image/starlight/idol.png" alt="">
+      </div>
 
-  <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
-    <div class="c-centering">
-      <router-link to="/" class="hero__back">＜ Akinen.com</router-link>
-      <h1 class="title">STARLIGHT</h1>
+      <img class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
+      <img class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
+      <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
     </div>
   </div>
-
-  <hobby-area />
-  <tooon-link />
-</div>
 </template>
 
 <script>
-import AuthModal from '@/components/AuthModal'
-import HobbyArea from '@/components/HobbyArea'
-import TooonLink from '@/components/TooonLink'
-
 export default {
-  name: 'Index',
+  name: 'Starlight',
   components: {
-    AuthModal,
-    HobbyArea,
-    TooonLink
   },
   data () {
     return {
-      isOpen: false,
-      bg_top: require('@/assets/image/bg_starlight.png')
+      BG: require('@/assets/image/starlight/BG.png')
     }
-  },
-  beforeMount () {
-    this.isOpen = localStorage.getItem('isOpen')
   }
 }
 </script>
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
+shadow = drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
 
-.hero
-  position relative
+.screen
+  width 100vw
+  height 100vh
+  background-color black
 
-.hero__back
-  display inline-block
-  padding 2px 8px 2px 8px
-  font-size 14px
-  color base-black
-  background-color rgba(white, 0.7)
-  border-radius 100px
+.bg
+  z-index 0
+  margin 0 auto
+  width 100%
+  max-width 1440px
+  height 100%
+  max-height 1440px
+  overscroll-behavior none
+  background-position center
+  background-repeat no-repeat
+  background-attachment fixed
+  background-size cover
 
-.title
-  position absolute
-  bottom 12px
-  font-family "Zilla Slab"
-  font-size 64px
-  font-weight 600
-  line-height 1.0
-  letter-spacing 0.1rem
+.character
+  z-index 5
+  display flex
+  align-items flex-end
+  justify-content center
+  width 100%
+  height 100%
 
-  @media (max-width: 768px)
-    font-size 40px
+  &__img
+    width auto
+    height calc(100vh - 80px)
+
+    @media (max-width: 768px)
+      height calc(100vh - 100px)
+
+.btn
+  z-index 10
+  filter shadow
+  position fixed
+
+  &:hover
+    opacity 0.8
+
+  &--change
+    bottom 32px
+    left 32px
+
+    @media (max-width: 768px)
+      left 20px
+      height 44px
+
+  &--project
+    bottom 32px
+    left calc(50% - 240px)
+
+    @media (max-width: 768px)
+      bottom 96px
+      left 20px
+      height 44px
+
+  &--help
+    bottom 32px
+    right 32px
+
+    @media (max-width: 768px)
+      right 20px
+      width 96px
 </style>
