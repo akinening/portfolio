@@ -1,6 +1,6 @@
 <template>
   <div class="screen">
-    <div class="bg" :style="{backgroundImage: 'url(' + BG + ')'}">
+    <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
       <div class="character">
         <img class="character__img" src="@/assets/image/starlight/idol.png" alt="">
       </div>
@@ -30,12 +30,14 @@ export default {
   },
   data () {
     return {
+      cursor: require('@/assets/image/starlight/icon/cursor.png'),
       BG: require('@/assets/image/starlight/BG.png'),
       clock: '00:00:00'
     }
   },
   created () {
     this.tick()
+    console.log(this.cursor)
   },
   methods: {
     tick () {
@@ -147,6 +149,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
   &--help
     bottom 32px
     right 32px
+    border-radius 500px
 
     @media (max-width: 768px)
       right 20px
