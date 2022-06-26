@@ -94,6 +94,10 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
   &__img
     width auto
     height calc(100vh - 80px)
+    transition all .3s ease
+
+    &:hover
+      transform translateY(10px)
 
     @media (max-width: 768px)
       height calc(100vh - 100px)
