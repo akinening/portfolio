@@ -5,6 +5,12 @@
         <img class="character__img" src="@/assets/image/starlight/idol.png" alt="">
       </div>
 
+      <!-- 上部エリア -->
+      <div class="clock">
+        <p class="clock__time">{{ clock }}</p>
+      </div>
+
+      <!-- 下部エリア -->
       <img class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
       <img class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
       <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
@@ -19,7 +25,28 @@ export default {
   },
   data () {
     return {
-      BG: require('@/assets/image/starlight/BG.png')
+      BG: require('@/assets/image/starlight/BG.png'),
+      clock: '00:00:00'
+    }
+  },
+  created () {
+    this.tick()
+  },
+  methods: {
+    tick () {
+      const date = new Date()
+      let h = date.getHours()
+      let m = date.getMinutes()
+      let s = date.getSeconds()
+
+      if (h < 10) h = '0' + h
+      if (m < 10) m = '0' + m
+      if (s < 10) s = '0' + s
+      this.clock = h + ':' + m + ':' + s
+
+      setTimeout(() => {
+        this.tick()
+      }, 100)
     }
   }
 }
@@ -27,12 +54,14 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-shadow = drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
+shadow044 = drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
+shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
 
 .screen
   width 100vw
   height 100vh
   background-color black
+  font-family 'M PLUS 1p' // 400, 800
 
 .bg
   z-index 0
@@ -62,9 +91,27 @@ shadow = drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
     @media (max-width: 768px)
       height calc(100vh - 100px)
 
+// 上部エリア
+.clock
+  z-index 10
+  position fixed
+  top 20px
+  right 32px
+  padding 12px 28px
+  background-color rgba(#2E0039, 0.5)
+  border-radius 100px
+  filter shadow044
+
+  &__time
+    font-weight 800
+    font-size 20px
+    color white
+    filter shadow022
+
+// 下部エリア
 .btn
   z-index 10
-  filter shadow
+  filter shadow044
   position fixed
 
   &:hover
