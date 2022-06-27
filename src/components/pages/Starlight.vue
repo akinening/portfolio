@@ -168,19 +168,30 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
   right 32px
   display flex
 
+  @media (max-width: 768px)
+    top 16px
+    right 16px
+
 .clock
 .share
   margin-left 20px
   padding 12px 28px
-  background-color rgba(#2E0039, 0.5)
+  background-color rgba(46,0,46,0.6)
   border-radius 100px
   filter shadow044
+
+  @media (max-width: 768px)
+    margin-left 16px
+    padding 8px 20px
 
   &__text
     font-weight 800
     font-size 20px
     color white
     filter shadow022
+
+    @media (max-width: 768px)
+      font-size 16px
 
 // 下部エリア
 .btn
@@ -196,17 +207,18 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     left 32px
 
     @media (max-width: 768px)
-      left 20px
-      height 44px
+      bottom 108px
+      left 16px
+      height 56px
 
   &--project
     bottom 32px
     left calc(50% - 240px)
 
     @media (max-width: 768px)
-      bottom 96px
-      left 20px
-      height 44px
+      bottom 16px
+      left 16px
+      width calc(100% - 32px)
 
   &--help
     bottom 32px
@@ -214,6 +226,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     border-radius 500px
 
     @media (max-width: 768px)
-      right 20px
-      width 96px
+      bottom 108px
+      right 16px
+      width 120px
 </style>
