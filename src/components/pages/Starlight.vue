@@ -29,7 +29,9 @@
         </div>
 
         <!-- 下部エリア -->
-        <img v-on:click="playAudio(charaVoice)" class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
+        <img @click="openCharaModal(charaVoice)" class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
+        <character-modal v-if="isOpen" @close="closeModal" />
+
         <img v-on:click="playAudio(prjVoice)" class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
         <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
       </div>
@@ -39,13 +41,17 @@
 </template>
 
 <script>
+import CharacterModal from '@/components/modal/CharacterModal'
+
 export default {
   name: 'Starlight',
   components: {
+    CharacterModal
   },
   data () {
     return {
       loading: true,
+      isOpen: false,
       cursor: require('@/assets/image/starlight/icon/cursor.png'),
       BG: require('@/assets/image/starlight/BG.png'),
       clock: '00:00:00',
@@ -90,6 +96,14 @@ export default {
     playAudio (file) {
       file.currentTime = 0
       file.play()
+    },
+    openCharaModal (file) {
+      file.currentTime = 0
+      file.play()
+      this.isOpen = true
+    },
+    closeModal () {
+      this.isOpen = false
     }
   }
 }

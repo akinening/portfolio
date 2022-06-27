@@ -11,12 +11,7 @@
 
 <script>
 export default {
-  props: ['val'],
-  data () {
-    return {
-      aikotoba: ''
-    }
-  }
+  props: ['val']
 }
 </script>
 
