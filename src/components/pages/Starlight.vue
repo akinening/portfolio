@@ -29,8 +29,8 @@
         </div>
 
         <!-- 下部エリア -->
-        <img class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
-        <img class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
+        <img v-on:click="playAudio(charaVoice)" class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
+        <img v-on:click="playAudio(prjVoice)" class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
         <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
       </div>
     </div>
@@ -50,6 +50,8 @@ export default {
       BG: require('@/assets/image/starlight/BG.png'),
       clock: '00:00:00',
       voice: new Audio(require('@/assets/sound/idol_1.wav')),
+      charaVoice: new Audio(require('@/assets/sound/character.wav')),
+      prjVoice: new Audio(require('@/assets/sound/project.wav')),
       msgVisible: false
     }
   },
@@ -84,6 +86,10 @@ export default {
       this.voice.onended = () => {
         this.msgVisible = false
       }
+    },
+    playAudio (file) {
+      file.currentTime = 0
+      file.play()
     }
   }
 }
