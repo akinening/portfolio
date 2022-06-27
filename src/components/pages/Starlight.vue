@@ -1,27 +1,41 @@
 <template>
-  <div class="screen">
-    <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
-      <div class="character">
-        <img v-on:click="greet" class="character__img" src="@/assets/image/starlight/idol.png" alt="">
-        <div v-if="msgVisible" class="character__msg">お疲れさまです！今日も無理せず頑張ってくださいね！</div>
-      </div>
-
-      <!-- 上部エリア -->
-      <div class="top-right">
-        <div class="clock">
-          <p class="clock__text">{{ clock }}</p>
-        </div>
-        <div class="share">
-          <p class="share__text">SHARE</p>
-        </div>
-      </div>
-
-      <!-- 下部エリア -->
-      <img class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
-      <img class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
-      <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
-    </div>
+<div>
+  <div class="loader" v-show="loading">
+    <vue-loaders-ball-pulse color="#FF5894" scale="1"></vue-loaders-ball-pulse>
+    <p>
+      よみこみちゅう<br>
+      <br>
+      このページは音声が流れます。<br>
+      音量をONにしてお楽しみください。
+    </p>
   </div>
+
+  <transition name="loaded">
+    <div class="screen" v-show="!loading">
+      <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
+        <div class="character">
+          <img v-on:click="greet" class="character__img" src="@/assets/image/starlight/idol.png" alt="">
+          <div v-if="msgVisible" class="character__msg">お疲れさまです！今日も無理せず頑張ってくださいね！</div>
+        </div>
+
+        <!-- 上部エリア -->
+        <div class="top-right">
+          <div class="clock">
+            <p class="clock__text">{{ clock }}</p>
+          </div>
+          <div class="share">
+            <p class="share__text">SHARE</p>
+          </div>
+        </div>
+
+        <!-- 下部エリア -->
+        <img class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
+        <img class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
+        <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
+      </div>
+    </div>
+  </transition>
+</div>
 </template>
 
 <script>
@@ -31,6 +45,7 @@ export default {
   },
   data () {
     return {
+      loading: true,
       cursor: require('@/assets/image/starlight/icon/cursor.png'),
       BG: require('@/assets/image/starlight/BG.png'),
       clock: '00:00:00',
@@ -40,6 +55,11 @@ export default {
   },
   created () {
     this.tick()
+  },
+  mounted () {
+    setTimeout(() => {
+      this.loading = false
+    }, 2000)
   },
   methods: {
     tick () {
@@ -73,6 +93,22 @@ export default {
 @import "../../assets/css/common.styl"
 shadow044 = drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25))
 shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
+
+.loader
+  width 100vw
+  height 100vh
+  display flex
+  align-items center
+  justify-content center
+  flex-direction column
+  text-align center
+  background-color #FFEDF3
+
+.loaded-enter-active
+  transition opacity 1s
+
+.loaded-enter
+  opacity 0
 
 .screen
   width 100vw

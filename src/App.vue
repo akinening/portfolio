@@ -1,17 +1,6 @@
 <template>
   <div id="app">
-    <div class="loader" v-show="loading">
-      <vue-loaders-ball-pulse color="#FF5894" scale="1"></vue-loaders-ball-pulse>
-      <p>
-        よみこみちゅう<br>
-        <br>
-        このページは音声が流れます。<br>
-        音量をONにしてお楽しみください。
-      </p>
-    </div>
-    <transition name="loaded">
-      <router-view v-show="!loading" />
-    </transition>
+    <router-view />
   </div>
 </template>
 
@@ -19,17 +8,7 @@
 
 export default {
   name: 'App',
-  components: {},
-  data () {
-    return {
-      loading: true
-    }
-  },
-  mounted () {
-    setTimeout(() => {
-      this.loading = false
-    }, 2000)
-  }
+  components: {}
 }
 </script>
 
@@ -65,23 +44,5 @@ li {
 
 a {
   text-decoration: none;
-}
-
-.loader {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.loaded-enter-active {
-  transition: opacity 1s;
-}
-
-.loaded-enter {
-  opacity: 0;
 }
 </style>
