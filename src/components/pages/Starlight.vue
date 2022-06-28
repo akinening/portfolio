@@ -14,7 +14,7 @@
     <div class="screen" v-show="!loading">
       <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
         <div class="character">
-          <img v-on:click="greet" class="character__img" src="@/assets/image/starlight/idol.png" alt="">
+          <img v-on:click="greet" class="character__img" :src="require('@/assets/image/starlight/' + selectedCharacter + '.png')" alt="">
           <div v-if="msgVisible" class="character__msg">お疲れさまです！今日も無理せず頑張ってくださいね！</div>
         </div>
 
@@ -54,6 +54,7 @@ export default {
       isOpen: false,
       cursor: require('@/assets/image/starlight/icon/cursor.png'),
       BG: require('@/assets/image/starlight/BG.png'),
+      selectedCharacter: 'idol',
       clock: '00:00:00',
       voice: new Audio(require('@/assets/sound/idol_1.wav')),
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
@@ -102,8 +103,11 @@ export default {
       file.play()
       this.isOpen = true
     },
-    closeModal () {
+    closeModal (selected) {
       this.isOpen = false
+      if (selected !== '') {
+        this.selectedCharacter = selected
+      }
     }
   }
 }

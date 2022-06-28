@@ -1,13 +1,13 @@
 <template>
   <transition name="modal" appear>
-    <div class="overlay" @click.self="$emit('close')">
+    <div class="overlay" @click.self="$emit('close', '')">
       <div class="toast" :style="{backgroundImage: 'url(' + toast + ')' }">
         <p class="toast__msg">ホームに表示するキャラクターを選んでください</p>
       </div>
 
       <div class="select">
         <div v-for="(character, num) in characters" :key="`character-${num}`">
-          <img class="select__img" :src="character.image_url" alt="">
+          <img class="select__img" @click="select(character.name)" :src="character.image_url" alt="">
         </div>
       </div>
     </div>
@@ -22,18 +22,23 @@ export default {
       toast: require('@/assets/image/starlight/toast.png'),
       characters: [
         {
+          name: 'senju',
           image_url: require('@/assets/image/starlight/senju.png')
         },
         {
+          name: 'obog',
           image_url: require('@/assets/image/starlight/obog.png')
         },
         {
+          name: 'idol',
           image_url: require('@/assets/image/starlight/idol.png')
         },
         {
+          name: 'dezabiyo1',
           image_url: require('@/assets/image/starlight/dezabiyo1.png')
         },
         {
+          name: 'dezabiyo2',
           image_url: require('@/assets/image/starlight/dezabiyo2.png')
         }
       ]
@@ -55,6 +60,11 @@ export default {
       //     image_url: require('@/assets/image/starlight/banner_drawer.png')
       //   }
       // ]
+    }
+  },
+  methods: {
+    select (name) {
+      this.$emit('close', name)
     }
   }
 }
@@ -108,8 +118,11 @@ export default {
     border-radius 100px
     border 6px solid white
     object-fit cover
+    object-position 50% 50%
     transition all 0.25s ease
 
     &:hover
       background-color rgba(#FF5894, 0.75)
+      height 424px
+      margin -12px 12px
 </style>
