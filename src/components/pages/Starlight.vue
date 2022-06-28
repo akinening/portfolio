@@ -15,7 +15,7 @@
       <div class="bg" :style="{backgroundImage: 'url(' + BG + ')', cursor: 'url(' + cursor + ') 10 4, auto'}">
         <div class="character">
           <img v-on:click="greet" class="character__img" :src="require('@/assets/image/starlight/' + selectedCharacter + '.png')" alt="">
-          <div v-if="msgVisible" class="character__msg">お疲れさまです！今日も無理せず頑張ってくださいね！</div>
+          <div v-if="msgVisible" class="character__msg">{{ greetText }}</div>
         </div>
 
         <!-- 上部エリア -->
@@ -56,7 +56,6 @@ export default {
       BG: require('@/assets/image/starlight/BG.png'),
       selectedCharacter: 'idol',
       clock: '00:00:00',
-      voice: new Audio(require('@/assets/sound/idol_1.wav')),
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
       prjVoice: new Audio(require('@/assets/sound/project.wav')),
       msgVisible: false
@@ -69,6 +68,18 @@ export default {
     setTimeout(() => {
       this.loading = false
     }, 2000)
+  },
+  computed: {
+    greetText () {
+      const msg = {
+        'senju': 'おまたせ！今日はどこ行こっか〜',
+        'obog': '',
+        'idol': 'お疲れさまです！今日も無理せず頑張ってくださいね！',
+        'dezabiyo1': '',
+        'dezabiyo2': '頭触らないでください。通報しますよ'
+      }
+      return msg[this.selectedCharacter]
+    }
   },
   methods: {
     tick () {
@@ -87,10 +98,11 @@ export default {
       }, 100)
     },
     greet () {
+      const voice = new Audio(require('@/assets/sound/' + this.selectedCharacter + '.wav'))
       this.msgVisible = true
-      this.voice.currentTime = 0
-      this.voice.play()
-      this.voice.onended = () => {
+      voice.currentTime = 0
+      voice.play()
+      voice.onended = () => {
         this.msgVisible = false
       }
     },
