@@ -73,9 +73,9 @@ export default {
     greetText () {
       const msg = {
         'senju': 'おまたせ！今日はどこ行こっか〜',
-        'obog': '',
+        'obog': '先輩、おはようございます。今日も元気にいきましょう！',
         'idol': 'お疲れさまです！今日も無理せず頑張ってくださいね！',
-        'dezabiyo1': '',
+        'dezabiyo1': 'あ、ちょうどいいところに！宿題手伝って〜＞＜',
         'dezabiyo2': '頭触らないでください。通報しますよ'
       }
       return msg[this.selectedCharacter]
