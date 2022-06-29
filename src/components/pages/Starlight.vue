@@ -20,9 +20,9 @@
 
         <!-- 上部エリア -->
         <div class="top top--left">
-          <div @click="toggleSpotify" class="status">
-            <p class="status__text">♫ BGM</p>
-            <iframe v-show="openSpotify" class="trigger trigger--spotify" src="https://open.spotify.com/embed/playlist/2itnD2jMoTEFmjG4p0Ztlw?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="encrypted-media;"></iframe>
+          <div @click="toggleBGM" class="status">
+            <p v-if="isActiveBGM" class="status__text">♫ BGM ON</p>
+            <p v-else class="status__text">♫ BGM OFF</p>
           </div>
         </div>
         <div class="top top--right">
@@ -68,7 +68,8 @@ export default {
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
       prjVoice: new Audio(require('@/assets/sound/project.wav')),
       msgVisible: false,
-      openSpotify: false,
+      BGM: new Audio(require('@/assets/sound/bgm.mp3')),
+      isActiveBGM: false,
       openShare: false
     }
   },
@@ -79,6 +80,10 @@ export default {
     setTimeout(() => {
       this.loading = false
     }, 2000)
+    this.BGM.currentTime = 0
+    this.BGM.muted = false
+    this.BGM.volume = 0.25
+    this.BGM.loop = true
   },
   computed: {
     greetText () {
@@ -132,8 +137,14 @@ export default {
         this.selectedCharacter = selected
       }
     },
-    toggleSpotify () {
-      this.openSpotify = !this.openSpotify
+    toggleBGM () {
+      if (this.isActiveBGM === false) {
+        this.BGM.play()
+        this.isActiveBGM = true
+      } else {
+        this.BGM.stop()
+        this.isActiveBGM = false
+      }
     },
     toggleShare () {
       this.openShare = !this.openShare
@@ -262,7 +273,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     right 0
     padding 20px
 
-  &--spotify
+  &--bgm
     left 0
 
   &__title
