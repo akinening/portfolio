@@ -20,17 +20,20 @@
 
         <!-- 上部エリア -->
         <div class="top-right">
-          <div class="clock">
-            <p class="clock__text">{{ clock }}</p>
+          <div class="status">
+            <p class="status__text">{{ clock }}</p>
           </div>
-          <div class="share">
-            <p class="share__text">SHARE</p>
+          <div @click="toggleShare" class="status">
+            <p class="status__text">SHARE</p>
+            <div v-show="openShare" class="share">
+              <a href="http://twitter.com/share?url=https://akinen.com/%23/starlight" target="_blank" class="share__title">ツイートする</a>
+            </div>
           </div>
         </div>
 
         <!-- 下部エリア -->
         <img @click="openCharaModal(charaVoice)" class="btn btn--change" src="@/assets/image/starlight/btn/change.png" alt="change">
-        <character-modal v-if="isOpen" @close="closeModal" />
+        <character-modal v-if="isOpen" @close="closeCharaModal" />
 
         <img v-on:click="playAudio(prjVoice)" class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
         <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
@@ -58,7 +61,8 @@ export default {
       clock: '00:00:00',
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
       prjVoice: new Audio(require('@/assets/sound/project.wav')),
-      msgVisible: false
+      msgVisible: false,
+      openShare: false
     }
   },
   created () {
@@ -115,11 +119,14 @@ export default {
       file.play()
       this.isOpen = true
     },
-    closeModal (selected) {
+    closeCharaModal (selected) {
       this.isOpen = false
       if (selected !== '') {
         this.selectedCharacter = selected
       }
+    },
+    toggleShare () {
+      this.openShare = !this.openShare
     }
   }
 }
@@ -151,6 +158,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
   height 100vh
   background-color black
   font-family 'M PLUS 1p' // 400, 800
+  user-select none // テキスト選択防止
 
 .bg
   z-index 0
@@ -208,8 +216,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     top 16px
     right 16px
 
-.clock
-.share
+.status
   margin-left 20px
   padding 12px 28px
   background-color rgba(46,0,46,0.6)
@@ -228,6 +235,21 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
 
     @media (max-width: 768px)
       font-size 16px
+
+.share
+  position absolute
+  background-color rgba(46,0,46,0.6)
+  top 56px
+  right 0
+  padding 20px
+  width max-content
+  border-radius 16px
+
+  &__title
+    font-weight 800
+    font-size 16px
+    color white
+    filter shadow022
 
 // 下部エリア
 .btn
