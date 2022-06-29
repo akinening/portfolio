@@ -19,14 +19,20 @@
         </div>
 
         <!-- 上部エリア -->
-        <div class="top-right">
+        <div class="top top--left">
+          <div @click="toggleSpotify" class="status">
+            <p class="status__text">♫ BGM</p>
+            <iframe v-show="openSpotify" class="trigger trigger--spotify" src="https://open.spotify.com/embed/playlist/2itnD2jMoTEFmjG4p0Ztlw?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="encrypted-media;"></iframe>
+          </div>
+        </div>
+        <div class="top top--right">
           <div class="status">
             <p class="status__text">{{ clock }}</p>
           </div>
           <div @click="toggleShare" class="status">
             <p class="status__text">SHARE</p>
-            <div v-show="openShare" class="share">
-              <a href="http://twitter.com/share?url=https://akinen.com/%23/starlight" target="_blank" class="share__title">ツイートする</a>
+            <div v-show="openShare" class="trigger trigger--share">
+              <a href="http://twitter.com/share?url=https://akinen.com/%23/starlight" target="_blank" class="trigger__title">ツイートする</a>
             </div>
           </div>
         </div>
@@ -62,6 +68,7 @@ export default {
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
       prjVoice: new Audio(require('@/assets/sound/project.wav')),
       msgVisible: false,
+      openSpotify: false,
       openShare: false
     }
   },
@@ -124,6 +131,9 @@ export default {
       if (selected !== '') {
         this.selectedCharacter = selected
       }
+    },
+    toggleSpotify () {
+      this.openSpotify = !this.openSpotify
     },
     toggleShare () {
       this.openShare = !this.openShare
@@ -205,16 +215,21 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     border-radius 100px
 
 // 上部エリア
-.top-right
+.top
   z-index 10
   position fixed
   top 20px
-  right 32px
-  display flex
 
-  @media (max-width: 768px)
-    top 16px
-    right 16px
+  &--left
+    left 32px
+
+  &--right
+    right 32px
+    display flex
+
+    @media (max-width: 768px)
+      top 16px
+      right 16px
 
 .status
   margin-left 20px
@@ -236,14 +251,19 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
     @media (max-width: 768px)
       font-size 16px
 
-.share
+.trigger
   position absolute
   background-color rgba(46,0,46,0.6)
   top 56px
-  right 0
-  padding 20px
   width max-content
   border-radius 16px
+
+  &--share
+    right 0
+    padding 20px
+
+  &--spotify
+    left 0
 
   &__title
     font-weight 800
