@@ -30,14 +30,12 @@
     <p class="description">
       2022.04 ~<br>
       顧客のヘルスケアをサポートするiOSネイティブアプリのUX/UIデザインを担当しています。<br>
-      <img class="image image--w80" src="@/assets/image/apple watch.jpg" alt="Apple Watch">
     </p>
 
     <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
     <p class="description">
       2021.11 ~ 2022.03<br>
       製造業・小売・介護など、幅広い業種に対応した事業継続計画を策定できるWebサービスのUIデザインを担当しました。
-      <img class="image image--w80" src="@/assets/image/tmnf/bcsp.png" alt="BCSP">
     </p>
   </section>
 </template>
