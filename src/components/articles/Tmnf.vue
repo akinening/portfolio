@@ -8,6 +8,23 @@
       ※コンプライアンスの観点から、案件の詳細は非公開です。
     </p>
 
+    <h2 class="title">UX/UIデザイン</h2>
+    <br>
+    <h3 class="title title--sub">Apple Watchを用いた疾病予防アプリ</h3>
+    <p class="description">
+      2022.04 ~ 2022.08<br>
+      Apple Watchを用いて疾病の予兆を検知する、iOSネイティブアプリのUX/UIデザインを担当しました。<br>
+      従来の保険商品は疾病が発覚した事後にお支払いするサービスでしたが、そもそもの疾病を未然に防ぐ特約として開発しています。<br>
+      ユーザー体験とMVPのバランスをPOと議論しながら調整していきました。Apple Japan社の協力を得て、医療上適切な表現やHIGに則ったデザインを意識しています。
+    </p>
+
+    <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
+    <p class="description">
+      2021.11 ~ 2022.03<br>
+      10分で事業継続計画を策定できるWebサービス「かんたんBCPナビ」のUIデザインを担当しました。<br>
+      将来的に起こりうる地震・水災・感染症（コロナ等）への対策が10分で策定できます。製造業や介護など、素早い復旧が必要な業態にとくに有効です。
+    </p>
+
     <h2 class="title">DXの推進</h2>
     <p class="description">
       ・Slackにチームメンバーのtimesチャンネル作成を提言し、業務での気づきやデザインについての話題を共有する場をつくった。<br>
@@ -22,21 +39,6 @@
     <p class="description">
       秘伝のタレと化した社内ポータルをリデザイン（現在進行中）
       <img class="image image--w80" src="@/assets/image/tmnf/portal.png" alt="ポータル">
-    </p>
-
-    <h2 class="title">UX/UIデザイン</h2>
-    <br>
-    <h3 class="title title--sub">Apple Watchを用いた疾病予防アプリ</h3>
-    <p class="description">
-      2022.04 ~<br>
-      顧客のヘルスケアをサポートするiOSネイティブアプリのUX/UIデザインを担当しています。<br>
-    </p>
-
-    <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
-    <p class="description">
-      2021.11 ~ 2022.03<br>
-      10分で事業継続計画を策定できるWebサービス「かんたんBCPナビ」のUIデザインを担当しました。<br>
-      将来的に起こりうる地震・水災・感染症（コロナ等）への対策が10分で策定できます。製造業や介護など、素早い復旧が必要な業態にとくに有効です。
     </p>
   </section>
 </template>
