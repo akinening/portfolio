@@ -89,7 +89,7 @@ export default {
         //   date: '2018 - 2019'
         // }
         {
-          title: 'New Business Development',
+          title: 'Tokio Marine - Digital Transformation',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/Tmnf',
           image_url: require('@/assets/image/tmnf.png'),
