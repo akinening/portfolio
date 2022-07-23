@@ -133,6 +133,27 @@ export default {
         //   date: '2020'
         // }
         {
+          title: 'Company Website - Design Lead',
+          description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
+          url: '/#/works/Build%20It',
+          image_url: require('@/assets/image/bldt/ogp.jpg'),
+          date: '2020'
+        },
+        {
+          title: 'Core(SaaS) - UI Design',
+          description: 'Core is a SaaS that supports human resource development. I redesigned the home and admin screens.',
+          url: '/#/works/Core',
+          image_url: require('@/assets/image/core/ogp.jpg'),
+          date: '2019'
+        },
+        {
+          title: 'Lobi(Game Community) - Frontend Development',
+          description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
+          url: '/#/works/Lobi',
+          image_url: require('@/assets/image/lobi/lobi.png'),
+          date: '2018 - 2019'
+        },
+        {
           title: '#times - Personal Tech Blog',
           description: 'A blog about technology, design and product management.',
           url: 'https://times.akinen.com',
@@ -146,27 +167,6 @@ export default {
           image_url: require('@/assets/image/starlight_captcha.png'),
           date: '2014 - Now'
         },
-        {
-          title: 'Company Website - Design Lead',
-          description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
-          url: '/works/Build%20It',
-          image_url: require('@/assets/image/bldt/ogp.jpg'),
-          date: '2020'
-        },
-        {
-          title: 'Core(SaaS) - UI Design',
-          description: 'Core is a SaaS that supports human resource development. I redesigned the home and admin screens.',
-          url: '/works/Core',
-          image_url: require('@/assets/image/core/ogp.jpg'),
-          date: '2019'
-        },
-        {
-          title: 'Lobi(Game Community) - Frontend Development',
-          description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
-          url: '/works/Lobi',
-          image_url: require('@/assets/image/lobi/lobi.png'),
-          date: '2018 - 2019'
-        }
       ],
       count: 2,
       isOpen: false
