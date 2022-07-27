@@ -1,6 +1,6 @@
 <template>
 <div class="index">
-  <!-- <auth-modal v-if="!isAuthed" /> -->
+  <auth-modal v-if="!isAuthed" />
 
   <header-area />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-// import AuthModal from '@/components/AuthModal'
+import AuthModal from '@/components/AuthModal'
 import HeaderArea from '@/components/HeaderArea'
 import WorksArea from '@/components/WorksArea'
 import FooterArea from '@/components/FooterArea'
@@ -23,7 +23,7 @@ import FooterArea from '@/components/FooterArea'
 export default {
   name: 'Index',
   components: {
-    // AuthModal,
+    AuthModal,
     HeaderArea,
     WorksArea,
     FooterArea
