@@ -12,6 +12,17 @@
     </section>
 
     <section class="mt-80">
+      <h2 class="c-title c-title--center">NEWS</h2>
+      <div class="news c-shadow">
+        <p class="news__content">
+          <a href="https://figmajapancommunityevent.splashthat.com" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました</a><br>
+          <a href="https://techbookfest.org/product/5108267816583168" target="_blank" rel="noopener noreferrer">2021/07/10&emsp;技術書典11で技術書を頒布しました</a><br>
+          <a href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和で技術書を頒布しました</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="mt-80">
       <h2 class="c-title c-title--center">RECENT PROJECTS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
@@ -166,7 +177,7 @@ export default {
           url: '/#/starlight',
           image_url: require('@/assets/image/starlight_captcha.png'),
           date: '2014 - Now'
-        },
+        }
       ],
       count: 2,
       isOpen: false
@@ -242,6 +253,31 @@ export default {
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
+
+.news
+  width 100%
+  margin 0 auto
+  background-color white
+  border-radius 4px
+
+  &__content
+    display block
+    margin 0 auto
+    width fit-content
+    padding 20px
+    font-size 16px
+    font-weight 400
+    line-height 2
+    letter-spacing 0.1rem
+
+    & > a:link
+      color rgb(36, 40, 42)
+
+      &:hover
+        text-decoration underline
+
+    @media (max-width: 768px)
+      font-size 14px
 
 .show-more
   display block
