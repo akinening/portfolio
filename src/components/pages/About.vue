@@ -56,7 +56,7 @@
       </div>
     </section>
 
-    <section class="aboutme" :style="{backgroundImage: 'url(' + bg_about + ')' }">
+    <section class="aboutme" :style="{backgroundImage: 'url(' + bg_akinen + ')' }">
       <div class="profiles c-centering c-shadow">
         <img class="akinen" :src="akinen" alt="プロフィール画像">
         <div class="profile">
@@ -84,7 +84,7 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_about: require('@/assets/image/bg_about.jpg'),
+      bg_akinen: require('@/assets/image/bg_akinen.jpg'),
       bg_work: require('@/assets/image/bg_work.png'),
       akinen: require('@/assets/image/akinen.jpg')
     }
