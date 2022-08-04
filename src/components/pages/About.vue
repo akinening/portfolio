@@ -58,7 +58,7 @@
 
     <section class="aboutme" :style="{backgroundImage: 'url(' + bg_about + ')' }">
       <div class="profiles c-centering c-shadow">
-        <img class="akinen" :src="note1" alt="プロフィール画像">
+        <img class="akinen" :src="akinen" alt="プロフィール画像">
         <div class="profile">
           <h2 class="profile__name">AKINORI OZAWA</h2>
           <p class="profile__discription">PRODUCT DESIGNER</p>
@@ -86,7 +86,7 @@ export default {
     return {
       bg_about: require('@/assets/image/bg_about.jpg'),
       bg_work: require('@/assets/image/bg_work.png'),
-      note1: require('@/assets/image/logo_sp.png')
+      akinen: require('@/assets/image/akinen.jpg')
     }
   },
   components: {
@@ -172,8 +172,8 @@ export default {
 
 .akinen
   position absolute
-  top 16px
-  left 40px
+  top 20px
+  left 20px
   width 200px
   height 200px
   border-radius 4px
