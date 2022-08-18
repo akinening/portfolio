@@ -10,6 +10,12 @@
 
     <h2 class="title">UX/UIデザイン</h2>
     <br>
+    <h3 class="title title--sub">Amazon関連サービスのUIデザイン</h3>
+    <p class="description">
+      2022.08 ~ 現在<br>
+      詳細は非公開です。
+    </p>
+
     <h3 class="title title--sub">Apple Watchを用いた疾病予防アプリ</h3>
     <p class="description">
       2022.04 ~ 2022.07<br>
@@ -23,7 +29,8 @@
       2021.11 ~ 2022.03<br>
       <img class="image image--w80" src="@/assets/image/tmnf/bcp_top.png" alt="BCP">
       10分で事業継続計画を策定できるWebサービス「BCPかんたんナビ」のUIデザインを担当しました。<br>
-      将来的に起こりうる地震・水災・感染症（コロナ等）への対策が10分で策定できます。製造業や介護など、素早い復旧が必要な業態にとくに有効です。
+      将来的に起こりうる地震・水災・感染症（コロナ等）への対策が10分で策定できます。製造業や介護など、素早い復旧が必要な業態にとくに有効です。<br>
+      リリース後各種メディアで取り上げられ、商工会議所を中心に多数の申込みがありました。
       <span class="link">
         <a href="https://sme-bcp.tokiomarine-e.jp" target="_blank" class="link__button">公式HP</a>
       </span>
@@ -43,7 +50,7 @@
     <h3 class="title title--sub">社内ポータルのリデザイン</h3>
     <p class="description">
       秘伝のタレと化した社内ポータルのリデザインを提案し、自ら改善しました。<br>
-      不要な情報は取り除く一方で、できる限り配置や形は変えないことで、使いづらくなったという意見も出ることなく肯定的に受け入れられました。
+      不要な情報は取り除く一方で、できる限り配置や形は変えないことで、チームに自然と受け入れられました。
       <img class="image image--w80" src="@/assets/image/tmnf/portal.png" alt="ポータル">
     </p>
   </section>

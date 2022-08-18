@@ -107,7 +107,7 @@ export default {
           date: '2021.11 - Now'
         },
         {
-          title: 'Stockr(Native App) - UX/UI Design',
+          title: 'Stockr - UX/UI Design',
           description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
           url: '/works/Stockr',
           image_url: require('@/assets/image/stockr/ogp2.png'),
