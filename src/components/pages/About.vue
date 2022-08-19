@@ -84,7 +84,7 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_akinen: require('@/assets/image/bg_akinen.jpg'),
+      bg_akinen: require('@/assets/image/bg_akinen.png'),
       bg_work: require('@/assets/image/bg_work.png'),
       akinen: require('@/assets/image/akinen.jpg')
     }
