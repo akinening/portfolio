@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       isAuthed: true,
-      bg_top: require('@/assets/image/bg_tokyo.png')
+      bg_top: require('@/assets/image/bg_portugal.png')
     }
   },
   beforeMount () {
