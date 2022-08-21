@@ -8,6 +8,12 @@
       作成したロゴは、VRChat上のDJイベントで使われました
       <img class="image image--w80" src="@/assets/image/logo_vrchat.png" alt="VRChat">
     </p>
+
+    <h3 class="title title--sub">CDジャケットのデザイン</h3>
+    <p class="description">
+      詳しい説明をここに入れる
+      <img class="image image--w80" src="@/assets/image/creative/album.png" alt="アルバム">
+    </p>
   </section>
 </template>
 
