@@ -165,10 +165,10 @@ export default {
           date: '2018 - 2019'
         },
         {
-          title: '#times - Personal Tech Blog',
-          description: 'A blog about technology, design and product management.',
-          url: 'https://times.akinen.com',
-          image_url: require('@/assets/image/times.png'),
+          title: 'Graphics',
+          description: 'I designed the DJ logo, CD jackets, etc.',
+          url: '/#/works/Graphics',
+          image_url: require('@/assets/image/deneb.png'),
           date: '2022'
         },
         {
@@ -177,6 +177,13 @@ export default {
           url: '/#/starlight',
           image_url: require('@/assets/image/starlight_captcha.png'),
           date: '2014 - Now'
+        },
+        {
+          title: '#times - Personal Tech Blog',
+          description: 'A blog about technology, design and product management.',
+          url: 'https://times.akinen.com',
+          image_url: require('@/assets/image/times.png'),
+          date: '2022'
         }
       ],
       count: 2,

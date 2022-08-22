@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'Logo',
+  name: 'Graphics',
   data () {
     return {
 
