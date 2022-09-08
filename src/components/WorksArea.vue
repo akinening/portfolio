@@ -15,7 +15,7 @@
       <h2 class="c-title c-title--center">NEWS</h2>
       <div class="news c-shadow">
         <p class="news__content">
-          <a href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2021/09/04&emsp;第2回デザイン読書日和に出展します。</a><br>
+          <a href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和に出展しました。</a><br>
           <a href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました</a><br>
           <a href="https://techbookfest.org/product/5108267816583168" target="_blank" rel="noopener noreferrer">2021/07/10&emsp;技術書典11で技術書を頒布しました</a><br>
           <a href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和で技術書を頒布しました</a>
@@ -65,45 +65,17 @@ export default {
   data () {
     return {
       projects: [
-        // {
-        //   title: '大手損保グループ - DX推進',
-        //   description: 'UI/UXデザインの内製化やDX推進に取り組んでいます。コンプライアンスの観点から詳細は非公開です。',
-        //   url: '/works/Tmnf',
-        //   image_url: require('@/assets/image/tmnf.png'),
-        //   date: '2021.11 - 現在'
-        // },
-        // {
-        //   title: 'Stockr - 新規自社事業のリードデザイン',
-        //   description: '企画段階からデザイナーとして参加。1→10では、ユーザーリサーチをもとに機能を改善しました。',
-        //   url: '/works/Stockr',
-        //   image_url: require('@/assets/image/stockr/ogp2.png'),
-        //   date: '2020.06 - 2021.10'
-        // },
-        // {
-        //   title: '株式会社BuildIt 公式サイト - リードデザイン',
-        //   description: '株式会社ビルディットのコーポレートサイトを全面リニューアルしました。現在、コンテンツ差し替えのためデザインが崩れています。',
-        //   url: '/works/Build%20It',
-        //   image_url: require('@/assets/image/bldt/ogp.jpg'),
-        //   date: '2020'
-        // },
-        // {
-        //   title: '人財育成支援SaaS「Core」 - UIリニューアル',
-        //   description: 'ホーム画面や管理画面のリデザインを担当しました。',
-        //   url: '/works/Core',
-        //   image_url: require('@/assets/image/core/ogp.jpg'),
-        //   date: '2019'
-        // },
-        // {
-        //   title: 'Lobi - ゲームコミュニティ事業',
-        //   description: 'フロントエンドエンジニアとして、ゲームコミュニティ事業「Lobi」やeスポーツ開催サービス「Lobi Tournament」の開発に携わりました。',
-        //   url: '/works/Lobi',
-        //   image_url: require('@/assets/image/lobi/lobi.png'),
-        //   date: '2018 - 2019'
-        // }
         {
           title: 'Tokio Marine - Digital Transformation',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/Tmnf',
+          image_url: require('@/assets/image/tmnf.png'),
+          date: '2021.11 - Now'
+        },
+        {
+          title: 'Digital Transformation',
+          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
+          url: '/works/DX',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - Now'
         },
