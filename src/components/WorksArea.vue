@@ -66,7 +66,7 @@ export default {
     return {
       projects: [
         {
-          title: 'Tokio Marine - Digital Transformation',
+          title: 'Tokio Marine - Business Development',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/Tmnf',
           image_url: require('@/assets/image/tmnf.png'),
@@ -76,7 +76,7 @@ export default {
           title: 'Digital Transformation',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/DX',
-          image_url: require('@/assets/image/tmnf.png'),
+          image_url: require('@/assets/image/bg_media.jpg'),
           date: '2021.11 - Now'
         },
         {
