@@ -24,7 +24,7 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title c-title--center">RECENT PROJECTS</h2>
+      <h2 class="c-title c-title--center">PICKUP</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
           <router-link :to="project.url">
@@ -40,7 +40,7 @@
     </section>
 
     <section class="mt-80 mb-100">
-      <h2 class="c-title c-title--center">OTHERS</h2>
+      <h2 class="c-title c-title--center">OTHER PROJECTS</h2>
       <ul class="cards">
         <li class="card mb-30 c-shadow" v-for="(activity, num) in activeLists" :key="`activity-${num}`">
           <a :href="activity.url">
@@ -85,6 +85,13 @@ export default {
           url: '/works/Stockr',
           image_url: require('@/assets/image/stockr/ogp2.png'),
           date: '2020.06 - 2021.10'
+        },
+        {
+          title: 'Lobi(Game Community) - Frontend Development',
+          description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
+          url: '/#/works/Lobi',
+          image_url: require('@/assets/image/lobi/lobi.png'),
+          date: '2018 - 2019'
         }
       ],
       activities: [
@@ -117,27 +124,6 @@ export default {
         //   date: '2020'
         // }
         {
-          title: 'Company Website - Design Lead',
-          description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
-          url: '/#/works/Build%20It',
-          image_url: require('@/assets/image/bldt/ogp.jpg'),
-          date: '2020'
-        },
-        {
-          title: 'Core(SaaS) - UI Design',
-          description: 'Core is a SaaS that supports human resource development. I redesigned the home and admin screens.',
-          url: '/#/works/Core',
-          image_url: require('@/assets/image/core/ogp.jpg'),
-          date: '2019'
-        },
-        {
-          title: 'Lobi(Game Community) - Frontend Development',
-          description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
-          url: '/#/works/Lobi',
-          image_url: require('@/assets/image/lobi/lobi.png'),
-          date: '2018 - 2019'
-        },
-        {
           title: 'Graphics',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/#/works/Graphics',
@@ -152,11 +138,25 @@ export default {
           date: '2014 - Now'
         },
         {
+          title: 'Company Website - Design Lead',
+          description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
+          url: '/#/works/Build%20It',
+          image_url: require('@/assets/image/bldt/ogp.jpg'),
+          date: '2020'
+        },
+        {
+          title: 'Core(SaaS) - UI Design',
+          description: 'Core is a SaaS that supports human resource development. I redesigned the home and admin screens.',
+          url: '/#/works/Core',
+          image_url: require('@/assets/image/core/ogp.jpg'),
+          date: '2019'
+        },
+        {
           title: '#times - Personal Tech Blog',
           description: 'A blog about technology, design and product management.',
           url: 'https://times.akinen.com',
           image_url: require('@/assets/image/times.png'),
-          date: '2022'
+          date: '-'
         }
       ],
       count: 2,
