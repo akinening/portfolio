@@ -89,7 +89,7 @@ export default {
         {
           title: 'Lobi(Game Community) - Frontend Development',
           description: 'As a front-end engineer, I was involved in the development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
-          url: '/#/works/Lobi',
+          url: '/works/Lobi',
           image_url: require('@/assets/image/lobi/lobi.png'),
           date: '2018 - 2019'
         }
