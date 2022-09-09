@@ -105,14 +105,14 @@ export default {
           title: 'Logo',
           description: 'DJロゴを制作しました。',
           url: '/#/works/Logo',
-          image_url: require('@/assets/image/deneb.png'),
+          image_url: require('@/assets/image/graphics.png'),
           date: '2022'
         },
         {
           title: 'その他クリエイティブ',
           description: '過去の制作物をいくつかご紹介します',
           url: '/#/works/Creative',
-          image_url: require('@/assets/image/deneb.png'),
+          image_url: require('@/assets/image/graphics.png'),
           date: '2014 - Now'
         }
       ]

@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/deneb.png" alt="Logo">
+    <img class="image" src="@/assets/image/graphics.png" alt="Logo">
 
     <p class="description">
       DJロゴの制作を担当しました。

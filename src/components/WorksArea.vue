@@ -141,7 +141,7 @@ export default {
           title: 'Graphics',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/#/works/Graphics',
-          image_url: require('@/assets/image/deneb.png'),
+          image_url: require('@/assets/image/graphics.png'),
           date: '2022'
         },
         {
