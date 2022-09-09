@@ -18,17 +18,6 @@
       </p>
 
       <div class="development mt-plus mb-100">
-        <div class="skill c-shadow">
-          <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
-          <div class="skill__box">
-            <h2 class="title">PO支援</h2>
-            <ul class="description">
-              <li>スクラム開発の経験をもとに、プロダクトオーナーを支援します。</li>
-              <li>戦略やビジョンを実現するために、顧客体験をPOと伴走しながら設計します。</li>
-              <li>プロダクトマネジメントやあるべき組織について常に探求し、学びを実践していきます。</li>
-            </ul>
-          </div>
-        </div>
 
         <div class="skill c-shadow">
           <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
@@ -50,6 +39,18 @@
               <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
               <li>ユーザーにもコンピュータにも優しい、直感的に触れるUIを目指しています。</li>
               <li>退会導線を複雑にしたり、許可なく通知を送るなどのBAD UIを未然に防ぎ、ユーザー目線のUIを提案します。</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="skill c-shadow">
+          <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
+          <div class="skill__box">
+            <h2 class="title">手を動かす</h2>
+            <ul class="description">
+              <li>元エンジニアの経験を活かし、実際の挙動などを考慮したデザインが可能です。</li>
+              <li>趣味でも「つくる」ことが好きで、技術書の即売会などにも積極的に出展しています。</li>
+              <li>会社員としてだけでなく、個人としても新しいものに興味関心を持ちながら日々手を動かしています。</li>
             </ul>
           </div>
         </div>
