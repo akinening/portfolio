@@ -127,7 +127,7 @@ export default {
   font-weight 600
   margin-bottom 12px
   text-align center
-  color #22746C
+  color #00A0B4
 
 .description
   > li

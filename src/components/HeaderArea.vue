@@ -65,6 +65,6 @@ export default {
       left calc(50% - 3px)
       width 6px
       height 6px
-      background-color #80d8d0
+      background-color #00C4DC
       border-radius 6px
 </style>

@@ -15,10 +15,10 @@
       <h2 class="c-title c-title--center">NEWS</h2>
       <div class="news c-shadow">
         <p class="news__content">
-          <a href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和に出展しました。</a><br>
-          <a href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました</a><br>
-          <a href="https://techbookfest.org/product/5108267816583168" target="_blank" rel="noopener noreferrer">2021/07/10&emsp;技術書典11で技術書を頒布しました</a><br>
-          <a href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和で技術書を頒布しました</a>
+          <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和に出展しました。</a><br>
+          <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました</a><br>
+          <a class="news-link" href="https://techbookfest.org/product/5108267816583168" target="_blank" rel="noopener noreferrer">2021/07/10&emsp;技術書典11で技術書を頒布しました</a><br>
+          <a class="news-link" href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和で技術書を頒布しました</a>
         </p>
       </div>
     </section>
@@ -250,14 +250,18 @@ export default {
     line-height 2
     letter-spacing 0.1rem
 
-    & > a:link
-      color rgb(36, 40, 42)
-
-      &:hover
-        text-decoration underline
-
     @media (max-width: 768px)
       font-size 14px
+
+.news-link
+  color rgb(36, 40, 42)
+
+  &:visited
+  &:active
+    color inherit
+
+  &:hover
+    text-decoration underline
 
 .show-more
   display block
