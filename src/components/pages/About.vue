@@ -112,7 +112,7 @@ export default {
 .skill
   width 100%
   background-color white
-  border-radius 4px
+  border-radius 20px
   box-sizing border-box
   overflow hidden
 
@@ -163,7 +163,7 @@ export default {
 .profiles
   position relative
   padding 20px
-  border-radius 4px
+  border-radius 20px
   background-color white
   box-sizing border-box
 
@@ -177,7 +177,7 @@ export default {
   left 20px
   width 200px
   height 200px
-  border-radius 4px
+  border-radius 16px
 
   @media (max-width: 768px)
     position relative
@@ -201,6 +201,7 @@ export default {
 
     @media (max-width: 768px)
       text-align center
+      margin-top 20px
 
   &__discription
     padding-top 8px

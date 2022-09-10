@@ -190,7 +190,7 @@ export default {
   width calc(50% - 16px)
   min-width 320px
   background-color white
-  border-radius 4px
+  border-radius 20px
 
   .detail__title
   .detail__text
@@ -211,7 +211,7 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 4px 4px 0 0
+  border-radius 20px 20px 0 0
 
   @media (max-width: 768px)
     height 50vw
@@ -238,7 +238,7 @@ export default {
   width 100%
   margin 0 auto
   background-color white
-  border-radius 4px
+  border-radius 20px
 
   &__content
     display block
@@ -265,7 +265,7 @@ export default {
   margin-top -8px
   padding 12px 0
   text-align center
-  border-radius 4px
+  border-radius 100px
   border 1px solid rgba(0,0,0,0.2)
   font-size 13px
   font-weight 700

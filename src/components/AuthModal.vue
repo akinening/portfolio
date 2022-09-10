@@ -66,7 +66,7 @@ export default {
   margin 20px
   padding 20px
   background-color white
-  border-radius 4px
+  border-radius 20px
 
   &__title
     margin-top 8px
@@ -81,7 +81,7 @@ export default {
     max-width 280px
     padding 0 16px
     border 1px solid #aaa
-    border-radius 4px
+    border-radius 8px
 
   &__border
     display block

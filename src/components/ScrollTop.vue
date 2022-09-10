@@ -39,7 +39,7 @@ export default {
   right 0
   background-color #fafafa
   padding 20px 23px
-  border-radius 4px 0 0 0
+  border-radius 20px 0 0 0
 
   @media (max-width: 768px)
     padding 10px 13px
