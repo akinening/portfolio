@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/tmnf.png" alt="TMNF">
+    <img class="image" src="@/assets/image/digital.jpg" alt="TMNF">
 
     <p class="description">
       UI/UXデザイナーとして、損害保険事業のPoC・新規事業創出に携わっています。<br>

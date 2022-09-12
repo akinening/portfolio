@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/digital.jpg" alt="TMNF">
+    <img class="image" src="@/assets/image/tmnf.png" alt="TMNF">
 
     <h2 class="title">DXの推進</h2>
     <p class="description">
