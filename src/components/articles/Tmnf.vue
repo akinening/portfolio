@@ -20,8 +20,10 @@
     <p class="description">
       2022.04 ~ 2022.07<br>
       Apple Watchを用いて疾病の予兆を検知する、iOSネイティブアプリのUX/UIデザインを担当しました。<br>
+      <img class="image blur" src="@/assets/image/tmnf/apple_watch.png" alt="Apple Watch">
+      ※未リリースのため非公開です。<br>
       従来の保険商品は疾病が発覚した事後にお支払いするサービスでしたが、そもそもの疾病を未然に防ぐ特約として開発しました。<br>
-      ユーザー体験とMVPのバランスをPOと議論しながら調整していきました。Apple Japan社の協力を得て、医療上適切な表現やHIGに則ったデザインを意識しています。
+      ユーザー体験とMVPのバランスをPOと議論しながら調整していきました。Apple Japan社の協力を得て、医療上適切な表現やHIGに則ったデザインを意識しました。
     </p>
 
     <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
@@ -53,4 +55,7 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/article.styl"
+
+.blur
+  filter blur(5px)
 </style>
