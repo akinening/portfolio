@@ -6,6 +6,11 @@
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <div class="hero__content text-center">
       <h1 class="title">Design can change our lives.</h1>
+      <p class="sub-title">
+        "Enrich the lives of more people."<br class="hide-sp">
+        With this in mind, I face digital products on a daily basis.<br>
+        I'll lead products to success by consistently engaging from the three perspectives of business strategy, design, and engineering.
+      </p>
     </div>
   </div>
 

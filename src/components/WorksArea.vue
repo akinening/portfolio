@@ -1,16 +1,5 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
-    <section class="mt-plus">
-      <p class="sub-title">
-        <!-- 「より多くの人々の暮らしを豊かにしたい」<br class="hide-sp">
-        その思いから、日々デジタルプロダクトと向き合っています。<br>
-        事業戦略・デザイン・エンジニアリングの３つの視点から一貫して携わることで、プロダクトを成功に導きます。 -->
-        "Enrich the lives of more people."<br class="hide-sp">
-        With this in mind, I face digital products on a daily basis.<br>
-        I'll lead products to success by consistently engaging from the three perspectives of business strategy, design, and engineering.
-      </p>
-    </section>
-
     <section class="mt-80">
       <h2 class="c-title c-title--center">NEWS</h2>
       <div class="news c-shadow">
