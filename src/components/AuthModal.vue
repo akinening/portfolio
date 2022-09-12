@@ -25,7 +25,7 @@ export default {
   methods: {
     authPW (event) {
       if (event.keyCode !== 13) return
-      if (this.aikotoba === 'ぽぽぽ') {
+      if (this.aikotoba === 'Saudade') {
         localStorage.setItem('isAuthed', true)
         location.reload()
       } else {
