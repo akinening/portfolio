@@ -5,10 +5,12 @@
       与えられた仕事だけでなく、積極的に組織や業務プロセス改善に取り組んでいます。
     </p>
 
-    <h2 class="title">チームづくり</h2>
+    <h2 class="title">チームとして</h2>
     <p class="description">
       ・Slackにチームメンバーのtimesチャンネル作成を提言し、業務での気づきやデザインについての話題を共有する場をつくりました。<br>
-      ・各社のイラストシステムについて調査し、広報部にイラストの刷新を提言しました。
+      ・各社のイラストシステムについて調査し、広報部にイラストの刷新を提言しました。<br>
+      ・社内に向けた活動報告メールを作成し、デザインの理解・認知向上に取り組んでいます。
+      <img class="image image--w80 blur" src="@/assets/image/tmnf/mail.png" alt="メール">
     </p>
 
     <h2 class="title">デザイナーとして</h2>
@@ -42,4 +44,7 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/article.styl"
+
+.blur
+  filter blur(5px)
 </style>
