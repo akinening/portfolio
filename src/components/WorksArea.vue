@@ -179,9 +179,11 @@ export default {
     color rgb(36, 40, 42)
 
   &:hover
-    .detail__title
-    .detail__text
-      opacity 0.6
+    .photo
+      width calc(100% - 32px)
+      height calc(24vw - 32px)
+      margin 16px
+      border-radius 20px
 
   @media (max-width: 768px)
     width 100%
@@ -194,6 +196,7 @@ export default {
   background-size cover
   background-position 50%
   border-radius 20px 20px 0 0
+  transition all 0.25s
 
   @media (max-width: 768px)
     height 50vw
