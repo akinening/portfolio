@@ -174,6 +174,9 @@ export default {
   background-color white
   border-radius 20px
 
+  @media (max-width: 768px)
+    width 100%
+
   .detail__title
   .detail__text
     color rgb(36, 40, 42)
@@ -185,8 +188,11 @@ export default {
       margin 16px
       border-radius 20px
 
-  @media (max-width: 768px)
-    width 100%
+      @media (max-width: 768px)
+        height calc(50vw - 32px)
+
+      @media (min-width: 1200px)
+        height 256px
 
 .photo
   float left
