@@ -2,6 +2,8 @@
   <section class="skill mt-80 mb-30">
     <img class="image" src="@/assets/image/graphics.png" alt="Logo">
 
+    <h2 class="title">個人の創作活動</h2>
+    <br>
     <h3 class="title title--sub">CDジャケットの制作</h3>
     <p class="description">
       ハードコア・ハードダンスコンピ「HARD MANIAXX」のCDジャケットデザインを担当しました。<br>
