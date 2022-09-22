@@ -19,6 +19,15 @@
       <img class="image image--w80" src="@/assets/image/logo_vrchat.png" alt="VRChat">
     </p>
 
+    <h3 class="title title--sub">STARLIGHT Webサイト</h3>
+    <p class="description">
+      2014年から活動している創作サークル「STARLIGHT」のWebサイトです(WIP)
+      <span class="link">
+        <a href="https://akinen.com/#/starlight" target="_blank" class="link__button">Webサイト</a>
+      </span>
+      <br>
+      <img class="image" src="@/assets/image/starlight_captcha.png" alt="STARLIGHT">
+    </p>
   </section>
 </template>
 

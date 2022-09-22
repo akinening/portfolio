@@ -120,13 +120,6 @@ export default {
           date: '2022 / Personal Work'
         },
         {
-          title: 'STARLIGHT',
-          description: 'STARLIGHT is a creative circle based on the concept of a coffee shop.',
-          url: '/#/starlight',
-          image_url: require('@/assets/image/starlight_captcha.png'),
-          date: '2014 - Now / Personal Work'
-        },
-        {
           title: 'Company Website - Design Lead',
           description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
           url: '/#/works/Build%20It',
