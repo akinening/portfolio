@@ -18,9 +18,9 @@
         Through service design, I identify core values and deliver experiences in people's lives.
       </p>
 
-      <div class="development mt-plus mb-100">
+      <div class="development c-shadow mt-plus mb-100">
 
-        <div class="skill c-shadow">
+        <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
           <div class="skill__box">
             <h2 class="title">UX設計</h2>
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="skill c-shadow">
+        <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-3.png" alt="UI設計">
           <div class="skill__box">
             <h2 class="title">UI設計</h2>
@@ -44,7 +44,7 @@
           </div>
         </div>
 
-        <div class="skill c-shadow">
+        <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
           <div class="skill__box">
             <h2 class="title">手を動かす</h2>
@@ -112,13 +112,12 @@ export default {
 // スキル
 .skill
   width 100%
-  background-color white
-  border-radius 20px
   box-sizing border-box
   overflow hidden
 
   &__image
     width 100%
+    border-radius 16px
 
   &__box
     padding 20px
@@ -139,6 +138,9 @@ export default {
 .development
   display flex
   flex-direction row
+  padding 20px
+  border-radius 20px
+  background-color white
 
   @media (max-width: 960px)
     flex-direction column

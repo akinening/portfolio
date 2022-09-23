@@ -34,30 +34,30 @@ export default {
   @media (max-width: 768px)
     margin 0 20px
 
-.tab
-  position relative
-  display inline-block
-  color rgb(36, 40, 42)
-  line-height 64px
-  vertical-align middle
-  font-size 16px
-  font-weight bold
-  margin 4px 0 0 32px
+.tabs
+  margin 20px 20px 0
 
   @media (max-width: 768px)
-    margin-left 16px
+    margin-right 12px 8px 0
+
+.tab
+  display inline-block
+  padding 8px 36px
+  color rgb(36, 40, 42)
+  border-radius 100px
+  font-size 16px
+  font-weight bold
+  margin-left 20px
+  transition all 0.2s
+
+  @media (max-width: 768px)
+    margin-left 8px
+    padding 8px 16px
 
   &:hover
-    color #00C4DC
+    background-color rgba(0, 196, 220, 0.2)
 
   &.router-link-exact-active
-    &::before
-      content ''
-      position absolute
-      bottom 12px
-      left calc(50% - 3px)
-      width 6px
-      height 6px
-      background-color #00C4DC
-      border-radius 6px
+    background-color rgba(0, 196, 220, 0.2)
+
 </style>

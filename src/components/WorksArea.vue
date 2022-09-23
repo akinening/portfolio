@@ -186,7 +186,7 @@ export default {
       width calc(100% - 32px)
       height calc(24vw - 32px)
       margin 16px
-      border-radius 20px
+      border-radius 16px
 
       @media (max-width: 768px)
         height calc(50vw - 32px)
@@ -272,21 +272,20 @@ export default {
 
 .show-more
   display block
-  width 100%
-  margin-top -8px
-  padding 12px 0
+  width 80%
+  margin -8px auto 0
+  padding 10px 0
   text-align center
   border-radius 100px
   border 1px solid rgba(0,0,0,0.2)
-  font-size 13px
-  font-weight 700
-  color rgb(36, 40, 42)
+  font-size 16px
+  font-weight 600
+  color rgba(36, 40, 42, 0.8)
   background-color white
   cursor pointer
   box-shadow 0px 1px 4px 0px rgba(0,0,0,0.08)
   transition all 0.2s
 
   &:hover
-    box-shadow none
-    color rgba(36, 40, 42, 0.4)
+    width 100%
 </style>
