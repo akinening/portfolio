@@ -245,6 +245,7 @@ export default {
       font-size 14px
 
 .news-link
+  position relative
   color rgb(36, 40, 42)
 
   &:visited
@@ -252,7 +253,22 @@ export default {
     color inherit
 
   &:hover
-    text-decoration underline
+    text-decoration none
+
+  &::before
+    content ""
+    display block
+    position absolute
+    inset 20px 0 0 0
+    height 1px
+    background #333
+    transform scaleX(0)
+    transform-origin bottom right
+    transition transform .25s ease
+
+  &:hover::before
+    transform scaleX(1)
+    transform-origin bottom left
 
 .show-more
   display block
