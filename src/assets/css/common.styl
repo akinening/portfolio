@@ -117,7 +117,7 @@ base-black = rgb(36, 40, 42)
 
   &__content
     display flex
-    height 100%
+    height calc(100% - 90px)
     align-items center
     justify-content center
     flex-direction column
@@ -126,6 +126,7 @@ base-black = rgb(36, 40, 42)
 
     @media (max-width: 768px)
       margin 0 20px
+      height calc(100% - 86px)
 
     @media (min-width: 1200px)
       margin 0 auto

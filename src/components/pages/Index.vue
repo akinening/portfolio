@@ -1,9 +1,8 @@
 <template>
 <div class="index">
   <auth-modal v-if="!isAuthed" />
-
-  <header-area />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
+    <header-area />
     <div class="hero__content text-center">
       <h1 class="title">Design can change our lives.</h1>
       <p class="sub-title">
@@ -13,6 +12,7 @@
       </p>
     </div>
   </div>
+  <header-bar />
 
   <works-area />
   <footer-area />
@@ -22,6 +22,7 @@
 <script>
 import AuthModal from '@/components/AuthModal'
 import HeaderArea from '@/components/HeaderArea'
+import HeaderBar from '@/components/HeaderBar'
 import WorksArea from '@/components/WorksArea'
 import FooterArea from '@/components/FooterArea'
 
@@ -30,6 +31,7 @@ export default {
   components: {
     AuthModal,
     HeaderArea,
+    HeaderBar,
     WorksArea,
     FooterArea
   },
