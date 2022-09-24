@@ -112,11 +112,14 @@ export default {
 // スキル
 .skill
   width 100%
+  text-align center
   box-sizing border-box
   overflow hidden
 
   &__image
-    width 100%
+    width 240px
+    height 240px
+    object-fit cover
     border-radius 16px
 
   &__box
@@ -131,6 +134,7 @@ export default {
 
 .description
   > li
+    text-align left
     list-style-type disc
     line-height 1.8
     margin 0 0 6px 20px
@@ -138,7 +142,7 @@ export default {
 .development
   display flex
   flex-direction row
-  padding 20px
+  padding 40px 20px 0
   border-radius 20px
   background-color white
 
