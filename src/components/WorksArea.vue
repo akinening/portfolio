@@ -93,7 +93,7 @@ export default {
         // },
         // {
         //   title: '技術書を執筆＆頒布',
-        //   description: '「デザイン読書日和」および「技術書典11」に出展し、約70部を頒布しました。',
+        //   description: '「デザイン読書日和」および「技術書典11」に出展し、約100部を頒布しました。',
         //   url: 'https://techbookfest.org/product/5108267816583168',
         //   image_url: require('@/assets/image/dezabiyo.png'),
         //   date: '2021'

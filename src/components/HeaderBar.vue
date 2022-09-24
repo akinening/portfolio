@@ -1,5 +1,5 @@
 <template class="c-centering">
-  <header class="header">
+  <header class="header c-shadow">
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
@@ -27,13 +27,14 @@ export default {
 <style scoped lang="stylus">
 .header
   position sticky
-  top 0
+  top 10px
   z-index 100
-  margin 10px 0 0
-  width 100%
+  margin 10px auto 0
+  width fit-content
   text-align center
   box-sizing border-box
   background-color #fafafa
+  border-radius 100px
 
 .tabs
   padding 10px 20px
