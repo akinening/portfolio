@@ -26,19 +26,20 @@ export default {
 
 <style scoped lang="stylus">
 .header
-  margin 0 80px
+  position sticky
+  top 0
+  z-index 100
+  margin 10px 0 0
+  width 100%
   text-align center
   box-sizing border-box
   background-color #fafafa
 
-  @media (max-width: 768px)
-    margin 0 20px
-
 .tabs
-  margin 20px 20px 0
+  padding 10px 20px
 
   @media (max-width: 768px)
-    margin-right 12px 8px 0
+    padding 10px 8px
 
 .tab
   display inline-block
