@@ -10,13 +10,13 @@
 
     <h2 class="title">UX/UIデザイン</h2>
     <br>
-    <h3 class="title title--sub">Amazon関連サービスのUIデザイン</h3>
+    <h3 class="title title--sub">ギグワーカー向けサービスのUIデザイン</h3>
     <p class="description">
       2022.08 ~ 現在<br>
       詳細は非公開です。
     </p>
 
-    <h3 class="title title--sub">Apple Watchを用いた疾病予防アプリ</h3>
+    <h3 class="title title--sub">Apple Watchを用いたヘルスケアアプリ</h3>
     <p class="description">
       2022.04 ~ 2022.07<br>
       Apple Watchを用いて疾病の予兆を検知し、その対策や医療相談するまでをサポートするiOSアプリのUX/UIデザインを担当しました。保険は疾病が発覚した事後にお支払いするものですが、お客様にとっては疾病を未然に防ぐことが最善策であることから、本サービスが発案されました。
