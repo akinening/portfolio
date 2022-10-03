@@ -74,13 +74,6 @@ export default {
           url: '/works/Stockr',
           image_url: require('@/assets/image/stockr/ogp2.png'),
           date: '2020.06 - 2021.10 / BuildIt.inc'
-        },
-        {
-          title: 'Lobi(Game Community) - Frontend Development',
-          description: 'The development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
-          url: '/works/Lobi',
-          image_url: require('@/assets/image/lobi/lobi.png'),
-          date: '2018 - 2019 / Kayac.inc'
         }
       ],
       activities: [
@@ -111,6 +104,13 @@ export default {
         //   url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
         //   image_url: require('@/assets/image/spott.png'),
         //   date: '2020'
+        // },
+        // {
+        //   title: '#times - Personal Tech Blog',
+        //   description: 'A blog about technology, design and product management.',
+        //   url: 'https://times.akinen.com',
+        //   image_url: require('@/assets/image/times.png'),
+        //   date: '- / Personal Work'
         // }
         {
           title: 'Graphics',
@@ -134,11 +134,11 @@ export default {
           date: '2019 / BuildIt.inc'
         },
         {
-          title: '#times - Personal Tech Blog',
-          description: 'A blog about technology, design and product management.',
-          url: 'https://times.akinen.com',
-          image_url: require('@/assets/image/times.png'),
-          date: '- / Personal Work'
+          title: 'Lobi(Game Community) - Frontend Development',
+          description: 'The development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
+          url: '/works/Lobi',
+          image_url: require('@/assets/image/lobi/lobi.png'),
+          date: '2018 - 2019 / Kayac.inc'
         }
       ],
       count: 2,
