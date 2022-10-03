@@ -21,7 +21,7 @@
             <div class="detail">
               <p class="detail__title">{{ project.title }}</p>
               <p class="detail__text">{{ project.date }}</p>
-              <p class="detail__text">{{ project.description }}</p>
+              <!-- <p class="detail__text">{{ project.description }}</p> -->
             </div>
           </router-link>
         </li>
@@ -37,7 +37,7 @@
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
-              <p class="detail__text">{{ activity.description }}</p>
+              <!-- <p class="detail__text">{{ activity.description }}</p> -->
             </div>
           </a>
         </li>

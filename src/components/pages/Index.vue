@@ -6,9 +6,9 @@
     <div class="hero__content text-center">
       <h1 class="title">Design Creates the Future.</h1>
       <p class="sub-title">
-        "Design can change our lives."<br class="hide-sp">
-        With this in mind, I face digital products on a daily basis.<br>
-        I'll lead products to success by consistently engaging from the three perspectives of business strategy, design, and engineering.
+        デザインを通じて未来を思い描きカタチにすることで、人々の暮らしをより豊かにしたい。<br>
+        その想いから、日々プロダクトと向き合っています。<br class="hide-sp">
+        ビジネス、デザイン、エンジニアリングの3つの視点から、サービスを成功に導きます。
       </p>
     </div>
   </div>
