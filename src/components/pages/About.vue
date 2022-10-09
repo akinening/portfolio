@@ -58,7 +58,8 @@
       </div>
     </section>
 
-    <section class="aboutme" :style="{backgroundImage: 'url(' + bg_akinen + ')' }">
+    <!-- <section class="aboutme" :style="{backgroundImage: 'url(' + bg_akinen + ')' }"> -->
+    <section class="aboutme">
       <div class="profiles c-centering c-shadow">
         <img class="akinen" :src="akinen" alt="プロフィール画像">
         <div class="profile">
@@ -86,7 +87,7 @@ export default {
   data () {
     return {
       bg_akinen: require('@/assets/image/bg_akinen.png'),
-      bg_work: require('@/assets/image/bg_work.png'),
+      bg_work: require('@/assets/image/bg_media.jpg'),
       akinen: require('@/assets/image/akinen.jpg')
     }
   },
@@ -163,9 +164,10 @@ export default {
 // プロフィール
 .aboutme
   width 100%
-  padding 88px 0
-  box-sizing border-box
-  background 50% 50% / cover no-repeat
+  padding 88px 0 44px
+  background-color #222
+  // box-sizing border-box
+  // background 50% 50% / cover no-repeat
 
 .profiles
   position relative

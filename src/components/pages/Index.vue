@@ -38,7 +38,7 @@ export default {
   data () {
     return {
       isAuthed: true,
-      bg_top: require('@/assets/image/bg_game.png')
+      bg_top: require('@/assets/image/bg_future.jpg')
     }
   },
   beforeMount () {

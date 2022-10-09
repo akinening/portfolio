@@ -33,7 +33,7 @@ export default {
   justify-content space-between
   padding 40px 80px
   color white
-  background-color rgb(36, 40, 42)
+  background-color #222
 
   @media (max-width: 768px)
     flex-direction column
