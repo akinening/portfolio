@@ -22,7 +22,6 @@
             <div class="detail">
               <p class="detail__title">{{ project.title }}</p>
               <p class="detail__text">{{ project.date }}</p>
-              <!-- <p class="detail__text">{{ project.description }}</p> -->
             </div>
           </router-link>
         </li>
@@ -32,19 +31,16 @@
     <section class="mt-80 mb-100">
       <h2 class="c-title c-title--center">OTHER PROJECTS</h2>
       <ul class="cards">
-        <li class="card mb-30 c-shadow" v-for="(activity, num) in activeLists" :key="`activity-${num}`">
+        <li class="card card--other mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url">
-            <div class="photo" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
+            <div class="photo photo--other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
-              <!-- <p class="detail__text">{{ activity.description }}</p> -->
             </div>
           </a>
         </li>
       </ul>
-      <div class="show-more c-shadow" @click="toggle" v-if="!isOpen">READ MORE</div>
-      <div class="show-more c-shadow" @click="toggle" v-else>CLOSE</div>
     </section>
   </article>
 </template>
@@ -105,13 +101,6 @@ export default {
         //   url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
         //   image_url: require('@/assets/image/spott.png'),
         //   date: '2020'
-        // },
-        // {
-        //   title: '#times - Personal Tech Blog',
-        //   description: 'A blog about technology, design and product management.',
-        //   url: 'https://times.akinen.com',
-        //   image_url: require('@/assets/image/times.png'),
-        //   date: '- / Personal Work'
         // }
         {
           title: 'Graphics',
@@ -137,26 +126,26 @@ export default {
         {
           title: 'Lobi(Game Community) - Frontend Development',
           description: 'The development of the game community business "Lobi" and the e-sports holding service "Lobi Tournament".',
-          url: '/works/Lobi',
+          url: '/#/works/Lobi',
           image_url: require('@/assets/image/lobi/lobi.png'),
           date: '2018 - 2019 / Kayac.inc'
         }
-      ],
-      count: 2,
-      isOpen: false
-    }
-  },
-  computed: {
-    activeLists () {
-      const count = this.isOpen ? 6 : 2
-      return this.activities.slice(0, count)
-    }
-  },
-  methods: {
-    toggle () {
-      this.isOpen = !this.isOpen
+      ]
+      // count: 2,
+      // isOpen: false
     }
   }
+  // computed: {
+  //   activeLists () {
+  //     const count = this.isOpen ? 6 : 2
+  //     return this.activities.slice(0, count)
+  //   }
+  // },
+  // methods: {
+  //   toggle () {
+  //     this.isOpen = !this.isOpen
+  //   }
+  // }
 }
 </script>
 
@@ -174,6 +163,9 @@ export default {
   min-width 320px
   background-color white
   border-radius 20px
+
+  &--other
+    width 100%
 
   @media (max-width: 768px)
     width 100%
@@ -205,11 +197,21 @@ export default {
   border-radius 20px 20px 0 0
   transition all 0.25s
 
+  &--other
+    height 0
+    margin 16px
+
   @media (max-width: 768px)
     height 50vw
 
+    &--other
+      height 0
+
   @media (min-width: 1200px)
     height 288px
+
+    &--other
+      height 0
 
 .detail
   padding 20px
