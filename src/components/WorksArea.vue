@@ -181,10 +181,13 @@ export default {
 
 .card-other
   position relative
-  width 100%
+  width calc(50% - 16px)
   min-width 320px
   background-color white
   border-radius 20px
+
+  @media (max-width: 768px)
+    width 100%
 
   .detail__title
   .detail__text
@@ -194,8 +197,9 @@ export default {
   display flex
 
 .photo-other
-  width 240px
-  height 160px
+  flex none
+  width 108px
+  height 108px
   margin 16px
   background-color #f0f3f7
   background-size cover
