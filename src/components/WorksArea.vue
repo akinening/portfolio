@@ -52,17 +52,17 @@ export default {
     return {
       projects: [
         {
-          title: 'New Business Development',
-          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
-          url: '/works/Tmnf',
-          image_url: require('@/assets/image/digital.jpg'),
-          date: '2021.11 - Now / Tokio Marine'
-        },
-        {
           title: 'Digital Transformation',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/DX',
           image_url: require('@/assets/image/tmnf.png'),
+          date: '2021.11 - Now / Tokio Marine'
+        },
+        {
+          title: 'New Business Development',
+          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
+          url: '/works/Tmnf',
+          image_url: require('@/assets/image/digital.jpg'),
           date: '2021.11 - Now / Tokio Marine'
         },
         {
