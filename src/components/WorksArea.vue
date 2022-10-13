@@ -82,7 +82,7 @@ export default {
         //   date: '2020'
         // }
         {
-          title: 'Graphics',
+          title: 'Creative - VR, Game UI, Print, etc.',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/#/works/Graphics',
           image_url: require('@/assets/image/graphics.png'),
