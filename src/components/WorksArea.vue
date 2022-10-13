@@ -31,9 +31,9 @@
     <section class="mt-80 mb-100">
       <h2 class="c-title c-title--center">OTHER PROJECTS</h2>
       <ul class="cards">
-        <li class="card card--other mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url">
-            <div class="photo photo--other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
+        <li class="card-other mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
+          <a :href="activity.url" class="other">
+            <div class="photo-other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
@@ -74,27 +74,6 @@ export default {
         }
       ],
       activities: [
-        // {
-        //   title: 'Figmaのムック本',
-        //   description: '「第2回デザイン読書日和」に出展予定。FigmaをUIデザイン以外に使ってみようという話をします。',
-        //   url: 'https://dezabiyo.studio.site',
-        //   image_url: require('@/assets/image/dezabiyo2.png'),
-        //   date: '2022.09'
-        // },
-        // {
-        //   title: '技術書を執筆＆頒布',
-        //   description: '「デザイン読書日和」および「技術書典11」に出展し、約100部を頒布しました。',
-        //   url: 'https://techbookfest.org/product/5108267816583168',
-        //   image_url: require('@/assets/image/dezabiyo.png'),
-        //   date: '2021'
-        // },
-        // {
-        //   title: 'Figmaたん',
-        //   description: 'Figmaの非公式キャラクター「Figmaたん」です。',
-        //   url: 'https://www.figma.com/community/file/1063752787187389952',
-        //   image_url: require('@/assets/image/figma.png'),
-        //   date: '2022'
-        // },
         // {
         //   title: 'Chrome拡張機能「Drawer」',
         //   description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
@@ -164,9 +143,6 @@ export default {
   background-color white
   border-radius 20px
 
-  &--other
-    width 100%
-
   @media (max-width: 768px)
     width 100%
 
@@ -197,21 +173,37 @@ export default {
   border-radius 20px 20px 0 0
   transition all 0.25s
 
-  &--other
-    height 0
-    margin 16px
-
   @media (max-width: 768px)
     height 50vw
-
-    &--other
-      height 0
 
   @media (min-width: 1200px)
     height 288px
 
-    &--other
-      height 0
+.card-other
+  position relative
+  width 100%
+  min-width 320px
+  background-color white
+  border-radius 20px
+
+  .detail__title
+  .detail__text
+    color rgb(36, 40, 42)
+
+.other
+  display flex
+
+.photo-other
+  width 240px
+  height 160px
+  margin 16px
+  background-color #f0f3f7
+  background-size cover
+  background-position 50%
+  border-radius 16px
+
+  @media (max-width: 768px)
+    display none
 
 .detail
   padding 20px
