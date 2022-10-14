@@ -3,24 +3,13 @@
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
-      <p class="tab" @click="toggleLang">{{lang}}</p>
     </nav>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'HeaderBar',
-  data () {
-    return {
-      lang: 'EN'
-    }
-  },
-  methods: {
-    toggleLang () {
-      this.lang = (this.lang === 'EN') ? 'JP' : 'EN'
-    }
-  }
+  name: 'HeaderBar'
 }
 </script>
 
@@ -60,9 +49,9 @@ export default {
     margin-left 0
 
   &:hover
-    background-color rgba(0, 196, 220, 0.2)
-
   &.router-link-exact-active
-    background-color rgba(0, 196, 220, 0.2)
+    color white
+    background-color rgb(36, 40, 42)
+    background-color rgb(36, 40, 42)
 
 </style>

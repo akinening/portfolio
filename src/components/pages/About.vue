@@ -12,10 +12,8 @@
         I design between people and products <br class="hide-sp">to deliver experiential value to daily life.
       </h2>
       <p class="sub-title">
-        <!-- たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。<br>
-        サービスデザインを通じてコアバリューを洗い出し、人々の暮らしのなかに体験を届けます。 -->
-        Even if you have a good product or plan, it is meaningless if users do not find it valuable.<br>
-        Through service design, I identify core values and deliver experiences in people's lives.
+        たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。<br>
+        サービスデザインを通じてコアバリューを洗い出し、人々の暮らしのなかに体験を届けます。
       </p>
 
       <div class="development c-shadow mt-plus mb-100">
@@ -58,7 +56,6 @@
       </div>
     </section>
 
-    <!-- <section class="aboutme" :style="{backgroundImage: 'url(' + bg_akinen + ')' }"> -->
     <section class="aboutme">
       <div class="profiles c-centering c-shadow">
         <img class="akinen" :src="akinen" alt="プロフィール画像">
@@ -66,7 +63,7 @@
           <h2 class="profile__name">AKINORI OZAWA</h2>
           <p class="profile__discription">PRODUCT DESIGNER</p>
           <p class="profile__discription">
-            Born in Nagano, Japan. Worked at Kayac.inc and Buildit.inc (educational venture) before assuming my current position. I have experience as both an engineer and designer, and am currently involved in the creation of new business for Japan's largest non-life insurance group.
+            長野県諏訪市出身。面白法人カヤックでフロントエンドエンジニアとして自社事業「Lobi」に携わったのち、UIデザイナーに転向。株式会社ビルディットにて新規事業「Stockr」のデザイン全般を担当しました。現在は東京海上日動システムズにて、InsurTech系の新規事業のデザインや、業務のDXに取り組んでいます。
           </p>
         </div>
       </div>
