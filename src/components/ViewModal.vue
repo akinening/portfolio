@@ -66,7 +66,4 @@ export default {
 .modal-enter, .modal-leave-to
   opacity 0
 
-  // @media (max-width: 768px)
-  //  transform: translateY(100vh)
-
 </style>

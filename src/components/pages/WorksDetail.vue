@@ -33,7 +33,7 @@ import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
 import DigitalX from '@/components/articles/DX'
 import Creative from '@/components/articles/Creative'
-import Graphics from '../articles/Graphics.vue'
+import Graphics from '../articles/Graphics'
 
 export default {
   name: 'WorksDetail',

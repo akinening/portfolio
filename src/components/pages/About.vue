@@ -86,7 +86,6 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_akinen: require('@/assets/image/bg_akinen.png'),
       bg_work: require('@/assets/image/bg_media.jpg'),
       akinen: require('@/assets/image/akinen.jpg')
     }
@@ -166,8 +165,6 @@ export default {
   width 100%
   padding 88px 0 44px
   background-color #222
-  // box-sizing border-box
-  // background 50% 50% / cover no-repeat
 
 .profiles
   position relative

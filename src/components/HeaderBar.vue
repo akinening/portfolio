@@ -37,7 +37,7 @@ export default {
   border-radius 100px
 
 .tabs
-  padding 10px 20px
+  padding 10px
 
   @media (max-width: 768px)
     padding 10px 8px
@@ -55,6 +55,9 @@ export default {
   @media (max-width: 768px)
     margin-left 8px
     padding 8px 16px
+
+  &:first-child
+    margin-left 0
 
   &:hover
     background-color rgba(0, 196, 220, 0.2)
