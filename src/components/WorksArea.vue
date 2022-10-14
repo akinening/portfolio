@@ -85,7 +85,7 @@ export default {
           title: 'Creative - VR, Game UI, Print, etc.',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/#/works/Graphics',
-          image_url: require('@/assets/image/graphics.png'),
+          image_url: require('@/assets/image/creative/hard_maniaxx.jpg'),
           date: '2022 / Personal Work'
         },
         {
