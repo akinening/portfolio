@@ -45,11 +45,11 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
           <div class="skill__box">
-            <h2 class="title">手を動かす</h2>
+            <h2 class="title">具象化する力</h2>
             <ul class="description">
-              <li>元エンジニアの経験を活かし、実際の挙動などを考慮したデザインが可能です。</li>
+              <li>エンジニアの経験があり、実際の挙動などを考慮したデザインが可能です。</li>
               <li>趣味でも「つくる」ことが好きで、技術書の即売会などにも積極的に出展しています。</li>
-              <li>会社員としてだけでなく、個人としても新しいものに興味関心を持ちながら日々手を動かしています。</li>
+              <li>好奇心が強く、新しいものに興味関心を持ちながら日々手を動かしています。</li>
             </ul>
           </div>
         </div>
