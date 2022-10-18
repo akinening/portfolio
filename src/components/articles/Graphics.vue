@@ -19,6 +19,11 @@
       <img class="image image--w80" src="@/assets/image/logo_vrchat.png" alt="VRChat">
     </p>
 
+    <h3 class="title title--sub">Motion Graphics</h3>
+    <div class="description">
+      <iframe class="image image--w80" src="https://player.vimeo.com/video/228028646?h=c8503d4ff4" width="640" height="480" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
     <h3 class="title title--sub">STARLIGHT Webサイト</h3>
     <p class="description">
       2014年から活動している創作サークル「STARLIGHT」のWebサイトです(WIP)
