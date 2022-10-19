@@ -21,6 +21,11 @@
       部外からリデザインについて相談されるなど、社内からは好評をいただきました。
       <img class="image image--w80" src="@/assets/image/tmnf/portal.png" alt="ポータル">
     </p>
+
+    <h2>社内デザインコミュニティの運営</h2>
+    <p class="description">
+      社内で停滞していたデザインコミュニティの運営を担当しています。
+    </p>
   </section>
 </template>
 
