@@ -26,7 +26,7 @@
 
     <h3 class="title title--sub">STARLIGHT Webサイト</h3>
     <p class="description">
-      2014年から活動している創作サークル「STARLIGHT」のWebサイトです(WIP)
+      2014年から活動している創作サークル「STARLIGHT」のWebサイトです(WIP)。イラストも自分で描いています。
       <span class="link">
         <a href="https://akinen.com/#/starlight" target="_blank" class="link__button">Webサイト</a>
       </span>

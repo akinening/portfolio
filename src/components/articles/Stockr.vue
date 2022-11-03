@@ -108,7 +108,8 @@
 
     <h3 class="title title--sub">4-3. ターゲティング広告</h3>
     <p class="description">
-      FacebookやTwitterに広告を作成し、出稿しました。各メディアではつ
+      InstagramやTwitterに広告を作成し、出稿しました。<br> 
+      A/BテストでCTAを比較した結果、ハウスワークを押し出した女性向けの広告が最も関心を持たれることがわかり、ペルソナ像の見直しに繋がりました。
       <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
     </p>
   </section>
