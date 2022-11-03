@@ -52,11 +52,11 @@ export default {
     return {
       projects: [
         {
-          title: 'Digital Transformation',
-          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
-          url: '/works/DX',
-          image_url: require('@/assets/image/tmnf.png'),
-          date: '2021.11 - Now / Tokio Marine'
+          title: 'Stockr - UX/UI Design',
+          description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
+          url: '/works/Stockr',
+          image_url: require('@/assets/image/stockr/ogp2.png'),
+          date: '2020.06 - 2021.10 / BuildIt.inc'
         },
         {
           title: 'New Business Development',
@@ -66,11 +66,11 @@ export default {
           date: '2021.11 - Now / Tokio Marine'
         },
         {
-          title: 'Stockr - UX/UI Design',
-          description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
-          url: '/works/Stockr',
-          image_url: require('@/assets/image/stockr/ogp2.png'),
-          date: '2020.06 - 2021.10 / BuildIt.inc'
+          title: 'Digital Transformation',
+          description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
+          url: '/works/DX',
+          image_url: require('@/assets/image/tmnf.png'),
+          date: '2021.11 - Now / Tokio Marine'
         }
       ],
       activities: [
@@ -81,6 +81,13 @@ export default {
         //   image_url: require('@/assets/image/spott.png'),
         //   date: '2020'
         // }
+        {
+          title: 'IJUIN - Flutter App (WIP)',
+          description: 'Flutter App (Under review)',
+          url: 'https://kaigai-iju.studio.site/',
+          image_url: require('@/assets/image/ijuin_icon.jpg'),
+          date: '2022.11 / Personal Work'
+        },
         {
           title: 'Creative - VR, Game UI, Print, etc.',
           description: 'I designed the DJ logo, CD jackets, etc.',
