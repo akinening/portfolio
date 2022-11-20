@@ -79,14 +79,14 @@ export default {
           description: 'I actually develop the ideas that individuals come up with.',
           url: '/#/works/Develop',
           image_url: require('@/assets/image/ijuin_icon.jpg'),
-          date: '2022.11 / Personal Work'
+          date: '2014 - Now / Personal Work'
         },
         {
           title: 'Creative - VR, Game UI, Print, etc.',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/#/works/Graphics',
           image_url: require('@/assets/image/creative/hard_maniaxx.jpg'),
-          date: '2022 / Personal Work'
+          date: '2014 - Now / Personal Work'
         },
         {
           title: 'Company Website - Design Lead',
