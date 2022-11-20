@@ -74,17 +74,10 @@ export default {
         }
       ],
       activities: [
-        // {
-        //   title: 'Chrome拡張機能「Drawer」',
-        //   description: 'Drawer(旧Spott)は、Vue.jsでつくられたChrome拡張機能です。素材を探す煩わしい作業を軽減し、生産性を向上させます。',
-        //   url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
-        //   image_url: require('@/assets/image/spott.png'),
-        //   date: '2020'
-        // }
         {
-          title: 'IJUIN - Flutter App (WIP)',
-          description: 'Flutter App (Under review)',
-          url: 'https://kaigai-iju.studio.site/',
+          title: 'Personal Development',
+          description: 'I actually develop the ideas that individuals come up with.',
+          url: '/#/works/Develop',
           image_url: require('@/assets/image/ijuin_icon.jpg'),
           date: '2022.11 / Personal Work'
         },
@@ -117,21 +110,8 @@ export default {
           date: '2018 - 2019 / Kayac.inc'
         }
       ]
-      // count: 2,
-      // isOpen: false
     }
   }
-  // computed: {
-  //   activeLists () {
-  //     const count = this.isOpen ? 6 : 2
-  //     return this.activities.slice(0, count)
-  //   }
-  // },
-  // methods: {
-  //   toggle () {
-  //     this.isOpen = !this.isOpen
-  //   }
-  // }
 }
 </script>
 

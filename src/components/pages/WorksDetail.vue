@@ -16,6 +16,7 @@
     <digital-x v-if="$route.params.id === 'DX'" />
     <graphics v-if="$route.params.id === 'Graphics'" />
     <creative v-if="$route.params.id === 'Creative'" />
+    <develop v-if="$route.params.id === 'Develop'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -34,6 +35,7 @@ import Tmnf from '@/components/articles/Tmnf'
 import DigitalX from '@/components/articles/DX'
 import Creative from '@/components/articles/Creative'
 import Graphics from '../articles/Graphics'
+import Develop from '@/components/articles/Develop'
 
 export default {
   name: 'WorksDetail',
@@ -48,7 +50,8 @@ export default {
     Tmnf,
     DigitalX,
     Creative,
-    Graphics
+    Graphics,
+    Develop
   }
 }
 </script>
