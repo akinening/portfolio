@@ -14,7 +14,7 @@ export default {
 
 <style>
 #app {
-  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor.svg') 8 8, auto;
+  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor.svg') 7 7, auto;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
 }
 
 ::selection {
-  background-color: #92F3FF;
+  background-color: #FF5894;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {
@@ -44,6 +44,6 @@ li {
 
 a {
   text-decoration: none;
-  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor_active.svg') 8 8, pointer;
+  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor_active.svg') 7 7, pointer;
 }
 </style>
