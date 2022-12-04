@@ -7,8 +7,14 @@
   <header-bar />
 
   <section class="mt-80 c-centering">
-    <h2 class="mt-80 c-title">PICKUP</h2>
-     <ul class="cards">
+    <h2 class="message mt-plus">
+      Free, Fun, Enthusiastic.
+    </h2>
+    <p class="sub-title">
+      なぜデザインするのか。社会への貢献も勿論ですが、試行錯誤しながらつくること自体が好きだからです。<br>
+      個人としても、自由に・面白く・熱中しながら制作／創作活動をしています。
+    </p>
+    <ul class="cards mt-plus">
       <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
         <router-link :to="project.url">
           <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
@@ -65,17 +71,13 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
-.text-center
-  text-align center
-
-.title
-  font-family "Montserrat"
-  font-size 64px
+.message
+  margin-bottom -20px
+  font-size 24px
   font-weight 700
-  line-height 1.0
-
-  @media (max-width: 768px)
-    font-size 40px
+  text-align center
+  line-height 1.8
+  letter-spacing 0.1rem
 
 .cards
   display flex

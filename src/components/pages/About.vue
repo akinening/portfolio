@@ -137,7 +137,6 @@ export default {
 .development
   display flex
   flex-direction row
-  padding 40px 0 0
   border-radius 20px
   background-color white
 
