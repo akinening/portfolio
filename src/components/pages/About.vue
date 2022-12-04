@@ -101,7 +101,7 @@ export default {
 .message
   margin-bottom -20px
   font-size 24px
-  font-weight 600
+  font-weight 700
   text-align center
   line-height 1.8
   letter-spacing 0.1rem

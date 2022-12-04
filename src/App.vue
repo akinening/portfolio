@@ -26,7 +26,7 @@ body {
   font-feature-settings: "palt";
   letter-spacing: 0.4px;
   color: rgb(36, 40, 42);
-  background-color: #FAFAFA;
+  background-color: white;
 }
 
 ::selection {

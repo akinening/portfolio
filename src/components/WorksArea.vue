@@ -1,9 +1,10 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-80">
-      <h2 class="c-title c-title--center">NEWS</h2>
-      <div class="news c-shadow">
+      <h2 class="c-title">NEWS</h2>
+      <div class="news">
         <p class="news__content">
+          <!-- <a class="news-link" href="" target="_blank" rel="noopener noreferrer">2023/02/01&emsp;京都大学の「京都府観光経営セミナー」においてプロダクトデザインについて講義を行いました。</a> -->
           <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和・技術書典13に出展しました。</a><br>
           <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました。</a><br>
           <a class="news-link" href="https://www.wantedly.com/companies/tmn-systems/post_articles/377750" target="_blank" rel="noopener noreferrer">2022/03/04&emsp;インタビューがWantedlyに掲載されました。</a><br>
@@ -14,9 +15,9 @@
     </section>
 
     <section class="mt-80">
-      <h2 class="c-title c-title--center">PICKUP</h2>
+      <h2 class="c-title">PICKUP</h2>
       <ul class="cards">
-        <li class="card mb-30 c-shadow" v-for="(project, num) in projects" :key="`project-${num}`">
+        <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
           <router-link :to="project.url">
             <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
             <div class="detail">
@@ -29,9 +30,9 @@
     </section>
 
     <section class="mt-80 mb-100">
-      <h2 class="c-title c-title--center">OTHER PROJECTS</h2>
+      <h2 class="c-title">OTHERS</h2>
       <ul class="cards">
-        <li class="card-other mb-30 c-shadow" v-for="(activity, num) in activities" :key="`activity-${num}`">
+        <li class="card-other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
           <a :href="activity.url" class="other">
             <div class="photo-other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
             <div class="detail">
@@ -52,14 +53,7 @@ export default {
     return {
       projects: [
         {
-          title: 'Stockr - UX/UI Design',
-          description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
-          url: '/works/Stockr',
-          image_url: require('@/assets/image/stockr/ogp2.png'),
-          date: '2020.06 - 2021.10 / BuildIt.inc'
-        },
-        {
-          title: 'New Business Development',
+          title: 'InsurTech - Product Design',
           description: 'I’m working to bring UI/UX design in-house and promote DX at Japanese largest non-life insurance group.',
           url: '/works/Tmnf',
           image_url: require('@/assets/image/digital.jpg'),
@@ -71,6 +65,13 @@ export default {
           url: '/works/DX',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - Now / Tokio Marine'
+        },
+        {
+          title: 'Stockr - UX, UI Design',
+          description: 'I participated as a designer from the planning stage. I have improved the functionality based on user research.',
+          url: '/works/Stockr',
+          image_url: require('@/assets/image/stockr/ogp2.png'),
+          date: '2020.06 - 2021.10 / BuildIt.inc'
         }
       ],
       activities: [
@@ -128,7 +129,6 @@ export default {
   width calc(50% - 16px)
   min-width 320px
   background-color white
-  border-radius 20px
 
   @media (max-width: 768px)
     width 100%
@@ -157,7 +157,7 @@ export default {
   background-color #f0f3f7
   background-size cover
   background-position 50%
-  border-radius 20px 20px 0 0
+  border-radius 16px
   transition all 0.25s
 
   @media (max-width: 768px)
@@ -171,7 +171,6 @@ export default {
   width calc(50% - 16px)
   min-width 320px
   background-color white
-  border-radius 20px
 
   @media (max-width: 768px)
     width 100%
@@ -187,7 +186,7 @@ export default {
   flex none
   width 108px
   height 108px
-  margin 16px
+  margin 16px 24px 16px 0
   background-color #f0f3f7
   background-size cover
   background-position 50%
@@ -197,14 +196,13 @@ export default {
     display none
 
 .detail
-  padding 20px
+  padding 20px 1px
   overflow hidden
 
   &__title
     line-height 1.6
-    margin 0 0 10px
     font-size 20px
-    font-weight 500
+    font-weight 600
 
   &__text
     line-height 1.8
@@ -213,15 +211,11 @@ export default {
 
 .news
   width 100%
-  margin 0 auto
-  background-color white
-  border-radius 20px
 
   &__content
     display block
-    margin 0 auto
     width fit-content
-    padding 20px
+    padding 20px 0
     font-size 16px
     font-weight 400
     line-height 2
