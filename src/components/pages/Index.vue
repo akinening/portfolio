@@ -38,7 +38,7 @@ export default {
   data () {
     return {
       isAuthed: true,
-      bg_top: require('@/assets/image/bg_future.jpg')
+      bg_top: require('@/assets/image/bg.jpg')
     }
   },
   beforeMount () {
@@ -54,9 +54,9 @@ export default {
   text-align center
 
 .title
-  font-family "Zilla Slab"
+  font-family "Montserrat"
   font-size 64px
-  font-weight 600
+  font-weight 700
   line-height 1.0
 
   @media (max-width: 768px)

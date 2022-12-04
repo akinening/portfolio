@@ -83,7 +83,7 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_work: require('@/assets/image/bg_media.jpg'),
+      bg_work: require('@/assets/image/bg.jpg'),
       akinen: require('@/assets/image/akinen.jpg')
     }
   },

@@ -58,7 +58,7 @@ export default {
 
 .link
   display flex
-  font-family "Zilla Slab"
+  font-family "Montserrat"
   font-weight 500
   font-size 16px
 
