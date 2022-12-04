@@ -44,5 +44,7 @@ li {
 
 a {
   text-decoration: none;
+  /* cursor: url('@/assets/image/cursor.svg') 8 8, auto;
+  cursor: url('@/assets/image/cursor_active.svg') 8 8, pointer; */
 }
 </style>

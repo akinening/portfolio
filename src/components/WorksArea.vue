@@ -268,7 +268,6 @@ export default {
   font-weight 600
   color rgba(36, 40, 42, 0.8)
   background-color white
-  cursor pointer
   box-shadow 0px 1px 4px 0px rgba(0,0,0,0.08)
   transition all 0.2s
 
