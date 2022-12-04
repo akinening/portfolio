@@ -14,7 +14,7 @@ export default {
 
 <style>
 #app {
-  /* overflow: hidden; */
+  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor.svg') 8 8, auto;
 }
 
 body {
@@ -44,7 +44,6 @@ li {
 
 a {
   text-decoration: none;
-  /* cursor: url('@/assets/image/cursor.svg') 8 8, auto;
-  cursor: url('@/assets/image/cursor_active.svg') 8 8, pointer; */
+  cursor: url('https://raw.githubusercontent.com/akinening/portfolio/master/src/assets/image/cursor_active.svg') 8 8, pointer;
 }
 </style>
