@@ -30,7 +30,7 @@ body {
 }
 
 ::selection {
-  background-color: #FF5894;
+  background-color: rgba(255, 88, 148, 0.5);
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, li {

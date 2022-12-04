@@ -16,8 +16,7 @@
         サービスデザインを通じてコアバリューを洗い出し、人々の暮らしのなかに体験を届けます。
       </p>
 
-      <div class="development c-shadow mt-plus mb-100">
-
+      <div class="development mt-plus mb-100">
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
           <div class="skill__box">
@@ -124,10 +123,9 @@ export default {
 
 .title
   font-size 20px
-  font-weight 600
+  font-weight 700
   margin-bottom 12px
   text-align center
-  color #00A0B4
 
 .description
   > li
@@ -139,7 +137,7 @@ export default {
 .development
   display flex
   flex-direction row
-  padding 40px 20px 0
+  padding 40px 0 0
   border-radius 20px
   background-color white
 
