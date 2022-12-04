@@ -40,6 +40,7 @@ export default {
   background-color #fafafa
   padding 20px 23px
   border-radius 20px 0 0 0
+  cursor url('https://raw.githubusercontent.com/akinening/portfolio/85385e0949697392e28cf9da46f88107c2279335/src/assets/image/cursor_active.svg') 7 7, pointer
 
   @media (max-width: 768px)
     padding 10px 13px

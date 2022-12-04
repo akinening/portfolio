@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_work + ')' }">
+  <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
     <header-area />
     <span class="hero__content">About</span>
   </h1>
@@ -83,7 +83,7 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_work: require('@/assets/image/bg.jpg'),
+      bg_about: require('@/assets/image/bg_sunset.jpg'),
       akinen: require('@/assets/image/akinen.jpg')
     }
   },

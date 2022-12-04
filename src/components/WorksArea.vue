@@ -76,20 +76,6 @@ export default {
       ],
       activities: [
         {
-          title: 'Personal Development',
-          description: 'I actually develop the ideas that individuals come up with.',
-          url: '/#/works/Develop',
-          image_url: require('@/assets/image/ijuin_icon.jpg'),
-          date: '2014 - Now / Personal Work'
-        },
-        {
-          title: 'Creative - VR, Game UI, Print, etc.',
-          description: 'I designed the DJ logo, CD jackets, etc.',
-          url: '/#/works/Graphics',
-          image_url: require('@/assets/image/creative/hard_maniaxx.jpg'),
-          date: '2014 - Now / Personal Work'
-        },
-        {
           title: 'Company Website - Design Lead',
           description: 'We renewed the corporate website of Buildit Inc. (The design is currently broken due to content replacement.)',
           url: '/#/works/Build%20It',

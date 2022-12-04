@@ -3,6 +3,7 @@
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
+      <router-link to="/creative" class="tab">CREATIVE</router-link>
     </nav>
   </header>
 </template>
@@ -22,7 +23,7 @@ export default {
   width fit-content
   text-align center
   box-sizing border-box
-  background-color #fafafa
+  background-color white
   border-radius 100px
 
 .tabs
@@ -33,7 +34,8 @@ export default {
 
 .tab
   display inline-block
-  padding 8px 36px
+  padding 8px
+  width 120px
   color rgb(36, 40, 42)
   border-radius 100px
   font-size 16px
@@ -42,8 +44,9 @@ export default {
   transition all 0.2s
 
   @media (max-width: 768px)
-    margin-left 8px
-    padding 8px 16px
+    margin-left 0
+    padding 8px
+    width 94px
 
   &:first-child
     margin-left 0
