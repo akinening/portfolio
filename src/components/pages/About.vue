@@ -20,9 +20,9 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
           <div class="skill__box">
-            <h2 class="title">UX設計</h2>
+            <h2 class="title">価値の発見</h2>
             <ul class="description">
-              <li>新規立ち上げ、運用での改善サイクルの両方で、体験設計の経験があります。ストーリーを描き、ユーザーフレンドリーな体験を実現します。</li>
+              <li>ユーザーの行動を観察しながら、未来を想像し、課題を発見します。</li>
               <li><b>定量評価</b>：アナリティクスやA/Bテスト等から、ペルソナ像をアップデートしたり、施策に落とし込みます。</li>
               <li><b>定性評価</b>：ユーザーインタビューをデザイナー主導で実施。インサイトを把握し、プロダクトの改善に活かします。</li>
             </ul>
@@ -32,11 +32,11 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill-3.png" alt="UI設計">
           <div class="skill__box">
-            <h2 class="title">UI設計</h2>
+            <h2 class="title">UX設計・UI設計</h2>
             <ul class="description">
               <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
+              <li>新規立ち上げ、運用での改善サイクルの両方で、UX設計の経験があります。ストーリーを描き、ユーザーフレンドリーな体験を実現します。</li>
               <li>ユーザーにもコンピュータにも優しい、直感的に触れるUIを目指しています。</li>
-              <li>退会導線を複雑にしたり、許可なく通知を送るなどのBAD UIを未然に防ぎ、ユーザー目線のUIを提案します。</li>
             </ul>
           </div>
         </div>
