@@ -8,12 +8,10 @@
   <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
       <h2 class="message">
-        <!-- ヒトとプロダクトの「間」をデザインし、<br class="hide-sp">日々の暮らしに体験価値を届けます。 -->
-        I design between people and products <br class="hide-sp">to deliver experiential value to daily life.
+        Delusion, Play, Gamification.
       </h2>
       <p class="sub-title">
-        たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。<br>
-        サービスデザインを通じてコアバリューを洗い出し、人々の暮らしのなかに体験を届けます。
+        ユーザーストーリーを想像し、UIを弄りたおし、アプリにゲーム性をもたせる。
       </p>
 
       <div class="development mt-plus mb-100">
@@ -35,7 +33,7 @@
             <h2 class="title">届ける力</h2>
             <ul class="description">
               <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
-              <li><b>UX設計</b>:ストーリーを描き、ユーザーフレンドリーな体験を実現します。</li>
+              <li><b>UX設計</b>:たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。コアバリューを洗い出し、暮らしのなかにサービス体験を届けます。</li>
               <li><b>UI設計</b>:ユーザーにもコンピュータにも優しい、直感的に触れるUIを目指しています。</li>
             </ul>
           </div>
