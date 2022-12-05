@@ -11,7 +11,7 @@
         Delusion, Play, Gamification.
       </h2>
       <p class="sub-title">
-        ユーザーストーリーを想像し、UIを弄りたおし、アプリにゲーム性をもたせる。
+        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>ゲーム中心、想像を現実にするために、デザインの力で貢献します。
       </p>
 
       <div class="development mt-plus mb-100">
