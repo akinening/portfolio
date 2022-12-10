@@ -87,7 +87,6 @@ export default {
 .card
   position relative
   width calc(50% - 16px)
-  min-width 320px
   background-color white
 
   @media (max-width: 768px)

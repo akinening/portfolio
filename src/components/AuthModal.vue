@@ -82,6 +82,7 @@ export default {
     padding 0 16px
     border 1px solid #aaa
     border-radius 8px
+    box-sizing border-box
 
   &__border
     display block
