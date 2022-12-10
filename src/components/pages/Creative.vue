@@ -59,7 +59,7 @@ export default {
           title: 'Creative - VR, Game UI, Print, etc.',
           description: 'I designed the DJ logo, CD jackets, etc.',
           url: '/works/Graphics',
-          image_url: require('@/assets/image/creative/hard_maniaxx.jpg'),
+          image_url: require('@/assets/image/starlight_captcha.png'),
           date: '2014 - Now / Personal Work'
         }
       ]
