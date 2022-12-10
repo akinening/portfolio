@@ -16,7 +16,7 @@
 
       <div class="development mt-plus mb-100">
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill-1.png" alt="体験設計">
+          <img class="skill__image" src="@/assets/image/skill/skill-1.jpg" alt="アイコン１">
           <div class="skill__box">
             <h2 class="title">価値の発見</h2>
             <ul class="description">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill-3.png" alt="UI設計">
+          <img class="skill__image" src="@/assets/image/skill/skill-2.jpg" alt="アイコン２">
           <div class="skill__box">
             <h2 class="title">届ける力</h2>
             <ul class="description">
@@ -40,7 +40,7 @@
         </div>
 
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill-2.png" alt="情報設計">
+          <img class="skill__image" src="@/assets/image/skill/skill-3.jpg" alt="アイコン３">
           <div class="skill__box">
             <h2 class="title">具象化する力</h2>
             <ul class="description">
