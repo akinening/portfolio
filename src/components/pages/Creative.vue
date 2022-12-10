@@ -52,7 +52,7 @@ export default {
           title: 'Personal Development',
           description: 'I actually develop the ideas that individuals come up with.',
           url: '/works/Develop',
-          image_url: require('@/assets/image/ijuin_icon.jpg'),
+          image_url: require('@/assets/image/creative.jpg'),
           date: '2014 - Now / Personal Work'
         },
         {

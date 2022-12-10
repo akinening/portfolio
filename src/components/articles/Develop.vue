@@ -6,6 +6,7 @@
     <p class="description">
       IJUIN(イジュウイン)は海外移住の準備を応援し、実現までサポートするアプリです。<br>
       Flutterでアプリを作成し、Google Playストアに公開しています。
+      <img class="image image--w80" src="@/assets/image/ijuin.jpg" alt="IJUIN">
       <span class="link">
         <a href="https://kaigai-iju.studio.site/" target="_blank" class="link__button">Webサイト</a>
       </span>
