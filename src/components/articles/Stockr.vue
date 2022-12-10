@@ -121,8 +121,8 @@ export default {
   data () {
     return {
       stockr_ogp: require('@/assets/image/stockr/ogp2.png'),
-      stockr_flow1: require('@/assets/image/stockr/flow1.png'),
-      stockr_flow2: require('@/assets/image/stockr/flow2.png'),
+      stockr_flow1: require('@/assets/image/stockr/flow1.jpg'),
+      stockr_flow2: require('@/assets/image/stockr/flow2.jpg'),
       color: require('@/assets/image/stockr/color.png'),
       component: require('@/assets/image/stockr/component.png'),
       illust: require('@/assets/image/stockr/illust.png')
