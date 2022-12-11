@@ -55,11 +55,11 @@ export default {
         {
           title: 'InsurTech - Product Design',
           url: '/works/Tmnf',
-          image_url: require('@/assets/image/digital.jpg'),
+          image_url: require('@/assets/image/tmnf/insure.jpg'),
           date: '2021.11 - Now / Tokio Marine'
         },
         {
-          title: 'Fostering a Design Culture',
+          title: 'Design Culture',
           url: '/works/DesignCulture',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - Now / Tokio Marine'

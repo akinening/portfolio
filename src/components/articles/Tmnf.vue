@@ -1,33 +1,32 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/digital.jpg" alt="TMNF">
+    <img class="image" src="@/assets/image/tmnf/insure.jpg" alt="TMNF">
 
     <p class="description">
       UI/UXデザイナーとして、損害保険事業のPoC・新規事業創出に携わっています。<br>
-      保険サービスの多様化や、スマホを通した保険の需要拡大から、保険業界では新規事業の創出が課題になっています。２人目の中途デザイナーとして入社し、本部のプロダクトオーナーと協力しながら、実際の顧客ニーズに沿ったプロダクトデザインを行っています。<br>
-      ※コンプライアンスの観点から、案件の詳細は非公開です。
+      保険サービスの多様化や、スマホを通した保険の需要拡大から、保険業界では新規事業の創出が課題になっています。<b>２人目の中途デザイナーとして入社</b>し、本部のプロダクトオーナーと協力しながら、実際の顧客ニーズに沿ったプロダクトデザインを行っています。<br>
+      <br>
+      ※コンプライアンスの観点から、案件の詳細は非公開です。詳しくはお問い合わせください。
     </p>
 
     <h2 class="title">UX/UIデザイン</h2>
-    <br>
-    <h3 class="title title--sub">ギグワーカー向けサービスのUIデザイン</h3>
+    <h3 class="title title--sub">1. ギグワーカー向けサービスのUIデザイン</h3>
     <p class="description">
       2022.08 ~ 現在<br>
       プロダクトオーナーやステークホルダーの意見を踏まえつつ、ユーザーが店頭で使うストーリーを描いてUIに落とし込んでいます。タイトな開発期間でありながらも、USのTechチームともコンタクトを取りながら進めています。
     </p>
 
-    <h3 class="title title--sub">Apple Watchを用いたヘルスケアアプリ</h3>
+    <h3 class="title title--sub">2. Apple Watchを用いたヘルスケアアプリ</h3>
     <p class="description">
       2022.04 ~ 2022.07<br>
-      Apple Watchを用いて疾病の予兆を検知し、その対策や医療相談するまでをサポートするiOSアプリのUX/UIデザインを担当しました。保険は疾病が発覚した事後にお支払いするものですが、お客様にとっては疾病を未然に防ぐことが最善策であることから、本サービスが発案されました。
-      <img class="image blur" src="@/assets/image/tmnf/apple_watch.png" alt="Apple Watch">
-      ※未リリースのため非公開です。<br>
+      <b>Apple Watchで疾病の予兆を検知し、その対策や医療相談するまでをサポートするiOSアプリ</b>のUX/UIデザインを担当しました。<br>
       本プロジェクトではリードデザイナーとして、POが実現したいアイデアと開発のリソースとのバランスを考えながら、MVPを実現するためのデザインを担当しました。<br>
-      <br>
-      特にUIについてはApple Japan社の協力を得て、医療上適切な表現やHIGに則ったデザインを実現しました。またその内容をデザインチームに共有することで、ネイティブアプリの知識向上に寄与しました。
+      特にUIについては<b>Apple Japan社のデザイナーの協力</b>を得て、医療上適切な表現やHIGに則ったデザインを実現しました。またその内容をデザインチームに共有することで、ネイティブアプリの知識向上に寄与しました。
+      <img class="image blur" src="@/assets/image/tmnf/apple_watch.png" alt="Apple Watch">
+      ※未リリースのため本サイトでは非公開です。詳しくはお問い合わせください。<br>
     </p>
 
-    <h3 class="title title--sub">BCP（事業継続計画）策定支援サービス</h3>
+    <h3 class="title title--sub">3. BCP（事業継続計画）策定支援サービス</h3>
     <p class="description">
       2021.11 ~ 2022.03<br>
       <img class="image image--w80" src="@/assets/image/tmnf/bcp_top.png" alt="BCP">

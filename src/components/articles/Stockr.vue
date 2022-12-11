@@ -3,7 +3,7 @@
     <img class="image" :src="stockr_ogp" alt="ストッカー">
     <p class="description">
       Stockrは、<b>ふりかえりの習慣化</b>をサポートし、ユーザー自身の思考を促進するアプリです。「ストック」「ふりかえり」「スコア」の３つを主な機能としています。<br>
-      ストックが毎日３件ピックアップされ、ユーザーはそれを棚卸しします。また、朝7時(始業前)と19時(退社後)に通知で問いかけてくれます。
+      このプロダクトでは、デザイナーとして<b>リサーチ・体験設計から画面設計、さらにはCSまで</b>、一貫して携わりました。
       <span class="link">
         <a href="https://stockr.bldt.jp/" target="_blank" class="link__button">公式HP</a>
       </span>
