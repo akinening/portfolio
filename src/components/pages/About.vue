@@ -81,7 +81,7 @@ export default {
   data () {
     return {
       bg_about: require('@/assets/image/bg_sunset.jpg'),
-      akinen: require('@/assets/image/akinen.jpg')
+      akinen: require('@/assets/image/akinen_illust.png')
     }
   },
   components: {
