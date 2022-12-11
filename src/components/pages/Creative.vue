@@ -16,13 +16,13 @@
     </p>
     <ul class="cards mt-plus">
       <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
-        <router-link :to="project.url">
+        <a :href="project.url">
           <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
           <div class="detail">
             <p class="detail__title">{{ project.title }}</p>
             <p class="detail__text">{{ project.date }}</p>
           </div>
-        </router-link>
+        </a>
       </li>
     </ul>
   </section>
@@ -50,17 +50,21 @@ export default {
       projects: [
         {
           title: 'Personal Development',
-          description: 'I actually develop the ideas that individuals come up with.',
-          url: '/works/Develop',
+          url: '/#/works/Develop',
           image_url: require('@/assets/image/creative.jpg'),
           date: '2014 - Now / Personal Work'
         },
         {
-          title: 'Creative - VR, Game UI, Print, etc.',
-          description: 'I designed the DJ logo, CD jackets, etc.',
-          url: '/works/Graphics',
+          title: 'Graphics',
+          url: '/#/works/Graphics',
           image_url: require('@/assets/image/starlight_captcha.png'),
           date: '2014 - Now / Personal Work'
+        },
+        {
+          title: 'Game UI (Dribbble)',
+          url: 'https://dribbble.com/akinen',
+          image_url: require('@/assets/image/creative/vr.png'),
+          date: '2022 / Personal Work'
         }
       ]
     }
