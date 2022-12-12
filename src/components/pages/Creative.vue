@@ -49,10 +49,10 @@ export default {
       bg_creative: require('@/assets/image/bg_sunrise.jpg'),
       projects: [
         {
-          title: 'Personal Development',
-          url: '/#/works/Develop',
-          image_url: require('@/assets/image/creative.jpg'),
-          date: '2014 - Now / Personal Work'
+          title: 'Game UI (Dribbble)',
+          url: 'https://dribbble.com/akinen',
+          image_url: require('@/assets/image/creative/vr.png'),
+          date: '2022 / Personal Work'
         },
         {
           title: 'Graphics',
@@ -61,10 +61,10 @@ export default {
           date: '2014 - Now / Personal Work'
         },
         {
-          title: 'Game UI (Dribbble)',
-          url: 'https://dribbble.com/akinen',
-          image_url: require('@/assets/image/creative/vr.png'),
-          date: '2022 / Personal Work'
+          title: 'Personal Development',
+          url: '/#/works/Develop',
+          image_url: require('@/assets/image/creative.jpg'),
+          date: '2014 - Now / Personal Work'
         }
       ]
     }
