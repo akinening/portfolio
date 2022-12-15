@@ -31,14 +31,14 @@
 
     <section class="mt-80 mb-100">
       <h2 class="c-title">OTHERS</h2>
-      <ul class="cards">
-        <li class="card-other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" class="other">
-            <div class="photo-other" :style="{backgroundImage: 'url(' + activity.image_url + ')' }"></div>
-            <div class="detail">
+      <ul class="others">
+        <li class="other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
+          <a :href="activity.url" class="">
+            <img class="photo-other" :src="activity.image_url" alt="">
+            <!-- <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
-            </div>
+            </div> -->
           </a>
         </li>
       </ul>
@@ -145,33 +145,31 @@ export default {
   @media (min-width: 1200px)
     height 288px
 
-.card-other
-  position relative
-  width calc(50% - 16px)
-  background-color white
+// OTHERS
+.others
+  display flex
+  justify-content space-between
 
   @media (max-width: 768px)
-    width 100%
-
-  .detail__title
-  .detail__text
-    color rgb(36, 40, 42)
+      flex-wrap wrap
 
 .other
-  display flex
-
-.photo-other
-  flex none
-  width 108px
-  height 108px
-  margin 16px 24px 16px 0
-  background-color #f0f3f7
-  background-size cover
-  background-position 50%
-  border-radius 16px
+  width calc(33.3% - 22px)
 
   @media (max-width: 768px)
-    display none
+    width calc(50% - 16px)
+
+.photo-other
+  width 100%
+  height 20vw
+  object-fit cover
+  border-radius 16px
+  transition all 0.25s
+
+  &:hover
+    width calc(100% - 32px)
+    height calc(20vw - 32px)
+    margin 16px
 
 .detail
   padding 20px 1px
@@ -187,6 +185,7 @@ export default {
     overflow hidden
     text-overflow ellipsis
 
+// NEWS
 .news
   width 100%
 
@@ -227,22 +226,4 @@ export default {
   &:hover::before
     transform scaleX(1)
     transform-origin bottom left
-
-.show-more
-  display block
-  width 80%
-  margin -8px auto 0
-  padding 10px 0
-  text-align center
-  border-radius 100px
-  border 1px solid rgba(0,0,0,0.2)
-  font-size 16px
-  font-weight 600
-  color rgba(36, 40, 42, 0.8)
-  background-color white
-  box-shadow 0px 1px 4px 0px rgba(0,0,0,0.08)
-  transition all 0.2s
-
-  &:hover
-    width 100%
 </style>

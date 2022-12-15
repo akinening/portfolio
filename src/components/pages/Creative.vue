@@ -51,19 +51,19 @@ export default {
         {
           title: 'Game UI (Dribbble)',
           url: 'https://dribbble.com/akinen',
-          image_url: require('@/assets/image/creative/vr.png'),
+          image_url: require('@/assets/image/creative/virtual.jpg'),
           date: '2022 / Personal Work'
         },
         {
           title: 'Graphics',
           url: '/#/works/Graphics',
-          image_url: require('@/assets/image/starlight_captcha.png'),
+          image_url: require('@/assets/image/creative/album_prev.jpg'),
           date: '2014 - Now / Personal Work'
         },
         {
           title: 'Personal Development',
           url: '/#/works/Develop',
-          image_url: require('@/assets/image/creative.jpg'),
+          image_url: require('@/assets/image/ijuin.jpg'),
           date: '2014 - Now / Personal Work'
         }
       ]
