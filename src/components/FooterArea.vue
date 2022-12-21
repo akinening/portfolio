@@ -63,7 +63,7 @@ export default {
   font-size 16px
 
   &__title
-    width 104px
+    width 96px
     margin-left 16px
 
   &__border
