@@ -15,7 +15,6 @@
     <tmnf v-if="$route.params.id === 'Tmnf'" />
     <design-culture v-if="$route.params.id === 'DesignCulture'" />
     <graphics v-if="$route.params.id === 'Graphics'" />
-    <creative v-if="$route.params.id === 'Creative'" />
     <develop v-if="$route.params.id === 'Develop'" />
   </article>
   <footer-area />
@@ -33,7 +32,6 @@ import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
 import DesignCulture from '@/components/articles/DesignCulture'
-import Creative from '@/components/articles/Creative'
 import Graphics from '../articles/Graphics'
 import Develop from '@/components/articles/Develop'
 
@@ -49,7 +47,6 @@ export default {
     Lobi,
     Tmnf,
     DesignCulture,
-    Creative,
     Graphics,
     Develop
   }
