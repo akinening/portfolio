@@ -14,7 +14,7 @@
         AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>ゲーム中心、想像を現実にするために、デザインの力で貢献します。
       </p>
 
-      <div class="development mt-plus mb-100">
+      <div class="development mt-plus">
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill/skill-1.jpg" alt="アイコン１">
           <div class="skill__box">
@@ -50,6 +50,21 @@
             </ul>
           </div>
         </div>
+      </div>
+
+      <div class="mt-plus mb-100">
+        <h2 class="message message--2">
+          Tools
+        </h2>
+        <div class="tools">
+          <img class="tool" src="@/assets/image/skill/tool-vue.png" alt="vue">
+          <img class="tool" src="@/assets/image/skill/tool-nuxt.png" alt="nuxt">
+          <img class="tool" src="@/assets/image/skill/tool-flutter.png" alt="flutter">
+          <img class="tool" src="@/assets/image/skill/tool-unity.png" alt="unity">
+          <img class="tool" src="@/assets/image/skill/tool-figma.png" alt="figma">
+          <img class="tool" src="@/assets/image/skill/tool-xd.png" alt="xd">
+        </div>
+        <p class="sub-title">その他、ツールに関してはサービスを実現するための手段として活用しています。</p>
       </div>
     </section>
 
@@ -103,6 +118,9 @@ export default {
   line-height 1.8
   letter-spacing 0.1rem
 
+  &--2
+    margin 0
+
 // スキル
 .skill
   width 100%
@@ -151,6 +169,19 @@ export default {
     @media (max-width: 960px)
       &:not(:last-child)
           margin 0 0 20px 0
+
+.tools
+  display flex
+  justify-content center
+  flex-wrap wrap
+
+.tool
+  margin 20px
+  width 96px
+  filter grayscale(100%)
+
+  &:hover
+    filter grayscale(0%)
 
 // プロフィール
 .aboutme
