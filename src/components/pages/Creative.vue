@@ -55,6 +55,12 @@ export default {
           date: '2022 / Personal Work'
         },
         {
+          title: 'NrealAir Prototype (YouTube)',
+          url: 'https://youtu.be/D0_OCFrtvyk',
+          image_url: require('@/assets/image/creative/nreal.png'),
+          date: '2022 / Personal Work'
+        },
+        {
           title: 'Graphics',
           url: '/#/works/Graphics',
           image_url: require('@/assets/image/creative/album_prev.jpg'),
