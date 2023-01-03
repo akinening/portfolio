@@ -64,7 +64,7 @@
           <img class="tool" src="@/assets/image/skill/tool-figma.png" alt="figma">
           <img class="tool" src="@/assets/image/skill/tool-xd.png" alt="xd">
         </div>
-        <p class="sub-title">その他、ツールに関してはサービスを実現するための手段として活用しています。</p>
+        <p class="sub-title">その他、必要に応じてツールを活用しています。</p>
       </div>
     </section>
 
