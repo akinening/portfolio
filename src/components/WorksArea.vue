@@ -33,13 +33,9 @@
       <h2 class="c-title">OTHERS</h2>
       <ul class="others">
         <li class="other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" class="other-link">
+          <div class="tag">{{activity.tag}}</div>
+          <a :href="activity.url">
             <img class="photo-other" :src="activity.image_url" alt="">
-            <div class="tag">{{activity.tag}}</div>
-            <!-- <div class="detail">
-              <p class="detail__title">{{ activity.title }}</p>
-              <p class="detail__text">{{ activity.date }}</p>
-            </div> -->
           </a>
         </li>
       </ul>
@@ -155,14 +151,11 @@ export default {
       flex-wrap wrap
 
 .other
+  position relative
   width calc(33.3% - 22px)
 
   @media (max-width: 768px)
     width calc(50% - 16px)
-
-.other-link
-  position relative
-  display block
 
 .photo-other
   width 100%
@@ -197,7 +190,7 @@ export default {
   padding 0 16px
   font-weight bold
   color white
-  background-color #333
+  background-color #ff5894
   border-radius 100px
 
 // NEWS
