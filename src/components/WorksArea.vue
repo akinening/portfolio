@@ -187,10 +187,10 @@ export default {
   position absolute
   bottom 16px
   right 8px
-  padding 0 16px
+  padding 4px 16px
   font-weight bold
-  color white
-  background-color #ff5894
+  color #222
+  background-color white
   border-radius 100px
 
 // NEWS
