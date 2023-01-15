@@ -4,7 +4,7 @@
       <h2 class="c-title">NEWS</h2>
       <div class="news">
         <p class="news__content">
-          <!-- <a class="news-link" href="" target="_blank" rel="noopener noreferrer">2023/02/01&emsp;京都大学の「京都府観光経営セミナー」においてプロダクトデザインについて講義を行いました。</a> -->
+          <!-- <a class="news-link" href="" target="_blank" rel="noopener noreferrer">2023/02/01&emsp;京都大学の「京都府観光経営セミナー」でプロダクトデザインについて講義を行いました。</a> -->
           <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和・技術書典13に出展しました。</a><br>
           <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました。</a><br>
           <a class="news-link" href="https://www.wantedly.com/companies/tmn-systems/post_articles/377750" target="_blank" rel="noopener noreferrer">2022/03/04&emsp;インタビューがWantedlyに掲載されました。</a><br>
@@ -33,8 +33,9 @@
       <h2 class="c-title">OTHERS</h2>
       <ul class="others">
         <li class="other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
-          <a :href="activity.url" class="">
+          <a :href="activity.url" class="other-link">
             <img class="photo-other" :src="activity.image_url" alt="">
+            <div class="tag">{{activity.tag}}</div>
             <!-- <div class="detail">
               <p class="detail__title">{{ activity.title }}</p>
               <p class="detail__text">{{ activity.date }}</p>
@@ -73,22 +74,22 @@ export default {
       ],
       activities: [
         {
-          title: 'Company Website - Design Lead',
           url: '/#/works/Build%20It',
           image_url: require('@/assets/image/bldt/ogp.jpg'),
-          date: '2020 / BuildIt.inc'
+          date: '2020 / BuildIt.inc',
+          tag: 'Website'
         },
         {
-          title: 'Core(SaaS) - UI Design',
           url: '/#/works/Core',
           image_url: require('@/assets/image/core/ogp.jpg'),
-          date: '2019 / BuildIt.inc'
+          date: '2019 / BuildIt.inc',
+          tag: 'SaaS'
         },
         {
-          title: 'Lobi(Game Community) - Frontend Development',
           url: '/#/works/Lobi',
           image_url: require('@/assets/image/lobi/lobi.png'),
-          date: '2018 - 2019 / Kayac.inc'
+          date: '2018 - 2019 / Kayac.inc',
+          tag: 'Front-end'
         }
       ]
     }
@@ -159,6 +160,10 @@ export default {
   @media (max-width: 768px)
     width calc(50% - 16px)
 
+.other-link
+  position relative
+  display block
+
 .photo-other
   width 100%
   height 20vw
@@ -184,6 +189,16 @@ export default {
     line-height 1.8
     overflow hidden
     text-overflow ellipsis
+
+.tag
+  position absolute
+  bottom 16px
+  right 8px
+  padding 0 16px
+  font-weight bold
+  color white
+  background-color #333
+  border-radius 100px
 
 // NEWS
 .news
