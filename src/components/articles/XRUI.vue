@@ -7,7 +7,14 @@
     <p class="description">
       現在作成中です。
     </p>
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="800" height="450"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FobYFoTA8B34SX2zXUWCNeL%2FVRUI%3Fpage-id%3D526%253A65%26node-id%3D540%253A108%26viewport%3D-220%252C560%252C0.11%26scaling%3Dcontain"
+      allowfullscreen
+    ></iframe>
 
+    <br>
     <h2 class="title title--sub">NrealAir Prototype</h2>
     <p class="description">
       Nreal Air上で動作するデスクトップアプリケーションのプロトタイプを作成しました。背景はコンポジットです。
@@ -20,6 +27,7 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     ></iframe>
+
     <br>
     <h2 class="title title--sub">Dribbble</h2>
     <p class="description">
