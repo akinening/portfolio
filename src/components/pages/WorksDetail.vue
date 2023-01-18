@@ -16,6 +16,7 @@
     <design-culture v-if="$route.params.id === 'DesignCulture'" />
     <graphics v-if="$route.params.id === 'Graphics'" />
     <develop v-if="$route.params.id === 'Develop'" />
+    <xrui v-if="$route.params.id === 'XRUI'" />
   </article>
   <footer-area />
   <scroll-top />
@@ -34,6 +35,7 @@ import Tmnf from '@/components/articles/Tmnf'
 import DesignCulture from '@/components/articles/DesignCulture'
 import Graphics from '../articles/Graphics'
 import Develop from '@/components/articles/Develop'
+import Xrui from '@/components/articles/XRUI'
 
 export default {
   name: 'WorksDetail',
@@ -48,7 +50,8 @@ export default {
     Tmnf,
     DesignCulture,
     Graphics,
-    Develop
+    Develop,
+    Xrui
   }
 }
 </script>

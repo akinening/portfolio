@@ -49,16 +49,10 @@ export default {
       bg_creative: require('@/assets/image/bg_sunrise.jpg'),
       projects: [
         {
-          title: 'Game UI (Dribbble)',
-          url: 'https://dribbble.com/akinen',
-          image_url: require('@/assets/image/creative/virtual.jpg'),
-          date: '2022 / Personal Work'
-        },
-        {
-          title: 'NrealAir Prototype (YouTube)',
-          url: 'https://youtu.be/D0_OCFrtvyk',
+          title: 'XRUI',
+          url: '/#/works/XRUI',
           image_url: require('@/assets/image/creative/nreal.png'),
-          date: '2022 / Personal Work'
+          date: '2022 - 2023 / Personal Work'
         },
         {
           title: 'Graphics',
