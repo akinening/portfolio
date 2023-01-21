@@ -13,26 +13,25 @@
 
     <h3 class="title title--sub">2.DJロゴの制作</h3>
     <p class="description">
-      DJロゴの依頼を受け制作しました。文字の対称性や可読性、他のロゴと並んだときの印象の残りやすさを意識しています。
-      <img class="image image--w80" src="@/assets/image/deneb_process.png" alt="制作過程">
-      作成したロゴは、VRChat上のDJイベントで使われました。
-      <img class="image image--w80" src="@/assets/image/logo_vrchat.png" alt="VRChat">
+      DJロゴの依頼を受け制作しました。文字の対称性や可読性、他のロゴと並んだときの印象の残りやすさを意識しています。作成したロゴは、VRChat上のDJイベントで使われました。
+      <img class="image image--2col" src="@/assets/image/deneb_process.png" alt="制作過程">
+      <img class="image image--2col" src="@/assets/image/logo_vrchat.png" alt="VRChat">
     </p>
 
-    <h3 class="title title--sub">3.Motion Graphics(2017)</h3>
+    <!-- <h3 class="title title--sub">3.Motion Graphics(2017)</h3>
     <div class="description">
       <p>After Effectsの練習として、モーショングラフィックスのアニメーションを作成しました。</p>
       <iframe class="image image--w80" src="https://player.vimeo.com/video/228028646?h=c8503d4ff4" width="640" height="480" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    </div> -->
 
-    <!-- <h3 class="title title--sub">4.STARLIGHT Webサイト</h3>
+    <h3 class="title title--sub">3.STARLIGHT Webサイト</h3>
     <p class="description">
       2014年から活動している創作サークル「STARLIGHT」のWebサイトです(WIP)。イラストも自分で描いています。
       <img class="image image--w80" src="@/assets/image/starlight_captcha.png" alt="STARLIGHT">
       <span class="link">
         <a href="https://akinen.com/#/starlight" target="_blank" class="link__button">Webサイト</a>
       </span>
-    </p> -->
+    </p>
 
   </section>
 </template>

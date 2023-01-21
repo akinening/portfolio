@@ -17,6 +17,7 @@
       <a href="https://www.facebook.com/ackiena" target="_blank"><img class="sns" src="@/assets/image/sns/facebook.png" alt="facebook"></a>
       <a href="https://www.linkedin.com/in/akinen" target="_blank"><img class="sns" src="@/assets/image/sns/linkedin.png" alt="linkedin"></a>
       <a href="https://dribbble.com/akinen" target="_blank"><img class="sns" src="@/assets/image/sns/dribbble.png" alt="dribbble"></a>
+      <a href="https://www.youtube.com/@akinen" target="_blank"><img class="sns" src="@/assets/image/sns/youtube.png" alt="youtube"></a>
     </div>
   </footer>
 </template>
