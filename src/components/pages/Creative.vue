@@ -55,12 +55,6 @@ export default {
           date: '2022 - 2023 / Personal Work'
         },
         {
-          title: 'Graphics',
-          url: '/#/works/Graphics',
-          image_url: require('@/assets/image/creative/album_prev.jpg'),
-          date: '2014 - Now / Personal Work'
-        },
-        {
           title: 'Personal Development',
           url: '/#/works/Develop',
           image_url: require('@/assets/image/ijuin.jpg'),

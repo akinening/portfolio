@@ -75,7 +75,7 @@
           <h2 class="profile__name">AKINORI OZAWA</h2>
           <p class="profile__discription">PRODUCT DESIGNER</p>
           <p class="profile__discription">
-            長野県諏訪市出身。面白法人カヤックでフロントエンドエンジニアとして自社事業「Lobi」に携わったのち、UIデザイナーに転向。株式会社ビルディットにて新規事業「Stockr」のデザイン全般を担当しました。現在は東京海上日動システムズにて、InsurTech系の新規事業のデザインや、業務のDXに取り組んでいます。
+            損保業界のUX・UIデザイナー。趣味はXRUIを考えること。面白法人カヤックでフロントエンドエンジニアとして勤務した後、転職とともにデザイナーに転向。新規アプリのリードデザイナーを経験し、現在はInsurTech系の新規事業のデザインや、組織へのデザイン浸透に取り組んでいます。
           </p>
         </div>
       </div>
