@@ -29,6 +29,16 @@
     ></iframe>
 
     <br>
+    <h2 class="title title--sub">Bezel</h2>
+    <p class="description">
+      デザインツール「Bezel」を使って3Dのプロトタイピングを作成しています。
+      <img class="image" src="@/assets/image/creative/shopping.png" alt="Shopping">
+      <span class="link">
+        <a href="https://www.bezel.it/x0mi5a" target="_blank" class="link__button">プロトタイプを見る</a>
+      </span>
+    </p>
+
+    <br>
     <h2 class="title title--sub">Dribbble</h2>
     <p class="description">
       DribbbleにVRやARを想定したUIデザインを投稿しています。

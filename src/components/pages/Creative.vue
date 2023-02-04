@@ -8,7 +8,7 @@
 
   <section class="mt-80 c-centering">
     <h2 class="message mt-plus">
-      Free, Fun, Enthusiastic.
+      Be Enthusiastic.
     </h2>
     <p class="sub-title">
       なぜデザインするのか。社会への貢献も勿論ですが、試行錯誤しながらつくること自体が好きだからです。<br>
@@ -52,7 +52,7 @@ export default {
           title: 'XRUI',
           url: '/#/works/XRUI',
           image_url: require('@/assets/image/creative/nreal.png'),
-          date: '2022 - 2023 / Personal Work'
+          date: '2017 - 2023 / Personal Work'
         },
         {
           title: 'Personal Development',
