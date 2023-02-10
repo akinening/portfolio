@@ -4,7 +4,7 @@
       <h2 class="c-title">NEWS</h2>
       <div class="news">
         <p class="news__content">
-          <a class="news-link" href="https://kbrc.jp/biz/tourism/index.html" target="_blank" rel="noopener noreferrer">2023/02/08&emsp;京都大学の「京都府観光経営セミナー」に講師として参加し、スクラム開発の講義を行いました。</a>
+          <a class="news-link" href="https://kbrc.jp/biz/tourism/index.html" target="_blank" rel="noopener noreferrer">2023/02/08&emsp;京都大学の「京都府観光経営セミナー」に講師として参加し、スクラム開発の講義を行いました。</a><br>
           <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和・技術書典13に出展しました。</a><br>
           <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました。</a><br>
           <a class="news-link" href="https://www.wantedly.com/companies/tmn-systems/post_articles/377750" target="_blank" rel="noopener noreferrer">2022/03/04&emsp;インタビューがWantedlyに掲載されました。</a><br>
@@ -62,12 +62,6 @@ export default {
           date: '2021.11 - Now / Tokio Marine'
         },
         {
-          title: 'XRUI',
-          url: '/#/works/XRUI',
-          image_url: require('@/assets/image/creative/nreal.png'),
-          date: '2017 - 2023 / Personal Work'
-        },
-        {
           title: 'Stockr - UX, UI Design',
           url: '/works/Stockr',
           image_url: require('@/assets/image/stockr/ogp2.png'),
@@ -92,7 +86,13 @@ export default {
           image_url: require('@/assets/image/lobi/lobi.png'),
           date: '2018 - 2019 / Kayac.inc',
           tag: 'Front-end'
-        }
+        },
+        {
+          url: '/#/works/Develop',
+          image_url: require('@/assets/image/ijuin.jpg'),
+          date: '2014 - Now / Personal Work',
+          tag: 'Develop'
+        },
       ]
     }
   }
@@ -151,6 +151,7 @@ export default {
 // OTHERS
 .others
   display flex
+  flex-wrap: wrap
   justify-content space-between
 
   @media (max-width: 768px)

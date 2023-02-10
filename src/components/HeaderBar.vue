@@ -2,8 +2,8 @@
   <header class="header c-shadow">
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
-      <router-link to="/creative" class="tab">CREATIVE</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
+      <router-link to="/works/XRUI" class="tab">XRUI</router-link>
     </nav>
   </header>
 </template>
