@@ -49,12 +49,6 @@ export default {
       bg_creative: require('@/assets/image/bg_sunrise.jpg'),
       projects: [
         {
-          title: 'XRUI',
-          url: '/#/works/XRUI',
-          image_url: require('@/assets/image/creative/nreal.png'),
-          date: '2017 - 2023 / Personal Work'
-        },
-        {
           title: 'Personal Development',
           url: '/#/works/Develop',
           image_url: require('@/assets/image/ijuin.jpg'),
