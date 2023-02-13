@@ -8,17 +8,14 @@
 
   <article class="c-centering mb-100">
     <section class="skill mt-80 mb-30">
-      <h1 class="title">XR(VR, AR, MR)のUIデザイン  </h1>
+      <h1 class="title">XR(VR, AR, MR)のUIデザイン</h1>
       <h2 class="title title--sub">社内共有スライド</h2>
       <p class="description">
         現在作成中です。
       </p>
-      <iframe
-        style="border: 1px solid rgba(0, 0, 0, 0.1);"
-        width="800" height="450"
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FobYFoTA8B34SX2zXUWCNeL%2FVRUI%3Fpage-id%3D526%253A65%26node-id%3D540%253A108%26viewport%3D-220%252C560%252C0.11%26scaling%3Dcontain"
-        allowfullscreen
-      ></iframe>
+      <a href="https://www.figma.com/proto/obYFoTA8B34SX2zXUWCNeL/VRUI?page-id=526%3A65&node-id=540%3A108&viewport=-656%2C1342%2C0.25&scaling=contain" target="_blank">
+        <img class="image" src="@/assets/image/creative/xrui_slide.jpg" alt="XRUI">
+      </a>
 
       <br>
       <h2 class="title title--sub">NrealAir Prototype</h2>
