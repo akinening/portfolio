@@ -2,7 +2,7 @@
   <section class="skill mt-80 mb-30">
     <img class="image" src="@/assets/image/creative/nreal.png" alt="XRUI">
 
-    <h1 class="title">XR(VR, AR, MR)のUIデザイン</h1>
+    <h1 class="title">XR(VR, AR, MR)のUIデザイン  </h1>
     <h2 class="title title--sub">社内共有スライド</h2>
     <p class="description">
       現在作成中です。

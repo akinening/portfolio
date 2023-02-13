@@ -11,7 +11,7 @@
         From Fiction to Reality.
       </h2>
       <p class="sub-title">
-        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>ゲーム中心、想像を現実にするために、デザインの力で貢献します。
+        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>想像を現実にするために、デザインの力で貢献します。
       </p>
 
       <div class="development mt-plus">

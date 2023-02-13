@@ -6,26 +6,56 @@
   </div>
   <header-bar />
 
-  <section class="mt-80 c-centering">
-    <h2 class="message mt-plus">
-      Be Enthusiastic.
-    </h2>
-    <p class="sub-title">
-      なぜデザインするのか。社会への貢献も勿論ですが、試行錯誤しながらつくること自体が好きだからです。<br>
-      個人としても、自由に・面白く・熱中しながら制作／創作活動をしています。
-    </p>
-    <ul class="cards mt-plus">
-      <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
-        <a :href="project.url">
-          <div class="photo" :style="{backgroundImage: 'url(' + project.image_url + ')' }"></div>
-          <div class="detail">
-            <p class="detail__title">{{ project.title }}</p>
-            <p class="detail__text">{{ project.date }}</p>
-          </div>
-        </a>
-      </li>
-    </ul>
-  </section>
+  <article class="c-centering mb-100">
+    <section class="skill mt-80 mb-30">
+      <img class="image" src="@/assets/image/creative/nreal.png" alt="XRUI">
+
+      <h1 class="title">XR(VR, AR, MR)のUIデザイン  </h1>
+      <h2 class="title title--sub">社内共有スライド</h2>
+      <p class="description">
+        現在作成中です。
+      </p>
+      <iframe
+        style="border: 1px solid rgba(0, 0, 0, 0.1);"
+        width="800" height="450"
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FobYFoTA8B34SX2zXUWCNeL%2FVRUI%3Fpage-id%3D526%253A65%26node-id%3D540%253A108%26viewport%3D-220%252C560%252C0.11%26scaling%3Dcontain"
+        allowfullscreen
+      ></iframe>
+
+      <br>
+      <h2 class="title title--sub">NrealAir Prototype</h2>
+      <p class="description">
+        Nreal Air上で動作するデスクトップアプリケーションのプロトタイプを作成しました。背景はコンポジットです。
+      </p>
+      <iframe
+        width="560" height="315"
+        src="https://www.youtube.com/embed/D0_OCFrtvyk"
+        title="Nreal Air"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <br>
+      <h2 class="title title--sub">Bezel</h2>
+      <p class="description">
+        デザインツール「Bezel」を使って3Dのプロトタイピングを作成しています。
+        <img class="image" src="@/assets/image/creative/shopping.png" alt="Shopping">
+        <span class="link">
+          <a href="https://www.bezel.it/x0mi5a" target="_blank" class="link__button">プロトタイプを見る</a>
+        </span>
+      </p>
+
+      <br>
+      <h2 class="title title--sub">Dribbble</h2>
+      <p class="description">
+        DribbbleにVRやARを想定したUIデザインを投稿しています。
+        <span class="link">
+          <a href="https://dribbble.com/akinen" target="_blank" class="link__button">Dribbble</a>
+        </span>
+      </p>
+    </section>
+  </article>
 
   <footer-area />
 </div>
@@ -45,16 +75,7 @@ export default {
   },
   data () {
     return {
-      isAuthed: true,
-      bg_creative: require('@/assets/image/bg_sunrise.jpg'),
-      projects: [
-        {
-          title: 'Personal Development',
-          url: '/#/works/Develop',
-          image_url: require('@/assets/image/ijuin.jpg'),
-          date: '2014 - Now / Personal Work'
-        }
-      ]
+      bg_creative: require('@/assets/image/bg_sunrise.jpg')
     }
   }
 }
@@ -62,72 +83,5 @@ export default {
 
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
-
-.message
-  margin-bottom -20px
-  font-size 24px
-  font-weight 700
-  text-align center
-  line-height 1.8
-  letter-spacing 0.1rem
-
-.cards
-  display flex
-  flex-wrap wrap
-  justify-content space-between
-
-.card
-  position relative
-  width calc(50% - 16px)
-  background-color white
-
-  @media (max-width: 768px)
-    width 100%
-
-  .detail__title
-  .detail__text
-    color rgb(36, 40, 42)
-
-  &:hover
-    .photo
-      width calc(100% - 32px)
-      height calc(24vw - 32px)
-      margin 16px
-      border-radius 16px
-
-      @media (max-width: 768px)
-        height calc(50vw - 32px)
-
-      @media (min-width: 1200px)
-        height 256px
-
-.photo
-  float left
-  width 100%
-  height 24vw
-  background-color #f0f3f7
-  background-size cover
-  background-position 50%
-  border-radius 16px
-  transition all 0.25s
-
-  @media (max-width: 768px)
-    height 50vw
-
-  @media (min-width: 1200px)
-    height 288px
-
-.detail
-  padding 20px 1px
-  overflow hidden
-
-  &__title
-    line-height 1.6
-    font-size 20px
-    font-weight 600
-
-  &__text
-    line-height 1.8
-    overflow hidden
-    text-overflow ellipsis
+@import "../../assets/css/article.styl"
 </style>

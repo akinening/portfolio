@@ -92,7 +92,7 @@ export default {
           image_url: require('@/assets/image/ijuin.jpg'),
           date: '2014 - Now / Personal Work',
           tag: 'Develop'
-        },
+        }
       ]
     }
   }
