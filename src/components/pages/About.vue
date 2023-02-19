@@ -8,10 +8,10 @@
   <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
     <section class="c-centering">
       <h2 class="message">
-        From Fiction to Reality.
+        Create valuable products.
       </h2>
       <p class="sub-title">
-        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>想像を現実にするために、デザインの力で貢献します。
+        たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。<br>以下の３つの力でデリバリーまでを支援します。
       </p>
 
       <div class="development mt-plus">
@@ -33,7 +33,7 @@
             <h2 class="title">届ける力</h2>
             <ul class="description">
               <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
-              <li><b>UX設計</b>:たとえ良い商品や企画があっても、ユーザーが価値を感じられなければ意味がありません。コアバリューを洗い出し、暮らしのなかにサービス体験を届けます。</li>
+              <li><b>UX設計</b>:コアバリューを洗い出し、暮らしのなかにサービス体験を届けます。</li>
               <li><b>UI設計</b>:ユーザーにもコンピュータにも優しい、直感的に触れるUIを目指しています。</li>
             </ul>
           </div>

@@ -7,25 +7,16 @@
   <header-bar />
 
   <article class="c-centering mb-100">
-    <section class="skill mt-80 mb-30">
-      <h1 class="title">XR(VR, AR, MR)のUIデザイン</h1>
-      <h2 class="title title--sub">社内共有スライド</h2>
-      <p class="description">
-        現在作成中です。
-      </p>
+    <h2 class="mt-plus message">
+        From Fiction to Reality.
+    </h2>
+    <p class="sub-title">
+        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>想像を現実にするために、デザインの力で貢献します。
+    </p>
+    <section class="skill mb-30">
       <a href="https://www.figma.com/proto/obYFoTA8B34SX2zXUWCNeL/VRUI?page-id=526%3A65&node-id=540%3A108&viewport=-656%2C1342%2C0.25&scaling=contain" target="_blank">
         <img class="image" src="@/assets/image/creative/xrui_slide.jpg" alt="XRUI">
       </a>
-
-      <!-- <br>
-      <br>
-      <h2 class="title title--sub">Dribbble</h2>
-      <p class="description">
-        DribbbleにVRやARを想定したUIデザインを投稿しています。
-        <span class="link">
-          <a href="" target="_blank" class="link__button">Dribbble</a>
-        </span>
-      </p> -->
     </section>
     <section class="mb-100">
       <h2 class="c-title">WORKS</h2>
@@ -74,6 +65,11 @@ export default {
           url: 'https://dribbble.com/akinen',
           image_url: require('@/assets/image/creative/virtual.jpg'),
           tag: 'Dribbble'
+        },
+        {
+          url: 'https://note.com/012/n/nf4d0ea8e7eb7',
+          image_url: 'https://assets.st-note.com/production/uploads/images/98354399/rectangle_large_type_2_9248f2234007e1a713c30c014fa254d4.png',
+          tag: 'Note'
         }
       ]
     }
@@ -84,6 +80,14 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 @import "../../assets/css/article.styl"
+
+.message
+  margin-bottom -20px
+  font-size 24px
+  font-weight 700
+  text-align center
+  line-height 1.8
+  letter-spacing 0.1rem
 
 // OTHERS
 .others
