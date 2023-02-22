@@ -33,6 +33,11 @@
       <h2 class="c-title">COLUMN</h2>
       <ul class="others">
         <li class="other mb-30">
+          <a href="https://note.com/012/n/n1a970fad456f" target="_blank">
+            <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98646374/rectangle_large_type_2_07532c7d208ec295983c71f5e786079c.png" alt="">
+          </a>
+        </li>
+        <li class="other mb-30">
           <a href="https://note.com/012/n/n4ece8e04755f" target="_blank">
             <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98502985/rectangle_large_type_2_2c3698bb8f53adfb8dbcfc84a07c4337.png" alt="">
           </a>
@@ -41,9 +46,6 @@
           <a href="https://note.com/012/n/nf4d0ea8e7eb7" target="_blank">
             <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98354399/rectangle_large_type_2_9248f2234007e1a713c30c014fa254d4.png" alt="">
           </a>
-        </li>
-        <li class="other">
-          <div class="photo-other"></div>
         </li>
       </ul>
     </section>
