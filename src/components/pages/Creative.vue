@@ -14,7 +14,7 @@
         AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>想像を現実にするために、デザインの力で貢献します。
     </p>
     <section class="skill mb-30">
-      <a href="https://www.figma.com/proto/obYFoTA8B34SX2zXUWCNeL/VRUI?page-id=526%3A65&node-id=540%3A108&viewport=-656%2C1342%2C0.25&scaling=contain" target="_blank">
+      <a href="https://speakerdeck.com/akinen/uinituite" target="_blank">
         <img class="image" src="@/assets/image/creative/xrui_slide.jpg" alt="XRUI">
       </a>
     </section>
