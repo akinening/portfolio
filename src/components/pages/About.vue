@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <div class="mt-plus mb-100">
+      <div class="mt-plus mb-30">
         <h2 class="message message--2">
           Tools
         </h2>
@@ -65,6 +65,21 @@
           <img class="tool" src="@/assets/image/skill/tool-xd.png" alt="xd">
         </div>
         <p class="sub-title">その他、必要に応じてツールを活用しています。</p>
+      </div>
+
+      <div class="mt-plus mb-100">
+        <h2 class="message message--2">
+          READ ME
+        </h2>
+        <p class="sub-title">
+          2023/03/05・β版<br>
+          <br>
+          ・社内政治中心より、ユーザー中心でありたいと思っています。<br>
+          ・フラットでありつつもお互いに尊重し合える組織を好みます。<br>
+          ・ミーティング時間は最小限に留め、作業に集中したい人間です。ただし雑談は大切にしたいと考えています。<br>
+          ・１つのプロダクトにコミットできる環境が好きです。<br>
+          ・0→1の開発経験が多いため、明確な理由があればプロダクトの方針が大きく変わったり撤退することについては寛容です。<br>
+        </p>
       </div>
     </section>
 
