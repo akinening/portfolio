@@ -60,7 +60,8 @@ export default {
   opacity 0
 
 .card
-  width 440px
+  width 100%
+  max-width 480px
   margin 20px
   padding 20px
   background-color white
