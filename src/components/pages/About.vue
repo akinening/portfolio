@@ -71,17 +71,13 @@
         <h2 class="message message--2">
           READ ME
         </h2>
-        <p class="sub-title">
-          2023/03/05・β版<br>
-          <br>
-          ・社内政治中心より、ユーザー中心でありたいと思っています。<br>
-          ・フラットでありつつもお互いに尊重し合える組織を好みます。<br>
-          ・ミーティング時間は最小限に留め、作業に集中したい人間です。ただし雑談は大切にしたいと考えています。<br>
-          ・１つのプロダクトにコミットできる環境が好きです。<br>
-          ・0→1の開発経験が多いため、明確な理由があればプロダクトの方針が大きく変わったり撤退することについては寛容です。<br>
+        <p class="sub-title" @click="toggleModal(true)">
+          採用担当者さまへ(β)
         </p>
       </div>
     </section>
+
+    <project-modal v-if="isOpen" @close="toggleModal(false)" />
 
     <section class="aboutme">
       <div class="profiles c-centering c-shadow">
@@ -103,21 +99,29 @@
 
 <script>
 import HeaderArea from '@/components/HeaderArea'
-import FooterArea from '@/components/FooterArea'
 import HeaderBar from '../HeaderBar.vue'
+import FooterArea from '@/components/FooterArea'
+import ProjectModal from '@/components/modal/ProjectModal'
 
 export default {
   name: 'About',
   data () {
     return {
       bg_about: require('@/assets/image/bg_sunset.jpg'),
-      akinen: require('@/assets/image/akinen_illust.png')
+      akinen: require('@/assets/image/akinen_illust.png'),
+      isOpen: false
     }
   },
   components: {
     HeaderArea,
     FooterArea,
-    HeaderBar
+    HeaderBar,
+    ProjectModal
+  },
+  methods: {
+    toggleModal (status) {
+      this.isOpen = status
+    }
   }
 }
 </script>

@@ -42,24 +42,6 @@ export default {
           image_url: require('@/assets/image/starlight/dezabiyo2.png')
         }
       ]
-      // projects: [
-      //   {
-      //     url: 'https://www.figma.com/community/file/1063752787187389952',
-      //     image_url: require('@/assets/image/starlight/banner_figma.png')
-      //   },
-      //   {
-      //     url: 'https://dezabiyo.studio.site',
-      //     image_url: require('@/assets/image/starlight/banner_mook.png')
-      //   },
-      //   {
-      //     url: 'https://techbookfest.org/product/5108267816583168',
-      //     image_url: require('@/assets/image/starlight/banner_book.png')
-      //   },
-      //   {
-      //     url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
-      //     image_url: require('@/assets/image/starlight/banner_drawer.png')
-      //   }
-      // ]
     }
   },
   methods: {

@@ -1,19 +1,30 @@
 <template>
   <transition name="modal" appear>
     <div class="overlay" @click.self="$emit('close', '')">
-      <div class="toast" :style="{backgroundImage: 'url(' + toast + ')' }">
-        <p class="toast__msg">
-          STARLIGHTとしてのプロジェクト一覧です。<br>
-          （クリックすると外部ページが開きます）
+      <div class="card">
+        <h1 class="card__title">採用担当者さまへ</h1>
+        <p class="card__text">
+          私のポートフォリオに貴重なお時間を頂き、ありがとうございます。Akinenと申します。<br>
+          <br>
+          ▼ご提供できること<br>
+          ・ネイティブアプリ(Android/iOS)やWebサービス(toB/toC)など、幅広いデザインの経験があるため、案件に合ったご提案が可能です。<br>
+          ・表層の面では0.5pxまで拘るというよりは、体験を考慮した上でのUIデザインや、OOUIなどに基づいた情報設計が得意です。<br>
+          <br>
+          ▼仕事へのスタンス・ワークスタイル<br>
+          ・社内政治中心より、ユーザー中心でありたいと思っています。<br>
+          ・フラットでありつつもお互いに尊重し合える関係を目指しています。<br>
+          ・0→1の開発経験が多いため、明確な理由があればプロダクトの方針が大きく変わったり撤退することについては寛容です。<br>
+          ・ミーティング時間は最小限に留め、作業に集中したい人間です。ただし雑談は大切にしたいと考えています。<br>
+          ・１つのプロダクトにコミットできる環境を探しています。<br>
+          <br>
+          ▼できないこと<br>
+          ・広告やバナーの作成はある程度出来ますが、専門ではありません。<br>
+          <br>
+          もし共感してくださる場合、あなたとご一緒に働けたら嬉しいです。<br>
+          ※様々なオファーを頂いており、ご返信できない場合もあります。予めご了承ください。<br>
+          <br>
         </p>
-      </div>
-
-      <div class="select">
-        <div v-for="(project, num) in projects" :key="`project-${num}`">
-          <a :href="url" target="_blank">
-            <img class="select__img" :src="project.image_url" alt="">
-          </a>
-        </div>
+        <p class="card__text" @click="$emit('close', '')">閉じる</p>
       </div>
     </div>
   </transition>
@@ -21,30 +32,7 @@
 
 <script>
 export default {
-  name: 'ProjectModal',
-  data () {
-    return {
-      toast: require('@/assets/image/starlight/toast.png'),
-      projects: [
-        {
-          url: 'https://www.figma.com/community/file/1063752787187389952',
-          image_url: require('@/assets/image/starlight/banner_figma.png')
-        },
-        {
-          url: 'https://dezabiyo.studio.site',
-          image_url: require('@/assets/image/starlight/banner_mook.png')
-        },
-        {
-          url: 'https://techbookfest.org/product/5108267816583168',
-          image_url: require('@/assets/image/starlight/banner_book.png')
-        },
-        {
-          url: 'https://chrome.google.com/webstore/detail/kpnbnomomocjoefkpghaeoddmadinoid',
-          image_url: require('@/assets/image/starlight/banner_drawer.png')
-        }
-      ]
-    }
-  }
+  name: 'ProjectModal'
 }
 </script>
 
@@ -62,7 +50,6 @@ export default {
   left 0
   width 100%
   height 100%
-  color white
   background rgba(#39000A, 0.12)
   backdrop-filter blur(16px)
 
@@ -72,35 +59,18 @@ export default {
 .modal-enter, .modal-leave-to
   opacity 0
 
-.toast
-  width 975px
-  height 110px
-  margin-bottom 56px
+.card
+  width 440px
+  margin 20px
+  padding 20px
+  background-color white
+  border-radius 20px
 
-  &__msg
-    font-family 'M PLUS 1p'
-    font-weight 800
-    font-size 20px
-    filter drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
-    text-align center
-    margin 46px auto
+  &__title
+    margin-top 8px
 
-.select
-  display flex
-  flex-direction row
+  &__text
+    margin 16px 0
+    color #666
 
-  &__img
-    width 170px
-    height 400px
-    margin 0 12px
-    border-radius 100px
-    border 6px solid white
-    object-fit cover
-    object-position 50% 50%
-    transition all 0.25s ease
-
-    &:hover
-      background-color rgba(#FF5894, 0.75)
-      height 424px
-      margin -12px 12px
 </style>
