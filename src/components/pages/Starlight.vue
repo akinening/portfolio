@@ -42,7 +42,6 @@
         <character-modal v-if="isOpen" @close="closeCharaModal" />
 
         <img v-on:click="playAudio(prjVoice)" class="btn btn--project" src="@/assets/image/starlight/btn/project.png" alt="project">
-        <!-- <project-modal v-if="isOpen" @close="closeProjectModal" /> -->
 
         <img class="btn btn--help" src="@/assets/image/starlight/btn/help.png" alt="help">
       </div>
@@ -52,15 +51,8 @@
 </template>
 
 <script>
-import CharacterModal from '@/components/modal/CharacterModal'
-import ProjectModal from '@/components/modal/ProjectModal'
-
 export default {
   name: 'Starlight',
-  components: {
-    CharacterModal,
-    ProjectModal
-  },
   data () {
     return {
       loading: true,
@@ -72,7 +64,7 @@ export default {
       charaVoice: new Audio(require('@/assets/sound/character.wav')),
       prjVoice: new Audio(require('@/assets/sound/project.wav')),
       msgVisible: false,
-      BGM: new Audio(require('@/assets/sound/bgm.mp3')),
+      BGM: '',
       isActiveBGM: false,
       openShare: false
     }

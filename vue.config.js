@@ -1,4 +1,10 @@
 module.exports = {
     baseUrl: '/spott/',
-    outputDir: 'docs'
+    outputDir: 'docs',
+    // performance: {
+    //     hints: false,
+    // },
+    // resolve: {
+    //     symlinks: false,
+    // },
 }

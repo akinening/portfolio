@@ -78,7 +78,7 @@ export default {
         },
         {
           url: 'https://www.bezel.it/x0mi5a',
-          image_url: require('@/assets/image/creative/shopping.png'),
+          image_url: require('@/assets/image/creative/shopping.jpg'),
           tag: 'Bezel'
         },
         {
