@@ -60,7 +60,6 @@ export default {
   opacity 0
 
 .card
-  width 100%
   max-width 480px
   margin 20px
   padding 20px
@@ -68,10 +67,12 @@ export default {
   border-radius 20px
 
   &__title
-    margin-top 8px
+    margin 8px 0 20px 20px
 
   &__text
     margin 16px 0
-    color #666
+    padding 0 20px
+    max-height 480px
+    overflow-y scroll
 
 </style>
