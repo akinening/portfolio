@@ -15,6 +15,7 @@
       2022.08 ~ 現在<br>
       最大手のECサイトと協業し、福利厚生が適用できないギグワーカーに向けたサービスを開発しています。<br>
       プロダクトオーナーやステークホルダーの意見を踏まえつつ、さらにUSのTechチームともコンタクトを取りながら、ユーザーが店頭で使うストーリーを描いてUIに落とし込んでいます。
+      <!-- <img class="image image--w80 blur" src="@/assets/image/tmnf/reward.jpg" alt="Reward"> -->
     </p>
 
     <h3 class="title title--sub">2. Apple Watchを用いたヘルスケアアプリ</h3>
