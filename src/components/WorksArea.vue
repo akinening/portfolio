@@ -1,20 +1,6 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-80">
-      <h2 class="c-title">NEWS</h2>
-      <div class="news">
-        <p class="news__content">
-          <a class="news-link" href="https://kbrc.jp/biz/tourism/index.html" target="_blank" rel="noopener noreferrer">2023/02/08&emsp;京都大学の「京都府観光経営セミナー」に講師として参加し、スクラム開発の講義を行いました。</a><br>
-          <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和・技術書典13に出展しました。</a><br>
-          <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました。</a><br>
-          <a class="news-link" href="https://www.wantedly.com/companies/tmn-systems/post_articles/377750" target="_blank" rel="noopener noreferrer">2022/03/04&emsp;インタビューがWantedlyに掲載されました。</a><br>
-          <a class="news-link" href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和・技術書典11に出展し、技術書が100部完売しました。</a><br>
-          <a class="news-link" href="https://80b8e4c56e481ebe3c218550bd.doorkeeper.jp/events/22708" target="_blank" rel="noopener noreferrer">2015/04/20&emsp;Ruby on Rails勉強会を主催しました。</a>
-        </p>
-      </div>
-    </section>
-
-    <section class="mt-80">
       <h2 class="c-title">PICKUP</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
@@ -29,7 +15,7 @@
       </ul>
     </section>
 
-    <section class="mt-80 mb-100">
+    <section class="mt-80">
       <h2 class="c-title">OTHERS</h2>
       <ul class="others">
         <li class="other mb-30" v-for="(activity, num) in activities" :key="`activity-${num}`">
@@ -39,6 +25,20 @@
           </a>
         </li>
       </ul>
+    </section>
+
+    <section class="mt-80 mb-100">
+      <h2 class="c-title">NEWS</h2>
+      <div class="news">
+        <p class="news__content">
+          <a class="news-link" href="https://kbrc.jp/biz/tourism/index.html" target="_blank" rel="noopener noreferrer">2023/02/08&emsp;京都大学の「京都府観光経営セミナー」に講師として参加し、スクラム開発の講義を行いました。</a><br>
+          <a class="news-link" href="https://dezabiyo.studio.site" target="_blank" rel="noopener noreferrer">2022/09/04&emsp;第2回デザイン読書日和・技術書典13に出展しました。</a><br>
+          <a class="news-link" href="https://www.facebook.com/ackiena/posts/pfbid02tJyrAixUZVz4CW4oEzPU7WDGQSa4qCCPsd1Dn6oscam3rKt1bRNCuYWi1G2ARvHKl" target="_blank" rel="noopener noreferrer">2022/07/28&emsp;Figma Japan Community EventのShow and Tellで登壇しました。</a><br>
+          <a class="news-link" href="https://www.wantedly.com/companies/tmn-systems/post_articles/377750" target="_blank" rel="noopener noreferrer">2022/03/04&emsp;インタビューがWantedlyに掲載されました。</a><br>
+          <a class="news-link" href="https://dezabiyo.studio.site/archive-01" target="_blank" rel="noopener noreferrer">2021/02/27&emsp;デザイン読書日和・技術書典11に出展し、技術書が100部完売しました。</a><br>
+          <a class="news-link" href="https://80b8e4c56e481ebe3c218550bd.doorkeeper.jp/events/22708" target="_blank" rel="noopener noreferrer">2015/04/20&emsp;Ruby on Rails勉強会を主催しました。</a>
+        </p>
+      </div>
     </section>
   </article>
 </template>

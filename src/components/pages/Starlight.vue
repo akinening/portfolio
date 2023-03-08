@@ -174,7 +174,7 @@ shadow022 = drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25))
   width 100vw
   height 100vh
   background-color black
-  font-family 'M PLUS 1p' // 400, 800
+  // font-family 'M PLUS 1p' // 400, 800
   user-select none // テキスト選択防止
 
 .bg
