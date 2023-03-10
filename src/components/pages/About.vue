@@ -54,7 +54,7 @@
 
       <div class="mt-plus mb-30">
         <h2 class="message message--2">
-          Tools
+          Prototyping Tools
         </h2>
         <div class="tools">
           <img class="tool" src="@/assets/image/skill/tool-vue.png" alt="vue">
