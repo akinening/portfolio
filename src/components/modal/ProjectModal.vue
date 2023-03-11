@@ -2,7 +2,7 @@
   <transition name="modal" appear>
     <div class="overlay" @click.self="$emit('close', '')">
       <div class="card">
-        <h1 class="card__title">採用担当者さまへ</h1>
+        <h1 class="card__title">採用担当者の方へ</h1>
         <p class="card__text">
           私のポートフォリオに貴重なお時間を頂き、ありがとうございます。Akinenと申します。<br>
           <br>

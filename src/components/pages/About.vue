@@ -72,7 +72,7 @@
           READ ME
         </h2>
         <p class="sub-title" @click="toggleModal(true)">
-          採用担当者さまへ(β)
+          採用担当者の方へ(β)
         </p>
       </div>
     </section>
