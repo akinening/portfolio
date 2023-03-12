@@ -29,25 +29,17 @@
         </li>
       </ul>
     </section>
-    <section class="mb-30">
+
+    <section class="mt-80 mb-100">
       <h2 class="c-title">COLUMN</h2>
-      <ul class="others">
-        <li class="other mb-30">
-          <a href="https://note.com/012/n/n1a970fad456f" target="_blank">
-            <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98646374/rectangle_large_type_2_07532c7d208ec295983c71f5e786079c.png" alt="">
-          </a>
-        </li>
-        <li class="other mb-30">
-          <a href="https://note.com/012/n/n4ece8e04755f" target="_blank">
-            <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98502985/rectangle_large_type_2_2c3698bb8f53adfb8dbcfc84a07c4337.png" alt="">
-          </a>
-        </li>
-        <li class="other mb-30">
-          <a href="https://note.com/012/n/nf4d0ea8e7eb7" target="_blank">
-            <img class="photo-other" src="https://assets.st-note.com/production/uploads/images/98354399/rectangle_large_type_2_9248f2234007e1a713c30c014fa254d4.png" alt="">
-          </a>
-        </li>
-      </ul>
+      <div class="news">
+        <p class="news__content">
+          <a class="news-link" href="https://note.com/012/n/ne008f7fa1571" target="_blank" rel="noopener noreferrer">XRUI Magazine#04&emsp;XRにおける「使いやすさ」とは何か</a><br>
+          <a class="news-link" href="https://note.com/012/n/n1a970fad456f" target="_blank" rel="noopener noreferrer">XRUI Magazine#03&emsp;XR空間への「入力」手段について</a><br>
+          <a class="news-link" href="https://note.com/012/n/n4ece8e04755f" target="_blank" rel="noopener noreferrer">XRUI Magazine#02&emsp;XRUIについて考える際のHint</a><br>
+          <a class="news-link" href="https://note.com/012/n/nf4d0ea8e7eb7" target="_blank" rel="noopener noreferrer">XRUI Magazine#01&emsp;多くの人がXRデバイスを被る時代はまだ来ない</a>
+        </p>
+      </div>
     </section>
   </article>
 

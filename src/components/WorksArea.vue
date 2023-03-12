@@ -199,46 +199,4 @@ export default {
   color #222
   background-color white
   border-radius 100px
-
-// NEWS
-.news
-  width 100%
-
-  &__content
-    display block
-    width fit-content
-    padding 20px 0
-    font-size 16px
-    font-weight 400
-    line-height 2
-    letter-spacing 0.1rem
-
-    @media (max-width: 768px)
-      font-size 14px
-
-.news-link
-  position relative
-  color rgb(36, 40, 42)
-
-  &:visited
-  &:active
-    color inherit
-
-  &:hover
-    text-decoration none
-
-  &::before
-    content ""
-    display block
-    position absolute
-    inset 20px 0 0 0
-    height 1px
-    background #333
-    transform scaleX(0)
-    transform-origin bottom right
-    transition transform .25s ease
-
-  &:hover::before
-    transform scaleX(1)
-    transform-origin bottom left
 </style>
