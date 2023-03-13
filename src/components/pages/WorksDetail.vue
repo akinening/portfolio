@@ -13,7 +13,7 @@
     <core v-if="$route.params.id === 'Core'" />
     <lobi v-if="$route.params.id === 'Lobi'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
-    <design-culture v-if="$route.params.id === 'DesignCulture'" />
+    <inhouse-design v-if="$route.params.id === 'InhouseDesign'" />
     <graphics v-if="$route.params.id === 'Graphics'" />
     <develop v-if="$route.params.id === 'Develop'" />
   </article>
@@ -31,7 +31,7 @@ import BuildIt from '@/components/articles/BuildIt'
 import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
-import DesignCulture from '@/components/articles/DesignCulture'
+import InhouseDesign from '@/components/articles/InhouseDesign'
 import Graphics from '../articles/Graphics'
 import Develop from '@/components/articles/Develop'
 
@@ -46,7 +46,7 @@ export default {
     Core,
     Lobi,
     Tmnf,
-    DesignCulture,
+    InhouseDesign,
     Graphics,
     Develop
   }

@@ -55,8 +55,8 @@ export default {
           date: '2021.11 - Now / Tokio Marine'
         },
         {
-          title: 'Design Culture',
-          url: '/works/DesignCulture',
+          title: 'Inhouse Design',
+          url: '/works/InhouseDesign',
           image_url: require('@/assets/image/tmnf.png'),
           date: '2021.11 - Now / Tokio Marine'
         },
