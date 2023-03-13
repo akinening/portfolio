@@ -1,7 +1,10 @@
 <template>
   <article class="c-centering" itemscope="" itemtype="http://schema.org/Person">
     <section class="mt-80">
-      <h2 class="c-title">PICKUP</h2>
+      <p class="sub-title">
+        Akinenは、ユーザビリティやインタラクションを考慮したデザインが得意な<br>デジタルプロダクトデザイナーです。
+      </p>
+      <h2 class="c-title mt-80">PICKUP</h2>
       <ul class="cards">
         <li class="card mb-30" v-for="(project, num) in projects" :key="`project-${num}`">
           <router-link :to="project.url">
