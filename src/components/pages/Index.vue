@@ -6,8 +6,8 @@
     <div class="hero__content text-center">
       <h1 class="title">Design Creates the Future.</h1>
       <p class="sub-title">
-        デザインを通じて未来を思い描きカタチにすることで、人々の暮らしをより豊かにしたい。<br>
-        その想いから、日々プロダクトと向き合っています。
+        ユーザー中心のデザインで、人々の暮らしに革新的な価値を提供したい。<br>
+        その想いから、日々デザインに取り組んでいます。
       </p>
     </div>
   </div>
