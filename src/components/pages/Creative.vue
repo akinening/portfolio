@@ -88,14 +88,6 @@ export default {
 @import "../../assets/css/common.styl"
 @import "../../assets/css/article.styl"
 
-.message
-  margin-bottom -20px
-  font-size 24px
-  font-weight 700
-  text-align center
-  line-height 1.8
-  letter-spacing 0.1rem
-
 // OTHERS
 .others
   display flex

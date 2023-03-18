@@ -4,10 +4,10 @@
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <header-area />
     <div class="hero__content text-center">
-      <h1 class="title">Design Creates the Future.</h1>
+      <h1 class="title">AKINORI OZ<span class="kerning--za"></span>A<span class="kerning--aw"></span>W<span class="kerning--wa"></span>A</h1>
       <p class="sub-title">
-        ユーザー中心のデザインで、人々の暮らしに革新的な価値を提供したい。<br>
-        その想いから、日々デザインに取り組んでいます。
+        Akinenこと小澤晶徳は、ユーザビリティやインタラクションを<br class="hide-sp">
+        考慮したデザインが得意なデジタルプロダクトデザイナーです。
       </p>
     </div>
   </div>
@@ -60,4 +60,13 @@ export default {
 
   @media (max-width: 768px)
     font-size 40px
+
+.kerning
+  @media (min-width: 769px)
+    &--za
+      margin-right 3.5px
+    &--aw
+      margin-right -6px
+    &--wa
+      margin-right -6px
 </style>

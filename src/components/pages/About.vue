@@ -130,17 +130,6 @@ export default {
 <style scoped lang="stylus">
 @import "../../assets/css/common.styl"
 
-.message
-  margin-bottom -20px
-  font-size 24px
-  font-weight 700
-  text-align center
-  line-height 1.8
-  letter-spacing 0.1rem
-
-  &--2
-    margin 0
-
 // スキル
 .skill
   width 100%
