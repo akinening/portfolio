@@ -8,10 +8,10 @@
 
   <article class="c-centering mb-100">
     <h2 class="mt-plus message">
-        From Fiction to Reality.
+        Shaping the Future of Immersive Experiences.
     </h2>
     <p class="sub-title">
-        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>想像を現実にするために、デザインの力で貢献します。
+        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>デジタル製品のデザイン経験を活かし、想像を現実にします。
     </p>
     <section class="skill mb-30">
       <a href="https://speakerdeck.com/akinen/uinituite" target="_blank">
