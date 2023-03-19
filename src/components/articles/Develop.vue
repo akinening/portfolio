@@ -1,7 +1,5 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <!-- <img class="image" src="@/assets/image/graphics.png" alt="Logo"> -->
-
     <h2 class="title">海外移住アプリ「IJUIN」</h2>
     <p class="description">
       IJUIN(イジュウイン)は海外移住の準備を応援し、実現までサポートするアプリです。<br>

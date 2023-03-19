@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "glob": "^9.3.0",
     "vue": "^2.7.14",
     "vue-loaders": "^4.1.4",
     "vue-router": "^3.6.5"

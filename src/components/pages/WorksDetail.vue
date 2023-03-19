@@ -14,7 +14,6 @@
     <lobi v-if="$route.params.id === 'Lobi'" />
     <tmnf v-if="$route.params.id === 'Tmnf'" />
     <inhouse-design v-if="$route.params.id === 'InhouseDesign'" />
-    <graphics v-if="$route.params.id === 'Graphics'" />
     <develop v-if="$route.params.id === 'Develop'" />
   </article>
   <footer-area />
@@ -32,7 +31,6 @@ import Core from '@/components/articles/Core'
 import Lobi from '@/components/articles/Lobi'
 import Tmnf from '@/components/articles/Tmnf'
 import InhouseDesign from '@/components/articles/InhouseDesign'
-import Graphics from '../articles/Graphics'
 import Develop from '@/components/articles/Develop'
 
 export default {
@@ -47,7 +45,6 @@ export default {
     Lobi,
     Tmnf,
     InhouseDesign,
-    Graphics,
     Develop
   }
 }
