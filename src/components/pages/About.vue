@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <div class="mt-plus mb-30">
+      <div class="mt-plus mb-100">
         <h2 class="message message--2">
           Prototyping Tools
         </h2>
@@ -67,18 +67,7 @@
         </div>
         <p class="sub-title">その他、必要に応じてツールを活用しています。</p>
       </div>
-
-      <div class="mt-plus mb-100">
-        <h2 class="message message--2">
-          READ ME
-        </h2>
-        <p class="sub-title" @click="toggleModal(true)">
-          採用担当者の方へ(β)
-        </p>
-      </div>
     </section>
-
-    <project-modal v-if="isOpen" @close="toggleModal(false)" />
 
     <section class="aboutme">
       <div class="profiles c-centering c-shadow">
@@ -102,27 +91,19 @@
 import HeaderArea from '@/components/HeaderArea'
 import HeaderBar from '../HeaderBar.vue'
 import FooterArea from '@/components/FooterArea'
-import ProjectModal from '@/components/modal/ProjectModal'
 
 export default {
   name: 'About',
   data () {
     return {
       bg_about: require('@/assets/image/bg_sunset.jpg'),
-      akinen: require('@/assets/image/akinen_illust.png'),
-      isOpen: false
+      akinen: require('@/assets/image/akinen_illust.png')
     }
   },
   components: {
     HeaderArea,
     FooterArea,
-    HeaderBar,
-    ProjectModal
-  },
-  methods: {
-    toggleModal (status) {
-      this.isOpen = status
-    }
+    HeaderBar
   }
 }
 </script>
