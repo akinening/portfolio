@@ -19,11 +19,11 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill/skill-1.jpg" alt="アイコン１">
           <div class="skill__box">
-            <h2 class="title">価値の発見</h2>
+            <h2 class="title">課題を発見する力</h2>
             <ul class="description">
+              <li>体験設計: ユーザーの課題感やインサイトを洗い出します。</li>
               <li>ユーザーの行動を観察しながら、未来を想像し、課題を発見します。</li>
-              <li><b>定性・定量評価</b>:Analyticsなどの定量データや、インタビューなどの定性データをもとにサービスの改善に繋げます。</li>
-              <li><b>体験設計</b>:HCDプロセスをもとにインサイトを把握し、暮らしのなかにサービス体験を届けます。</li>
+              <li>未来の人々の生活像に興味関心があり、新しいものに好奇心を持ちながら日々試行錯誤しています。</li>
             </ul>
           </div>
         </div>
@@ -31,11 +31,11 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill/skill-2.jpg" alt="アイコン２">
           <div class="skill__box">
-            <h2 class="title">設計する力</h2>
+            <h2 class="title">問いを立て検証する力</h2>
             <ul class="description">
-              <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
-              <li><b>情報設計</b>:OOUIなどに基づき、複雑なドメイン言語を整理し、シンプルなUIに落とし込みます。</li>
-              <li><b>UI設計</b>:直感的に触れる、インタラクティブなUIを目指しています。</li>
+              <li>仮説を立てる：HCDプロセスを踏まえて「問い」を立てます。</li>
+              <li>定性・定量評価:Analyticsなどの定量データや、インタビューなどの定性データをデザインに反映します。</li>
+              <li>検証：実装・プロトタイピングによって、試しながらつくるのが得意です。</li>
             </ul>
           </div>
         </div>
@@ -43,11 +43,11 @@
         <div class="skill">
           <img class="skill__image" src="@/assets/image/skill/skill-3.jpg" alt="アイコン３">
           <div class="skill__box">
-            <h2 class="title">具象化する力</h2>
+            <h2 class="title">設計し具象化する力</h2>
             <ul class="description">
-              <li>実装・プロトタイピングによって、試しながらつくるのが得意です。</li>
-              <li>エンジニアの経験があり、実際の挙動などを考慮したデザインが可能です。</li>
-              <li>好奇心が強く、新しいものに興味関心を持ちながら日々手を動かしています。</li>
+              <li>toB・toC、ネイティブアプリからWebサービスまで幅広くデジタルプロダクトのデザイン経験があります。</li>
+              <li>情報設計:OOUIなどに基づき、複雑なドメイン言語を整理し、シンプルなUIに落とし込みます。</li>
+              <li>UI設計:直感的に触れる、インタラクティブなUIを目指しています。エンジニアの経験があり、実際の挙動などを考慮したデザインが可能です。</li>
             </ul>
           </div>
         </div>
