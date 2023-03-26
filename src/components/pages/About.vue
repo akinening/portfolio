@@ -2,7 +2,7 @@
 <div>
   <h1 class="hero" :style="{backgroundImage: 'url(' + bg_about + ')' }">
     <header-area />
-    <span class="hero__content">About</span>
+    <span class="hero__content">ABOUT</span>
   </h1>
   <header-bar />
   <article class="mt-plus" itemscope="" itemtype="http://schema.org/Person">
@@ -70,7 +70,7 @@
 
       <nav class="move">
         <router-link to="/" class="move__to">← TOP</router-link>
-        <router-link to="/creative" class="move__to">XRUI →</router-link>
+        <router-link to="/creative" class="move__to">STUDIES →</router-link>
       </nav>
     </section>
 

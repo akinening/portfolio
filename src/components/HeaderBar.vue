@@ -3,7 +3,7 @@
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
-      <router-link to="/creative" class="tab">XRUI</router-link>
+      <router-link to="/creative" class="tab">STUDIES</router-link>
     </nav>
   </header>
 </template>
