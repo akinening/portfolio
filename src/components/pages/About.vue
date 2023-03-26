@@ -23,7 +23,7 @@
             <ul class="description">
               <li>体験設計: ユーザーの課題感やインサイトを洗い出します。</li>
               <li>ユーザーの行動を観察しながら、未来を想像し、課題を発見します。</li>
-              <li>未来の人々の生活像に興味関心があり、新しいものに好奇心を持ちながら日々試行錯誤しています。</li>
+              <li>未来の人々の生活像に興味関心があります。常に新しいアイデアや技術に対する好奇心を持ち、自己研鑽に励んでいます。</li>
             </ul>
           </div>
         </div>
@@ -63,9 +63,9 @@
           <img class="tool" src="@/assets/image/skill/tool-flutter.png" alt="flutter">
           <img class="tool" src="@/assets/image/skill/tool-unity.png" alt="unity">
           <img class="tool" src="@/assets/image/skill/tool-figma.png" alt="figma">
-          <img class="tool" src="@/assets/image/skill/tool-xd.png" alt="xd">
+          <img class="tool" src="@/assets/image/skill/tool-gpt.png" alt="gpt">
         </div>
-        <p class="sub-title">その他、必要に応じてツールを活用しています。</p>
+        <p class="sub-title">目的を実現するための手段として、デザインプロセスに適宜ツールを導入しています。</p>
       </div>
 
       <nav class="move">
