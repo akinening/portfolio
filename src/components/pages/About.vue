@@ -67,6 +67,11 @@
         </div>
         <p class="sub-title">その他、必要に応じてツールを活用しています。</p>
       </div>
+
+      <nav class="move">
+        <router-link to="/" class="move__to">← TOP</router-link>
+        <router-link to="/creative" class="move__to">XRUI →</router-link>
+      </nav>
     </section>
 
     <section class="aboutme">

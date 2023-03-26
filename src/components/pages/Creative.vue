@@ -41,6 +41,11 @@
         </p>
       </div>
     </section>
+
+    <nav class="move">
+      <router-link to="/about" class="move__to">← ABOUT</router-link>
+      <router-link to="/" class="move__to"></router-link>
+    </nav>
   </article>
 
   <footer-area />
