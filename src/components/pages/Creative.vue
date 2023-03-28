@@ -11,7 +11,8 @@
         Shaping the Future of Immersive Experiences.
     </h2>
     <p class="sub-title">
-        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>デジタル製品のデザイン経験を活かし、想像を現実にします。
+        AIやXRが着実に進歩し、SFがフィクションではなくなる時代。<br>
+        人と機械の間を繋ぐことで、想像を現実にします。
     </p>
     <section class="skill mb-30">
       <a href="https://speakerdeck.com/akinen/uinituite" target="_blank">
