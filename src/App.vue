@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -45,5 +47,15 @@ li {
 a {
   text-decoration: none;
   cursor: url('https://raw.githubusercontent.com/akinening/portfolio/85385e0949697392e28cf9da46f88107c2279335/src/assets/image/cursor_active.svg') 7 7, pointer;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.16s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
