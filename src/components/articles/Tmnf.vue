@@ -54,6 +54,11 @@
       たとえば介護施設では、おむつや流動食などの貯蓄や、自主避難できない患者さんを避難させるための手順など、現場に沿った計画が必要になります。<br>
       そこで、業態ごとのモックアップを作成し、実際に製造業や介護に従事されている方に観ていただくことで、実用的な計画が立てられるシートに仕上げていきました。質問に回答するだけで業態に合わせたシートが生成され、そのままPDFで印刷することも可能です。<br>
       <img class="image image--w80" src="@/assets/image/tmnf/bcp_form.png" alt="BCP">
+      <span class="link">
+        <router-link to="/" class="link__button">
+          ←TOPに戻る
+        </router-link>
+      </span>
     </p>
   </section>
 </template>

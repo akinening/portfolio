@@ -39,6 +39,11 @@
       7画面・モーダル数約30種類に及ぶ管理項目の情報設計を見直し、実装面を考慮しながらパターンごとに出し分けを行いました。<br>
       <img class="image" :src="core_dashboard" alt="管理画面" loading="lazy">
       ※受託案件のため、画面の詳細については公開を差し控えています。
+      <span class="link">
+        <router-link to="/" class="link__button">
+          ←TOPに戻る
+        </router-link>
+      </span>
     </p>
   </section>
 </template>

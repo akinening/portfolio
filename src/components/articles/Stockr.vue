@@ -111,6 +111,11 @@
       InstagramやTwitterに広告を作成し、出稿しました。<br>
       A/BテストでCTAを比較した結果、ハウスワークを押し出した女性向けの広告が最も関心を持たれることがわかり、ペルソナ像の見直しに繋がりました。
       <img class="image image--w80" src="@/assets/image/stockr/stockr_ad.png" alt="広告" loading="lazy">
+      <span class="link">
+        <router-link to="/" class="link__button">
+          ←TOPに戻る
+        </router-link>
+      </span>
     </p>
   </section>
 </template>

@@ -40,6 +40,11 @@
       <span class="link">
         <a href="https://github.com/akinening/captcha_tool" target="_blank" class="link__button">GitHub</a>
       </span>
+      <span class="link">
+        <router-link to="/" class="link__button">
+          ←TOPに戻る
+        </router-link>
+      </span>
     </p>
   </section>
 </template>

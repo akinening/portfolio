@@ -68,6 +68,11 @@
     <h3 class="title title--sub">3. 単体テスト</h3>
     <p class="description">
       不確実性を減らすことを目的として、Jestを用いてコンポーネントの単体テストを書きました。バグを未然に防ぐことができ、QAテスト前にバグ修正の工数を削減しました。
+      <span class="link">
+        <router-link to="/" class="link__button">
+          ←TOPに戻る
+        </router-link>
+      </span>
     </p>
   </section>
 </template>
