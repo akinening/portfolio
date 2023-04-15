@@ -17,7 +17,7 @@
 
       <div class="development mt-plus">
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill/skill-1.jpg" alt="アイコン１">
+          <img class="skill__image" src="@/assets/image/skill/skill1.png" alt="アイコン１">
           <div class="skill__box">
             <h2 class="title">課題を発見する力</h2>
             <ul class="description">
@@ -29,7 +29,7 @@
         </div>
 
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill/skill-2.jpg" alt="アイコン２">
+          <img class="skill__image" src="@/assets/image/skill/skill2.png" alt="アイコン２">
           <div class="skill__box">
             <h2 class="title">問いを立て検証する力</h2>
             <ul class="description">
@@ -41,7 +41,7 @@
         </div>
 
         <div class="skill">
-          <img class="skill__image" src="@/assets/image/skill/skill-3.jpg" alt="アイコン３">
+          <img class="skill__image" src="@/assets/image/skill/skill3.png" alt="アイコン３">
           <div class="skill__box">
             <h2 class="title">設計し具象化する力</h2>
             <ul class="description">
@@ -102,7 +102,7 @@ export default {
   data () {
     return {
       bg_about: require('@/assets/image/bg_sunset.jpg'),
-      akinen: require('@/assets/image/akinen_illust.png')
+      akinen: require('@/assets/image/akinen_ai.png')
     }
   },
   components: {
