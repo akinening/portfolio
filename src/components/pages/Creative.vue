@@ -46,8 +46,8 @@
     </section>
 
     <nav class="move">
-      <router-link to="/about" class="move__to">← ABOUT</router-link>
-      <router-link to="/" class="move__to"></router-link>
+      <router-link to="/" class="move__to">← TOP</router-link>
+      <router-link to="/about" class="move__to">ABOUT →</router-link>
     </nav>
   </article>
 

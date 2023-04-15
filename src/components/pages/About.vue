@@ -69,8 +69,8 @@
       </div>
 
       <nav class="move">
-        <router-link to="/" class="move__to">← TOP</router-link>
-        <router-link to="/creative" class="move__to">STUDIES →</router-link>
+        <router-link to="/creative" class="move__to">← STUDIES</router-link>
+        <router-link to="/" class="move__to"></router-link>
       </nav>
     </section>
 
