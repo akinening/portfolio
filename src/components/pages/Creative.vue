@@ -15,7 +15,7 @@
         人と機械の間を繋ぐことで、想像を現実にします。
     </p>
     <section class="skill mb-30">
-      <a href="https://speakerdeck.com/akinen/uinituite" target="_blank">
+      <a href="https://dezabiyo.studio.site" target="_blank">
         <img class="image" src="@/assets/image/creative/xrui_slide.jpg" alt="XRUI">
       </a>
     </section>
@@ -35,6 +35,7 @@
       <h2 class="c-title">COLUMN</h2>
       <div class="news">
         <p class="news__content">
+          <a class="news-link" href="https://speakerdeck.com/akinen/uinituite" target="_blank" rel="noopener noreferrer">XRの近況とUX/UIについて</a><br>
           <a class="news-link" href="https://note.com/012/n/n91c9f176f01a" target="_blank" rel="noopener noreferrer">GPT-4デザイナーズガイド:新たな可能性を探求する</a><br>
           <a class="news-link" href="https://note.com/012/n/ne008f7fa1571" target="_blank" rel="noopener noreferrer">XRUI Magazine#04&emsp;XRにおける「使いやすさ」とは何か</a><br>
           <a class="news-link" href="https://note.com/012/n/n1a970fad456f" target="_blank" rel="noopener noreferrer">XRUI Magazine#03&emsp;XR空間への「入力」手段について</a><br>
