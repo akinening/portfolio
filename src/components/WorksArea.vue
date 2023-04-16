@@ -70,7 +70,7 @@ export default {
         {
           title: 'Inhouse Design',
           url: '/works/InhouseDesign',
-          image_url: require('@/assets/image/tmnf.png'),
+          image_url: require('@/assets/image/tmnf/coworking.png'),
           date: '2021.11 - Now / Tokio Marine'
         },
         {

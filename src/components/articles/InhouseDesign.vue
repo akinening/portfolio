@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/tmnf.png" alt="TMNF">
+    <img class="image" src="@/assets/image/tmnf/coworking.png" alt="TMNF">
     <h2 class="title">組織のデザイン理解促進</h2>
     <p class="description">
       インハウスデザイナーとして、デザイン文化の浸透を促進することを目指して、組織や業務プロセス改善に主体的に取り組んでいます。<br>
@@ -20,7 +20,7 @@
     <p class="description">
       部内ポータルが情報の秘伝のタレ化していた課題を解決するため、リデザインを提案し、実施しました。<br>
       ミッション・ビジョンを共通認識としてページトップに掲載することで、組織の目的と方向性を明確にしました。また、新人向けの環境構築手順をまとめたページを作成することで、暗黙知を可視化し、情報アクセスの効率化を図りました。この取り組みは部内メンバーだけでなく、その後に入社した新卒やキャリアの方からも好評をいただく結果となりました。
-      <img class="image image--w80" src="@/assets/image/tmnf/portal.png" alt="ポータル">
+      <img class="image image--w80" src="@/assets/image/tmnf.png" alt="ポータル">
     </p>
 
     <h2 class="title title--sub">社内デザインコミュニティの運営、発信</h2>
