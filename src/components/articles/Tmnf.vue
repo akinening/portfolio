@@ -1,6 +1,6 @@
 <template>
   <section class="skill mt-80 mb-30">
-    <img class="image" src="@/assets/image/tmnf/insure.jpg" alt="TMNF">
+    <img class="image" src="@/assets/image/tmnf/insurance.png" alt="TMNF">
 
     <h2 class="title">損害保険事業のPoC・新規事業創出</h2>
     <p class="description">

@@ -64,7 +64,7 @@ export default {
         {
           title: 'InsurTech - Product Design',
           url: '/works/Tmnf',
-          image_url: require('@/assets/image/tmnf/insure.jpg'),
+          image_url: require('@/assets/image/tmnf/insurance.png'),
           date: '2021.11 - Now / Tokio Marine'
         },
         {
