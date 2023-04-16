@@ -8,7 +8,7 @@
       <br>
       ※コンプライアンスの観点から、基本的に画面デザインについては非公開です。
     </p>
-    <img class="image image--w80" src="@/assets/image/tmnf/document.jpg" alt="取り組み">
+    <img class="image image--w80" src="@/assets/image/tmnf/poc.jpg" alt="取り組み">
 
     <h2 class="title">UX/UIデザイン</h2>
     <h3 class="title title--sub">1. ギグワーカー向けサービスのIA・UIデザイン</h3>
