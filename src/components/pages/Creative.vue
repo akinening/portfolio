@@ -72,6 +72,11 @@ export default {
       bg_creative: require('@/assets/image/bg_sunrise.jpg'),
       activities: [
         {
+          url: 'https://www.figma.com/community/file/1229773222386809858/XRUI-Toolkit',
+          image_url: require('@/assets/image/creative/toolkit.jpg'),
+          tag: 'Figma'
+        },
+        {
           url: 'https://www.youtube.com/watch?v=D0_OCFrtvyk',
           image_url: 'https://i3.ytimg.com/vi/D0_OCFrtvyk/maxresdefault.jpg',
           tag: 'Nreal'
