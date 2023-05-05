@@ -2,8 +2,8 @@
   <transition name="modal" appear>
     <div class="overlay">
       <div class="card">
-        <h1 class="card__title">ようこそ</h1>
-        <p class="card__text">このページを閲覧するには、あいことばが必要です。</p>
+        <h1 class="card__title">限定公開</h1>
+        <p class="card__text">この先は、あいことばをお伝えした方のみ閲覧できます。</p>
         <input class="card__input" v-model="aikotoba" @keydown.enter="authPW" placeholder="あいことばを入力">
         <div class="card__border"></div>
         <p class="card__text">

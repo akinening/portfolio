@@ -1,5 +1,6 @@
 <template>
 <div>
+  <auth-modal v-if="!isAuthed" />
   <header-area />
   <div class="top-margin">
     <router-link to="/">
@@ -22,6 +23,7 @@
 </template>
 
 <script>
+import AuthModal from '@/components/AuthModal'
 import HeaderArea from '@/components/HeaderArea'
 import FooterArea from '@/components/FooterArea'
 import ScrollTop from '@/components/ScrollTop'
@@ -36,6 +38,7 @@ import Develop from '@/components/articles/Develop'
 export default {
   name: 'WorksDetail',
   components: {
+    AuthModal,
     HeaderArea,
     FooterArea,
     ScrollTop,
@@ -46,6 +49,14 @@ export default {
     Tmnf,
     InhouseDesign,
     Develop
+  },
+  data () {
+    return {
+      isAuthed: true
+    }
+  },
+  beforeMount () {
+    this.isAuthed = localStorage.getItem('isAuthed')
   }
 }
 </script>

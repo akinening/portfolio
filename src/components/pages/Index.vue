@@ -1,6 +1,5 @@
 <template>
 <div class="index">
-  <auth-modal v-if="!isAuthed" />
   <div class="hero" :style="{backgroundImage: 'url(' + bg_top + ')' }">
     <header-area />
     <div class="hero__content text-center">
@@ -19,7 +18,6 @@
 </template>
 
 <script>
-import AuthModal from '@/components/AuthModal'
 import HeaderArea from '@/components/HeaderArea'
 import HeaderBar from '@/components/HeaderBar'
 import WorksArea from '@/components/WorksArea'
@@ -28,7 +26,6 @@ import FooterArea from '@/components/FooterArea'
 export default {
   name: 'Index',
   components: {
-    AuthModal,
     HeaderArea,
     HeaderBar,
     WorksArea,
@@ -36,12 +33,8 @@ export default {
   },
   data () {
     return {
-      isAuthed: true,
       bg_top: require('@/assets/image/bg.jpg')
     }
-  },
-  beforeMount () {
-    this.isAuthed = localStorage.getItem('isAuthed')
   }
 }
 </script>
