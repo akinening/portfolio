@@ -2,7 +2,7 @@
 <div>
   <div class="hero" :style="{backgroundImage: 'url(' + bg_creative + ')' }">
     <header-area />
-    <span class="hero__content">STUDIES</span>
+    <span class="hero__content">XR</span>
   </div>
   <header-bar />
 
@@ -69,7 +69,7 @@ export default {
   },
   data () {
     return {
-      bg_creative: require('@/assets/image/bg_sunrise.jpg'),
+      bg_creative: require('@/assets/image/bg_vr.png'),
       activities: [
         {
           url: 'https://www.figma.com/community/file/1229773222386809858/XRUI-Toolkit',

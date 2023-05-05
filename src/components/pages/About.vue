@@ -69,7 +69,7 @@
       </div>
 
       <nav class="move">
-        <router-link to="/creative" class="move__to">← STUDIES</router-link>
+        <router-link to="/creative" class="move__to">← XR</router-link>
         <router-link to="/" class="move__to"></router-link>
       </nav>
     </section>
@@ -101,7 +101,7 @@ export default {
   name: 'About',
   data () {
     return {
-      bg_about: require('@/assets/image/bg_sunset.jpg'),
+      bg_about: require('@/assets/image/bg_sunrise.jpg'),
       akinen: require('@/assets/image/akinen_ai.png')
     }
   },

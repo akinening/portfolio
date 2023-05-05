@@ -2,7 +2,7 @@
   <header class="header c-shadow">
     <nav class="tabs">
       <router-link to="/" class="tab">TOP</router-link>
-      <router-link to="/creative" class="tab">STUDIES</router-link>
+      <router-link to="/creative" class="tab">XR</router-link>
       <router-link to="/about" class="tab">ABOUT</router-link>
     </nav>
   </header>
