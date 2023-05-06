@@ -35,12 +35,11 @@
       <h2 class="c-title">COLUMN</h2>
       <div class="news">
         <p class="news__content">
+          <a class="news-link" href="https://note.com/012/n/n894c75516979" target="_blank" rel="noopener noreferrer">Figmaライクな3Dプロトタイピングツール「Bezel」がXRにおけるUIデザインを変える</a><br>
           <a class="news-link" href="https://www.figma.com/community/plugin/1234310624124314176" target="_blank" rel="noopener noreferrer">GPT APIを用いたFigmaプラグイン「Text to Website Wording」をリリース</a><br>
           <a class="news-link" href="https://note.com/012/n/n91c9f176f01a" target="_blank" rel="noopener noreferrer">GPT-4デザイナーズガイド:新たな可能性を探求する</a><br>
-          <a class="news-link" href="https://speakerdeck.com/akinen/uinituite" target="_blank" rel="noopener noreferrer">XRの近況とUX/UIについて</a><br>
-          <a class="news-link" href="https://note.com/012/n/ne008f7fa1571" target="_blank" rel="noopener noreferrer">XRUI Magazine#04&emsp;XRにおける「使いやすさ」とは何か</a><br>
-          <a class="news-link" href="https://note.com/012/n/n1a970fad456f" target="_blank" rel="noopener noreferrer">XRUI Magazine#03&emsp;XR空間への「入力」手段について</a><br>
-          <a class="news-link" href="https://note.com/012/n/n4ece8e04755f" target="_blank" rel="noopener noreferrer">XRUI Magazine#02&emsp;XRUIについて考える際のHint</a><br>
+          <a class="news-link" href="https://speakerdeck.com/akinen/uinituite" target="_blank" rel="noopener noreferrer">CueLab募集資料「XRの近況とUX/UIについて」</a><br>
+          <a class="news-link" href="https://note.com/012/m/m04df2feedef5" target="_blank" rel="noopener noreferrer">XRUIについての考察をまとめるマガジン「XRUI Magazine」連載開始</a><br>
         </p>
       </div>
     </section>
